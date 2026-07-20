@@ -1,0 +1,23 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+*.swp
+
+# vendored binaries - shipped as release assets, not source
+tools/
+python/
+
+# local working notes - never commit
+MEMORY/
+
+# written at runtime when the game cannot be found
+game-path.txt
+_pck_tmp/
+
+# game audio and generated working files - never commit
+samples/
+pck/
+build/
+backups/
+out/

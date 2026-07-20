@@ -1,0 +1,9 @@
+# Windows batch files need CRLF
+*.bat text eol=crlf
+
+# binary, never diff or convert
+*.wem binary
+
+# generated dataset: keep it out of language stats and out of diffs
+data/** linguist-generated=true
+data/*.csv -diff
