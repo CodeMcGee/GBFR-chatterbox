@@ -1,0 +1,3 @@
+# Only needed to rebuild the dataset from scratch (build_full_atlas.py).
+# The tool itself runs on the standard library alone.
+faster-whisper>=1.0

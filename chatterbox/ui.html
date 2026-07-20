@@ -1,0 +1,356 @@
+<meta charset="utf-8">
+<title>GBFR Chatterbox</title>
+<style>
+  :root { color-scheme: dark; --bg:#15161a; --panel:#1d1f26; --line:#2b2e38;
+          --fg:#e6e7ea; --dim:#9297a5; --accent:#6ea8fe; --mute:#e5825a; --swap:#7ec699; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:14px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; }
+  header { position:sticky; top:0; z-index:5; background:var(--panel);
+           border-bottom:1px solid var(--line); padding:12px 16px;
+           display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+  h1 { font-size:15px; margin:0 8px 0 0; font-weight:600; }
+  select, button { font:inherit; background:#262a33; color:var(--fg);
+                   border:1px solid var(--line); border-radius:6px; padding:6px 10px; }
+  button { cursor:pointer; }
+  button:hover:not(:disabled) { border-color:var(--accent); }
+  button:disabled { opacity:.4; cursor:default; }
+  .spacer { flex:1; }
+  .pending { color:var(--accent); font-variant-numeric:tabular-nums; }
+  #apply { background:var(--accent); color:#10131a; border-color:var(--accent); font-weight:600; }
+  #paths { padding:8px 16px; color:var(--dim); font-size:12px;
+           border-bottom:1px solid var(--line); word-break:break-all; }
+  main { padding:0 16px 64px; }
+  h2 { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--dim);
+       margin:20px 0 6px; font-weight:600; }
+  table { width:100%; border-collapse:collapse; }
+  td { padding:5px 8px; border-bottom:1px solid var(--line); vertical-align:middle; }
+  tr.on-muted .txt { text-decoration:line-through; color:var(--dim); }
+  tr.on-swapped .txt { color:var(--swap); }
+  .txt { width:45%; }
+  .lbl { color:var(--dim); font-family:ui-monospace, monospace; font-size:12px; }
+  .partner { color:var(--accent); font-family:system-ui, sans-serif; }
+  .dur { color:var(--dim); text-align:right; width:60px; font-variant-numeric:tabular-nums; }
+  .act { text-align:right; white-space:nowrap; width:150px; }
+  .act button { padding:3px 9px; margin-left:4px; font-size:12px; }
+  .clip { color:var(--mute); font-size:9px; margin-left:3px; vertical-align:super; cursor:help; }
+  #legend { padding:0 16px 8px; color:var(--dim); font-size:12px; }
+  #enablefull { padding:3px 10px; font-size:12px; margin-left:6px; }
+  .is-muted { background:var(--mute); border-color:var(--mute); color:#10131a; }
+  .is-swapped { background:var(--swap); border-color:var(--swap); color:#10131a; }
+  dialog { background:var(--panel); color:var(--fg); border:1px solid var(--line);
+           border-radius:10px; padding:0; width:min(620px,92vw); }
+  dialog header { position:static; border-radius:10px 10px 0 0; }
+  #swaplist { max-height:52vh; overflow:auto; padding:8px 16px 16px; }
+  #confirmdlg { width:min(680px,94vw); }
+  #confirmbody { padding:14px 20px; white-space:pre-wrap; line-height:1.55;
+                 max-height:60vh; overflow:auto; }
+  #confirmdlg footer { display:flex; gap:8px; padding:10px 16px;
+                       border-top:1px solid var(--line); }
+  #confirmyes { background:var(--accent); color:#10131a; border-color:var(--accent); font-weight:600; }
+  #swaplist div { padding:6px 8px; border-bottom:1px solid var(--line); cursor:pointer;
+                  border-radius:4px; }
+  #swaplist div:hover { background:#262a33; }
+  #toast { position:fixed; bottom:16px; left:50%; transform:translateX(-50%);
+           background:var(--panel); border:1px solid var(--accent); border-radius:8px;
+           padding:10px 16px; max-width:88vw; display:none; }
+</style>
+
+<header>
+  <h1>GBFR Chatterbox</h1>
+  <select id=char></select>
+  <select id=cat></select>
+  <label><input type=checkbox id=hidesilent> <span class=lbl>hide silent</span></label>
+  <label><input type=checkbox id=hidestreamed> <span class=lbl>hide streamed</span></label>
+  <span class=spacer></span>
+  <span class=pending id=pending></span>
+  <button id=apply disabled>Apply</button>
+  <button id=mutechar>Mute this character</button>
+  <button id=muteall>Mute all characters</button>
+  <button id=revert>Undo this character</button>
+  <button id=revertall>Undo everything</button>
+</header>
+<div id=paths></div>
+<div id=legend><span id=legendtext></span> <button id=enablefull style="display:none">Enable full audio previews</button></div>
+<main id=main></main>
+<dialog id=swapdlg>
+  <header><b>Replace with&hellip;</b><span class=spacer></span>
+    <button onclick="swapdlg.close()">Close</button></header>
+  <div id=swaplist></div>
+</dialog>
+<dialog id=confirmdlg>
+  <header><b id=confirmtitle></b></header>
+  <div id=confirmbody></div>
+  <footer><span class=spacer></span>
+    <button id=confirmno>Cancel</button>
+    <button id=confirmyes>Continue</button></footer>
+</dialog>
+<div id=toast></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const TOKEN = '__CHATTERBOX_TOKEN__';
+const post = (path, body) => fetch(path, {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json', 'X-Chatterbox-Token': TOKEN },
+  body: JSON.stringify(body),
+}).then(r => r.json());
+const CATS = { ATK:'Attack', SP:'Skill / Link', DMG:'Damage taken', NAV:'Battle callout',
+               DUO:'Duo', CMM:'Emote', ETC:'Misc', MOV:'Movement', PART:'Party/Other' };
+let data = null, pl = null, mutes = new Set(), unmutes = new Set(), swaps = {}, audio = new Audio();
+let names = {};
+
+// Link and duo lines name the partner they are aimed at as a _PLxxxx suffix on
+// the group, e.g. rescue1_A_PL1600. The group is already split per partner, so
+// the readable "to <name>" belongs on the section header, not every row.
+const groupHeader = g => {
+  const m = /_PL(\d{4})$/.exec(g);
+  const name = m && names['pl' + m[1]];
+  const base = m ? g.slice(0, m.index) : g;
+  return esc(base) + (name ? ` <span class=partner>to ${esc(name)}</span>` : '');
+};
+
+const toast = m => { const t = $('#toast'); t.textContent = m; t.style.display = 'block';
+                     clearTimeout(t._t); t._t = setTimeout(() => t.style.display = 'none', 5000); };
+const group = l => (l.label.split('_vo_')[1] || '').replace(/^[A-Z]+_/, '')
+                    .replace(/(_\d+)+$/, '') || 'other';
+const esc = s => (s || '').replace(/[<>&"]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
+
+async function boot() {
+  let chars;
+  try {
+    const r = await fetch('/api/characters');
+    chars = await r.json();
+    if (chars.error) throw new Error(chars.error);
+    if (!chars.length) throw new Error('No characters found. Is the game installed?');
+  } catch (e) {
+    $('#main').innerHTML = `<h2>Chatterbox could not start</h2><p>${esc(e.message)}</p>`
+      + `<p>Check the console window for details.</p>`;
+    return;
+  }
+  names = Object.fromEntries(chars.map(c => [c.pl, c.name]));
+  $('#enablefull').onclick = enableFullPreviews;
+  refreshPckStatus();
+  $('#char').innerHTML = chars.map(c => `<option value="${c.pl}">${esc(c.name)}</option>`).join('');
+  $('#char').onchange = () => load($('#char').value);
+  $('#cat').onchange = render;
+  $('#hidesilent').onchange = render;
+  $('#hidestreamed').onchange = render;
+  $('#apply').onclick = apply;
+  $('#mutechar').onclick = muteCharacter;
+  $('#muteall').onclick = muteAll;
+  $('#revert').onclick = revertOne;
+  $('#revertall').onclick = revertEverything;
+  load(chars[0].pl);
+}
+
+async function refreshPckStatus() {
+  const s = await (await fetch('/api/pck-status')).json();
+  const missing = s.total - s.have;
+  const btn = $('#enablefull'), txt = $('#legendtext');
+  if (missing <= 0) {
+    txt.textContent = 'Full audio previews enabled.';
+    btn.style.display = 'none';
+  } else {
+    txt.innerHTML = `<span class=clip>&#9899;</span> marks lines where only the cached opening can be previewed`
+      + ` (${missing} of ${s.total} voice packages).`;
+    btn.style.display = s.extractor ? '' : 'none';
+  }
+}
+
+function bigConfirm(title, body) {
+  return new Promise(resolve => {
+    $('#confirmtitle').textContent = title;
+    $('#confirmbody').textContent = body;
+    const dlg = $('#confirmdlg');
+    const done = v => { dlg.close(); resolve(v); };
+    $('#confirmyes').onclick = () => done(true);
+    $('#confirmno').onclick = () => done(false);
+    dlg.showModal();
+  });
+}
+
+async function enableFullPreviews() {
+  const s = await (await fetch('/api/pck-status')).json();
+  const ok = await bigConfirm('Enable full audio previews',
+    'Some voice lines are only partly stored in the files this tool edits. The rest ' +
+    'sits inside your game\'s data archives, which is why those previews stop early ' +
+    'and are marked with a dot.\n\n' +
+    'WHAT THIS DOES\n' +
+    '  \u2022 Reads your own installed game files at:\n     ' + s.game_root + '\n' +
+    '  \u2022 Copies ' + s.total + ' voice packages next to this app\n' +
+    '     (about 300 MB, in the "pck" folder)\n' +
+    '  \u2022 Previews then play complete lines\n\n' +
+    'WHAT IT DOES NOT DO\n' +
+    '  \u2022 Nothing is downloaded, uploaded, or sent anywhere\n' +
+    '  \u2022 Your game files are only read, never changed\n' +
+    '  \u2022 Your voice line edits are not affected either way\n\n' +
+    'Takes a minute or two.');
+  if (!ok) return;
+  const btn = $('#enablefull');
+  btn.disabled = true; btn.textContent = 'Extracting\u2026 (this can take a minute)';
+  try {
+    const r = await post('/api/extract-pcks', {});
+    if (r.error) throw new Error(r.error);
+    toast(`Full previews enabled - ${r.extracted} voice package(s) copied.`);
+  } catch (e) {
+    toast('Extraction failed: ' + e.message);
+  }
+  btn.disabled = false; btn.textContent = 'Enable full audio previews';
+  clearWavCache();          // old truncated clips must not replay from cache
+  await refreshPckStatus();
+  load(pl);
+}
+
+async function load(p) {
+  pl = p; mutes = new Set(); unmutes = new Set(); swaps = {}; sync();
+  data = await (await fetch('/api/lines?pl=' + p)).json();
+  const present = [...new Set(data.lines.map(l => l.category))].filter(c => CATS[c]);
+  const count = c => data.lines.filter(l => l.category === c).length;
+  $('#cat').innerHTML = present.map(c => `<option value="${c}">${CATS[c]} (${count(c)})</option>`).join('');
+  $('#paths').innerHTML = `Bank: ${esc(data.bank_path)}<br>` + (data.backup_exists
+    ? `Backup: ${esc(data.backup_path)}`
+    : `<b>No backup yet</b> - the original is saved to ${esc(data.backup_path)} on first Apply.`);
+  render();
+}
+
+function render() {
+  const cat = $('#cat').value, hide = $('#hidesilent').checked;
+  const hideStr = $('#hidestreamed').checked;
+  const rows = data.lines.filter(l => l.category === cat)
+                         .filter(l => !(hide && !l.transcript))
+                         .filter(l => !(hideStr && l.streamed));
+  const groups = {};
+  for (const l of rows) (groups[group(l)] ||= []).push(l);
+  $('#main').innerHTML = Object.keys(groups).sort().map(g => `
+    <h2>${groupHeader(g)} <span style="opacity:.6">(${groups[g].length})</span></h2>
+    <table>${groups[g].map(row).join('')}</table>`).join('') || '<p>No lines.</p>';
+}
+
+// A line is muted if newly toggled, or already muted on disk and not pending un-mute.
+const isMuted = l => mutes.has(l.wem_id) || (l.muted && !unmutes.has(l.wem_id));
+
+function row(l) {
+  const muted = isMuted(l);
+  const from = swaps[l.wem_id] || l.swapped_from;
+  const note = (!muted && from) ? ` &rarr; plays ${said(from)}` : '';
+  return `<tr class="${muted ? 'on-muted' : (from ? 'on-swapped' : '')}">
+    <td class=act style="text-align:left;width:52px">
+      <button onclick="play('${l.wem_id}')" title="Preview">&#9654;</button>${l.preview_full ? ''
+        : `<span class=clip title="Only the ${l.prefetch_s ?? '~0.4'}s cached in the game bank can be previewed here \u2014 the rest of this line streams from the game archives. The full line is ${l.duration ? l.duration.toFixed(2) : '?'}s and is unaffected by muting.">&#9899;</span>`}</td>
+    <td class=txt>${esc(l.transcript) || '<i style="opacity:.5">(no speech)</i>'}${esc(note)}</td>
+    <td class=lbl>${esc(l.label.split('_vo_')[1] || '')}</td>
+    <td class=dur>${l.duration ? l.duration.toFixed(2) + 's' : ''}</td>
+    <td class=act>
+      <button class="${muted ? 'is-muted' : ''}" onclick="toggleMute('${l.wem_id}')">Mute</button>
+      <button class="${(!muted && from) ? 'is-swapped' : ''}" onclick="openSwap('${l.wem_id}')">Swap</button>
+    </td></tr>`;
+}
+
+const said = id => { const l = data.lines.find(x => x.wem_id === id);
+                     return l && l.transcript ? `"${l.transcript}"` : id; };
+
+// Fetch fully before playing: these clips are <1s, and streaming playback
+// clips the opening moment because the browser starts before it has the data.
+let wavCache = new Map();
+
+// Drop cached preview audio. Blob URLs would otherwise leak, and after
+// enabling full previews the old truncated clips must not be replayed.
+function clearWavCache() {
+  for (const url of wavCache.values()) URL.revokeObjectURL(url);
+  wavCache = new Map();
+}
+async function play(id) {
+  audio.pause();
+  if (!wavCache.has(id)) {
+    // no-store so a refetch after enabling full previews cannot be served the
+    // browser's cached truncated copy
+    const blob = await (await fetch(`/api/wav?pl=${pl}&id=${id}`, {cache: 'no-store'})).blob();
+    wavCache.set(id, URL.createObjectURL(blob));
+  }
+  audio = new Audio(wavCache.get(id));
+  audio.preload = 'auto';
+  await audio.play().catch(e => toast('Playback failed: ' + e.message));
+}
+
+function toggleMute(id) {
+  const l = data.lines.find(x => x.wem_id === id);
+  if (isMuted(l)) { mutes.delete(id); if (l.muted) unmutes.add(id); }
+  else { unmutes.delete(id); if (!l.muted) mutes.add(id); }
+  delete swaps[id];
+  sync(); render();
+}
+
+function openSwap(id) {
+  if (swaps[id]) { delete swaps[id]; sync(); render(); return; }
+  // a swap repoints a DIDX entry within one bank, so the source must live in the
+  // same bank as the target
+  const tgt = data.lines.find(l => l.wem_id === id);
+  $('#swaplist').innerHTML = data.lines
+    .filter(l => l.wem_id !== id && l.transcript && !l.streamed && l.bank === tgt.bank)
+    .map(l => `<div onclick="pickSwap('${id}','${l.wem_id}')">${esc(l.transcript)}
+       <span class=lbl>${esc(l.label.split('_vo_')[1] || '')}</span></div>`).join('');
+  $('#swapdlg').showModal();
+}
+
+function pickSwap(target, source) {
+  swaps[target] = source; mutes.delete(target); unmutes.delete(target);
+  $('#swapdlg').close(); sync(); render();
+}
+
+function sync() {
+  const n = mutes.size + unmutes.size + Object.keys(swaps).length;
+  $('#pending').textContent = n ? `${n} pending` : '';
+  $('#apply').disabled = !n;
+}
+
+async function apply() {
+  const r = await post('/api/apply', { pl, mutes: [...mutes], swaps, unmutes: [...unmutes] });
+  if (r.error) return toast('Error: ' + r.error);
+  toast(`Applied ${r.applied} change(s). ` + (r.backup_created
+        ? `Original backed up to ${r.backup_path}` : `Backup: ${r.backup_path}`)
+        + `  Saved to ${r.profile_path}`);
+  load(pl);
+}
+
+async function muteCharacter() {
+  if (!confirm('Silence every line for this character?\n\n'
+               + 'This replaces any mutes or swaps you have on them. '
+               + '"Undo this character" reverses it.')) return;
+  const r = await post('/api/mute-all', { pl });
+  toast(r.error ? 'Error: ' + r.error : `Silenced ${r.muted} line(s).`);
+  load(pl);
+}
+
+async function muteAll() {
+  if (!confirm('Silence EVERY line for EVERY character?\n\n'
+               + 'This replaces all of your current mutes and swaps. '
+               + '"Undo everything" reverses it.')) return;
+  const r = await post('/api/mute-all', { all: true });
+  if (r.error) return toast('Error: ' + r.error);
+  const n = Object.keys(r.muted).length, bad = Object.keys(r.failed || {}).length;
+  toast(`Silenced ${n} character(s)` + (bad ? `, ${bad} failed` : ''));
+  load(pl);
+}
+
+async function revertOne() {
+  if (!confirm("Restore this character's original voice bank?")) return;
+  const r = await post('/api/revert', { pl });
+  toast(r.error ? 'Error: ' + r.error : `Restored from ${r.restored_from}`);
+  load(pl);
+}
+
+async function revertEverything() {
+  if (!confirm('Restore the original voice bank for EVERY character you have changed?\n\n'
+               + 'This undoes all of your Chatterbox changes.')) return;
+  const r = await post('/api/revert', { all: true });
+  if (r.error) return toast('Error: ' + r.error);
+  const n = r.reverted.length;
+  const bad = Object.keys(r.failed || {}).length;
+  toast(n ? `Restored ${n} character(s)` + (bad ? `, ${bad} failed` : '')
+          : 'Nothing to restore.');
+  load(pl);
+}
+
+boot();
+</script>
