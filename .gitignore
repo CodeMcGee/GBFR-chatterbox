@@ -21,3 +21,17 @@ pck/
 build/
 backups/
 out/
+
+# dev/ transcription-tooling scratch and audio artifacts
+dev/.wavcache/
+dev/smoke-full/
+dev/*.wav
+dev/flagged_clips.json
+dev/verify_clips.json
+dev/yodarha_clip.json
+dev/grunt_inspect/
+dev/grunt_test.json
+dev/offdef_test.json
+dev/narmaya_clip.json
+dev/one.json
+dev/timing_clips.json

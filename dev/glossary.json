@@ -1,0 +1,420 @@
+{
+ "characters": {
+  "Beatrix": {
+   "skills": [
+    "Star Chaser",
+    "Hearts on Fire",
+    "Riding Free",
+    "Thunderbird",
+    "Eternity Loop",
+    "Unchained",
+    "Rising Nova"
+   ],
+   "sba": "Immortal Assault"
+  },
+  "Cagliostro": {
+   "skills": [
+    "Alexandria",
+    "Disruption",
+    "Mehen",
+    "Mimic Doll",
+    "Pain Train",
+    "Phantasmagoria",
+    "Reinforce",
+    "Rhizomata"
+   ],
+   "sba": "Ars Magna"
+  },
+  "Charlotta": {
+   "skills": [
+    "Holy Ladder",
+    "Rising Cut",
+    "Shining Onslaught",
+    "Sword of Lumiel",
+    "Valiant Stance",
+    "Sacred Charge",
+    "Noble Stance"
+   ],
+   "sba": "Noble Execution"
+  },
+  "Djeeta": {
+   "skills": [
+    "Armor Break",
+    "Decimate",
+    "Miserable Mist",
+    "Overdrive Surge",
+    "Rage",
+    "Rain of Arrows",
+    "Reginleiv"
+   ],
+   "sba": "Tempest Blade"
+  },
+  "Eugen": {
+   "skills": [
+    "Armor-Piercing Round",
+    "Detonator",
+    "Disruptor",
+    "Intercept",
+    "Paralyzing Bullet",
+    "Venom Grenade",
+    "Healing Bullet",
+    "Take Aim"
+   ],
+   "sba": "Die Antikenkanone"
+  },
+  "Eustace": {
+   "skills": [
+    "Play with Fire",
+    "Slow Kill",
+    "Never Surrender",
+    "Heaven Comes Down",
+    "Acidrage Howl",
+    "Fast Lane",
+    "Forever Yours"
+   ],
+   "sba": "Flamek Thunder"
+  },
+  "Fediel": {
+   "skills": [
+    "Miasmic Abyss",
+    "Primordial Fear",
+    "Sign of Calamity",
+    "Sphere of Reversal",
+    "The Black's Blessing",
+    "Soul Breaker",
+    "Cursed Funeral",
+    "Claws of Reversal"
+   ]
+  },
+  "Ferry": {
+   "skills": [
+    "Benediction",
+    "Blaues Gespenst",
+    "Hinrichten",
+    "Pendel",
+    "Purge Spirits",
+    "Strafe",
+    "Umlauf"
+   ],
+   "sba": "Aetheryte Requiescat"
+  },
+  "Fraux": {
+   "skills": [
+    "All Fall Down",
+    "Crimson Nightmare",
+    "Dead Lands",
+    "Indominus",
+    "Opportunity Knocks",
+    "Power Plant",
+    "Splendor",
+    "Kick Face"
+   ]
+  },
+  "Gallanza": {
+   "skills": [
+    "Dashing Lancer",
+    "Martial Spear",
+    "Impale",
+    "Cyclone Skullsplitter",
+    "Eye of the Storm",
+    "Explosive Plunge",
+    "Deathmatch Finale",
+    "Tip of the Spear"
+   ],
+   "sba": "Storming Death"
+  },
+  "Ghandagoza": {
+   "skills": [
+    "Arhat Skybreaker",
+    "Branding Palm",
+    "Iron Shoulder",
+    "True Avidya",
+    "Lion Stance",
+    "Infernal Stomp",
+    "Eternal Rage",
+    "Dhyana"
+   ],
+   "sba": "Fist of the Red Lotus"
+  },
+  "Gran": {
+   "skills": [
+    "Reginleiv",
+    "Overdrive Surge",
+    "Rain of Arrows",
+    "Armor Break",
+    "Decimate"
+   ],
+   "sba": "Tempest Blade"
+  },
+  "Id": {
+   "skills": [
+    "Reginleiv Recidiv",
+    "Unbound",
+    "Atonement",
+    "Ragnarok Form",
+    "Scourge",
+    "Fourfold Vengeance",
+    "Never Enough",
+    "Arcadia"
+   ],
+   "sba": "Dead Weight"
+  },
+  "Io": {
+   "skills": [
+    "Lightning",
+    "Freeze",
+    "Gravity Well",
+    "Fire",
+    "Concentration",
+    "Flowery Seven",
+    "Mystic Vortex",
+    "Healing Winds"
+   ],
+   "sba": "Elemental Gust"
+  },
+  "Katalina": {
+   "skills": [
+    "Emerald Shield",
+    "Light Wall",
+    "Enchanted Lands",
+    "Winter's Rain",
+    "Sacred Winds",
+    "Azure Sword",
+    "Frozen Blade",
+    "Heal"
+   ],
+   "sba": "Blades of Frost"
+  },
+  "Lancelot": {
+   "skills": [
+    "Blade Impulse",
+    "Kaltzwinger",
+    "Lawinensturm",
+    "Blauer Dolch",
+    "Turbulenz",
+    "Southern Cross",
+    "Schwertgeist",
+    "Luftspiegelung"
+   ],
+   "sba": "Weissfluegel"
+  },
+  "Maglielle": {
+   "skills": [
+    "Hammer of Thunder",
+    "Pistol of Demons",
+    "Spear of Legends",
+    "Battle Hymn",
+    "Nachtmusik",
+    "Paeanic Aegis",
+    "Sostenuto",
+    "Stave of Divinity"
+   ],
+   "sba": "Symphony Superior"
+  },
+  "Narmaya": {
+   "skills": [
+    "Setsuna",
+    "Kyokasuigetsu",
+    "Transient",
+    "Apex of Nothingness",
+    "Crescent Moon",
+    "Dance of Pink Petals",
+    "Dance of Blue Petals",
+    "Utter Devotion"
+   ],
+   "sba": "Butterfly Effect: Moonrise"
+  },
+  "Percival": {
+   "skills": [
+    "Flammenmarsch",
+    "Macht",
+    "Zerreissen",
+    "Royal Authority",
+    "Feuerangriff",
+    "Roter Wirbel",
+    "Traumerei",
+    "X-Seele",
+    "Flammen Rustung",
+    "Adrenaline Rush"
+   ],
+   "sba": "Lohenwolf"
+  },
+  "Rackam": {
+   "skills": [
+    "Wild Gunsmoke",
+    "Rhythmic Trigger",
+    "Coffinmaker",
+    "Collateral Damage",
+    "Slag Shot",
+    "Bullet Hail",
+    "Spitfire",
+    "Double Tap",
+    "Duration",
+    "Sleight of Hand"
+   ],
+   "sba": "Piercing Punishment"
+  },
+  "Rosetta": {
+   "skills": [
+    "Iron Maiden",
+    "Lost Love",
+    "Rose Tycoon",
+    "Sillage",
+    "Spiral Rose",
+    "Bouquet",
+    "Mesmerize",
+    "Rose Barrier",
+    "Rose Garden",
+    "Overgrowth"
+   ],
+   "sba": "Sullen Rose"
+  },
+  "Sandalphon": {
+   "skills": [
+    "Ecliptica",
+    "Ethereal Prison",
+    "No Way Out",
+    "Revontulet",
+    "Talviyo",
+    "Alone in Heaven",
+    "Breath of Life",
+    "The Power of One"
+   ],
+   "sba": "Ain Soph Aur"
+  },
+  "Seofon": {
+   "skills": [
+    "Barrido",
+    "Despedazar",
+    "Infinito Creare",
+    "Ispirazione",
+    "Rotura",
+    "Prision de Armas",
+    "Seven Star's Brilliance",
+    "Tempesta"
+   ],
+   "sba": "Cien Mil Espadas"
+  },
+  "Siegfried": {
+   "skills": [
+    "Draconic Release",
+    "L'Ombre d'Hier",
+    "Manigance",
+    "Mirage",
+    "Nelah Nav",
+    "Salvator",
+    "Uwe",
+    "Verdrangen"
+   ],
+   "sba": "Schwarze Faenge"
+  },
+  "Tweyen": {
+   "skills": [
+    "Clincher",
+    "Depravity",
+    "Lethal Rain",
+    "Merculight",
+    "Peerless Eye",
+    "Two Crown's Strife",
+    "Valiant Weave",
+    "Wheel of Death"
+   ],
+   "sba": "Asteroid Jaeger"
+  },
+  "Vane": {
+   "skills": [
+    "Arm Destruction",
+    "Breakthrough",
+    "Drachenstolz",
+    "Energy Destruction",
+    "Heroic Beat",
+    "Rampart",
+    "Rift Divider",
+    "Soul Eruption"
+   ],
+   "sba": "Loewenbein: Jagd"
+  },
+  "Vaseraga": {
+   "skills": [
+    "Battalions of Fear",
+    "Damnation",
+    "Forgotten Tales",
+    "Great Scythe Grynoth",
+    "Immortal Pain",
+    "Netherwrath",
+    "Umbral Eclipse",
+    "Violent Shadows"
+   ],
+   "sba": "Bloody Moon"
+  },
+  "Yodarha": {
+   "skills": [
+    "Awakening",
+    "Empty Mist",
+    "Flashing Void",
+    "Hymn of the Hundreds",
+    "Perpetual Rotation",
+    "Sky Shatter",
+    "Tit for Tat",
+    "Trice Blade"
+   ],
+   "sba": "Ultimate Flash"
+  },
+  "Zeta": {
+   "skills": [
+    "Infinite Wonders",
+    "Rain of Fury",
+    "Realm's Majesty",
+    "Signo Drive",
+    "Spear of Arvess",
+    "Thousand Flames",
+    "Vengeful Flames",
+    "Wingclipper"
+   ],
+   "sba": "Resolute Strike"
+  }
+ },
+ "world_terms": [
+  "Bahamut",
+  "Proto Bahamut",
+  "Bahamut Versa",
+  "Angra Mainyu",
+  "Managarmr",
+  "Vulkan Bolla",
+  "Nazarbonju",
+  "Quakadile",
+  "Gerasene",
+  "Pyet-A",
+  "Ennugi",
+  "Blizzadile",
+  "Behemoth",
+  "Griffin",
+  "Lucilius",
+  "Beelzebub",
+  "Lilith",
+  "Rose Queen",
+  "Lyria",
+  "Vyrn",
+  "Rolan",
+  "Zathba",
+  "Sierokarte",
+  "Skyfarer",
+  "primal beast",
+  "Zegagrande Skydom",
+  "Grim Basin",
+  "Church of Avia",
+  "Folca",
+  "Seedhollow",
+  "Knickknack Shack",
+  "Captain",
+  "Skybound Art",
+  "Terminus Weapon",
+  "Crewmate Card",
+  "Human",
+  "Erune",
+  "Draph",
+  "Harvin",
+  "lass",
+  "lad"
+ ]
+}

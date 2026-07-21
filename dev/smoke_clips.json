@@ -1,0 +1,130 @@
+[
+ {
+  "wem_id": "723259091",
+  "wav": "dev/smoke-full/723259091.wav",
+  "character": "Id",
+  "whisper": "Noooooo!!!",
+  "confidence": -2.229,
+  "label": "PL2000_vo_SP_ougi_finish_A_1"
+ },
+ {
+  "wem_id": "330289547",
+  "wav": "dev/smoke-full/330289547.wav",
+  "character": "Id",
+  "whisper": "Noooo!",
+  "confidence": -2.167,
+  "label": "PL2000_vo_ATK_od_sp_name_3"
+ },
+ {
+  "wem_id": "238935139",
+  "wav": "dev/smoke-full/238935139.wav",
+  "character": "Id",
+  "whisper": "Mm!",
+  "confidence": -1.917,
+  "label": "EM2200_vo_ATK_horizon_slash_B_2"
+ },
+ {
+  "wem_id": "471999932",
+  "wav": "dev/smoke-full/471999932.wav",
+  "character": "Ghandagoza",
+  "whisper": "Roar.",
+  "confidence": -1.861,
+  "label": "PL1500_vo_ATK_ability_8_1"
+ },
+ {
+  "wem_id": "673722658",
+  "wav": "dev/smoke-full/673722658.wav",
+  "character": "Id",
+  "whisper": "Yeah.",
+  "confidence": -1.777,
+  "label": "EM2301_vo_ATK_default_l_5"
+ },
+ {
+  "wem_id": "793961281",
+  "wav": "dev/smoke-full/793961281.wav",
+  "character": "Id",
+  "whisper": "FANTASY REEL STORM",
+  "confidence": -1.749,
+  "label": "PL2000_vo_ATK_od_sp_aori_3"
+ },
+ {
+  "wem_id": "234185297",
+  "wav": "dev/smoke-full/234185297.wav",
+  "character": "Id",
+  "whisper": "NOOOOOOO!",
+  "confidence": -1.653,
+  "label": "PL2000_vo_SP_ougi_finish_A_2"
+ },
+ {
+  "wem_id": "357707018",
+  "wav": "dev/smoke-full/357707018.wav",
+  "character": "Id",
+  "whisper": "Frrrrrrrrrrrrr!",
+  "confidence": -1.601,
+  "label": "PL1900_vo_DMG_rise_4"
+ },
+ {
+  "wem_id": "334092044",
+  "wav": "dev/smoke-full/334092044.wav",
+  "character": "Id",
+  "whisper": "HUEHUGH!",
+  "confidence": -1.55,
+  "label": "PL1900_vo_SP_charge_name_B_upper_2"
+ },
+ {
+  "wem_id": "55389548",
+  "wav": "dev/smoke-full/55389548.wav",
+  "character": "Siegfried",
+  "whisper": "Mmmmmmmmmmmmm!",
+  "confidence": -1.514,
+  "label": "PL1102_vo_ATK_charge_l_1"
+ },
+ {
+  "wem_id": "977878384",
+  "wav": "dev/smoke-full/977878384.wav",
+  "character": "Siegfried",
+  "whisper": "Of course.",
+  "confidence": -0.299,
+  "label": "PL1100_vo_SP_link_la_B_PL0900"
+ },
+ {
+  "wem_id": "1011057188",
+  "wav": "dev/smoke-full/1011057188.wav",
+  "character": "Siegfried",
+  "whisper": "I am Siegfried.",
+  "confidence": -0.299,
+  "label": "PL1100_vo_CMM_emo_pose_5"
+ },
+ {
+  "wem_id": "1053837535",
+  "wav": "dev/smoke-full/1053837535.wav",
+  "character": "Siegfried",
+  "whisper": "Take heart!",
+  "confidence": -0.299,
+  "label": "PL1102_vo_ATK_ability_6_3"
+ },
+ {
+  "wem_id": "145126488",
+  "wav": "dev/smoke-full/145126488.wav",
+  "character": "Rosetta",
+  "whisper": "Ooh, does this mean you're in my debt?",
+  "confidence": -0.03,
+  "label": "PL0600_vo_SP_link_talk2_A_NP0300"
+ },
+ {
+  "wem_id": "852858065",
+  "wav": "dev/smoke-full/852858065.wav",
+  "character": "Sandalphon",
+  "whisper": "And yours is the edge betwixt life and death.",
+  "confidence": -0.028,
+  "label": "PL2100_vo_SP_burst_reaction_talk2_PL1400"
+ },
+ {
+  "wem_id": "599062394",
+  "wav": "dev/smoke-full/599062394.wav",
+  "character": "Katalina",
+  "whisper": "Oh, the fun's just beginning, Rackam.",
+  "confidence": -0.027,
+  "label": "PL0200_vo_SP_link_talk2_B_PL0300"
+ }
+]
