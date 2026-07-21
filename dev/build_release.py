@@ -7,7 +7,11 @@ Pulls the source from the repo, the dataset from data/per-character into
 atlas/, and the Windows halves of tools/ and python/. Writes the zip and its
 SHA256. See BUILDING.md for where the binaries come from.
 """
-import argparse, hashlib, pathlib, sys, zipfile
+import argparse
+import hashlib
+import pathlib
+import sys
+import zipfile
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 

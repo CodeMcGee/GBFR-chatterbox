@@ -10,16 +10,22 @@ atlas afterwards with build_atlas.py.
 Usage: retranscribe.py [--game <path>] [--base URL] [--out build/atlas-omni]
                        [--only plXXXX,plYYYY] [--no-exemplars]
 """
-import argparse, json, pathlib, re, sys, tempfile
+import argparse
+import json
+import pathlib
+import re
+import sys
+import tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
+from smoke_qwen3omni import decode_label, transcribe
+
 import serve
-from chatterbox.banks import MediaBank, decode_wav, atomic_write
+from chatterbox.banks import MediaBank, atomic_write, decode_wav
 from chatterbox.pck import Pck
 from chatterbox.siero import DataArchive
-from smoke_qwen3omni import transcribe, decode_label
 
 RACES = json.loads((HERE / "races.json").read_text()) if (HERE / "races.json").exists() else {}
 

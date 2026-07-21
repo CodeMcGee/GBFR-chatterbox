@@ -7,7 +7,13 @@ prints the model's line beside the current Whisper transcript.
 
     python dev/smoke_qwen3omni.py [--base http://localhost:8000/v1] [--model qwen3-omni]
 """
-import argparse, base64, glob, json, pathlib, sys, urllib.request
+import argparse
+import base64
+import glob
+import json
+import pathlib
+import sys
+import urllib.request
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -27,8 +33,8 @@ def full_wav(wem_id, pl, streamed):
     out = WAVCACHE / f"{wem_id}.wav"
     if out.exists():
         return out
-    from chatterbox.pck import Pck
     from chatterbox.banks import decode_wav
+    from chatterbox.pck import Pck
     wid = int(wem_id)
     for d in PCK_DIRS:
         for p in glob.glob(str(ROOT / d / f"vo_{pl}*.pck")):
@@ -150,7 +156,7 @@ def main():
     ap.add_argument("--exemplars", default=str(HERE / "exemplars.json"),
                     help="per-character few-shot audio examples; '' to disable")
     a = ap.parse_args()
-    from build_atlas import rows                 # the per-character JSONs (not the published CSV)
+    from build_atlas import rows  # the per-character JSONs (not the published CSV)
     atlas = {r["wem_id"]: r for r in rows(a.atlas_dir)}
     ex_map = json.loads(pathlib.Path(a.exemplars).read_text()) if a.exemplars else {}
 

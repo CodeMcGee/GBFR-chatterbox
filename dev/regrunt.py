@@ -8,11 +8,18 @@ Everything else is left untouched. Resumable.
 
 Usage: regrunt.py [atlas_dir]   (default data/per-character)
 """
-import glob, json, pathlib, re, sys, tempfile
+import glob
+import json
+import pathlib
+import re
+import sys
+import tempfile
+
 sys.path.insert(0, "dev"); sys.path.insert(0, ".")
-import serve
 from retranscribe import Audio
-from smoke_qwen3omni import transcribe, GRUNT_PROMPT
+from smoke_qwen3omni import GRUNT_PROMPT, transcribe
+
+import serve
 
 BASE, MODEL = "http://127.0.0.1:8210/v1", "qwen3-omni"
 

@@ -6,7 +6,10 @@ Run after every re-transcription, before build_atlas.py.
 
 Usage: apply_corrections.py [atlas_dir]   (default data/per-character)
 """
-import glob, json, pathlib, sys
+import glob
+import json
+import pathlib
+import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 

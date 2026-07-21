@@ -1,6 +1,9 @@
 """Side-car state: profile (saved intent), originals manifest, review flags.
 All under the user's config dir, never in the game install."""
-import json, os, pathlib, sys
+import json
+import os
+import pathlib
+import sys
 
 from chatterbox.banks import atomic_write
 

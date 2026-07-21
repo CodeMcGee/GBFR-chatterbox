@@ -6,7 +6,14 @@ NameError once shipped. This actually starts the thing and reads the page.
 
     python3 test_smoke.py
 """
-import http.client, json, pathlib, shutil, struct, subprocess, sys, tempfile, threading, time
+import http.client
+import json
+import pathlib
+import shutil
+import sys
+import tempfile
+import threading
+import time
 
 HERE = pathlib.Path(__file__).resolve().parent.parent   # project root
 sys.path.insert(0, str(HERE))

@@ -1,6 +1,9 @@
 """Find the game install and name its parts: Steam discovery, bank files,
 character ids."""
-import json, pathlib, re, sys
+import json
+import pathlib
+import re
+import sys
 
 from chatterbox.banks import BUNDLE_DIR, PKG_DIR
 

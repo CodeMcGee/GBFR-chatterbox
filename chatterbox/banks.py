@@ -10,7 +10,14 @@ Commands:
   mute <bank> <out.bnk> <ids..>    alias ids to a silent wem (DIDX patch)
   verify <bank>                    structural chunk-walk check
 """
-import argparse, hashlib, json, os, pathlib, struct, subprocess, sys, tempfile
+import argparse
+import hashlib
+import json
+import os
+import pathlib
+import struct
+import subprocess
+import sys
 from concurrent.futures import ThreadPoolExecutor
 
 # Files that ship inside the package (silence.wem, ui.html, characters.json).

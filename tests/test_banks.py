@@ -9,12 +9,22 @@ available under samples/.
 
     python tests/test_banks.py
 """
-import pathlib, struct, sys, tempfile
+import pathlib
+import struct
+import sys
+import tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(HERE))
-from chatterbox.banks import (MediaBank, SILENCE, atomic_write, label_of,
-                              read_chunks, replay, wem_meta)
+from chatterbox.banks import (
+    SILENCE,
+    MediaBank,
+    atomic_write,
+    label_of,
+    read_chunks,
+    replay,
+    wem_meta,
+)
 from chatterbox.pck import Pck
 
 

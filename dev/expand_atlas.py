@@ -8,13 +8,17 @@ the new ones are transcribed. Every line gains a `bank` field.
 
 Usage: expand_atlas.py <voice_dir> <pck_dir> <existing_atlas_dir> <out_dir> [--gpu N]
 """
-import json, pathlib, sys, tempfile
+import json
+import pathlib
+import sys
+import tempfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from chatterbox.banks import MediaBank, decode_wav, wav_stats, wem_meta, label_of
+from build_full_atlas import BLEED, prompt_for
+
+from chatterbox.banks import MediaBank, decode_wav, label_of, wav_stats, wem_meta
 from chatterbox.pck import Pck
-from build_full_atlas import prompt_for, BLEED
 
 
 def main():

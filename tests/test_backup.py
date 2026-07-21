@@ -7,13 +7,20 @@ retired copy. That destroyed the only untouched bank on disk.
 
     python3 dev/test_backup.py
 """
-import hashlib, json, pathlib, shutil, sys, tempfile
+import hashlib
+import json
+import pathlib
+import shutil
+import sys
+import tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE / "tests"))
+from test_banks import bank as make_bank  # synthetic bank builders
+from test_banks import wem
+
 import serve
-from test_banks import bank as make_bank, wem   # synthetic bank builders
 
 sha = lambda p: hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
 main_bank = lambda app, pl: app.banks_for(pl)[0]

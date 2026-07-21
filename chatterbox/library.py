@@ -1,6 +1,9 @@
 """Read side: a character's banks, atlas lines with live state, full-line
 previews, and the streamed .pck packages."""
-import json, pathlib, struct, tempfile
+import json
+import pathlib
+import struct
+import tempfile
 
 from chatterbox.banks import SILENCE, MediaBank, atomic_write, decode_wav
 from chatterbox.game import APP_DIR, NAMES, battle_banks, check_pl

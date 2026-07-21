@@ -1,6 +1,7 @@
 """Write side: pristine backups, and rebuilding banks from them with the
 saved profile replayed on top."""
-import pathlib, threading
+import pathlib
+import threading
 
 from chatterbox.banks import SILENCE, MediaBank, atomic_write, replay
 from chatterbox.game import backup_path, battle_banks, check_pl, pl_of
@@ -104,13 +105,13 @@ class Patcher:
         replay(fresh, entry)
         try:
             fresh.write(bank.path)
-        except PermissionError:
+        except PermissionError as e:
             # By far the most common cause, and "[WinError 5] Access is denied"
             # tells a player nothing.
             raise ValueError(
                 "Could not write to the game files. Is Granblue Fantasy: Relink still "
                 "running? Close the game completely, check the taskbar and the system "
-                "tray, then press Apply again.")
+                "tray, then press Apply again.") from e
         self.store.remember_applied(bank.path.name, fresh.sha256())
         self.library.invalidate(pl_of(bank.path.name))        # cache stale after the write
         return created

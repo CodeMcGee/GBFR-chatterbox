@@ -14,7 +14,10 @@ fix would change - it does not apply anything.
 
 Usage: consensus.py [--atlas-dir data/per-character] [--min-chars N] [--agree F] [--apply]
 """
-import argparse, json, pathlib, re
+import argparse
+import json
+import pathlib
+import re
 from collections import Counter, defaultdict
 
 

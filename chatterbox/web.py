@@ -1,6 +1,13 @@
 """Local HTTP server and the single-page UI: reads the user's own game
 install; hosts nothing."""
-import argparse, http.server, json, secrets, sys, threading, urllib.parse, webbrowser
+import argparse
+import http.server
+import json
+import secrets
+import sys
+import threading
+import urllib.parse
+import webbrowser
 
 from chatterbox.app import App
 from chatterbox.banks import PKG_DIR
@@ -30,9 +37,8 @@ def make_handler(app):
             # Reads leak the CSRF token and the game install path, so they need the
             # same Host check as writes. Without it a rebound DNS name can read them.
             if not self.local_host():
-                return self.send(403, {"error": "this address is not served here; "
-                                               "open http://127.0.0.1:%d/"
-                                               % self.server.server_address[1]})
+                return self.send(403, {"error": "this address is not served here; open "
+                                               f"http://127.0.0.1:{self.server.server_address[1]}/"})
             u = urllib.parse.urlparse(self.path)
             q = urllib.parse.parse_qs(u.query)
             try:

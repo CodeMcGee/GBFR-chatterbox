@@ -1,7 +1,6 @@
 """The application: one game install + one profile, wired together."""
 import re
 
-from chatterbox.banks import MediaBank
 from chatterbox.game import battle_banks
 from chatterbox.library import Library
 from chatterbox.patching import Patcher, backup_path

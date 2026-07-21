@@ -18,7 +18,9 @@ usually) and LZ4 block compressed otherwise.
 Paths use forward slashes and are matched case-insensitively, e.g.
     sound/english(us)/vo_pl2700_02_00_00.pck
 """
-import pathlib, struct, sys
+import pathlib
+import struct
+import sys
 
 # ---------------------------------------------------------------- XXHash64
 

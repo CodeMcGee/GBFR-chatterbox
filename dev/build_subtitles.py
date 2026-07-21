@@ -11,14 +11,18 @@ Re-run after promoting a new atlas so the English text stays in sync.
 Usage: build_subtitles.py [--game <path>] [--atlas-dir data/per-character]
                           [--out build/subtitles-jp.csv]
 """
-import argparse, csv, pathlib, sys
+import argparse
+import csv
+import pathlib
+import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
+from build_atlas import rows  # the per-character JSONs, with derived columns
+
 import serve
-from build_atlas import rows          # the per-character JSONs, with derived columns
-from chatterbox.banks import MediaBank, wem_meta, label_of
+from chatterbox.banks import MediaBank, label_of, wem_meta
 
 FIELDS = ["jp_wem_id", "label", "pl_id", "character", "category",
           "partner", "english", "jp_duration_s", "en_wem_id"]
