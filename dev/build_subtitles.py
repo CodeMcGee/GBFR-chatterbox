@@ -8,15 +8,16 @@ durations come straight from the bank headers - no audio decoding needed.
 
 Re-run after promoting a new atlas so the English text stays in sync.
 
-Usage: build_subtitles.py [--game <path>] [--atlas data/gbfr-voice-atlas.csv]
+Usage: build_subtitles.py [--game <path>] [--atlas-dir data/per-character]
                           [--out build/subtitles-jp.csv]
 """
 import argparse, csv, pathlib, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
 import serve
+from build_atlas import rows          # the per-character JSONs, with derived columns
 from chatterbox.banks import MediaBank, wem_meta, label_of
 
 FIELDS = ["jp_wem_id", "label", "pl_id", "character", "category",
@@ -26,15 +27,12 @@ FIELDS = ["jp_wem_id", "label", "pl_id", "character", "category",
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--game")
-    ap.add_argument("--atlas", default="data/gbfr-voice-atlas.csv")
+    ap.add_argument("--atlas-dir", default="data/per-character")
     ap.add_argument("--out", default="build/subtitles-jp.csv")
     a = ap.parse_args()
 
-    # English side, keyed by the language-independent label
-    en = {}
-    for r in csv.DictReader(open(ROOT / a.atlas)):
-        if r["label"]:
-            en[r["label"]] = r
+    # English side, keyed by the language-independent label (source of truth: the JSONs)
+    en = {r["label"]: r for r in rows(ROOT / a.atlas_dir) if r["label"]}
 
     # Japanese banks live beside the English ones under the same install
     voice = pathlib.Path(serve.find_game(a.game))
@@ -42,7 +40,7 @@ def main():
     if not jp_dir.is_dir():
         sys.exit(f"No Japanese voice dir at {jp_dir}")
 
-    rows, seen, unmatched = [], set(), 0
+    records, seen, unmatched = [], set(), 0
     for bank in sorted(jp_dir.glob("vo_pl*_m.bnk"), key=lambda p: p.stat().st_size, reverse=True):
         mb = MediaBank(bank)
         for wid in mb.entries:
@@ -57,19 +55,19 @@ def main():
                 continue
             declared, present, bps, rate, ch = wem_meta(data)
             dur = round(declared / bps, 3) if bps else None   # full JP length from the header
-            rows.append({
+            records.append({
                 "jp_wem_id": wid, "label": label,
                 "pl_id": e["pl_id"], "character": e["character"], "category": e["category"],
                 "partner": e.get("group", "").partition("_PL")[2],   # "" when no partner
                 "english": e["transcript"], "jp_duration_s": dur, "en_wem_id": e["wem_id"],
             })
 
-    rows.sort(key=lambda r: (r["pl_id"], r["label"]))
+    records.sort(key=lambda r: (r["pl_id"], r["label"]))
     out = ROOT / a.out; out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=FIELDS); w.writeheader(); w.writerows(rows)
-    spoken = sum(1 for r in rows if r["english"])
-    print(f"{len(rows)} JP lines mapped to English ({spoken} with text), "
+        w = csv.DictWriter(fh, fieldnames=FIELDS); w.writeheader(); w.writerows(records)
+    spoken = sum(1 for r in records if r["english"])
+    print(f"{len(records)} JP lines mapped to English ({spoken} with text), "
           f"{unmatched} JP lines had no English match")
     print(f"-> {out}")
 

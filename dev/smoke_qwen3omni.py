@@ -7,11 +7,11 @@ prints the model's line beside the current Whisper transcript.
 
     python dev/smoke_qwen3omni.py [--base http://localhost:8000/v1] [--model qwen3-omni]
 """
-import argparse, base64, csv, glob, json, pathlib, sys, urllib.request
+import argparse, base64, glob, json, pathlib, sys, urllib.request
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
-sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
 WAVCACHE = HERE / ".wavcache"
 PCK_DIRS = ["pck", "build/pck-all", "samples/pck"]
 
@@ -128,11 +128,12 @@ def main():
     ap.add_argument("--model", default="qwen3-omni")
     ap.add_argument("--clips", default=str(HERE / "smoke_clips.json"),
                     help="JSON list of {wem_id}; other fields are pulled from the atlas")
-    ap.add_argument("--atlas", default=str(ROOT / "data/gbfr-voice-atlas.csv"))
+    ap.add_argument("--atlas-dir", default=str(ROOT / "data/per-character"))
     ap.add_argument("--exemplars", default=str(HERE / "exemplars.json"),
                     help="per-character few-shot audio examples; '' to disable")
     a = ap.parse_args()
-    atlas = {r["wem_id"]: r for r in csv.DictReader(open(a.atlas))}
+    from build_atlas import rows                 # the per-character JSONs (not the published CSV)
+    atlas = {r["wem_id"]: r for r in rows(a.atlas_dir)}
     ex_map = json.loads(pathlib.Path(a.exemplars).read_text()) if a.exemplars else {}
 
     def exemplars_for(pl, skip_id):
