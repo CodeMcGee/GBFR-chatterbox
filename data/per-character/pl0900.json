@@ -3269,10 +3269,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5370,
-   "transcript": "Sword!",
+   "transcript": "soar!",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "241641110": {
    "wem_id": "241641110",
@@ -8001,10 +8001,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10172,
-   "transcript": "Let's score!",
+   "transcript": "and score!",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "608104941": {
    "wem_id": "608104941",
