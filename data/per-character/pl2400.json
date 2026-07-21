@@ -8512,9 +8512,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7607,
-   "transcript": "Scale Burst!",
-   "confidence": -0.463,
-   "bank": "vo_pl2400_02_00_00_m.bnk"
+   "transcript": "Gale Burst!",
+   "confidence": null,
+   "bank": "vo_pl2400_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "637257253": {
    "wem_id": "637257253",
@@ -11088,9 +11089,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10920,
-   "transcript": "Blue Dead Nation!",
-   "confidence": -0.426,
-   "bank": "vo_pl2400_02_00_00_m.bnk"
+   "transcript": "Blue detonation!",
+   "confidence": null,
+   "bank": "vo_pl2400_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "813764637": {
    "wem_id": "813764637",
@@ -12912,9 +12914,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12004,
-   "transcript": "Red Dead Nation!",
-   "confidence": -0.334,
-   "bank": "vo_pl2400_02_00_00_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl2400_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "947258466": {
    "wem_id": "947258466",

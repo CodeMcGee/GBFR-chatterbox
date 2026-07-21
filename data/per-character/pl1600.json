@@ -8436,9 +8436,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11305,
-   "transcript": "Light make eradication!",
-   "confidence": -0.51,
-   "bank": "vo_pl1600_m.bnk"
+   "transcript": "Lightning Eradication!",
+   "confidence": null,
+   "bank": "vo_pl1600_m.bnk",
+   "corrected": "consensus"
   },
   "773302614": {
    "wem_id": "773302614",

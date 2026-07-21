@@ -10308,9 +10308,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8042,
-   "transcript": "Scale Burst!",
-   "confidence": -0.602,
-   "bank": "vo_pl0600_m.bnk"
+   "transcript": "Gale Burst!",
+   "confidence": null,
+   "bank": "vo_pl0600_m.bnk",
+   "corrected": "consensus"
   },
   "847152737": {
    "wem_id": "847152737",

@@ -3252,9 +3252,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9392,
-   "transcript": "Lady Illyria!",
-   "confidence": -0.581,
-   "bank": "vo_pl1200_m.bnk"
+   "transcript": "Lyria!",
+   "confidence": null,
+   "bank": "vo_pl1200_m.bnk",
+   "corrected": "consensus"
   },
   "293870972": {
    "wem_id": "293870972",
@@ -5620,9 +5621,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11152,
-   "transcript": "ICE ELIMINATION!",
-   "confidence": -0.541,
-   "bank": "vo_pl1200_m.bnk"
+   "transcript": "Ice Illumination!",
+   "confidence": null,
+   "bank": "vo_pl1200_m.bnk",
+   "corrected": "consensus"
   },
   "507456430": {
    "wem_id": "507456430",
@@ -7012,9 +7014,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11151,
-   "transcript": "Crams and corruption!",
-   "confidence": -0.39,
-   "bank": "vo_pl1200_m.bnk"
+   "transcript": "Crimson Corruption!",
+   "confidence": null,
+   "bank": "vo_pl1200_m.bnk",
+   "corrected": "consensus"
   },
   "639229164": {
    "wem_id": "639229164",
@@ -8484,9 +8487,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10875,
-   "transcript": "Little Detonation!",
-   "confidence": -0.626,
-   "bank": "vo_pl1200_m.bnk"
+   "transcript": "Blue detonation!",
+   "confidence": null,
+   "bank": "vo_pl1200_m.bnk",
+   "corrected": "consensus"
   },
   "760302236": {
    "wem_id": "760302236",

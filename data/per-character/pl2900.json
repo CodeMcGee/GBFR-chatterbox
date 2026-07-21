@@ -5392,9 +5392,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10990,
-   "transcript": "Red Dead Nation!",
-   "confidence": -0.48,
-   "bank": "vo_pl2900_02_00_00_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl2900_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "381288444": {
    "wem_id": "381288444",
@@ -10512,9 +10513,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9862,
-   "transcript": "China's won!",
-   "confidence": -0.488,
-   "bank": "vo_pl2900_02_00_00_m.bnk"
+   "transcript": "Shine as one!",
+   "confidence": null,
+   "bank": "vo_pl2900_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "813801106": {
    "wem_id": "813801106",
@@ -12320,9 +12322,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8374,
-   "transcript": "Skill Burst.",
-   "confidence": -0.662,
-   "bank": "vo_pl2900_02_00_00_m.bnk"
+   "transcript": "Gale Burst!",
+   "confidence": null,
+   "bank": "vo_pl2900_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "950118097": {
    "wem_id": "950118097",

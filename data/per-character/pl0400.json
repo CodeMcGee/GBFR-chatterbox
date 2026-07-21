@@ -5988,9 +5988,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11371,
-   "transcript": "Earth Denation!",
-   "confidence": -0.561,
-   "bank": "vo_pl0400_m.bnk"
+   "transcript": "Earth detonation!",
+   "confidence": null,
+   "bank": "vo_pl0400_m.bnk",
+   "corrected": "consensus"
   },
   "507511645": {
    "wem_id": "507511645",

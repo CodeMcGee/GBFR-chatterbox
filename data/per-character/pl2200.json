@@ -3490,9 +3490,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10551,
-   "transcript": "Oblivion 4!",
-   "confidence": -0.367,
-   "bank": "vo_pl2200_01_02_00_m.bnk"
+   "transcript": "Oblivion Fall!",
+   "confidence": null,
+   "bank": "vo_pl2200_01_02_00_m.bnk",
+   "corrected": "consensus"
   },
   "277485979": {
    "wem_id": "277485979",
@@ -5602,9 +5603,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9866,
-   "transcript": "Earth that nation!",
-   "confidence": -0.556,
-   "bank": "vo_pl2200_01_02_00_m.bnk"
+   "transcript": "Earth detonation!",
+   "confidence": null,
+   "bank": "vo_pl2200_01_02_00_m.bnk",
+   "corrected": "consensus"
   },
   "479754993": {
    "wem_id": "479754993",

@@ -1540,9 +1540,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10148,
-   "transcript": "China's won!",
-   "confidence": -0.338,
-   "bank": "vo_pl1300_m.bnk"
+   "transcript": "Shine as one!",
+   "confidence": null,
+   "bank": "vo_pl1300_m.bnk",
+   "corrected": "consensus"
   },
   "144972653": {
    "wem_id": "144972653",
@@ -3364,9 +3365,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10379,
-   "transcript": "Red Dead Nation!",
-   "confidence": -0.216,
-   "bank": "vo_pl1300_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl1300_m.bnk",
+   "corrected": "consensus"
   },
   "297953851": {
    "wem_id": "297953851",
@@ -6180,9 +6182,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10013,
-   "transcript": "Absolute Jiro!",
-   "confidence": -0.448,
-   "bank": "vo_pl1300_m.bnk"
+   "transcript": "Absolute Zero!",
+   "confidence": null,
+   "bank": "vo_pl1300_m.bnk",
+   "corrected": "consensus"
   },
   "544927618": {
    "wem_id": "544927618",
@@ -6964,9 +6967,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10251,
-   "transcript": "Kind of chaos!",
-   "confidence": -0.614,
-   "bank": "vo_pl1300_m.bnk"
+   "transcript": "Tide of Chaos!",
+   "confidence": null,
+   "bank": "vo_pl1300_m.bnk",
+   "corrected": "consensus"
   },
   "613789737": {
    "wem_id": "613789737",

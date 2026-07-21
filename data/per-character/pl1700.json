@@ -1972,9 +1972,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13452,
-   "transcript": "Waking pulverization!",
-   "confidence": -0.373,
-   "bank": "vo_pl1700_m.bnk"
+   "transcript": "Quaking pulverization!",
+   "confidence": null,
+   "bank": "vo_pl1700_m.bnk",
+   "corrected": "consensus"
   },
   "165841094": {
    "wem_id": "165841094",

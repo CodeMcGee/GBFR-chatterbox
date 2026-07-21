@@ -468,9 +468,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11208,
-   "transcript": "Herminence Flare.",
-   "confidence": -0.656,
-   "bank": "vo_pl1800_m.bnk"
+   "transcript": "Prominence Flare.",
+   "confidence": null,
+   "bank": "vo_pl1800_m.bnk",
+   "corrected": "consensus"
   },
   "45481608": {
    "wem_id": "45481608",
@@ -2180,9 +2181,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13298,
-   "transcript": "Waking pulverization!",
-   "confidence": -0.463,
-   "bank": "vo_pl1800_m.bnk"
+   "transcript": "Quaking pulverization!",
+   "confidence": null,
+   "bank": "vo_pl1800_m.bnk",
+   "corrected": "consensus"
   },
   "214245524": {
    "wem_id": "214245524",
@@ -2260,9 +2262,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11233,
-   "transcript": "Red Dead Nation.",
-   "confidence": -0.342,
-   "bank": "vo_pl1800_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl1800_m.bnk",
+   "corrected": "consensus"
   },
   "221656365": {
    "wem_id": "221656365",

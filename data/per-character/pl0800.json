@@ -2148,9 +2148,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10089,
-   "transcript": "Blue Den Nation.",
-   "confidence": -0.339,
-   "bank": "vo_pl0800_m.bnk"
+   "transcript": "Blue detonation!",
+   "confidence": null,
+   "bank": "vo_pl0800_m.bnk",
+   "corrected": "consensus"
   },
   "188332231": {
    "wem_id": "188332231",
@@ -3492,9 +3493,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10798,
-   "transcript": "Oblivion 4.",
-   "confidence": -0.365,
-   "bank": "vo_pl0800_m.bnk"
+   "transcript": "Oblivion Fall!",
+   "confidence": null,
+   "bank": "vo_pl0800_m.bnk",
+   "corrected": "consensus"
   },
   "307614290": {
    "wem_id": "307614290",

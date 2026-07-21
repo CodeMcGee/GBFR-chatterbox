@@ -1444,9 +1444,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8507,
-   "transcript": "Shine is one!",
-   "confidence": -0.444,
-   "bank": "vo_pl1000_m.bnk"
+   "transcript": "Shine as one!",
+   "confidence": null,
+   "bank": "vo_pl1000_m.bnk",
+   "corrected": "consensus"
   },
   "139882743": {
    "wem_id": "139882743",
@@ -7524,9 +7525,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7381,
-   "transcript": "Scale Burst!",
-   "confidence": -0.547,
-   "bank": "vo_pl1000_m.bnk"
+   "transcript": "Gale Burst!",
+   "confidence": null,
+   "bank": "vo_pl1000_m.bnk",
+   "corrected": "consensus"
   },
   "673773617": {
    "wem_id": "673773617",
@@ -11892,9 +11894,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10072,
-   "transcript": "Kind of chaos!",
-   "confidence": -0.55,
-   "bank": "vo_pl1000_m.bnk"
+   "transcript": "Tide of Chaos!",
+   "confidence": null,
+   "bank": "vo_pl1000_m.bnk",
+   "corrected": "consensus"
   },
   "1022222400": {
    "wem_id": "1022222400",

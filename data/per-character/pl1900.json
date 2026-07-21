@@ -2340,9 +2340,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11363,
-   "transcript": "Red Dead Nation.",
-   "confidence": -0.59,
-   "bank": "vo_pl1900_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl1900_m.bnk",
+   "corrected": "consensus"
   },
   "131081094": {
    "wem_id": "131081094",
@@ -2772,9 +2773,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7635,
-   "transcript": "SCALEBURST!",
-   "confidence": -0.512,
-   "bank": "vo_pl1900_m.bnk"
+   "transcript": "Gale Burst!",
+   "confidence": null,
+   "bank": "vo_pl1900_m.bnk",
+   "corrected": "consensus"
   },
   "158609335": {
    "wem_id": "158609335",
@@ -3028,9 +3030,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12185,
-   "transcript": "LIGHTNIK ERADICATION!",
-   "confidence": -0.466,
-   "bank": "vo_pl1900_m.bnk"
+   "transcript": "Lightning Eradication!",
+   "confidence": null,
+   "bank": "vo_pl1900_m.bnk",
+   "corrected": "consensus"
   },
   "175373403": {
    "wem_id": "175373403",
@@ -17764,9 +17767,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4752,
-   "transcript": "GET EM!",
-   "confidence": -0.539,
-   "bank": "vo_pl1900_m.bnk"
+   "transcript": "Get him!",
+   "confidence": null,
+   "bank": "vo_pl1900_m.bnk",
+   "corrected": "consensus"
   },
   "967095280": {
    "wem_id": "967095280",

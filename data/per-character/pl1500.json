@@ -1812,9 +1812,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10754,
-   "transcript": "Prominent flare!",
-   "confidence": -0.373,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Prominence Flare.",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "174749189": {
    "wem_id": "174749189",
@@ -2212,9 +2213,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11381,
-   "transcript": "Magnetic Eradication!",
-   "confidence": -0.531,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Lightning Eradication!",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "212393620": {
    "wem_id": "212393620",
@@ -3284,9 +3286,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10354,
-   "transcript": "Kind of chaos.",
-   "confidence": -0.73,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Tide of Chaos!",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "342583167": {
    "wem_id": "342583167",
@@ -3700,9 +3703,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10348,
-   "transcript": "Sinus One!",
-   "confidence": -0.652,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Shine as one!",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "386094203": {
    "wem_id": "386094203",
@@ -6212,9 +6216,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9896,
-   "transcript": "Earth that nation!",
-   "confidence": -0.393,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Earth detonation!",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "641303984": {
    "wem_id": "641303984",
@@ -7732,9 +7737,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9401,
-   "transcript": "HERE WE ARE!",
-   "confidence": -0.714,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Lyria!",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "801955034": {
    "wem_id": "801955034",
@@ -7796,9 +7802,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7960,
-   "transcript": "Steel Burst!",
-   "confidence": -0.385,
-   "bank": "vo_pl1500_m.bnk"
+   "transcript": "Gale Burst!",
+   "confidence": null,
+   "bank": "vo_pl1500_m.bnk",
+   "corrected": "consensus"
   },
   "804896757": {
    "wem_id": "804896757",

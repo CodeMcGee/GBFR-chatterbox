@@ -6912,9 +6912,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11510,
-   "transcript": "LIGHTNAKE ERADICATION!",
-   "confidence": -0.476,
-   "bank": "vo_pl2700_02_00_00_m.bnk"
+   "transcript": "Lightning Eradication!",
+   "confidence": null,
+   "bank": "vo_pl2700_02_00_00_m.bnk",
+   "corrected": "consensus"
   },
   "486717022": {
    "wem_id": "486717022",

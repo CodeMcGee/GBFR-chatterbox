@@ -4532,9 +4532,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10710,
-   "transcript": "Prominence Flair.",
-   "confidence": -0.326,
-   "bank": "vo_pl0500_m.bnk"
+   "transcript": "Prominence Flare.",
+   "confidence": null,
+   "bank": "vo_pl0500_m.bnk",
+   "corrected": "consensus"
   },
   "419244916": {
    "wem_id": "419244916",

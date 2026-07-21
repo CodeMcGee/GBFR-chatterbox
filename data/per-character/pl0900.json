@@ -4804,9 +4804,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9904,
-   "transcript": "Blue Dead Nation!",
-   "confidence": -0.255,
-   "bank": "vo_pl0900_m.bnk"
+   "transcript": "Blue detonation!",
+   "confidence": null,
+   "bank": "vo_pl0900_m.bnk",
+   "corrected": "consensus"
   },
   "406339468": {
    "wem_id": "406339468",
@@ -6116,9 +6117,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11402,
-   "transcript": "Red Dead Nation!",
-   "confidence": -0.31,
-   "bank": "vo_pl0900_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl0900_m.bnk",
+   "corrected": "consensus"
   },
   "519521622": {
    "wem_id": "519521622",
@@ -7284,9 +7286,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9602,
-   "transcript": "Robin and Splare.",
-   "confidence": -0.496,
-   "bank": "vo_pl0900_m.bnk"
+   "transcript": "Prominence Flare.",
+   "confidence": null,
+   "bank": "vo_pl0900_m.bnk",
+   "corrected": "consensus"
   },
   "588687735": {
    "wem_id": "588687735",
@@ -7492,9 +7495,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9681,
-   "transcript": "Air Dead Nation.",
-   "confidence": -0.527,
-   "bank": "vo_pl0900_m.bnk"
+   "transcript": "Air detonation!",
+   "confidence": null,
+   "bank": "vo_pl0900_m.bnk",
+   "corrected": "consensus"
   },
   "603861747": {
    "wem_id": "603861747",
@@ -9108,9 +9112,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9715,
-   "transcript": "Shine is one.",
-   "confidence": -0.392,
-   "bank": "vo_pl0900_m.bnk"
+   "transcript": "Shine as one!",
+   "confidence": null,
+   "bank": "vo_pl0900_m.bnk",
+   "corrected": "consensus"
   },
   "739448555": {
    "wem_id": "739448555",

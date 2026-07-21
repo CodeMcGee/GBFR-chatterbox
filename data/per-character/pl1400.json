@@ -2260,9 +2260,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5471,
-   "transcript": "Got him!",
-   "confidence": -0.535,
-   "bank": "vo_pl1400_m.bnk"
+   "transcript": "Get him!",
+   "confidence": null,
+   "bank": "vo_pl1400_m.bnk",
+   "corrected": "consensus"
   },
   "189753577": {
    "wem_id": "189753577",
@@ -9204,9 +9205,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12417,
-   "transcript": "Lightnik eradication.",
-   "confidence": -0.588,
-   "bank": "vo_pl1400_m.bnk"
+   "transcript": "Lightning Eradication!",
+   "confidence": null,
+   "bank": "vo_pl1400_m.bnk",
+   "corrected": "consensus"
   },
   "773926029": {
    "wem_id": "773926029",
@@ -9524,9 +9526,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9991,
-   "transcript": "Shine is one!",
-   "confidence": -0.491,
-   "bank": "vo_pl1400_m.bnk"
+   "transcript": "Shine as one!",
+   "confidence": null,
+   "bank": "vo_pl1400_m.bnk",
+   "corrected": "consensus"
   },
   "803946951": {
    "wem_id": "803946951",

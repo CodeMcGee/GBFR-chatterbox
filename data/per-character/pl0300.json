@@ -8980,9 +8980,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10141,
-   "transcript": "Red Dead Nation.",
-   "confidence": -0.39,
-   "bank": "vo_pl0300_m.bnk"
+   "transcript": "Red detonation!",
+   "confidence": null,
+   "bank": "vo_pl0300_m.bnk",
+   "corrected": "consensus"
   },
   "843635980": {
    "wem_id": "843635980",
