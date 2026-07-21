@@ -13316,7 +13316,7 @@
    "recovered": true,
    "prefetch_s": 0.508,
    "bytes": 88836,
-   "transcript": "Here I go! *sharp exhale* *pained groan* *sharp inhale* How... is this supposed to be fun?",
+   "transcript": "Here I go! How... is this supposed to be fun?",
    "confidence": null,
    "bank": "vo_pl2900_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
