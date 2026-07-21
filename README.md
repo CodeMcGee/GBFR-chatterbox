@@ -1,7 +1,9 @@
 # GBFR Chatterbox
 
-A dataset of every English battle voice line in *Granblue Fantasy: Relink*, and
-a small Windows tool for muting or swapping them.
+A dataset of every English battle voice line in *Granblue Fantasy: Relink*.
+The data is the project; the bundled Windows app is a toy for browsing and
+listening to it against your own install - with muting and swapping thrown in
+as a fun experiment.
 
 > **This edits your game files. Use it at your own risk.** Every file is backed
 > up before it is changed, and Steam's "Verify integrity of game files" restores
@@ -41,8 +43,9 @@ if accuracy matters. Listen before believing anything that reads oddly.
 
 ## The tool
 
-Browse a character's lines, listen, mute or swap. Reads **your** installed game
-files; nothing is uploaded or downloaded.
+A viewer for the dataset: browse a character's lines, listen to each against
+your installed game files, and - the experiment part - mute or swap them.
+Nothing is uploaded or downloaded.
 
 ### Running it (Windows)
 
@@ -94,6 +97,14 @@ and [vgmstream](https://vgmstream.org) at `tools/vgmstream-cli` for previews.
 python serve.py      # falls back to data/per-character automatically
 uv run pytest        # test suite, 70% coverage gate
 ```
+
+## Contributing
+
+- **Transcript corrections:** flag lines as wrong in the app and type the
+  corrected words - that writes `%APPDATA%\chatterbox\flags.json` - then open
+  an issue with its contents, or plain `"wem_id": "correct words"` pairs.
+  Verified fixes land in `dev/corrections.json` and the next dataset build.
+- **PRs welcome** for code, prompting, or transcription fixes.
 
 ## Licence
 
