@@ -23,10 +23,23 @@
   main { padding:0 16px 64px; }
   h2 { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--dim);
        margin:20px 0 6px; font-weight:600; }
+  tr.grp td { border:none; padding:0; }
+  tr.grp h2 { margin:18px 0 4px; }
   table { width:100%; border-collapse:collapse; }
   td { padding:5px 8px; border-bottom:1px solid var(--line); vertical-align:middle; }
+  th { padding:6px 8px; text-align:left; font-size:.75em; text-transform:uppercase;
+       letter-spacing:.04em; color:var(--dim); font-weight:600;
+       border-bottom:1px solid var(--line); white-space:nowrap;
+       position:sticky; top:var(--head-h,56px); z-index:4; background:var(--bg); }
   tr.on-muted .txt { text-decoration:line-through; color:var(--dim); }
   tr.on-swapped .txt { color:var(--swap); }
+  tr.on-wrong { background:rgba(220,80,80,.10); }
+  tr.on-wrong .txt { color:#ff9d9d; }
+  td.flag { width:26px; text-align:center; }
+  td.flag input { cursor:pointer; }
+  td.conf { width:52px; text-align:right; font-variant-numeric:tabular-nums; color:var(--dim); font-size:.85em; }
+  td.conf.c-mid { color:#e0b34d; }
+  td.conf.c-bad { color:#e07a5f; }
   .txt { width:45%; }
   .lbl { color:var(--dim); font-family:ui-monospace, monospace; font-size:12px; }
   .partner { color:var(--accent); font-family:system-ui, sans-serif; }
@@ -222,10 +235,32 @@ function render() {
                          .filter(l => !(hideStr && l.streamed));
   const groups = {};
   for (const l of rows) (groups[group(l)] ||= []).push(l);
-  $('#main').innerHTML = Object.keys(groups).sort().map(g => `
-    <h2>${groupHeader(g)} <span style="opacity:.6">(${groups[g].length})</span></h2>
-    <table>${groups[g].map(row).join('')}</table>`).join('') || '<p>No lines.</p>';
+  // One table for the whole page so a single header row stays aligned and sticky;
+  // group titles become full-width rows between the groups.
+  const body = Object.keys(groups).sort().map(g =>
+    `<tr class=grp><td colspan=7><h2>${groupHeader(g)} `
+    + `<span style="opacity:.6">(${groups[g].length})</span></h2></td></tr>`
+    + groups[g].map(row).join('')).join('');
+  $('#main').innerHTML = body ? `<table>${THEAD}${body}</table>` : '<p>No lines.</p>';
+  setHead();
 }
+
+// Park the sticky column headers just under the sticky page header, whatever its height.
+function setHead() {
+  const h = document.querySelector('header');
+  if (h) document.documentElement.style.setProperty('--head-h', h.offsetHeight + 'px');
+}
+addEventListener('resize', setHead);
+
+const THEAD = `<thead><tr>
+  <th class=flag title="Mark transcripts that are wrong">Wrong?</th>
+  <th title="Preview the line">Play</th>
+  <th>Transcript</th>
+  <th class=conf title="Transcription confidence (0 = confident, very negative = likely wrong)">Conf</th>
+  <th class=lbl>Label</th>
+  <th class=dur>Length</th>
+  <th class=act>Mute / Swap</th>
+</tr></thead>`;
 
 // A line is muted if newly toggled, or already muted on disk and not pending un-mute.
 const isMuted = l => mutes.has(l.wem_id) || (l.muted && !unmutes.has(l.wem_id));
@@ -234,17 +269,32 @@ function row(l) {
   const muted = isMuted(l);
   const from = swaps[l.wem_id] || l.swapped_from;
   const note = (!muted && from) ? ` &rarr; plays ${said(from)}` : '';
-  return `<tr class="${muted ? 'on-muted' : (from ? 'on-swapped' : '')}">
+  const cls = [muted ? 'on-muted' : (from ? 'on-swapped' : ''), l.flagged ? 'on-wrong' : ''].join(' ').trim();
+  return `<tr class="${cls}">
+    <td class=flag><input type=checkbox ${l.flagged ? 'checked' : ''}
+      title="Mark this transcript as incorrect"
+      onchange="toggleFlag('${l.wem_id}', this)"></td>
     <td class=act style="text-align:left;width:52px">
       <button onclick="play('${l.wem_id}')" title="Preview">&#9654;</button>${l.preview_full ? ''
         : `<span class=clip title="Only the ${l.prefetch_s ?? '~0.4'}s cached in the game bank can be previewed here \u2014 the rest of this line streams from the game archives. The full line is ${l.duration ? l.duration.toFixed(2) : '?'}s and is unaffected by muting.">&#9899;</span>`}</td>
     <td class=txt>${esc(l.transcript) || '<i style="opacity:.5">(no speech)</i>'}${esc(note)}</td>
+    <td class="conf ${confClass(l.confidence)}" title="Transcription confidence (0 = confident, very negative = likely wrong)">${l.confidence != null ? l.confidence.toFixed(2) : ''}</td>
     <td class=lbl>${esc(l.label.split('_vo_')[1] || '')}</td>
     <td class=dur>${l.duration ? l.duration.toFixed(2) + 's' : ''}</td>
     <td class=act>
       <button class="${muted ? 'is-muted' : ''}" onclick="toggleMute('${l.wem_id}')">Mute</button>
       <button class="${(!muted && from) ? 'is-swapped' : ''}" onclick="openSwap('${l.wem_id}')">Swap</button>
     </td></tr>`;
+}
+
+const confClass = c => c == null ? '' : c < -0.6 ? 'c-bad' : c < -0.4 ? 'c-mid' : '';
+
+async function toggleFlag(id, el) {
+  const l = data.lines.find(x => x.wem_id === id);
+  if (l) l.flagged = el.checked;                 // keep local state in sync
+  el.closest('tr').classList.toggle('on-wrong', el.checked);
+  const r = await post('/api/flag', { wem_id: id, wrong: el.checked });
+  if (r.error) { toast('Error: ' + r.error); el.checked = !el.checked; }
 }
 
 const said = id => { const l = data.lines.find(x => x.wem_id === id);
@@ -268,9 +318,11 @@ async function play(id) {
     const blob = await (await fetch(`/api/wav?pl=${pl}&id=${id}`, {cache: 'no-store'})).blob();
     wavCache.set(id, URL.createObjectURL(blob));
   }
-  audio = new Audio(wavCache.get(id));
-  audio.preload = 'auto';
-  await audio.play().catch(e => toast('Playback failed: ' + e.message));
+  const a = new Audio(wavCache.get(id));   // local handle: a later click may reassign `audio`
+  a.preload = 'auto';
+  audio = a;
+  // AbortError = a newer play() superseded this one; audio still plays, so don't toast it.
+  await a.play().catch(e => { if (e.name !== 'AbortError') toast('Playback failed: ' + e.message); });
 }
 
 function toggleMute(id) {
