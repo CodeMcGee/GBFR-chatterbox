@@ -326,11 +326,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4276,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl2200_01_02_00_m.bnk",
    "source_model": "qwen3-omni",
-   "corrected": "consensus"
+   "corrected": "manual"
   },
   "22176491": {
    "wem_id": "22176491",

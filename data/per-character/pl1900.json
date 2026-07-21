@@ -17575,10 +17575,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4632,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl1900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "898772426": {
    "wem_id": "898772426",

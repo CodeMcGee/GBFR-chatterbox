@@ -7865,11 +7865,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5390,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl0700_m.bnk",
    "source_model": "qwen3-omni",
-   "corrected": "consensus"
+   "corrected": "manual"
   },
   "679590392": {
    "wem_id": "679590392",

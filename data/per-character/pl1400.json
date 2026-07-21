@@ -9941,11 +9941,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7588,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl1400_m.bnk",
    "source_model": "qwen3-omni",
-   "corrected": "consensus"
+   "corrected": "manual"
   },
   "798145851": {
    "wem_id": "798145851",

@@ -11114,11 +11114,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5252,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl0600_m.bnk",
    "source_model": "qwen3-omni",
-   "corrected": "consensus"
+   "corrected": "manual"
   },
   "857950406": {
    "wem_id": "857950406",

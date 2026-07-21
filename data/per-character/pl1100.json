@@ -10905,10 +10905,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6564,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl1100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "437852786": {
    "wem_id": "437852786",
@@ -25547,11 +25548,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6486,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl1100_m.bnk",
    "source_model": "qwen3-omni",
-   "corrected": "consensus"
+   "corrected": "manual"
   },
   "1041898318": {
    "wem_id": "1041898318",

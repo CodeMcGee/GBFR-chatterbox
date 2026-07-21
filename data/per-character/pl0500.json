@@ -8751,10 +8751,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5929,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl0500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "752743013": {
    "wem_id": "752743013",

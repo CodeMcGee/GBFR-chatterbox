@@ -12610,10 +12610,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5309,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl1600_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "1073601061": {
    "wem_id": "1073601061",

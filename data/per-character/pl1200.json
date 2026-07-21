@@ -11398,11 +11398,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8560,
-   "transcript": "Rollin'!",
+   "transcript": "Rolan!",
    "confidence": null,
    "bank": "vo_pl1200_m.bnk",
    "source_model": "qwen3-omni",
-   "corrected": "consensus"
+   "corrected": "manual"
   },
   "970936046": {
    "wem_id": "970936046",
