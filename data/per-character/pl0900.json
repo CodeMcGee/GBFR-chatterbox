@@ -10793,10 +10793,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13062,
-   "transcript": "You screwed up, thing!",
+   "transcript": "You screwed up, Vane.",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "825116030": {
    "wem_id": "825116030",
