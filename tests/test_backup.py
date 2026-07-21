@@ -273,5 +273,9 @@ def main():
     print("\n11 checks passed")
 
 
+def test_all():
+    main()
+
+
 if __name__ == "__main__":
     main()
