@@ -111,7 +111,8 @@ GRUNT_PROMPT = (
     "interjection - never a description, never asterisks, never words.")
 
 
-def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None):
+def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None, temperature=0,
+               with_conf=False):
     # system: instructions + glossary. Then verified (audio -> transcript) pairs
     # for THIS character as few-shot turns, priming the model on their voice.
     messages = [{"role": "system", "content": system or PROMPT}]
@@ -120,15 +121,23 @@ def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None):
         messages.append({"role": "assistant", "content": ex_text})
     target = [_audio(wav_path)]
     if ctx:
-        target.insert(0, {"type": "text", "text": f"Context — this clip's line type is: {ctx}."})
+        target.insert(0, {"type": "text", "text": f"Context: {ctx}"})
     messages.append({"role": "user", "content": target})
     body = json.dumps({
-        "model": model, "temperature": 0, "max_tokens": 128, "messages": messages,
+        "model": model, "temperature": temperature, "max_tokens": 128, "messages": messages,
+        "logprobs": with_conf,
     }).encode()
     req = urllib.request.Request(f"{base}/chat/completions", body,
                                  {"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=120) as r:
-        return json.loads(r.read())["choices"][0]["message"]["content"].strip()
+        ch = json.loads(r.read())["choices"][0]
+    text = ch["message"]["content"].strip()
+    if not with_conf:
+        return text
+    # avg token logprob, same idea as Whisper's avg_logprob but on qwen's own
+    # scale: correct lines sit near 0, garbage near -0.2 and below.
+    lps = [t["logprob"] for t in (ch.get("logprobs") or {}).get("content") or []]
+    return text, (round(sum(lps) / len(lps), 3) if lps else None)
 
 
 def main():
