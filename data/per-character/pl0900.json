@@ -10215,10 +10215,11 @@
    "recovered": true,
    "prefetch_s": 0.442,
    "bytes": 21225,
-   "transcript": "Well, pincer meets timbers!",
+   "transcript": "Well, pincer me timbers!",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "783657045": {
    "wem_id": "783657045",
