@@ -12,9 +12,9 @@ then measure agreement inside each group. A group qualifies only if it spans
 many characters AND they mostly agree. Then it lists the outliers a consensus
 fix would change - it does not apply anything.
 
-Usage: consensus.py [atlas.csv] [--min-chars N] [--agree F] [--out build/consensus.json]
+Usage: consensus.py [--atlas-dir data/per-character] [--min-chars N] [--agree F] [--apply]
 """
-import argparse, csv, json, pathlib, re
+import argparse, json, pathlib, re
 from collections import Counter, defaultdict
 
 
@@ -32,7 +32,6 @@ def slot(label):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("csv", nargs="?", default="data/gbfr-voice-atlas.csv")
     ap.add_argument("--min-chars", type=int, default=8,
                     help="a slot must span at least this many characters to vote")
     ap.add_argument("--agree", type=float, default=0.6,
@@ -42,16 +41,24 @@ def main():
                     help="skip slots matching this regex (default: emotes, which "
                          "deviate per character)")
     ap.add_argument("--atlas-dir", default="data/per-character",
-                    help="per-character JSONs to rewrite when --apply is given")
+                    help="per-character JSONs to read and (with --apply) rewrite")
     ap.add_argument("--apply", action="store_true",
                     help="write the corrections into the atlas JSONs (no review)")
     a = ap.parse_args()
     skip = re.compile(a.exclude)
 
+    # Read the per-character JSONs directly (not the derived CSV), so the read and
+    # write sides reference the same layer - no "rebuild the CSV first" ordering trap.
+    NAMES = json.loads(pathlib.Path("chatterbox/characters.json").read_text())
     groups = defaultdict(list)
-    for r in csv.DictReader(open(a.csv)):
-        if (r["transcript"] or "").strip():        # skip non-verbal / silent
-            groups[slot(r["label"])].append(r)
+    for f in sorted(pathlib.Path(a.atlas_dir).glob("pl*.json")):
+        pl = f.stem
+        for wid, line in json.loads(f.read_text())["lines"].items():
+            if (line.get("transcript") or "").strip():   # skip non-verbal / silent
+                groups[slot(line.get("label", ""))].append({
+                    "wem_id": wid, "pl_id": pl, "character": NAMES.get(pl, pl),
+                    "label": line.get("label", ""), "transcript": line["transcript"],
+                    "confidence": line.get("confidence")})
 
     eligible, corrections = [], []
     n_unique = n_divergent = 0

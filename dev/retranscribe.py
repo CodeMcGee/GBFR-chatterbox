@@ -16,7 +16,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
 import serve
-from chatterbox.banks import MediaBank, decode_wav
+from chatterbox.banks import MediaBank, decode_wav, atomic_write
 from chatterbox.pck import Pck
 from chatterbox.siero import DataArchive
 from smoke_qwen3omni import transcribe, decode_label
@@ -64,7 +64,7 @@ class Audio:
                 if self.archive and key in self.archive:
                     tmp = ROOT / "build" / "pck-all" / pname
                     tmp.parent.mkdir(parents=True, exist_ok=True)
-                    tmp.write_bytes(self.archive.read(key))
+                    atomic_write(tmp, self.archive.read(key))   # interrupt-safe, as extract_pcks does
                     self.pcks[pname] = Pck(tmp)
         return self.pcks[pname]
 
@@ -120,7 +120,7 @@ def main():
                 except Exception:
                     pass
 
-            done = new = 0
+            new = 0
             for wid, r in lines.items():
                 if not r.get("bank"):
                     continue

@@ -8,16 +8,11 @@ model on that character's voice before it transcribes an unknown line.
 
 Usage: build_exemplars.py [atlas.csv] [--per 2] [--out dev/exemplars.json]
 """
-import argparse, csv, json, pathlib, re
+import argparse, csv, json, pathlib, re, sys
 from collections import Counter, defaultdict
 
-
-def norm(t):        # compare transcripts ignoring case and punctuation (as in consensus.py)
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", "", (t or "").lower())).strip()
-
-
-def slot(label):    # character-independent slot key: drop PLxxxx_vo_ prefix and _PLxxxx partner
-    return re.sub(r"_PL\d{4}", "", re.sub(r"^PL\d+_vo_", "", label or ""))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from consensus import norm, slot   # one source of the grouping, so the two can't drift
 
 
 def main():

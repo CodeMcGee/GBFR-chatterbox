@@ -60,7 +60,7 @@ def main():
             rows.append({
                 "jp_wem_id": wid, "label": label,
                 "pl_id": e["pl_id"], "character": e["character"], "category": e["category"],
-                "partner": e.get("group", "").split("_PL")[-1] if "_PL" in e.get("group", "") else "",
+                "partner": e.get("group", "").partition("_PL")[2],   # "" when no partner
                 "english": e["transcript"], "jp_duration_s": dur, "en_wem_id": e["wem_id"],
             })
 
