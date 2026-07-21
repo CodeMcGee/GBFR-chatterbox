@@ -13211,9 +13211,9 @@
    "prefetch_s": 0.491,
    "bytes": 28118,
    "bank": "vo_pl1300_02_00_00_m.bnk",
-   "transcript": "Hi! I will drag the rest to the darkest depths!",
+   "transcript": "Aye, and we'll drag the rest to the darkest depths!",
    "confidence": null,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "563971706": {
    "wem_id": "563971706",

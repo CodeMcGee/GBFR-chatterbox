@@ -394,10 +394,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8574,
-   "transcript": "Diastrophism!",
+   "transcript": "Diastrophism",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "26069094": {
    "wem_id": "26069094",
@@ -5037,10 +5037,10 @@
    "recovered": true,
    "prefetch_s": 0.424,
    "bytes": 8949,
-   "transcript": "Got him on the ropes!",
+   "transcript": "Got em on the ropes!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "372902261": {
    "wem_id": "372902261",
@@ -10870,10 +10870,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4632,
-   "transcript": "Rackam!",
+   "transcript": "Rackam",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "779968861": {
    "wem_id": "779968861",
@@ -16840,9 +16840,9 @@
    "prefetch_s": null,
    "bytes": 5673,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Fraux!",
+   "transcript": "Fraux",
    "confidence": null,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "888099910": {
    "wem_id": "888099910",
@@ -17588,9 +17588,9 @@
    "prefetch_s": null,
    "bytes": 6145,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Seofon!",
+   "transcript": "Seofon",
    "confidence": null,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "731599350": {
    "wem_id": "731599350",
@@ -18200,9 +18200,9 @@
    "prefetch_s": null,
    "bytes": 6925,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Sandalphon!",
+   "transcript": "Sandalphon",
    "confidence": null,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "1069936247": {
    "wem_id": "1069936247",

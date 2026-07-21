@@ -5167,10 +5167,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8192,
-   "transcript": "Harvin!",
+   "transcript": "Erune woman!",
    "confidence": null,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "340275303": {
    "wem_id": "340275303",
@@ -5728,11 +5728,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10990,
-   "transcript": "Detonation!",
+   "transcript": "Red Detonation!",
    "confidence": null,
    "bank": "vo_pl2900_02_00_00_m.bnk",
    "corrected": "consensus",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "381288444": {
    "wem_id": "381288444",
@@ -12634,10 +12634,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11962,
-   "transcript": "Knights shall cover you.",
+   "transcript": "Night shall cover you.",
    "confidence": null,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "920492846": {
    "wem_id": "920492846",
