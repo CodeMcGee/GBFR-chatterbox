@@ -139,7 +139,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5064,
-   "transcript": "Yaah!",
+   "transcript": "Hyah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -207,7 +207,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3743,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -224,7 +224,7 @@
    "recovered": true,
    "prefetch_s": 0.449,
    "bytes": 10426,
-   "transcript": "I'll be right behind you!",
+   "transcript": "And I'll be right behind ya!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -326,7 +326,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4440,
-   "transcript": "Hnngh!",
+   "transcript": "Ugh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -360,7 +360,7 @@
    "recovered": true,
    "prefetch_s": 0.434,
    "bytes": 7163,
-   "transcript": "Alright!",
+   "transcript": "Well, alright!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -394,7 +394,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8574,
-   "transcript": "Disastrous!",
+   "transcript": "Diastrophism!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -462,7 +462,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3230,
-   "transcript": "Hm.",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -513,7 +513,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7144,
-   "transcript": "Tchaa!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -632,7 +632,7 @@
    "recovered": true,
    "prefetch_s": 0.45,
    "bytes": 13129,
-   "transcript": "You mean business.",
+   "transcript": "You mean business!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -666,7 +666,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7385,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -802,7 +802,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4538,
-   "transcript": "Tchaa!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -836,7 +836,7 @@
    "recovered": true,
    "prefetch_s": 0.448,
    "bytes": 8416,
-   "transcript": "I appreciate it.",
+   "transcript": "I appreciate it!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -853,7 +853,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7168,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -887,7 +887,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2019,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -955,7 +955,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5578,
-   "transcript": "Rrah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -989,7 +989,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4036,
-   "transcript": "Hnngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1006,7 +1006,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5230,
-   "transcript": "Yah!",
+   "transcript": "Hyah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1023,7 +1023,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4007,
-   "transcript": "Hnngh!",
+   "transcript": "Huh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1108,7 +1108,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9541,
-   "transcript": "Hnngh!",
+   "transcript": "Ugh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni",
@@ -1194,7 +1194,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 21074,
-   "transcript": "No! No!",
+   "transcript": "No! No! Aaaah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1279,7 +1279,7 @@
    "recovered": true,
    "prefetch_s": 0.459,
    "bytes": 15481,
-   "transcript": "We have to stop Angra Mainyu!",
+   "transcript": "We have to stop Angreimainu!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1483,7 +1483,7 @@
    "recovered": true,
    "prefetch_s": 0.457,
    "bytes": 14471,
-   "transcript": "Really? Thank you.",
+   "transcript": "Really? Thank you!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1500,7 +1500,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6446,
-   "transcript": "Break through!",
+   "transcript": "Breakthrough!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1517,7 +1517,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3945,
-   "transcript": "Heh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1534,7 +1534,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6817,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1585,7 +1585,7 @@
    "recovered": true,
    "prefetch_s": 0.435,
    "bytes": 12217,
-   "transcript": "Protect Historia!",
+   "transcript": "Protect Historiaeth!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1602,7 +1602,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10840,
-   "transcript": "Don't mind if I do.",
+   "transcript": "Don't mind if I do!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1636,7 +1636,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4941,
-   "transcript": "Wait a minute.",
+   "transcript": "Hmph!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1738,7 +1738,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4041,
-   "transcript": "Got him!",
+   "transcript": "Got 'em!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1755,7 +1755,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3458,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1841,7 +1841,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4589,
-   "transcript": "Huh?",
+   "transcript": "Wait b.",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1943,7 +1943,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5919,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1960,7 +1960,7 @@
    "recovered": true,
    "prefetch_s": 0.482,
    "bytes": 15952,
-   "transcript": "We can't let Gallanza outdo us!",
+   "transcript": "We can't let Ghandagoza outdo us!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -1977,7 +1977,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4084,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2096,7 +2096,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6127,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2113,7 +2113,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5302,
-   "transcript": "Hnngh!",
+   "transcript": "Gah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2147,7 +2147,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4459,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2198,7 +2198,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4088,
-   "transcript": "Nngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2368,7 +2368,7 @@
    "recovered": true,
    "prefetch_s": 0.442,
    "bytes": 16867,
-   "transcript": "I wanna be like her when I grow up.",
+   "transcript": "I wanna be like her when I grow up!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2810,7 +2810,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5390,
-   "transcript": "Uwa!",
+   "transcript": "Uwaah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -2929,7 +2929,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5957,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3031,7 +3031,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6982,
-   "transcript": "Hyah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3065,7 +3065,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2607,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3082,7 +3082,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13311,
-   "transcript": "Hnnngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3099,7 +3099,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9644,
-   "transcript": "Shine as one!",
+   "transcript": "Shine as One!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3167,7 +3167,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4730,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3184,7 +3184,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5330,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3320,7 +3320,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6190,
-   "transcript": "Kraaah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3439,7 +3439,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4863,
-   "transcript": "Oikin!",
+   "transcript": "Eugen!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3473,7 +3473,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7033,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3541,7 +3541,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2561,
-   "transcript": "Ja!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -3796,7 +3796,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4357,
-   "transcript": "Tchaa!",
+   "transcript": "Tch!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -4340,7 +4340,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10967,
-   "transcript": "I needed that.",
+   "transcript": "I needed that!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -4391,7 +4391,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6733,
-   "transcript": "Graaah!",
+   "transcript": "Gah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -4612,7 +4612,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7264,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -4663,7 +4663,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12288,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -4901,7 +4901,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9979,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -4969,7 +4969,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2002,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5020,7 +5020,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11470,
-   "transcript": "Okay, here goes!",
+   "transcript": "Okay! Here goes!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5088,7 +5088,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10459,
-   "transcript": "Sniff",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5105,7 +5105,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3440,
-   "transcript": "It!",
+   "transcript": "Id!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5156,7 +5156,7 @@
    "recovered": true,
    "prefetch_s": 0.404,
    "bytes": 7826,
-   "transcript": "You like that?",
+   "transcript": "Ya like that?",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5224,7 +5224,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3133,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5292,7 +5292,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5999,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5360,7 +5360,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3976,
-   "transcript": "Yeh!",
+   "transcript": "Yah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5394,7 +5394,7 @@
    "recovered": true,
    "prefetch_s": 0.447,
    "bytes": 9960,
-   "transcript": "Pincer ahoy!",
+   "transcript": "Pincer Ahoy!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5598,7 +5598,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2873,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5717,7 +5717,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9049,
-   "transcript": "Attack formation!",
+   "transcript": "Attack Formation!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5785,7 +5785,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4590,
-   "transcript": "Hnngh!",
+   "transcript": "Gah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5802,7 +5802,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13528,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5887,7 +5887,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5600,
-   "transcript": "Ugh!",
+   "transcript": "Ahh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -5972,7 +5972,7 @@
    "recovered": true,
    "prefetch_s": 0.622,
    "bytes": 22253,
-   "transcript": "Our crew is the best!",
+   "transcript": "Heh heh! Our crew is the best!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6006,7 +6006,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4309,
-   "transcript": "Ha!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6227,7 +6227,7 @@
    "recovered": true,
    "prefetch_s": 0.103,
    "bytes": 4396,
-   "transcript": "Hnh!",
+   "transcript": "Hmph!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6482,7 +6482,7 @@
    "recovered": true,
    "prefetch_s": 0.43,
    "bytes": 12006,
-   "transcript": "Yeah! That was great!",
+   "transcript": "Yeah, that was great!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6516,7 +6516,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11279,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6601,7 +6601,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12469,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6873,7 +6873,7 @@
    "recovered": true,
    "prefetch_s": 0.43,
    "bytes": 18453,
-   "transcript": "Narmaya, that's swordplay!",
+   "transcript": "Narmaya, that swordplay!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6890,7 +6890,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5268,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6975,7 +6975,7 @@
    "recovered": true,
    "prefetch_s": 0.417,
    "bytes": 9432,
-   "transcript": "Direct hit!",
+   "transcript": "Direct Hit!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -6992,7 +6992,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5289,
-   "transcript": "Rrah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7026,7 +7026,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12079,
-   "transcript": "Hnngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7043,7 +7043,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5236,
-   "transcript": "Gah!",
+   "transcript": "Ugh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7060,7 +7060,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4098,
-   "transcript": "Get him!",
+   "transcript": "Get 'em!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7179,7 +7179,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11765,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7264,7 +7264,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7570,
-   "transcript": "Safety first!",
+   "transcript": "Safety First!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7315,7 +7315,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11813,
-   "transcript": "Haaaaaah!",
+   "transcript": "Haaaaaaah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7366,7 +7366,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6454,
-   "transcript": "What's wrong?",
+   "transcript": "What's wrong!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7400,7 +7400,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8248,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7502,7 +7502,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7448,
-   "transcript": "Ahh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7638,7 +7638,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5958,
-   "transcript": "Gah!",
+   "transcript": "Graaah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7655,7 +7655,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6962,
-   "transcript": "Hraaagh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7706,7 +7706,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7899,
-   "transcript": "Haaaah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni",
@@ -7809,7 +7809,7 @@
    "recovered": true,
    "prefetch_s": 0.422,
    "bytes": 12406,
-   "transcript": "What happened to him!",
+   "transcript": "Wha-what happened to him!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -7979,7 +7979,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6616,
-   "transcript": "I'll get him!",
+   "transcript": "I'll get 'em!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8047,7 +8047,7 @@
    "recovered": true,
    "prefetch_s": 0.453,
    "bytes": 14385,
-   "transcript": "I could barely keep up.",
+   "transcript": "I could barely keep up!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8319,7 +8319,7 @@
    "recovered": true,
    "prefetch_s": 0.388,
    "bytes": 18606,
-   "transcript": "Hopefully we can get to the monastery quick.",
+   "transcript": "Hopefully we can get to the monastery quick!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8370,7 +8370,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7404,
-   "transcript": "Hnngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8387,7 +8387,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10459,
-   "transcript": "Sniff",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8438,7 +8438,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 27548,
-   "transcript": "That worked out somehow or other.",
+   "transcript": "That worked out... somehow or other.",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8455,7 +8455,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7617,
-   "transcript": "Graaah!",
+   "transcript": "Gah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8472,7 +8472,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4798,
-   "transcript": "Ha!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8523,7 +8523,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4934,
-   "transcript": "Heh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8540,7 +8540,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5909,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8642,7 +8642,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 21613,
-   "transcript": "Huh-huh-huh-huh-huh",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8727,7 +8727,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5092,
-   "transcript": "Tchya!",
+   "transcript": "Hyah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8744,7 +8744,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 15081,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8761,7 +8761,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7460,
-   "transcript": "Huh?",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8829,7 +8829,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 25984,
-   "transcript": "To the ends of the skies! To Estalucia!",
+   "transcript": "To the ends of the skies, to Estalucia!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8863,7 +8863,7 @@
    "recovered": true,
    "prefetch_s": 0.417,
    "bytes": 23053,
-   "transcript": "I bet you say that to all the skyfarers.",
+   "transcript": "Aww, I bet you say that to all the skyfarers.",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -8999,7 +8999,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2791,
-   "transcript": "Hnngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9016,7 +9016,7 @@
    "recovered": true,
    "prefetch_s": 0.679,
    "bytes": 9637,
-   "transcript": "Huh.",
+   "transcript": "Huh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9101,7 +9101,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5383,
-   "transcript": "Gah!",
+   "transcript": "Grrr!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9203,7 +9203,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5541,
-   "transcript": "Rrah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9220,7 +9220,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2019,
-   "transcript": "Wait!",
+   "transcript": "Huh?!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9237,7 +9237,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 1795,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9271,7 +9271,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 1912,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9305,7 +9305,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5659,
-   "transcript": "Yah!",
+   "transcript": "Hyah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9339,7 +9339,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3085,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9492,7 +9492,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7961,
-   "transcript": "Nyaa!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9679,7 +9679,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 1629,
-   "transcript": "Hyah!",
+   "transcript": "Sword of Lumiel!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9713,7 +9713,7 @@
    "recovered": true,
    "prefetch_s": 0.46,
    "bytes": 12084,
-   "transcript": "Come back! Id!",
+   "transcript": "Come back... in!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9730,7 +9730,7 @@
    "recovered": true,
    "prefetch_s": 0.435,
    "bytes": 20973,
-   "transcript": "Come on! How often have you saved my hide?",
+   "transcript": "Come on, how often have you saved my hide?",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9798,7 +9798,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4309,
-   "transcript": "Hnngh!",
+   "transcript": "Hmph!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -9832,7 +9832,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3187,
-   "transcript": "Hnngh!",
+   "transcript": "Huh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10003,7 +10003,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9103,
-   "transcript": "How's that feel?",
+   "transcript": "How's that feel!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10037,7 +10037,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 84624,
-   "transcript": "Hah... hah...",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10071,7 +10071,7 @@
    "recovered": true,
    "prefetch_s": 0.422,
    "bytes": 11108,
-   "transcript": "Wow, good stuff!",
+   "transcript": "Wow! Good stuff!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10088,7 +10088,7 @@
    "recovered": true,
    "prefetch_s": 0.454,
    "bytes": 16497,
-   "transcript": "How do we fight this moving castle?",
+   "transcript": "How do we fight this moving castle!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10156,7 +10156,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8468,
-   "transcript": "Beat him down!",
+   "transcript": "Beat 'em down!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10275,7 +10275,7 @@
    "recovered": true,
    "prefetch_s": 0.46,
    "bytes": 17355,
-   "transcript": "Lyria! Come back to us!",
+   "transcript": "Lyria, come back to us!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10411,7 +10411,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8589,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10428,7 +10428,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4316,
-   "transcript": "Eugen!",
+   "transcript": "Oi, Eugen!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10445,7 +10445,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5318,
-   "transcript": "Hnngh!",
+   "transcript": "Ugh!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10479,7 +10479,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2128,
-   "transcript": "Hup!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10513,7 +10513,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3660,
-   "transcript": "Yep!",
+   "transcript": "Yup!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10632,7 +10632,7 @@
    "recovered": true,
    "prefetch_s": 0.461,
    "bytes": 15159,
-   "transcript": "Vaseraga! He's our man!",
+   "transcript": "Vaseraga, he's our man!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10683,7 +10683,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5238,
-   "transcript": "Tchah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10734,7 +10734,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6237,
-   "transcript": "Wait a.",
+   "transcript": "Wait a...",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10802,7 +10802,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7053,
-   "transcript": "Ja!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10853,7 +10853,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3380,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10870,7 +10870,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4632,
-   "transcript": "Rack'em!",
+   "transcript": "Rackam!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10904,7 +10904,7 @@
    "recovered": true,
    "prefetch_s": 0.467,
    "bytes": 8026,
-   "transcript": "Thanks, Sid!",
+   "transcript": "Thanks, Id!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -10938,7 +10938,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7958,
-   "transcript": "Hya!",
+   "transcript": "Hyah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11023,7 +11023,7 @@
    "recovered": true,
    "prefetch_s": 0.439,
    "bytes": 11336,
-   "transcript": "Magic, begone!",
+   "transcript": "Magic begone!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11057,7 +11057,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5439,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11312,7 +11312,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12529,
-   "transcript": "Pfft!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11364,7 +11364,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8060,
-   "transcript": "Careful now.",
+   "transcript": "Careful now!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11585,7 +11585,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5814,
-   "transcript": "Ha!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11602,7 +11602,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4321,
-   "transcript": "Kraaah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11909,7 +11909,7 @@
    "recovered": true,
    "prefetch_s": 0.087,
    "bytes": 4859,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11926,7 +11926,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2220,
-   "transcript": "Hyah!",
+   "transcript": "Ultimate Flash!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -11943,7 +11943,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2366,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12045,7 +12045,7 @@
    "recovered": true,
    "prefetch_s": 0.409,
    "bytes": 8445,
-   "transcript": "Now we're cooking!",
+   "transcript": "Now we're cookin'!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12062,7 +12062,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4390,
-   "transcript": "Hnngh!",
+   "transcript": "Grrr!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12130,7 +12130,7 @@
    "recovered": true,
    "prefetch_s": 0.457,
    "bytes": 12483,
-   "transcript": "Jeez... okay.",
+   "transcript": "Jeez! Okay!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12198,7 +12198,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7453,
-   "transcript": "Rrah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12300,7 +12300,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5763,
-   "transcript": "Tch",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12402,7 +12402,7 @@
    "recovered": true,
    "prefetch_s": 0.454,
    "bytes": 10758,
-   "transcript": "We better stay focused.",
+   "transcript": "We better stay focused!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12521,7 +12521,7 @@
    "recovered": true,
    "prefetch_s": 0.478,
    "bytes": 16933,
-   "transcript": "Shucks.",
+   "transcript": "Oh, shucks.",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12538,7 +12538,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7510,
-   "transcript": "Sigh",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12555,7 +12555,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9305,
-   "transcript": "Rain from above!",
+   "transcript": "Rain from Above!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12606,7 +12606,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4882,
-   "transcript": "Nngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12708,7 +12708,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6027,
-   "transcript": "Get him!",
+   "transcript": "Get 'em!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12742,7 +12742,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4057,
-   "transcript": "Hmph!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12776,7 +12776,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3503,
-   "transcript": "Yah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12844,7 +12844,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4691,
-   "transcript": "Hnngh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -12929,7 +12929,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6466,
-   "transcript": "Ahh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13082,7 +13082,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2130,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13099,7 +13099,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6099,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13150,7 +13150,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2221,
-   "transcript": "Hmph!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13524,7 +13524,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6644,
-   "transcript": "No!",
+   "transcript": "Oh no!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13575,7 +13575,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8482,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13847,7 +13847,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2227,
-   "transcript": "Tch!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -13983,7 +13983,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7048,
-   "transcript": "Graaah!",
+   "transcript": "Gah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14000,7 +14000,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5245,
-   "transcript": "Gah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14068,7 +14068,7 @@
    "recovered": true,
    "prefetch_s": 0.613,
    "bytes": 10475,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14102,7 +14102,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7369,
-   "transcript": "Gale Burst!",
+   "transcript": "Galeburst!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14272,7 +14272,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6469,
-   "transcript": "Take him out!",
+   "transcript": "Take 'em out!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14391,7 +14391,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2780,
-   "transcript": "Heh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14425,7 +14425,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5057,
-   "transcript": "Kyaah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14459,7 +14459,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5359,
-   "transcript": "Kah!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14544,7 +14544,7 @@
    "recovered": true,
    "prefetch_s": 0.295,
    "bytes": 25984,
-   "transcript": "To the ends of the skies! To Estalucia!",
+   "transcript": "To the ends of the skies, to Estalucia!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14578,7 +14578,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2083,
-   "transcript": "Huh!",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14646,7 +14646,7 @@
    "recovered": true,
    "prefetch_s": 0.425,
    "bytes": 11402,
-   "transcript": "Say more!",
+   "transcript": "Oh, say more!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14833,7 +14833,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5503,
-   "transcript": "Huh?",
+   "transcript": "Hah!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -14884,7 +14884,7 @@
    "recovered": true,
    "prefetch_s": 0.439,
    "bytes": 7341,
-   "transcript": "Push past them!",
+   "transcript": "Push past 'em!",
    "confidence": null,
    "bank": "vo_pl0000_m.bnk",
    "source_model": "qwen3-omni"
@@ -15072,7 +15072,7 @@
    "prefetch_s": null,
    "bytes": 7126,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Ghandagoza!",
+   "transcript": "Gallanza!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15089,7 +15089,7 @@
    "prefetch_s": 0.428,
    "bytes": 14495,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Couldn't do it without you, Frau!",
+   "transcript": "Couldn't do it without you, Fraux!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15208,7 +15208,7 @@
    "prefetch_s": 0.506,
    "bytes": 11535,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Just doin' what I can.",
+   "transcript": "Just doin' what I can!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15225,7 +15225,7 @@
    "prefetch_s": 0.452,
    "bytes": 18874,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "It's easy when we're all on the same page.",
+   "transcript": "It's easy when we're all on the same page!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15582,7 +15582,7 @@
    "prefetch_s": 0.452,
    "bytes": 16442,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Yeah! High fives all around!",
+   "transcript": "Yeah! High-fives all around!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15752,7 +15752,7 @@
    "prefetch_s": 0.461,
    "bytes": 13758,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "I'm on a roll!",
+   "transcript": "Haha! I'm on a roll!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15871,7 +15871,7 @@
    "prefetch_s": 0.462,
    "bytes": 15809,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "I'm with you there!",
+   "transcript": "I'm with ya there!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -15888,7 +15888,7 @@
    "prefetch_s": null,
    "bytes": 6830,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Eugen!",
+   "transcript": "Eustace!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -16041,7 +16041,7 @@
    "prefetch_s": 0.438,
    "bytes": 19938,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Sheesh, Flamemac is insane!",
+   "transcript": "Sheesh! Flammeck is insane!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -16721,7 +16721,7 @@
    "prefetch_s": null,
    "bytes": 5142,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Frau!",
+   "transcript": "Fraux!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -16738,7 +16738,7 @@
    "prefetch_s": 0.423,
    "bytes": 12981,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Thanks, Frau!",
+   "transcript": "Thanks, Fraux!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -16772,7 +16772,7 @@
    "prefetch_s": 0.454,
    "bytes": 11212,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Glad you're on our side.",
+   "transcript": "Glad you're on our side!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -16840,7 +16840,7 @@
    "prefetch_s": null,
    "bytes": 5673,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Frau!",
+   "transcript": "Fraux!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -16942,7 +16942,7 @@
    "prefetch_s": 0.455,
    "bytes": 16372,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Not at all.",
+   "transcript": "Not at all!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17061,7 +17061,7 @@
    "prefetch_s": 0.43,
    "bytes": 18220,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "That was close.",
+   "transcript": "That was close!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17129,7 +17129,7 @@
    "prefetch_s": 0.451,
    "bytes": 9555,
    "bank": "vo_pl0000_02_00_00_m.bnk",
-   "transcript": "Yeah! Got him!",
+   "transcript": "Yeah! Got 'em!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17214,7 +17214,7 @@
    "prefetch_s": 0.477,
    "bytes": 80050,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah!",
+   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17299,7 +17299,7 @@
    "prefetch_s": null,
    "bytes": 6054,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Sovon!",
+   "transcript": "Seofon!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17333,7 +17333,7 @@
    "prefetch_s": 0.451,
    "bytes": 38636,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Oh! I get it!",
+   "transcript": "Capita... Oh! I get it!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17367,7 +17367,7 @@
    "prefetch_s": 0.548,
    "bytes": 95462,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Gotta cut through it.",
+   "transcript": "Gah! Cut through it!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17401,7 +17401,7 @@
    "prefetch_s": 0.456,
    "bytes": 18070,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Man, you make our lives so easy!",
+   "transcript": "Oh man, you make our lives so easy!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17469,7 +17469,7 @@
    "prefetch_s": 0.55,
    "bytes": 72895,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah!",
+   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17486,7 +17486,7 @@
    "prefetch_s": 0.648,
    "bytes": 160466,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Sweet.",
+   "transcript": "Sweet!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17520,7 +17520,7 @@
    "prefetch_s": 0.412,
    "bytes": 17883,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "I could say the same to you!",
+   "transcript": "Heh heh, I could say the same to you!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17554,7 +17554,7 @@
    "prefetch_s": 0.409,
    "bytes": 8755,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Thanks, Tweyen.",
+   "transcript": "Thanks, Tweyen!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17571,7 +17571,7 @@
    "prefetch_s": 0.504,
    "bytes": 97758,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "One... two... three... four... five... six...",
+   "transcript": "One! Two! Three! Four! Five! Six!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17588,7 +17588,7 @@
    "prefetch_s": null,
    "bytes": 6145,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Souvane!",
+   "transcript": "Seofon!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17707,7 +17707,7 @@
    "prefetch_s": 0.547,
    "bytes": 203197,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "One... two... three... four... five... six...",
+   "transcript": "Here goes... One... Two... Three... Four... Five... Six...",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17826,7 +17826,7 @@
    "prefetch_s": 0.434,
    "bytes": 11746,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Thank you, Sandalphon.",
+   "transcript": "Thank you, Sandalphon!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17877,7 +17877,7 @@
    "prefetch_s": 0.298,
    "bytes": 5833,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Hehe!",
+   "transcript": "Hah!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17894,7 +17894,7 @@
    "prefetch_s": 0.467,
    "bytes": 26834,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "All together! Soiya!",
+   "transcript": "All together! Soyaa!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17911,7 +17911,7 @@
    "prefetch_s": 0.06,
    "bytes": 56101,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Fly like a wyvern! Sting like... Lyria!",
+   "transcript": "Fly like a Vern! Sting like... Lyria!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -17996,7 +17996,7 @@
    "prefetch_s": 0.418,
    "bytes": 65907,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Huh!",
+   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -18183,7 +18183,7 @@
    "prefetch_s": null,
    "bytes": 6787,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Sandalfin!",
+   "transcript": "Sandalphon!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -18200,7 +18200,7 @@
    "prefetch_s": null,
    "bytes": 6925,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Set a fine!",
+   "transcript": "Sandalphon!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -18217,7 +18217,7 @@
    "prefetch_s": 0.419,
    "bytes": 65772,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah!",
+   "transcript": "Hah! Hah! Hah! Hah! Hah!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -18268,7 +18268,7 @@
    "prefetch_s": 0.464,
    "bytes": 116918,
    "bank": "vo_pl0000_01_03_00_m.bnk",
-   "transcript": "Don't mind if I do. That hit the spot.",
+   "transcript": "Don't mind if I do! That hit the spot!",
    "confidence": null,
    "source_model": "qwen3-omni"
   },
@@ -18285,7 +18285,7 @@
    "prefetch_s": 0.193,
    "bytes": 118966,
    "bank": "vo_pl0000_01_03_00_m.bnk",
-   "transcript": "Come to papa. Ah, snacks.",
+   "transcript": "Come to Papa! Ah, snacks!",
    "confidence": null,
    "source_model": "qwen3-omni"
   }
