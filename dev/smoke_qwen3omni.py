@@ -100,10 +100,21 @@ def _audio(wav_path):
     return {"type": "input_audio", "input_audio": {"data": b, "format": "wav"}}
 
 
-def transcribe(base, model, wav_path, ctx="", exemplars=()):
+# Grunts need no glossary and no line-type context - the full prompt dilutes the
+# phonetic focus and the model collapses to "Hah!". A lean phonetic-only system
+# prompt (pass as `system=`) restores Whisper-level variety.
+GRUNT_PROMPT = (
+    "Transcribe the single short wordless vocalization in this clip as a phonetic "
+    "interjection - spell it the way it SOUNDS, matching the exact vowel and "
+    "consonants (e.g. Hah!, Tch!, Hmph!, Ugh!, Gah!, Nngh!, Hyah!, Zah!, Huh?!). "
+    "Every grunt sounds different; do not reuse the same spelling. Output ONLY the "
+    "interjection - never a description, never asterisks, never words.")
+
+
+def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None):
     # system: instructions + glossary. Then verified (audio -> transcript) pairs
     # for THIS character as few-shot turns, priming the model on their voice.
-    messages = [{"role": "system", "content": PROMPT}]
+    messages = [{"role": "system", "content": system or PROMPT}]
     for ex_wav, ex_text in exemplars:
         messages.append({"role": "user", "content": [_audio(ex_wav)]})
         messages.append({"role": "assistant", "content": ex_text})

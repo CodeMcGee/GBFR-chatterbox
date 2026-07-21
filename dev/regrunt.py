@@ -12,7 +12,7 @@ import glob, json, pathlib, re, sys, tempfile
 sys.path.insert(0, "dev"); sys.path.insert(0, ".")
 import serve
 from retranscribe import Audio
-from smoke_qwen3omni import transcribe, decode_label
+from smoke_qwen3omni import transcribe, GRUNT_PROMPT
 
 BASE, MODEL = "http://127.0.0.1:8210/v1", "qwen3-omni"
 
@@ -42,7 +42,7 @@ def main():
                 wav = pathlib.Path(td) / "t.wav"
                 try:
                     au.wav(r["bank"], w, wav)
-                    r["transcript"] = transcribe(BASE, MODEL, wav, decode_label(r.get("label", "")))
+                    r["transcript"] = transcribe(BASE, MODEL, wav, system=GRUNT_PROMPT)
                     n += 1
                 except Exception as e:
                     print(f"  {pl} {w}: {type(e).__name__}: {e}", flush=True)
