@@ -1533,10 +1533,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12162,
-   "transcript": "Hah hah hah!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "114557249": {
    "wem_id": "114557249",
@@ -3709,10 +3710,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4034,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "278380690": {
    "wem_id": "278380690",
@@ -7621,10 +7623,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 2780,
-   "transcript": "Hup!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "580861175": {
    "wem_id": "580861175",
@@ -8252,10 +8255,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5087,
-   "transcript": "Hmph!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "623274067": {
    "wem_id": "623274067",
@@ -9612,10 +9616,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9552,
-   "transcript": "Hah! Hah!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "726230955": {
    "wem_id": "726230955",
@@ -9680,7 +9685,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9715,
-   "transcript": "Shine is one!",
+   "transcript": "Shine as one!",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
    "corrected": "consensus",
@@ -12401,10 +12406,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8001,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "968906546": {
    "wem_id": "968906546",

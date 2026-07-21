@@ -54,8 +54,13 @@ def build_prompt():
         "Rules:\n"
         "- Transcribe the spoken English exactly. When you hear a name below, use "
         "its exact spelling.\n"
-        "- If the clip is a wordless grunt, yell, or effort noise, write a short "
-        "onomatopoeia for it (e.g. \"Hah!\", \"Grrah!\", \"Hnngh!\").\n"
+        "- If the clip is a wordless grunt, yell, or effort noise, transcribe it "
+        "as EITHER the closest onomatopoeia (matching the real vowel, length and "
+        "pitch - a yelp, groan, and roar are all different) OR a short "
+        "caption-style descriptor in asterisks (*sharp inhale*, *sharp exhale*, "
+        "*gasp*, *pained groan*, *battle cry*, *grunting effort*), whichever best "
+        "fits the actual sound. Note whether the breath goes IN (a sharp inhale "
+        "or gasp) or OUT (a sharp exhale or grunt). Do not default to one filler.\n"
         "- Output ONLY the transcription: no quotes, no speaker label, no notes.\n\n"
         "Characters: " + ", ".join(chars) + "\n"
         "Skills & Skybound Arts: " + ", ".join(moves) + "\n"
@@ -81,7 +86,15 @@ def decode_label(label):
     cat = CAT.get(parts[0], parts[0].lower())
     rest = re.sub(r"pl\d{4}", "", " ".join(parts[1:]), flags=re.I)
     rest = " ".join(rest.split()).lower()
-    return f"{cat}: {rest}".strip(": ").strip()
+    base = f"{cat}: {rest}".strip(": ").strip()
+    if parts[0] in ("ATK", "SP"):
+        base += (". If wordless, this is an OFFENSIVE attacking effort — an "
+                 "aggressive battle-cry or exertion (e.g. Hyah!, Rrah!, Tah!), "
+                 "not a pained sound")
+    elif parts[0] == "DMG":
+        base += (". If wordless, this is a DEFENSIVE reaction to taking a hit — "
+                 "a pained grunt or gasp (e.g. Ugh!, Gah!, Nngh!), not an attack cry")
+    return base
 
 
 def _audio(wav_path):

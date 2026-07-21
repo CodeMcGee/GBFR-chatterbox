@@ -292,10 +292,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8923,
-   "transcript": "Faster fix it!",
+   "transcript": "Rollin'!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "39659605": {
    "wem_id": "39659605",
@@ -360,10 +361,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5124,
-   "transcript": "Hoo!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "48018740": {
    "wem_id": "48018740",
@@ -1142,10 +1144,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4225,
-   "transcript": "Yeah!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "111210603": {
    "wem_id": "111210603",
@@ -1924,7 +1927,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10754,
-   "transcript": "Permanent flare!",
+   "transcript": "Prominence Flare!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
    "corrected": "consensus",
@@ -2350,7 +2353,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11381,
-   "transcript": "Magnetic Eradication!",
+   "transcript": "Lightning Eradication!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
    "corrected": "consensus",
@@ -3933,7 +3936,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10348,
-   "transcript": "Sin is one!",
+   "transcript": "Shine as one!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
    "corrected": "consensus",
@@ -7437,10 +7440,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9454,
-   "transcript": "Light Damnation!",
+   "transcript": "Light detonation!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "720555601": {
    "wem_id": "720555601",
@@ -7913,10 +7917,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6540,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "760510428": {
    "wem_id": "760510428",
@@ -8219,7 +8224,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9401,
-   "transcript": "Here we are!",
+   "transcript": "Lyria!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
    "corrected": "consensus",
@@ -8254,10 +8259,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4007,
-   "transcript": "Ha!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "803000838": {
    "wem_id": "803000838",
@@ -9989,10 +9995,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6758,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "978738085": {
    "wem_id": "978738085",
@@ -10040,10 +10047,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3465,
-   "transcript": "Hah!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "980890250": {
    "wem_id": "980890250",
@@ -10329,10 +10337,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9480,
-   "transcript": "Detonation!",
+   "transcript": "Air Detonation!",
    "confidence": null,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "1007379271": {
    "wem_id": "1007379271",

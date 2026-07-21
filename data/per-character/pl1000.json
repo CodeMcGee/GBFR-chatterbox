@@ -1533,7 +1533,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8507,
-   "transcript": "Shine is one!",
+   "transcript": "Shine as one!",
    "confidence": null,
    "bank": "vo_pl1000_m.bnk",
    "corrected": "consensus",
@@ -5223,10 +5223,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3755,
-   "transcript": "Get up!",
+   "transcript": "Get 'em!",
    "confidence": null,
    "bank": "vo_pl1000_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "449398093": {
    "wem_id": "449398093",
@@ -7994,7 +7995,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7381,
-   "transcript": "Galeburst!",
+   "transcript": "Gale Burst!",
    "confidence": null,
    "bank": "vo_pl1000_m.bnk",
    "corrected": "consensus",
@@ -10749,10 +10750,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10559,
-   "transcript": "*pained gasp*",
+   "transcript": "*pained groan*",
    "confidence": null,
    "bank": "vo_pl1000_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "882431298": {
    "wem_id": "882431298",

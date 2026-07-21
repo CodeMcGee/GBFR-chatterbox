@@ -2094,7 +2094,7 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13452,
-   "transcript": "Waking pulverization!",
+   "transcript": "Quaking Pulverization!",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
    "corrected": "consensus",
@@ -2180,10 +2180,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4390,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "173782070": {
    "wem_id": "173782070",
@@ -2231,10 +2232,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 16751,
-   "transcript": "Grrrgh!",
+   "transcript": "Hnngh!",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "179764202": {
    "wem_id": "179764202",
@@ -2333,10 +2335,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5760,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "195977363": {
    "wem_id": "195977363",
@@ -3217,10 +3220,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8451,
-   "transcript": "Hnngh!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "282325114": {
    "wem_id": "282325114",
@@ -3387,10 +3391,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5889,
-   "transcript": "*sharp inhale*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "298586726": {
    "wem_id": "298586726",
@@ -6294,10 +6299,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 14390,
-   "transcript": "Grrah!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "557928507": {
    "wem_id": "557928507",
@@ -6311,10 +6317,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3630,
-   "transcript": "Hmph!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "559794239": {
    "wem_id": "559794239",
@@ -7722,10 +7729,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3833,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "689409765": {
    "wem_id": "689409765",
@@ -7892,10 +7900,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3748,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "703587134": {
    "wem_id": "703587134",
@@ -8079,10 +8088,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5134,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "718036897": {
    "wem_id": "718036897",
@@ -8385,10 +8395,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3815,
-   "transcript": "Hmph!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "736564872": {
    "wem_id": "736564872",
@@ -11666,10 +11677,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5391,
-   "transcript": "*grunting effort*",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "989405474": {
    "wem_id": "989405474",
@@ -11751,10 +11763,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 11056,
-   "transcript": "Hnngh!",
+   "transcript": "*sharp exhale*",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "992309657": {
    "wem_id": "992309657",
@@ -11989,10 +12002,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13101,
-   "transcript": "Rack'em!",
+   "transcript": "Rackam!",
    "confidence": null,
    "bank": "vo_pl1700_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "consensus"
   },
   "1014699366": {
    "wem_id": "1014699366",

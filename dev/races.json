@@ -1,0 +1,118 @@
+{
+ "pl2600": {
+  "race": "Human",
+  "gender": "female"
+ },
+ "pl1800": {
+  "race": "Human",
+  "gender": "female"
+ },
+ "pl1200": {
+  "race": "Harvin",
+  "gender": "female"
+ },
+ "pl0100": {
+  "race": "Human",
+  "gender": "female"
+ },
+ "pl0500": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl2700": {
+  "race": "Erune",
+  "gender": "male"
+ },
+ "pl2900": {
+  "race": "Primal beast",
+  "gender": "female"
+ },
+ "pl0700": {
+  "race": "Draph",
+  "gender": "female"
+ },
+ "pl2800": {
+  "race": "Harvin",
+  "gender": "female"
+ },
+ "pl2400": {
+  "race": "Draph",
+  "gender": "male"
+ },
+ "pl1500": {
+  "race": "Draph",
+  "gender": "male"
+ },
+ "pl0000": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl1900": {
+  "race": "Draph",
+  "gender": "male"
+ },
+ "pl0400": {
+  "race": "Human",
+  "gender": "female"
+ },
+ "pl0200": {
+  "race": "Human",
+  "gender": "female"
+ },
+ "pl0800": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl2500": {
+  "race": "Harvin",
+  "gender": "female"
+ },
+ "pl1400": {
+  "race": "Draph",
+  "gender": "female"
+ },
+ "pl1000": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl0300": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl0600": {
+  "race": "Primal beast",
+  "gender": "female"
+ },
+ "pl2100": {
+  "race": "Primal beast",
+  "gender": "male"
+ },
+ "pl2200": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl1100": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl2300": {
+  "race": "Erune",
+  "gender": "female"
+ },
+ "pl0900": {
+  "race": "Human",
+  "gender": "male"
+ },
+ "pl1700": {
+  "race": "Draph",
+  "gender": "male"
+ },
+ "pl1300": {
+  "race": "Harvin",
+  "gender": "male"
+ },
+ "pl1600": {
+  "race": "Erune",
+  "gender": "female"
+ }
+}
