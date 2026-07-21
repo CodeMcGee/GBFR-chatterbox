@@ -192,6 +192,9 @@ class App:
         # sha of each bank as we first found it, so we can tell "untouched" from
         # "already edited" and spot a game update. Lives with the profile, not the game.
         self.manifest_file = self.profile_file.with_name("originals.json")
+        # Review flags for the transcription pass: {wem_id: {"wrong": true, ...}}.
+        # An object per id so a replacement transcript can drop in later.
+        self.flags_file = self.profile_file.with_name("flags.json")
         self.locks = {}          # pl -> Lock; one writer per character
         self.lock_guard = threading.Lock()
         self._migrate()
@@ -271,6 +274,27 @@ class App:
         atomic_write(self.profile_file, json.dumps(prof, indent=1).encode())
         print(f"[profile] saved -> {self.profile_file}")
 
+    def flags(self):
+        return self._read_json(self.flags_file)
+
+    def set_flag(self, wem_id, wrong):
+        """Mark/unmark a line as an incorrect transcription. Preserves any other
+        fields already stored for the id (e.g. a future replacement transcript)."""
+        f = self.flags()
+        wem_id = str(wem_id)
+        entry = f.get(wem_id) or {}
+        if wrong:
+            entry["wrong"] = True
+            f[wem_id] = entry
+        else:
+            entry.pop("wrong", None)
+            if entry:
+                f[wem_id] = entry
+            else:
+                f.pop(wem_id, None)
+        atomic_write(self.flags_file, json.dumps(f, indent=1).encode())
+        return {"ok": True, "wem_id": wem_id, "wrong": bool(wrong)}
+
     def characters(self):
         out = []
         for f in sorted(self.atlas_dir.glob("pl*.json")):
@@ -308,6 +332,7 @@ class App:
         pl = check_pl(pl)
         atlas = json.loads((self.atlas_dir / f"{pl}.json").read_text())["lines"]
         silence = SILENCE.read_bytes()
+        flags = self.flags()
         banks = self.banks_for(pl)
         # per bank: its pristine entries, and a (offset,len) -> wem reverse map,
         # so muted/swapped state is read from the bytes with no side-car to desync.
@@ -336,6 +361,8 @@ class App:
                 "label": r.get("label") or "",
                 "category": (r.get("label") or "_").split("_vo_")[-1].split("_")[0],
                 "transcript": r.get("transcript") or "",
+                "confidence": r.get("confidence"),
+                "flagged": bool((flags.get(wid) or {}).get("wrong")),
                 "duration": r.get("duration_s"),
                 "muted": muted,
                 "swapped_from": swapped_from,
@@ -799,6 +826,8 @@ def make_handler(app):
                     if body.get("all"):
                         return self.send(200, app.mute_all())
                     return self.send(200, app.mute_character(body["pl"]))
+                if self.path == "/api/flag":
+                    return self.send(200, app.set_flag(body["wem_id"], body.get("wrong", True)))
                 if self.path == "/api/extract-pcks":
                     return self.send(200, app.extract_pcks())
                 if self.path == "/api/revert":
