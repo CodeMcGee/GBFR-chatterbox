@@ -38,8 +38,9 @@ lines were reassembled first, so durations and transcripts cover the whole line.
 Battle lines have no subtitle track in the game files, so there is no ground
 truth. **Transcripts are machine generated and some are wrong** - treat them as
 a search index. Weak spots: proper nouns, short shouted lines, grunts.
-`confidence` is the recogniser's own score (near 0 = confident); filter on it
-if accuracy matters. Listen before believing anything that reads oddly.
+`confidence` is the recogniser's own score (near 0 = confident) - blank in the
+current build, populated again from the next transcription pass. Listen before
+believing anything that reads oddly.
 
 ## The tool
 

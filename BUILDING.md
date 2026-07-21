@@ -9,9 +9,9 @@ that a release contains what it claims to.
 | Part | Source | Size |
 |---|---|---|
 | `serve.py`, `chatterbox/`, `*.bat` | this repo | small |
-| `atlas\` | this repo, `data/per-character/` | 8 MB |
-| `python\` | python.org Windows embeddable package | 21 MB |
-| `tools\vgmstream-cli.exe` and its DLLs | vgmstream.org release | 8 MB |
+| `atlas\` | this repo, `data/per-character/` | 12 MB |
+| `python\` | python.org Windows embeddable package | 22 MB |
+| `tools\vgmstream-cli.exe` and its DLLs | vgmstream.org release | 11 MB |
 
 Nothing is built from source. The two bundled pieces are downloaded unmodified
 from upstream, and everything that reads the game's own formats is Python in
@@ -80,11 +80,13 @@ its SHA256. Linux binaries in `tools/` are filtered out.
 ## Running the tests
 
 ```sh
-python tests/test_smoke.py   # boots the server, exercises every endpoint
-python tests/test_banks.py   # the bank editor, the only thing that writes
-python tests/test_backup.py  # guards the backup lifecycle against data loss
-python tests/test_siero.py   # the archive reader: hash, LZ4, index layout
+uv run pytest                # the whole suite, with a 70% coverage gate
 ```
+
+Each file also runs standalone (`python tests/test_banks.py`):
+test_smoke boots the server and exercises every endpoint; test_banks covers
+the bank editor, the only thing that writes; test_backup guards the backup
+lifecycle; test_siero covers the archive reader (hash, LZ4, index layout).
 
 test_smoke, test_backup and part of test_banks need a sample `_m.bnk` under `samples/`, which is not in the repo
 because it is game data. Copy one out of your own install:
