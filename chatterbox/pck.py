@@ -7,7 +7,9 @@ The game keeps long/non-latency-critical lines as a small prefetch head in the
 
 Usage: python -m chatterbox.pck <file.pck> [outdir]     # list, or extract all wems
 """
-import pathlib, struct, sys
+import pathlib
+import struct
+import sys
 
 
 def read_lut(d, pos, declared=None):
@@ -58,7 +60,7 @@ def main():
         sys.exit(__doc__)
     p = Pck(sys.argv[1])
     if len(sys.argv) == 2:
-        for fid, (off, size, lang) in sorted(p.streams.items()):
+        for fid, (off, size, _lang) in sorted(p.streams.items()):
             print(f"{fid:>12}  {size:>9}  @{off}")
         print(f"total: {len(p)} streamed wems ({len(p.banks)} banks)")
         return

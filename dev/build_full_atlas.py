@@ -7,7 +7,11 @@ is measured and transcribed at full length.
 
 Usage: build_full_atlas.py <bank_dir> <pck_dir> <old_atlas_dir> <out_dir> [--gpu N]
 """
-import json, pathlib, re, struct, sys, tempfile
+import json
+import pathlib
+import re
+import sys
+import tempfile
 from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
@@ -59,10 +63,6 @@ def main():
         bank = MediaBank(bank_path)
         pck_path = pck_dir / bank_path.name.replace("_m.bnk", ".pck")
         pck = Pck(pck_path) if pck_path.exists() else None
-        old = {}
-        if (old_dir / f"{pl}.json").exists():
-            old = json.loads((old_dir / f"{pl}.json").read_text())["lines"]
-
         with tempfile.TemporaryDirectory() as td:
             tdp = pathlib.Path(td)
 

@@ -3,7 +3,11 @@
 
 Usage: build_atlas.py [atlas_dir] [out_prefix]
 """
-import csv, json, pathlib, re, sys
+import csv
+import json
+import pathlib
+import re
+import sys
 
 NAMES = json.loads((pathlib.Path(__file__).resolve().parent.parent
                     / "chatterbox" / "characters.json").read_text())

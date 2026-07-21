@@ -10,18 +10,45 @@ atlas afterwards with build_atlas.py.
 Usage: retranscribe.py [--game <path>] [--base URL] [--out build/atlas-omni]
                        [--only plXXXX,plYYYY] [--no-exemplars]
 """
-import argparse, json, pathlib, re, sys, tempfile
+import argparse
+import json
+import pathlib
+import re
+import sys
+import tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
+from smoke_qwen3omni import decode_label, transcribe
+
 import serve
-from chatterbox.banks import MediaBank, decode_wav, atomic_write
+from chatterbox.banks import MediaBank, atomic_write, decode_wav
 from chatterbox.pck import Pck
 from chatterbox.siero import DataArchive
-from smoke_qwen3omni import transcribe, decode_label
 
 RACES = json.loads((HERE / "races.json").read_text()) if (HERE / "races.json").exists() else {}
+
+# NPC ally ids that appear as label suffixes (verified from their transcripts)
+NPC = {"NP0000": "Lyria", "NP0300": "Rolan"}
+
+
+def build_ctx(pl, label):
+    """Per-line context: every hint the label carries, and nothing else.
+    Speaker, addressee (when the label names one), line type. The 'If wordless'
+    grunt tail is dropped - it verifiably pushes worded lines into grunts."""
+    ctx = f"This line is spoken by {serve.NAMES.get(pl, pl)}."
+    m = re.search(r"_((PL|NP)\d{4})$", label or "")
+    if m:
+        name = NPC.get(m.group(1)) or serve.NAMES.get(m.group(1).lower())
+        if pl == "pl2900":
+            ctx += race_hint(pl, label)  # Fediel names allies by race, never by name
+        elif name:
+            ctx += f" It is directed at their ally {name}."
+    lt = decode_label(label).split(". If wordless")[0]
+    if lt:
+        ctx += f" Line type: {lt}."
+    return ctx
 
 
 def race_hint(pl, label):
@@ -128,13 +155,14 @@ def main():
                 try:
                     audio.wav(r["bank"], wid, wav)
                     ex = [e for e in exemplars if not e[0].endswith(f"ex_{wid}.wav")]
-                    ctx = decode_label(r.get("label", "")) + race_hint(pl, r.get("label", ""))
-                    got = transcribe(a.base, a.model, wav, ctx, ex)
+                    got, conf = transcribe(a.base, a.model, wav,
+                                           build_ctx(pl, r.get("label", "")), ex,
+                                           with_conf=True)
                 except Exception as e:
                     print(f"  {pl} {wid}: {type(e).__name__}: {e}", flush=True)
                     continue
                 r["transcript"] = got
-                r["confidence"] = None
+                r["confidence"] = conf
                 r["source_model"] = "qwen3-omni"
                 new += 1
             done = new

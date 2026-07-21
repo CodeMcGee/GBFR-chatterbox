@@ -1,13 +1,20 @@
-"""Readers and editors for the game's own formats.
+"""GBFR-chatterbox, standard library only.
 
-Three modules, one per format, none depending on anything outside the standard
-library:
+Format readers/editors:
 
     banks    .bnk sound banks (BKHD/DIDX/DATA), and the editing operations
     pck      .pck packages, the AKPK container the streamed audio lives in
     siero    data.i and the data.N archives beside it
 
-Only banks writes. The other two read. Import from the module you need, e.g.
-`from chatterbox.banks import MediaBank`; the package itself pulls in nothing,
-so `python -m chatterbox.siero` runs cleanly.
+Application domains:
+
+    game     locate the install; bank filenames and character ids
+    store    profile / originals-manifest / review-flags side-cars
+    library  read side: banks, atlas lines, previews, streamed .pck
+    patching write side: backups, apply/revert/reapply
+    app      App facade wiring the above together
+    web      localhost server and UI
+
+Import from the module you need; the package itself pulls in nothing, so
+`python -m chatterbox.siero` runs cleanly.
 """

@@ -17,7 +17,11 @@ from the C# implementation this replaced, so they are a real differential.
 
     python dev/test_siero.py
 """
-import hashlib, pathlib, struct, sys, tempfile
+import hashlib
+import pathlib
+import struct
+import sys
+import tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(HERE))
@@ -146,7 +150,7 @@ def check_against_game(t):
         assert len(ar) > 0 and ar.num_archives > 0
         t.ok(f"index parses: {len(ar):,} files across {ar.num_archives} archives")
 
-        for path, size, md5, compressed in KNOWN:
+        for path, size, md5, _compressed in KNOWN:
             assert path in ar, f"{path} should be in the archive"
             data = ar.read(path)
             assert len(data) == size, f"{path}: {len(data)} bytes, expected {size}"
@@ -211,6 +215,10 @@ def main():
         print(f"  --  skipping game checks, no index at {INDEX}")
 
     print(f"\n{t.n} checks passed")
+
+
+def test_all():
+    main()
 
 
 if __name__ == "__main__":

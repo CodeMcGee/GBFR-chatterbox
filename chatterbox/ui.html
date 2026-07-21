@@ -37,6 +37,8 @@
   tr.on-wrong .txt { color:#ff9d9d; }
   td.flag { width:26px; text-align:center; }
   td.flag input { cursor:pointer; }
+  input.fix { margin-top:4px; width:90%; background:#1a1a1a; color:#ff9d9d;
+    border:1px solid #553; border-radius:3px; padding:2px 5px; font:inherit; }
   td.conf { width:52px; text-align:right; font-variant-numeric:tabular-nums; color:var(--dim); font-size:.85em; }
   td.conf.c-mid { color:#e0b34d; }
   td.conf.c-bad { color:#e07a5f; }
@@ -277,7 +279,10 @@ function row(l) {
     <td class=act style="text-align:left;width:52px">
       <button onclick="play('${l.wem_id}')" title="Preview">&#9654;</button>${l.preview_full ? ''
         : `<span class=clip title="Only the ${l.prefetch_s ?? '~0.4'}s cached in the game bank can be previewed here \u2014 the rest of this line streams from the game archives. The full line is ${l.duration ? l.duration.toFixed(2) : '?'}s and is unaffected by muting.">&#9899;</span>`}</td>
-    <td class=txt>${esc(l.transcript) || '<i style="opacity:.5">(no speech)</i>'}${esc(note)}</td>
+    <td class=txt>${esc(l.transcript) || '<i style="opacity:.5">(no speech)</i>'}${esc(note)}
+      <input class=fix placeholder="correct words…" value="${esc(l.correction)}"
+        style="display:${l.flagged ? 'block' : 'none'}"
+        onchange="saveFix('${l.wem_id}', this)"></td>
     <td class="conf ${confClass(l.confidence)}" title="Transcription confidence (0 = confident, very negative = likely wrong)">${l.confidence != null ? l.confidence.toFixed(2) : ''}</td>
     <td class=lbl>${esc(l.label.split('_vo_')[1] || '')}</td>
     <td class=dur>${l.duration ? l.duration.toFixed(2) + 's' : ''}</td>
@@ -287,14 +292,26 @@ function row(l) {
     </td></tr>`;
 }
 
-const confClass = c => c == null ? '' : c < -0.6 ? 'c-bad' : c < -0.4 ? 'c-mid' : '';
+// qwen avg-logprob scale: correct lines ~0, known-bad ~-0.2 (measured)
+const confClass = c => c == null ? '' : c < -0.2 ? 'c-bad' : c < -0.1 ? 'c-mid' : '';
 
 async function toggleFlag(id, el) {
   const l = data.lines.find(x => x.wem_id === id);
   if (l) l.flagged = el.checked;                 // keep local state in sync
-  el.closest('tr').classList.toggle('on-wrong', el.checked);
-  const r = await post('/api/flag', { wem_id: id, wrong: el.checked });
+  const tr = el.closest('tr');
+  tr.classList.toggle('on-wrong', el.checked);
+  const fix = tr.querySelector('.fix');
+  fix.style.display = el.checked ? 'block' : 'none';
+  if (el.checked) fix.focus();
+  const r = await post('/api/flag', { wem_id: id, wrong: el.checked, correct: fix.value });
   if (r.error) { toast('Error: ' + r.error); el.checked = !el.checked; }
+}
+
+async function saveFix(id, el) {
+  const l = data.lines.find(x => x.wem_id === id);
+  if (l) l.correction = el.value;
+  const r = await post('/api/flag', { wem_id: id, wrong: true, correct: el.value });
+  if (r.error) toast('Error: ' + r.error);
 }
 
 const said = id => { const l = data.lines.find(x => x.wem_id === id);
