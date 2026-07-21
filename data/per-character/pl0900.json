@@ -598,10 +598,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 15986,
-   "transcript": "Lohenwolf!",
+   "transcript": "Loewenbein: Jagd!",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "37550576": {
    "wem_id": "37550576",
@@ -11454,10 +11455,11 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 15034,
-   "transcript": "Lohenwolf!",
+   "transcript": "Loewenbein: Jagd!",
    "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni",
+   "corrected": "manual"
   },
   "881669271": {
    "wem_id": "881669271",
