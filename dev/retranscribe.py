@@ -10,7 +10,7 @@ atlas afterwards with build_atlas.py.
 Usage: retranscribe.py [--game <path>] [--base URL] [--out build/atlas-omni]
                        [--only plXXXX,plYYYY] [--no-exemplars]
 """
-import argparse, json, pathlib, sys, tempfile
+import argparse, json, pathlib, re, sys, tempfile
 
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
@@ -20,6 +20,21 @@ from chatterbox.banks import MediaBank, decode_wav
 from chatterbox.pck import Pck
 from chatterbox.siero import DataArchive
 from smoke_qwen3omni import transcribe, decode_label
+
+RACES = json.loads((HERE / "races.json").read_text()) if (HERE / "races.json").exists() else {}
+
+
+def race_hint(pl, label):
+    """Fediel (pl2900) is a primal beast who names allies by race and gender, not
+    by name. Her partner-directed lines encode the ally in the label, so nudge the
+    model toward the ally's race and gender - just enough to pick "lass" over "bash"."""
+    if pl != "pl2900":
+        return ""
+    m = re.search(r"_PL(\d{4})$", label or "")
+    pr = RACES.get("pl" + m.group(1)) if m else None
+    if not pr or pr.get("race") == "Other":
+        return ""
+    return f" The ally is a {pr['gender']} {pr['race']}."
 
 PCK_DIRS = ["pck", "build/pck-all"]
 
@@ -113,7 +128,8 @@ def main():
                 try:
                     audio.wav(r["bank"], wid, wav)
                     ex = [e for e in exemplars if not e[0].endswith(f"ex_{wid}.wav")]
-                    got = transcribe(a.base, a.model, wav, decode_label(r.get("label", "")), ex)
+                    ctx = decode_label(r.get("label", "")) + race_hint(pl, r.get("label", ""))
+                    got = transcribe(a.base, a.model, wav, ctx, ex)
                 except Exception as e:
                     print(f"  {pl} {wid}: {type(e).__name__}: {e}", flush=True)
                     continue
