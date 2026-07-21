@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-"""Re-do only the generic-filler grunt lines in build/atlas-omni with the current
-prompt (in place). A grunt line is one whose omni transcript is just "Hah!".
-Leaves every other transcript untouched. Resumable: re-run picks up remaining fillers.
+"""Re-do the wordless grunt lines in place with the current prompt.
+
+A grunt line is one the model rendered non-verbal: an asterisk descriptor
+(*sharp exhale*) or the bare "Hah!" default. Re-transcribes just those - no
+exemplars, since worded exemplars bias grunts back toward a single filler.
+Everything else is left untouched. Resumable.
+
+Usage: regrunt.py [atlas_dir]   (default data/per-character)
 """
 import glob, json, pathlib, re, sys, tempfile
 sys.path.insert(0, "dev"); sys.path.insert(0, ".")
@@ -12,33 +17,23 @@ from smoke_qwen3omni import transcribe, decode_label
 BASE, MODEL = "http://127.0.0.1:8210/v1", "qwen3-omni"
 
 
-def norm(t):
-    return re.sub(r"[^a-z]", "", (t or "").lower())
+def is_grunt(t):
+    t = (t or "").strip()
+    return t.startswith("*") or re.sub(r"[^a-z]", "", t.lower()) == "hah"
 
 
 def main():
+    atlas_dir = sys.argv[1] if len(sys.argv) > 1 else "data/per-character"
     au = Audio(pathlib.Path(serve.find_game()))
-    ex_map = json.loads(pathlib.Path("dev/exemplars.json").read_text())
     total = 0
-    for f in sorted(glob.glob("build/atlas-omni/pl*.json")):
+    for f in sorted(glob.glob(f"{atlas_dir}/pl*.json")):
         pl = pathlib.Path(f).stem
         doc = json.loads(pathlib.Path(f).read_text())
         lines = doc["lines"]
-        targets = [w for w, r in lines.items() if norm(r["transcript"]) == "hah"]
+        targets = [w for w, r in lines.items() if is_grunt(r["transcript"])]
         if not targets:
-            print(f"{pl}: 0 fillers", flush=True); continue
+            print(f"{pl}: 0 grunts", flush=True); continue
         with tempfile.TemporaryDirectory() as td:
-            exemplars = []
-            for e in ex_map.get(pl, []):
-                er = lines.get(e["wem_id"])
-                if not er:
-                    continue
-                ew = pathlib.Path(td) / f"ex_{e['wem_id']}.wav"
-                try:
-                    au.wav(er["bank"], e["wem_id"], ew)
-                    exemplars.append((str(ew), e["transcript"]))
-                except Exception:
-                    pass
             n = 0
             for w in targets:
                 r = lines[w]
@@ -47,14 +42,13 @@ def main():
                 wav = pathlib.Path(td) / "t.wav"
                 try:
                     au.wav(r["bank"], w, wav)
-                    ex = [e for e in exemplars if not e[0].endswith(f"ex_{w}.wav")]
-                    r["transcript"] = transcribe(BASE, MODEL, wav, decode_label(r.get("label", "")), ex)
+                    r["transcript"] = transcribe(BASE, MODEL, wav, decode_label(r.get("label", "")))
                     n += 1
                 except Exception as e:
                     print(f"  {pl} {w}: {type(e).__name__}: {e}", flush=True)
         pathlib.Path(f).write_text(json.dumps(doc, indent=1))
         total += n
-        print(f"{pl}: {n} filler lines redone", flush=True)
+        print(f"{pl}: {n} grunts redone", flush=True)
     print(f"TOTAL redone: {total}", flush=True)
 
 
