@@ -183,13 +183,17 @@ Briar Rose...) + 4 correct-line controls.
 | local omni 30B, bare | 0/11 | 0/4 |
 | local Qwen3.6-35B (GPU1 chat model), ctx + glossary | 2/11 | 1/4 |
 | Claude Haiku 4.5, ctx + glossary | 3/11 | 1/4 (un-punned "pincer me timbers") |
+| Claude Fable 5 (blind subagent), ctx + glossary | 5/11 | **0/4** |
 | Gemini 3.1 Pro, bare | 6/11 | 1/4 ("Miasma unto these skies") |
 | Gemini 3.1 Pro + per-line ctx + glossary | 6/11 | **0/4** |
 
 The local 30B has no usable lore memory (invented "Unbound", "Rose Garden").
 Gemini catches spelling-level garbles (Primarch, Rackam, goner, Feendrache,
 Alley-oop, the Star-Sword sign-off) and the per-line context eliminated its
-one false positive. Audio-only errors ("Happening!" for "Up and at em.")
+one false positive. Fable was the only model to recover the Eternals
+squat-count (Uno, Tweyen, Threo, Feower, Fif, Seox) and made zero false
+corrections, though it saw all 15 cases in one prompt where the others were
+queried per-case. Audio-only errors ("Happening!" for "Up and at em.")
 stay unreachable by design. Complementary to the ear passes: a text sweep is
 ~0.1c/line with no audio upload — viable as a cheap atlas-wide *flagger*
 whose non-OK outputs feed the review queue, never auto-applied.
