@@ -317,17 +317,32 @@ function row(l) {
 // qwen avg-logprob scale: correct lines ~0, known-bad ~-0.2 (measured)
 const confClass = c => c == null ? '' : c < -0.2 ? 'c-bad' : c < -0.1 ? 'c-mid' : '';
 
+// Both toggles update their row in place: a full re-render of a ~900-row
+// review table on every click is what "extremely slow" feels like, and the
+// re-sort would teleport the row out from under the cursor. Verified rows
+// sink only on the next entry into review mode.
 async function toggleVerified(id, el) {
   const l = data.lines.find(x => x.wem_id === id);
   if (l) { l.verified = el.checked; if (el.checked) l.flagged = false; }
-  await post('/api/flag', { wem_id: id, verified: el.checked });
-  render();                                       // verified clears wrong; redraw both boxes
+  const tr = el.closest('tr');
+  tr.classList.toggle('on-verified', el.checked);
+  if (el.checked) {
+    tr.classList.remove('on-wrong');
+    const wrongBox = tr.querySelector('td.flag input:not(.ok)');
+    wrongBox.checked = false;
+    tr.querySelector('input.fix').style.display = 'none';
+  }
+  post('/api/flag', { wem_id: id, verified: el.checked });
 }
 
 async function toggleFlag(id, el) {
   const l = data.lines.find(x => x.wem_id === id);
   if (l) { l.flagged = el.checked; if (el.checked) l.verified = false; }
   const tr = el.closest('tr');
+  if (el.checked) {
+    tr.classList.remove('on-verified');
+    tr.querySelector('td.flag input.ok').checked = false;
+  }
   tr.classList.toggle('on-wrong', el.checked);
   const fix = tr.querySelector('.fix');
   fix.style.display = el.checked ? 'block' : 'none';
