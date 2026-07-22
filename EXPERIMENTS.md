@@ -172,6 +172,26 @@ the only oracle. The pipeline should optimize for surfacing good proposals
 cheaply (disagreement review queues, confidence sorting), not for automating
 the final call.
 
+### E12 — text-only lore repair
+
+Can a model spot garbled proper nouns from the transcript text alone, no
+audio? Cases: 11 known garbles (Eternals squat-count, Alley-oop, Feendrache,
+Briar Rose...) + 4 correct-line controls.
+
+| model, prompt | recovered | false positives |
+|---|---|---|
+| local omni, bare | 0/11 | 0/4 |
+| Gemini 3.1 Pro, bare | 6/11 | 1/4 ("Miasma unto these skies") |
+| Gemini 3.1 Pro + per-line ctx + glossary | 6/11 | **0/4** |
+
+The local 30B has no usable lore memory (invented "Unbound", "Rose Garden").
+Gemini catches spelling-level garbles (Primarch, Rackam, goner, Feendrache,
+Alley-oop, the Star-Sword sign-off) and the per-line context eliminated its
+one false positive. Audio-only errors ("Happening!" for "Up and at em.")
+stay unreachable by design. Complementary to the ear passes: a text sweep is
+~0.1c/line with no audio upload — viable as a cheap atlas-wide *flagger*
+whose non-OK outputs feed the review queue, never auto-applied.
+
 ## Findings so far
 
 1. Omni prompt-priming (persona/glossary quotes) is unsafe: literal strings
