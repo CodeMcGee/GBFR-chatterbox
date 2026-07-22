@@ -10,7 +10,7 @@ import json
 import pathlib
 import tempfile
 
-from transcribe import ATLAS_DIR, PKG, ROOT, find_game
+from transcribe import ATLAS_DIR, NAMES, PKG, ROOT, find_game, resolve_pl
 from transcribe.audio import Audio
 from transcribe.context import build_ctx
 from transcribe.omni import transcribe
@@ -61,7 +61,8 @@ def main(argv=None):
     ap.add_argument("--model", default="qwen3-omni")
     ap.add_argument("--atlas-dir", default=str(ATLAS_DIR))
     ap.add_argument("--out", default="build/atlas-omni")
-    ap.add_argument("--only", default="")
+    ap.add_argument("--only", default="",
+                    help="comma-separated character names or pl ids")
     ap.add_argument("--no-exemplars", action="store_true")
     a = ap.parse_args(argv)
 
@@ -72,15 +73,16 @@ def main(argv=None):
     atlas_dir = pathlib.Path(a.atlas_dir)
     pls = sorted(p.stem for p in atlas_dir.glob("pl*.json"))
     if a.only:
-        pls = [p for p in pls if p in a.only.split(",")]
+        want = {resolve_pl(x) for x in a.only.split(",")}
+        pls = [p for p in pls if p in want]
 
     for pl in pls:
         out_file = out_dir / f"{pl}.json"
         if out_file.exists():
-            print(f"SKIP {pl} (done)", flush=True); continue
+            print(f"SKIP {NAMES.get(pl, pl)} (done)", flush=True); continue
         doc = json.loads((atlas_dir / f"{pl}.json").read_text())
         n = bake_character(pl, doc, audio, a.base, a.model, ex_map, out_file)
-        print(f"{pl}: {n} lines -> {out_file}", flush=True)
+        print(f"{NAMES.get(pl, pl)}: {n} lines -> {out_file}", flush=True)
 
 
 if __name__ == "__main__":

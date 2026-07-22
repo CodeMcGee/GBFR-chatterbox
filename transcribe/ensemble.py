@@ -18,7 +18,7 @@ import pathlib
 import re
 import tempfile
 
-from transcribe import ATLAS_DIR, ROOT, find_game
+from transcribe import ATLAS_DIR, NAMES, ROOT, find_game, resolve_pl
 from transcribe.asr import asr, hotwords
 from transcribe.audio import Audio
 from transcribe.context import build_ctx
@@ -32,15 +32,17 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--base", default="http://127.0.0.1:8211/v1")
     ap.add_argument("--model", default="qwen3-asr")
-    ap.add_argument("--pl", default="pl2200")
+    ap.add_argument("--character", "--pl", dest="character", default="Seofon",
+                    help="character name (or pl id)")
     ap.add_argument("--out", default="build/atlas-ensemble")
     ap.add_argument("--gate", type=float, default=-0.3)
     ap.add_argument("--game")
     a = ap.parse_args(argv)
 
     audio = Audio(find_game(a.game))
-    doc = json.loads((ATLAS_DIR / f"{a.pl}.json").read_text())
-    ctx = hotwords(a.pl)
+    pl = resolve_pl(a.character)
+    doc = json.loads((ATLAS_DIR / f"{pl}.json").read_text())
+    ctx = hotwords(pl)
     all_phrases = [p for p in ctx.split(". ") if p]
 
     def echo(text):
@@ -72,8 +74,8 @@ def main(argv=None):
                 review.append((wid, r.get("label", ""), at, r.get("confidence"), got, conf, "kept atlas"))
 
     out_dir = ROOT / a.out; out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / f"{a.pl}.json").write_text(json.dumps(doc, indent=1))
-    print(f"\n{a.pl}: kept {kept}, ASR replaced {took}, review queue {len(review) - took}")
+    (out_dir / f"{pl}.json").write_text(json.dumps(doc, indent=1))
+    print(f"\n{NAMES.get(pl, pl)}: kept {kept}, ASR replaced {took}, review queue {len(review) - took}")
     for wid, lab, at, ac, got, gc, act in review:
         print(f"  [{act}] {wid} [{lab}] atlas={at!r} ({ac}) asr={got!r} ({gc})")
 

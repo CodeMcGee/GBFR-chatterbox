@@ -1,5 +1,11 @@
 # Character personas in the transcription prompt
 
+> **Superseded.** Stages 1-3 were run and measured: personas fix a bark only
+> when they quote the exact phrase, and quoting the exact phrase poisons other
+> clips (EXPERIMENTS.md E1-E3). Personas are retired from the pipeline. Stage 4
+> (promotion to a first-class package) happened as `transcribe/`; see
+> TRANSCRIBING.md. Kept as the plan of record.
+
 Give the transcriber a one-line description of who is speaking, so it reads
 ambiguous audio in that character's register. Motivating failure: Seofon's
 en-garde bark (`pl2200` wem `441369863`) transcribes as **"Hanguard!"**

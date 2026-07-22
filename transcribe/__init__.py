@@ -13,3 +13,16 @@ ROOT = PKG.parent
 ATLAS_DIR = ROOT / "data" / "per-character"
 
 from chatterbox.game import NAMES, find_game  # noqa: E402,F401
+
+# Humans remember names, not engine ids: every CLI boundary accepts either.
+_BY_NAME = {v.lower(): k for k, v in NAMES.items()}
+
+
+def resolve_pl(s):
+    """'Seofon' or 'pl2200' -> 'pl2200'. Raises on unknown."""
+    s = s.strip()
+    pl = _BY_NAME.get(s.lower(), s.lower())
+    if pl not in NAMES:
+        raise SystemExit(f"unknown character {s!r} (try one of: "
+                         + ", ".join(sorted(NAMES.values())) + ")")
+    return pl

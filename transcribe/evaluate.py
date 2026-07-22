@@ -11,7 +11,7 @@ import pathlib
 import re
 import sys
 
-from transcribe import ATLAS_DIR, PKG
+from transcribe import ATLAS_DIR, NAMES, PKG
 
 
 def norm(s):
@@ -48,7 +48,7 @@ def score(src, corpus=None):
           + f"; known-wrong text reproduced on {len(kw_hits)}/{len(corpus['known_wrong'])}"
           + (f" ({', '.join(kw_hits)})" if kw_hits else ""))
     for wid, r in wrong:
-        print(f"  WRONG {wid}: {r.get('transcript')!r} (conf {r.get('confidence')}) "
+        print(f"  WRONG {wid} ({NAMES.get(corpus['verified'][wid].get('pl'), '?')}): {r.get('transcript')!r} (conf {r.get('confidence')}) "
               f"!= {corpus['verified'][wid]['text']!r}")
     cr = [r.get("confidence") for _, r in right if r.get("confidence") is not None]
     cw = [r.get("confidence") for _, r in wrong if r.get("confidence") is not None]
