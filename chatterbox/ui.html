@@ -25,7 +25,8 @@
        margin:20px 0 6px; font-weight:600; }
   tr.grp td { border:none; padding:0; }
   tr.grp h2 { margin:18px 0 4px; }
-  table { width:100%; border-collapse:collapse; }
+  table { width:100%; border-collapse:collapse; table-layout:fixed; }
+  td, th { overflow-wrap:break-word; }
   td { padding:5px 8px; border-bottom:1px solid var(--line); vertical-align:middle; }
   th { padding:6px 8px; text-align:left; font-size:.75em; text-transform:uppercase;
        letter-spacing:.04em; color:var(--dim); font-weight:600;
@@ -249,22 +250,37 @@ function render() {
     `<tr class=grp><td colspan=7><h2>${groupHeader(g)} `
     + `<span style="opacity:.6">(${groups[g].length})</span></h2></td></tr>`
     + groups[g].map(row).join('')).join('');
-  $('#main').innerHTML = body ? `<table>${THEAD}${body}</table>` : '<p>No lines.</p>';
+  $('#main').innerHTML = body ? `<table>${COLS}${THEAD}${body}</table>` : '<p>No lines.</p>';
   setHead();
 }
 
 // Review mode: every category in one flat list, least trustworthy first, so a
 // correction pass is just "listen from the top". Lines with no confidence
 // (silent, or already human-verified elsewhere) sort last.
+const REVIEW_CHUNK = 150;   // a 900-row table makes every layout pass a paint stall
+let reviewRows = [], reviewShown = 0;
+
 function renderReview() {
-  const rows = data.lines.filter(l => l.transcript)
+  reviewRows = data.lines.filter(l => l.transcript)
     .sort((a, b) => (a.verified - b.verified)     // done lines sink to the bottom
       || (a.confidence ?? 0) - (b.confidence ?? 0));
-  const body = `<tr class=grp><td colspan=7><h2>Review — worst confidence first `
-    + `<span style="opacity:.6">(${rows.length})</span></h2></td></tr>`
-    + rows.map(row).join('');
-  $('#main').innerHTML = `<table>${THEAD}${body}</table>`;
+  reviewShown = 0;
+  $('#main').innerHTML = `<table id=revtable>${COLS}${THEAD}`
+    + `<tbody><tr class=grp><td colspan=7><h2>Review — worst confidence first `
+    + `<span style="opacity:.6">(${reviewRows.length})</span></h2></td></tr></tbody></table>`
+    + `<p style="text-align:center"><button id=morereview onclick="moreReview()"></button></p>`;
+  moreReview();
   setHead();
+}
+
+function moreReview() {
+  const next = reviewRows.slice(reviewShown, reviewShown + REVIEW_CHUNK);
+  reviewShown += next.length;
+  $('#revtable tbody').insertAdjacentHTML('beforeend', next.map(row).join(''));
+  const left = reviewRows.length - reviewShown;
+  const btn = $('#morereview');
+  btn.textContent = left > 0 ? `Show ${Math.min(left, REVIEW_CHUNK)} more (${left} left)` : 'All shown';
+  btn.disabled = left <= 0;
 }
 
 // Park the sticky column headers just under the sticky page header, whatever its height.
@@ -273,6 +289,9 @@ function setHead() {
   if (h) document.documentElement.style.setProperty('--head-h', h.offsetHeight + 'px');
 }
 addEventListener('resize', setHead);
+
+const COLS = `<colgroup><col style=width:44px><col style=width:56px><col>
+  <col style=width:52px><col style=width:22%><col style=width:60px><col style=width:150px></colgroup>`;
 
 const THEAD = `<thead><tr>
   <th class=flag title="Left box: transcript is wrong. Right box: verified correct, never revisit">Wrong/OK</th>
