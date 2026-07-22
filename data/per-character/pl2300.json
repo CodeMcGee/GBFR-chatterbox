@@ -5264,10 +5264,10 @@
    "recovered": true,
    "prefetch_s": 0.527,
    "bytes": 100642,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah!",
-   "confidence": -0.062,
+   "transcript": "Heh. Heh, heh, heh, heh, heh, heh",
+   "confidence": null,
    "bank": "vo_pl2300_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "457718330": {
    "wem_id": "457718330",
@@ -5962,10 +5962,10 @@
    "recovered": true,
    "prefetch_s": 0.53,
    "bytes": 103111,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah!",
-   "confidence": -0.103,
+   "transcript": "Ngh... Hah... Hah... Ngh... Ngh... Hah... Ngh... Hah",
+   "confidence": null,
    "bank": "vo_pl2300_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "523112381": {
    "wem_id": "523112381",

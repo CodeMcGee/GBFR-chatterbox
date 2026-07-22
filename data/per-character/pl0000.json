@@ -5108,7 +5108,7 @@
    "transcript": "Id!",
    "confidence": -0.132,
    "bank": "vo_pl0000_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "377508202": {
    "wem_id": "377508202",
@@ -15074,7 +15074,7 @@
    "bank": "vo_pl0000_02_00_00_m.bnk",
    "transcript": "Gallanza!",
    "confidence": -0.016,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "50556624": {
    "wem_id": "50556624",
@@ -17214,9 +17214,9 @@
    "prefetch_s": 0.477,
    "bytes": 80050,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh",
-   "confidence": -0.051,
-   "source_model": "qwen3-omni"
+   "transcript": "Hngh... Nngh... Hngh... Nngh",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "19241029": {
    "wem_id": "19241029",
@@ -17469,9 +17469,9 @@
    "prefetch_s": 0.55,
    "bytes": 72895,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.046,
-   "source_model": "qwen3-omni"
+   "transcript": "Hah... Hah... Hah... Nngh... Hah...",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "485659639": {
    "wem_id": "485659639",
@@ -17724,9 +17724,9 @@
    "prefetch_s": 0.515,
    "bytes": 191928,
    "bank": "vo_pl0000_01_02_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.043,
-   "source_model": "qwen3-omni"
+   "transcript": "Nngh... Nngh... Nngh... Nngh... Nngh",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "940314949": {
    "wem_id": "940314949",
@@ -17996,9 +17996,9 @@
    "prefetch_s": 0.418,
    "bytes": 65907,
    "bank": "vo_pl0000_01_01_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.056,
-   "source_model": "qwen3-omni"
+   "transcript": "Hut, hyah! Hut, hyah! Hut, hut! Hut, hyah!",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "345602217": {
    "wem_id": "345602217",

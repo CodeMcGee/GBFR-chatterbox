@@ -12566,10 +12566,10 @@
    "recovered": true,
    "prefetch_s": 0.621,
    "bytes": 120062,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.047,
+   "transcript": "Nngh... Hah... Nngh... Hah... Nngh...",
+   "confidence": null,
    "bank": "vo_pl2700_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "822316251": {
    "wem_id": "822316251",

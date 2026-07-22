@@ -4240,10 +4240,10 @@
    "recovered": true,
    "prefetch_s": 0.435,
    "bytes": 14573,
-   "transcript": "Lash me whiskers!",
+   "transcript": "Bless me whiskers!",
    "confidence": -0.099,
    "bank": "vo_pl1300_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "355414778": {
    "wem_id": "355414778",
@@ -11645,10 +11645,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 36059,
-   "transcript": "Hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo hoo",
-   "confidence": -0.085,
+   "transcript": "Brr, brr, brr, brr, brr, brr, brr",
+   "confidence": null,
    "bank": "vo_pl1300_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "989091224": {
    "wem_id": "989091224",

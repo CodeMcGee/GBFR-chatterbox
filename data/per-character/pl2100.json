@@ -2196,10 +2196,10 @@
    "recovered": true,
    "prefetch_s": 0.504,
    "bytes": 94270,
-   "transcript": "Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh... Huh...",
-   "confidence": -0.27,
+   "transcript": "Nngh... Hah... Nngh... Hah... Nngh... Hah...",
+   "confidence": null,
    "bank": "vo_pl2100_01_03_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "200631779": {
    "wem_id": "200631779",

@@ -15660,9 +15660,9 @@
    "prefetch_s": 0.637,
    "bytes": 100764,
    "bank": "vo_pl1700_01_02_00_m.bnk",
-   "transcript": "Hnnngh! Hnnngh! Hnnngh! Hnnngh! Hnnngh! Hnnngh! Hnnngh! Hnnngh!",
-   "confidence": -0.094,
-   "source_model": "qwen3-omni"
+   "transcript": "Hmm... Hmph... Hmph... Hmph... Hmph... Hmph... Hmph... Hmm...",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "293501339": {
    "wem_id": "293501339",

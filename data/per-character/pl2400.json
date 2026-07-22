@@ -3061,10 +3061,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 30198,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
+   "transcript": "Yah yah yah yah YAH!",
    "confidence": -0.068,
    "bank": "vo_pl2400_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "205456270": {
    "wem_id": "205456270",
@@ -6208,10 +6208,10 @@
    "recovered": true,
    "prefetch_s": 0.514,
    "bytes": 187506,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.043,
+   "transcript": "Ngh... Hahaha! Hah! Ngh... Ngh... Hmph... Ngh... Hmph... Ngh... Hah! Ngh... Hmph! Ngh... Hmph... Ngh... Hahaha! Mmm... Hahahaha!",
+   "confidence": null,
    "bank": "vo_pl2400_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "428319785": {
    "wem_id": "428319785",
@@ -11056,10 +11056,10 @@
    "recovered": true,
    "prefetch_s": 0.482,
    "bytes": 74757,
-   "transcript": "Mmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm",
-   "confidence": -0.062,
+   "transcript": "Mhm hm hm hm. Nom. Nom. Mmm. One more. That hits the spot. Hahaha.",
+   "confidence": null,
    "bank": "vo_pl2400_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "776324372": {
    "wem_id": "776324372",
@@ -11652,10 +11652,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6975,
-   "transcript": "Oigan!",
+   "transcript": "Eugen!",
    "confidence": -0.41,
    "bank": "vo_pl2400_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "807960600": {
    "wem_id": "807960600",

@@ -9250,10 +9250,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 20251,
-   "transcript": "Huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh",
-   "confidence": -0.078,
+   "transcript": "Haaah... Hmm... hm-hm.",
+   "confidence": null,
    "bank": "vo_pl1800_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "830763947": {
    "wem_id": "830763947",

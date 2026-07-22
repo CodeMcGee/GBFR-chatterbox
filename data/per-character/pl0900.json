@@ -598,10 +598,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 15986,
-   "transcript": "Lohenwolf!",
+   "transcript": "L\u00f6wenbein: Jagd!",
    "confidence": -0.169,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni",
+   "source_model": "human",
    "corrected": "manual"
   },
   "37550576": {
@@ -718,10 +718,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 32601,
-   "transcript": "Mmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm",
-   "confidence": -0.087,
+   "transcript": "Hmm hmm hmm, hmm hmm, hmm hmm hmm hmm hmm hmm.",
+   "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "47966933": {
    "wem_id": "47966933",
@@ -3882,10 +3882,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 16055,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.061,
+   "transcript": "Huh. Hm. Hmm.",
+   "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "297792952": {
    "wem_id": "297792952",
@@ -10215,10 +10215,10 @@
    "recovered": true,
    "prefetch_s": 0.442,
    "bytes": 21225,
-   "transcript": "Well, pincer meets timbers!",
+   "transcript": "Well, pincer me timbers!",
    "confidence": -0.14,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni",
+   "source_model": "human",
    "corrected": "manual"
   },
   "783657045": {
@@ -10794,10 +10794,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13062,
-   "transcript": "You screwed up, Vane!",
+   "transcript": "You screwed up, Vane.",
    "confidence": -0.151,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni",
+   "source_model": "human",
    "corrected": "manual"
   },
   "825116030": {
@@ -11461,7 +11461,7 @@
    "transcript": "L\u00f6wenbein: Jagd!",
    "confidence": -0.386,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni",
+   "source_model": "human",
    "corrected": "manual"
   },
   "881669271": {
@@ -13143,10 +13143,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 59685,
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.034,
+   "transcript": "Brrr... T-t-t-t... Brrr... Phew...",
+   "confidence": null,
    "bank": "vo_pl0900_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "1025339516": {
    "wem_id": "1025339516",
@@ -15728,9 +15728,9 @@
    "prefetch_s": 0.652,
    "bytes": 121035,
    "bank": "vo_pl0900_01_02_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.041,
-   "source_model": "qwen3-omni"
+   "transcript": "Nngh... Hah...",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "867674270": {
    "wem_id": "867674270",
@@ -16170,9 +16170,9 @@
    "prefetch_s": 0.068,
    "bytes": 35342,
    "bank": "vo_pl0900_01_01_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.047,
-   "source_model": "qwen3-omni"
+   "transcript": "Haha! Shh, shh! Shh, huh? Huh, it! Hyaah",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "928151478": {
    "wem_id": "928151478",

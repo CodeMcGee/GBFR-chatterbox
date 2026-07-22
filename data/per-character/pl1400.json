@@ -1366,7 +1366,7 @@
    "transcript": "Here, Krabby Krabby Krabby!",
    "confidence": -0.239,
    "bank": "vo_pl1400_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "110038052": {
    "wem_id": "110038052",
@@ -1720,10 +1720,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 15389,
-   "transcript": "Mmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm",
-   "confidence": -0.088,
+   "transcript": "Hmm hmm hmm.",
+   "confidence": null,
    "bank": "vo_pl1400_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "139017418": {
    "wem_id": "139017418",
@@ -9056,10 +9056,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13228,
-   "transcript": "Mmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm",
-   "confidence": -0.082,
+   "transcript": "Hmm hm hm.",
+   "confidence": null,
    "bank": "vo_pl1400_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "gemini-3.1-pro"
   },
   "721603926": {
    "wem_id": "721603926",

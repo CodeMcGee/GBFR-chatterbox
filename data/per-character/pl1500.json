@@ -292,10 +292,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8923,
-   "transcript": "Rolan, fix it!",
+   "transcript": "Mister Fix It!",
    "confidence": -0.493,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni",
+   "source_model": "human",
    "corrected": "manual"
   },
   "39659605": {
@@ -10474,10 +10474,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9836,
-   "transcript": "Fire rose!",
+   "transcript": "Briar Rose!",
    "confidence": -0.322,
    "bank": "vo_pl1500_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "1020935217": {
    "wem_id": "1020935217",
@@ -13467,9 +13467,9 @@
    "prefetch_s": null,
    "bytes": 12418,
    "bank": "vo_pl1500_01_01_00_m.bnk",
-   "transcript": "Master Primark!",
+   "transcript": "Master Primarch!",
    "confidence": -0.136,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "505296676": {
    "wem_id": "505296676",

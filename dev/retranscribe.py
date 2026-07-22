@@ -32,12 +32,22 @@ RACES = json.loads((HERE / "races.json").read_text()) if (HERE / "races.json").e
 # NPC ally ids that appear as label suffixes (verified from their transcripts)
 NPC = {"NP0000": "Lyria", "NP0300": "Rolan"}
 
+# Per-character speech-focused persona, prepended to every line's context.
+# See dev/PERSONAS.md; validated A/B before a character is added here.
+PERSONA = {
+    "pl2200": "Seofon is a flamboyant, seemingly supremely confident, but "
+              "actually humble and self conscious and chivalrous master swordsman who is "
+              'nicknamed "Star Sword Sovereign".',
+}
+
 
 def build_ctx(pl, label):
     """Per-line context: every hint the label carries, and nothing else.
     Speaker, addressee (when the label names one), line type. The 'If wordless'
     grunt tail is dropped - it verifiably pushes worded lines into grunts."""
     ctx = f"This line is spoken by {serve.NAMES.get(pl, pl)}."
+    if pl in PERSONA:
+        ctx = f"{PERSONA[pl]} {ctx}"
     m = re.search(r"_((PL|NP)\d{4})$", label or "")
     if m:
         name = NPC.get(m.group(1)) or serve.NAMES.get(m.group(1).lower())

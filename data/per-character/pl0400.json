@@ -15914,9 +15914,9 @@
    "prefetch_s": 0.063,
    "bytes": 82247,
    "bank": "vo_pl0400_01_02_00_m.bnk",
-   "transcript": "Huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh",
-   "confidence": -0.069,
-   "source_model": "qwen3-omni"
+   "transcript": "Nn... Nngh... Nn... Nngh... Hah... Ah... Nn... Nngh... Hmph.",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "942936123": {
    "wem_id": "942936123",
@@ -15931,9 +15931,9 @@
    "prefetch_s": 0.062,
    "bytes": 86090,
    "bank": "vo_pl0400_01_02_00_m.bnk",
-   "transcript": "Huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh-huh",
-   "confidence": -0.075,
-   "source_model": "qwen3-omni"
+   "transcript": "Nngh... Nngh... Nngh... Nngh... Nngh...",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "972385763": {
    "wem_id": "972385763",

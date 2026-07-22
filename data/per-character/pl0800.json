@@ -15616,9 +15616,9 @@
    "prefetch_s": 0.557,
    "bytes": 100784,
    "bank": "vo_pl0800_01_02_00_m.bnk",
-   "transcript": "Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah! Hah",
-   "confidence": -0.046,
-   "source_model": "qwen3-omni"
+   "transcript": "Hah... Nngh... Hmph... Nngh... Hah... Nngh... Hmph... Nngh... Hah... Nngh...",
+   "confidence": null,
+   "source_model": "gemini-3.1-pro"
   },
   "725966020": {
    "wem_id": "725966020",

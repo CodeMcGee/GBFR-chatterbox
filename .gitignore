@@ -36,3 +36,4 @@ dev/narmaya_clip.json
 dev/one.json
 dev/timing_clips.json
 data/gbfr-voice-atlas.json
+.coverage

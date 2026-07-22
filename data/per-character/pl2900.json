@@ -3317,7 +3317,7 @@
    "transcript": "Human lass!",
    "confidence": -0.015,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "219745263": {
    "wem_id": "219745263",
@@ -8691,7 +8691,7 @@
    "transcript": "Human lass!",
    "confidence": -0.006,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "607551369": {
    "wem_id": "607551369",
@@ -8824,10 +8824,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 34125,
-   "transcript": "Mmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm-hmm",
+   "transcript": "Hmm Hmm Hmm Hmm",
    "confidence": -0.077,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "616722966": {
    "wem_id": "616722966",
@@ -10596,7 +10596,7 @@
    "transcript": "Erune man!",
    "confidence": -0.153,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "759774802": {
    "wem_id": "759774802",
@@ -11770,7 +11770,7 @@
    "transcript": "Mercy unto these skies!",
    "confidence": -0.032,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "848780028": {
    "wem_id": "848780028",
@@ -11784,10 +11784,10 @@
    "recovered": true,
    "prefetch_s": 0.433,
    "bytes": 25909,
-   "transcript": "Die! Die! Die!",
+   "transcript": "Dyad! Dyad! Dyad!",
    "confidence": -0.341,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "849290874": {
    "wem_id": "849290874",
@@ -12637,7 +12637,7 @@
    "transcript": "Night shall cover you.",
    "confidence": -0.173,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "920492846": {
    "wem_id": "920492846",
@@ -13928,10 +13928,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 16693,
-   "transcript": "Entiads!",
+   "transcript": "and Dyads!",
    "confidence": -0.371,
    "bank": "vo_pl2900_02_00_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "1021782985": {
    "wem_id": "1021782985",
