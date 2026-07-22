@@ -15,14 +15,17 @@ from transcribe import ATLAS_DIR, NAMES, PKG
 
 
 def norm(s):
+    """Case/punctuation-insensitive form for matching against truth."""
     return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
 
 
 def truth():
+    """The ground-truth corpus (verified + known-wrong lines)."""
     return json.loads((PKG / "truth.json").read_text())
 
 
 def lines_of(src):
+    """Flatten a dir of per-character JSONs into one {wem_id: line} map."""
     out = {}
     for p in pathlib.Path(src).glob("pl*.json"):
         for wid, r in json.loads(p.read_text())["lines"].items():
@@ -31,6 +34,8 @@ def lines_of(src):
 
 
 def score(src, corpus=None):
+    """Print a report for one source dir. Returns the failure count:
+    wrong verified lines + reproduced known-wrong texts."""
     corpus = corpus or truth()
     lines = lines_of(src)
     right, wrong, missing = [], [], []
@@ -60,6 +65,7 @@ def score(src, corpus=None):
 
 
 def main(argv=None):
+    """CLI: score each given source dir (default: the live atlas)."""
     srcs = (argv if argv is not None else sys.argv[1:]) or [str(ATLAS_DIR)]
     return 1 if sum(score(s) for s in srcs) else 0
 

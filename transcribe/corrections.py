@@ -12,10 +12,14 @@ from transcribe import ATLAS_DIR, PKG
 
 
 def load():
+    """The corrections map: {wem_id: human-verified transcript}."""
     return json.loads((PKG / "corrections.json").read_text())
 
 
 def apply(atlas_dir=None):
+    """Overlay every correction onto the per-character JSONs in atlas_dir,
+    marking touched lines source_model=\"human\". Returns the number of
+    corrections that matched no file (0 = all present)."""
     atlas_dir = pathlib.Path(atlas_dir) if atlas_dir else ATLAS_DIR
     fixes = load()
     left = dict(fixes)
@@ -43,6 +47,7 @@ def apply(atlas_dir=None):
 
 
 def main(argv=None):
+    """CLI: apply corrections; exit non-zero if any correction went unmatched."""
     import argparse
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("atlas_dir", nargs="?", default=None)

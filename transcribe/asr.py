@@ -12,6 +12,7 @@ from transcribe import NAMES, PKG
 
 
 def asr(base, model, wav_path, ctx):
+    """Transcribe one clip. Returns (text, avg_logprob_confidence)."""
     b = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
     body = json.dumps({
         "model": model, "temperature": 0, "max_tokens": 128,
@@ -34,6 +35,7 @@ def asr(base, model, wav_path, ctx):
 
 
 def _norm(s):
+    """Case/punctuation-insensitive form for dedup."""
     return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
 
 

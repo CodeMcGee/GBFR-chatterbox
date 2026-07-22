@@ -10,6 +10,7 @@ from transcribe import PKG
 
 
 def audio_part(wav_path):
+    """A chat-completions input_audio content part for a wav file."""
     b = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
     return {"type": "input_audio", "input_audio": {"data": b, "format": "wav"}}
 
@@ -45,6 +46,8 @@ PROMPT = build_prompt()
 
 def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None, temperature=0,
                with_conf=False):
+    """Transcribe one clip. exemplars are (wav_path, transcript) few-shot
+    pairs. Returns text, or (text, avg_logprob_confidence) with with_conf."""
     # system: instructions + glossary. Then verified (audio -> transcript) pairs
     # for THIS character as few-shot turns, priming the model on their voice.
     messages = [{"role": "system", "content": system or PROMPT}]

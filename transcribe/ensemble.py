@@ -25,10 +25,12 @@ from transcribe.context import build_ctx
 
 
 def norm(s):
+    """Case/punctuation-insensitive form for agreement checks."""
     return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
 
 
 def main(argv=None):
+    """CLI: run the gated ASR merge for one character, print the review queue."""
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--base", default="http://127.0.0.1:8211/v1")
     ap.add_argument("--model", default="qwen3-asr")
@@ -46,6 +48,7 @@ def main(argv=None):
     all_phrases = [p for p in ctx.split(". ") if p]
 
     def echo(text):
+        """True when the model read the hotword list back instead of listening."""
         return sum(1 for p in all_phrases if norm(p) in norm(text)) >= 3
 
     review, took, kept = [], 0, 0

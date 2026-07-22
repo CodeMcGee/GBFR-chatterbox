@@ -14,6 +14,7 @@ COMMANDS = {
 
 
 def main():
+    """Parse the command name and dispatch to that module's main(argv)."""
     ap = argparse.ArgumentParser(
         prog="python -m transcribe",
         description=__doc__.splitlines()[0],

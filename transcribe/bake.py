@@ -17,6 +17,8 @@ from transcribe.omni import transcribe
 
 
 def bake_character(pl, doc, audio, base, model, ex_map, out_file):
+    """Transcribe every non-human line of one character's doc and write it to
+    out_file. Returns the number of lines transcribed."""
     lines = doc["lines"]
     with tempfile.TemporaryDirectory() as td:
         # per-character exemplars: decode each once, reuse for every line
@@ -55,6 +57,7 @@ def bake_character(pl, doc, audio, base, model, ex_map, out_file):
 
 
 def main(argv=None):
+    """CLI: bake all (or --only named) characters into --out."""
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--game")
     ap.add_argument("--base", default="http://127.0.0.1:8210/v1")

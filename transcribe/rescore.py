@@ -13,6 +13,7 @@ from transcribe.omni import PROMPT, audio_part
 
 
 def _post(base, path, payload):
+    """POST json to the vllm server, return the parsed response."""
     req = urllib.request.Request(f"{base}{path}", json.dumps(payload).encode(),
                                  {"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=120) as r:
@@ -20,6 +21,7 @@ def _post(base, path, payload):
 
 
 def ntokens(base, model, text):
+    """Token count of `text` per the server's /tokenize endpoint."""
     return len(_post(base.replace("/v1", ""), "/tokenize",
                      {"model": model, "prompt": text})["tokens"])
 
