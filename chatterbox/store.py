@@ -27,7 +27,8 @@ class Store:
         # sha of each bank as we first found it: tells "untouched" from
         # "already edited" and spots a game update.
         self.manifest_file = self.profile_file.with_name("originals.json")
-        # Review flags: {wem_id: {"wrong": true, "correct": "..."}}.
+        # Review flags: {wem_id: {"wrong": true, "correct": "..."}} for bad
+        # transcripts, {"verified": true} for ear-confirmed ones.
         self.flags_file = self.profile_file.with_name("flags.json")
 
     def _read_json(self, path):
@@ -78,18 +79,28 @@ class Store:
     def flags(self):
         return self._read_json(self.flags_file)
 
-    def set_flag(self, wem_id, wrong, correct=None):
-        """Mark/unmark a line as a wrong transcription, with the reviewer's
-        corrected words. Unchecking drops the whole entry."""
-        f = self.flags()
+    def set_flag(self, wem_id, wrong=None, correct=None, verified=None):
+        """Mark a line wrong (with the reviewer's corrected words) or
+        verified-correct. The two states are mutually exclusive; clearing the
+        last one drops the entry."""
+        flags = self.flags()
         wem_id = str(wem_id)
-        entry = f.get(wem_id) or {}
-        if wrong:
-            entry["wrong"] = True
-            if correct is not None:
-                entry["correct"] = correct.strip()
-            f[wem_id] = entry
+        entry = flags.get(wem_id) or {}
+        if wrong is not None:
+            if wrong:
+                entry["wrong"] = True
+                entry.pop("verified", None)
+                if correct is not None:
+                    entry["correct"] = correct.strip()
+            else:
+                entry.pop("wrong", None)
+                entry.pop("correct", None)
+        if verified is not None:
+            entry = {"verified": True} if verified else {}
+        if entry:
+            flags[wem_id] = entry
         else:
-            f.pop(wem_id, None)
-        atomic_write(self.flags_file, json.dumps(f, indent=1).encode())
-        return {"ok": True, "wem_id": wem_id, "wrong": bool(wrong)}
+            flags.pop(wem_id, None)
+        atomic_write(self.flags_file, json.dumps(flags, indent=1).encode())
+        return {"ok": True, "wem_id": wem_id,
+                "wrong": bool(entry.get("wrong")), "verified": bool(entry.get("verified"))}

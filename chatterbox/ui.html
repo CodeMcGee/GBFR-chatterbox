@@ -25,7 +25,8 @@
        margin:20px 0 6px; font-weight:600; }
   tr.grp td { border:none; padding:0; }
   tr.grp h2 { margin:18px 0 4px; }
-  table { width:100%; border-collapse:collapse; }
+  table { width:100%; border-collapse:collapse; table-layout:fixed; }
+  td, th { overflow-wrap:break-word; }
   td { padding:5px 8px; border-bottom:1px solid var(--line); vertical-align:middle; }
   th { padding:6px 8px; text-align:left; font-size:.75em; text-transform:uppercase;
        letter-spacing:.04em; color:var(--dim); font-weight:600;
@@ -35,7 +36,9 @@
   tr.on-swapped .txt { color:var(--swap); }
   tr.on-wrong { background:rgba(220,80,80,.10); }
   tr.on-wrong .txt { color:#ff9d9d; }
-  td.flag { width:26px; text-align:center; }
+  td.flag { width:44px; text-align:center; white-space:nowrap; }
+  td.flag input.ok { accent-color:#2f9e44; margin-left:4px; }
+  tr.on-verified td.txt { opacity:.55; }
   td.flag input { cursor:pointer; }
   input.fix { margin-top:4px; width:90%; background:#1a1a1a; color:#ff9d9d;
     border:1px solid #553; border-radius:3px; padding:2px 5px; font:inherit; }
@@ -77,6 +80,7 @@
   <select id=cat></select>
   <label><input type=checkbox id=hidesilent> <span class=lbl>hide silent</span></label>
   <label><input type=checkbox id=hidestreamed> <span class=lbl>hide streamed</span></label>
+  <label title="One flat list, least trustworthy transcripts first - flag and correct as you listen"><input type=checkbox id=review> <span class=lbl>review mode</span></label>
   <span class=spacer></span>
   <span class=pending id=pending></span>
   <button id=apply disabled>Apply</button>
@@ -151,6 +155,7 @@ async function boot() {
   $('#cat').onchange = render;
   $('#hidesilent').onchange = render;
   $('#hidestreamed').onchange = render;
+  $('#review').onchange = render;
   $('#apply').onclick = apply;
   $('#mutechar').onclick = muteCharacter;
   $('#muteall').onclick = muteAll;
@@ -219,6 +224,7 @@ async function enableFullPreviews() {
 
 async function load(p) {
   pl = p; mutes = new Set(); unmutes = new Set(); swaps = {}; sync();
+  clearWavCache();          // previewed wavs from the last character stay out of memory
   data = await (await fetch('/api/lines?pl=' + p)).json();
   const present = [...new Set(data.lines.map(l => l.category))].filter(c => CATS[c]);
   const count = c => data.lines.filter(l => l.category === c).length;
@@ -232,6 +238,7 @@ async function load(p) {
 function render() {
   const cat = $('#cat').value, hide = $('#hidesilent').checked;
   const hideStr = $('#hidestreamed').checked;
+  if ($('#review').checked) return renderReview();
   const rows = data.lines.filter(l => l.category === cat)
                          .filter(l => !(hide && !l.transcript))
                          .filter(l => !(hideStr && l.streamed));
@@ -243,8 +250,37 @@ function render() {
     `<tr class=grp><td colspan=7><h2>${groupHeader(g)} `
     + `<span style="opacity:.6">(${groups[g].length})</span></h2></td></tr>`
     + groups[g].map(row).join('')).join('');
-  $('#main').innerHTML = body ? `<table>${THEAD}${body}</table>` : '<p>No lines.</p>';
+  $('#main').innerHTML = body ? `<table>${COLS}${THEAD}${body}</table>` : '<p>No lines.</p>';
   setHead();
+}
+
+// Review mode: every category in one flat list, least trustworthy first, so a
+// correction pass is just "listen from the top". Lines with no confidence
+// (silent, or already human-verified elsewhere) sort last.
+const REVIEW_CHUNK = 150;   // a 900-row table makes every layout pass a paint stall
+let reviewRows = [], reviewShown = 0;
+
+function renderReview() {
+  reviewRows = data.lines.filter(l => l.transcript)
+    .sort((a, b) => (a.verified - b.verified)     // done lines sink to the bottom
+      || (a.confidence ?? 0) - (b.confidence ?? 0));
+  reviewShown = 0;
+  $('#main').innerHTML = `<table id=revtable>${COLS}${THEAD}`
+    + `<tbody><tr class=grp><td colspan=7><h2>Review — worst confidence first `
+    + `<span style="opacity:.6">(${reviewRows.length})</span></h2></td></tr></tbody></table>`
+    + `<p style="text-align:center"><button id=morereview onclick="moreReview()"></button></p>`;
+  moreReview();
+  setHead();
+}
+
+function moreReview() {
+  const next = reviewRows.slice(reviewShown, reviewShown + REVIEW_CHUNK);
+  reviewShown += next.length;
+  $('#revtable tbody').insertAdjacentHTML('beforeend', next.map(row).join(''));
+  const left = reviewRows.length - reviewShown;
+  const btn = $('#morereview');
+  btn.textContent = left > 0 ? `Show ${Math.min(left, REVIEW_CHUNK)} more (${left} left)` : 'All shown';
+  btn.disabled = left <= 0;
 }
 
 // Park the sticky column headers just under the sticky page header, whatever its height.
@@ -254,8 +290,11 @@ function setHead() {
 }
 addEventListener('resize', setHead);
 
+const COLS = `<colgroup><col style=width:44px><col style=width:56px><col>
+  <col style=width:52px><col style=width:22%><col style=width:60px><col style=width:150px></colgroup>`;
+
 const THEAD = `<thead><tr>
-  <th class=flag title="Mark transcripts that are wrong">Wrong?</th>
+  <th class=flag title="Left box: transcript is wrong. Right box: verified correct, never revisit">Wrong/OK</th>
   <th title="Preview the line">Play</th>
   <th>Transcript</th>
   <th class=conf title="Transcription confidence (0 = confident, very negative = likely wrong)">Conf</th>
@@ -271,11 +310,14 @@ function row(l) {
   const muted = isMuted(l);
   const from = swaps[l.wem_id] || l.swapped_from;
   const note = (!muted && from) ? ` &rarr; plays ${said(from)}` : '';
-  const cls = [muted ? 'on-muted' : (from ? 'on-swapped' : ''), l.flagged ? 'on-wrong' : ''].join(' ').trim();
+  const cls = [muted ? 'on-muted' : (from ? 'on-swapped' : ''), l.flagged ? 'on-wrong' : '',
+    l.verified ? 'on-verified' : ''].join(' ').trim();
   return `<tr class="${cls}">
     <td class=flag><input type=checkbox ${l.flagged ? 'checked' : ''}
       title="Mark this transcript as incorrect"
-      onchange="toggleFlag('${l.wem_id}', this)"></td>
+      onchange="toggleFlag('${l.wem_id}', this)"><input type=checkbox class=ok
+      ${l.verified ? 'checked' : ''} title="Transcript verified correct - never revisit"
+      onchange="toggleVerified('${l.wem_id}', this)"></td>
     <td class=act style="text-align:left;width:52px">
       <button onclick="play('${l.wem_id}')" title="Preview">&#9654;</button>${l.preview_full ? ''
         : `<span class=clip title="Only the ${l.prefetch_s ?? '~0.4'}s cached in the game bank can be previewed here \u2014 the rest of this line streams from the game archives. The full line is ${l.duration ? l.duration.toFixed(2) : '?'}s and is unaffected by muting.">&#9899;</span>`}</td>
@@ -295,10 +337,32 @@ function row(l) {
 // qwen avg-logprob scale: correct lines ~0, known-bad ~-0.2 (measured)
 const confClass = c => c == null ? '' : c < -0.2 ? 'c-bad' : c < -0.1 ? 'c-mid' : '';
 
+// Both toggles update their row in place: a full re-render of a ~900-row
+// review table on every click is what "extremely slow" feels like, and the
+// re-sort would teleport the row out from under the cursor. Verified rows
+// sink only on the next entry into review mode.
+async function toggleVerified(id, el) {
+  const l = data.lines.find(x => x.wem_id === id);
+  if (l) { l.verified = el.checked; if (el.checked) l.flagged = false; }
+  const tr = el.closest('tr');
+  tr.classList.toggle('on-verified', el.checked);
+  if (el.checked) {
+    tr.classList.remove('on-wrong');
+    const wrongBox = tr.querySelector('td.flag input:not(.ok)');
+    wrongBox.checked = false;
+    tr.querySelector('input.fix').style.display = 'none';
+  }
+  post('/api/flag', { wem_id: id, verified: el.checked });
+}
+
 async function toggleFlag(id, el) {
   const l = data.lines.find(x => x.wem_id === id);
-  if (l) l.flagged = el.checked;                 // keep local state in sync
+  if (l) { l.flagged = el.checked; if (el.checked) l.verified = false; }
   const tr = el.closest('tr');
+  if (el.checked) {
+    tr.classList.remove('on-verified');
+    tr.querySelector('td.flag input.ok').checked = false;
+  }
   tr.classList.toggle('on-wrong', el.checked);
   const fix = tr.querySelector('.fix');
   fix.style.display = el.checked ? 'block' : 'none';
@@ -327,12 +391,19 @@ function clearWavCache() {
   for (const url of wavCache.values()) URL.revokeObjectURL(url);
   wavCache = new Map();
 }
+const WAV_CACHE_MAX = 40; // a review pass previews hundreds of clips; cap the kept blobs
+
 async function play(id) {
   audio.pause();
   if (!wavCache.has(id)) {
     // no-store so a refetch after enabling full previews cannot be served the
     // browser's cached truncated copy
     const blob = await (await fetch(`/api/wav?pl=${pl}&id=${id}`, {cache: 'no-store'})).blob();
+    if (wavCache.size >= WAV_CACHE_MAX) {      // Map iterates in insertion order
+      const oldest = wavCache.keys().next().value;
+      URL.revokeObjectURL(wavCache.get(oldest));
+      wavCache.delete(oldest);
+    }
     wavCache.set(id, URL.createObjectURL(blob));
   }
   const a = new Audio(wavCache.get(id));   // local handle: a later click may reassign `audio`

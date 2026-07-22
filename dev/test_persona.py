@@ -17,9 +17,19 @@ import tempfile
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
-from retranscribe import Audio, build_ctx, PERSONA
-from smoke_qwen3omni import transcribe
+from transcribe.audio import Audio
+from transcribe.context import build_ctx
+from transcribe import PKG
+from transcribe.omni import transcribe
 import serve
+
+# The E1 blurb, kept as the historical record; personas are retired from the
+# pipeline (EXPERIMENTS E2/E3) so this experiment defines its own.
+PERSONA = {
+    "pl2200": "Seofon is a flamboyant, supremely confident master swordsman and "
+              "leader of the Eternals, who fights and speaks like a chivalrous "
+              'duelist, using fencing calls such as "En garde!".',
+}
 
 
 def main():
@@ -35,7 +45,7 @@ def main():
     doc = json.loads((ROOT / "data/per-character" / f"{a.pl}.json").read_text())
     r = doc["lines"][a.wem]
     label = r.get("label", "")
-    ex_map = json.loads((HERE / "exemplars.json").read_text())
+    ex_map = json.loads((PKG / "exemplars.json").read_text())
 
     with tempfile.TemporaryDirectory() as td:
         # same exemplars the bake uses, minus the target line itself
@@ -53,11 +63,8 @@ def main():
         wav = pathlib.Path(td) / "t.wav"
         audio.wav(r["bank"], a.wem, wav)
 
-        # build_ctx now prepends PERSONA itself; pop the entry to get baseline
-        blurb = PERSONA.pop(a.pl)
         base_ctx = build_ctx(a.pl, label)
-        PERSONA[a.pl] = blurb
-        persona_ctx = build_ctx(a.pl, label)
+        persona_ctx = f"{PERSONA[a.pl]} {base_ctx}"
 
         print(f"clip {a.wem} ({label})  current atlas: {r.get('transcript')!r}\n")
         for name, ctx in [("baseline", base_ctx), ("persona ", persona_ctx)]:

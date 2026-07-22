@@ -16,8 +16,9 @@ import sys
 import tempfile
 
 sys.path.insert(0, "dev"); sys.path.insert(0, ".")
-from retranscribe import Audio
-from smoke_qwen3omni import GRUNT_PROMPT, transcribe
+from transcribe.audio import Audio
+from transcribe.context import GRUNT_PROMPT
+from transcribe.omni import transcribe
 
 import serve
 

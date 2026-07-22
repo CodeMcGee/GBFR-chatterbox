@@ -80,7 +80,8 @@ its SHA256. Linux binaries in `tools/` are filtered out.
 ## Running the tests
 
 ```sh
-uv run pytest                # the whole suite, with a 70% coverage gate
+uv run pytest                # the whole suite
+uv run pytest --cov          # same, with the 70% coverage gate
 ```
 
 Each file also runs standalone (`python tests/test_banks.py`):

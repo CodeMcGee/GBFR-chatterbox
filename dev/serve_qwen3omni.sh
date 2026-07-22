@@ -5,12 +5,14 @@
 #   GPU=1 dev/serve_qwen3omni.sh
 # Then in another shell:  python dev/smoke_qwen3omni.py
 #
-# Uses the vllm docker image already on this box. Qwen3-Omni needs a recent vllm;
-# if 'nightly' rejects the arch, try the qwen3_5-cu130 tag.
+# The NVFP4 checkpoint is broken out-of-the-box and needs the patched HF
+# snapshot + the v0.19-nvfp4-audio image - full recipe in EXPERIMENTS.md E9.
+# It also benchmarks SLOWER than the AWQ build on the 5090s; prefer
+# serve_qwen3omni_awq.sh unless comparing quantizations.
 set -euo pipefail
 GPU="${GPU:-0}"
 MODEL="catplusplus/Qwen3-Omni-30B-A3B-Instruct-NVFP4"
-IMAGE="${IMAGE:-vllm/vllm-openai:nightly}"
+IMAGE="${IMAGE:-vllm/vllm-openai:v0.19-nvfp4-audio}"
 
 docker run --rm --gpus "device=${GPU}" \
   -v "$HOME/.cache/huggingface:/root/.cache/huggingface" \

@@ -6,4 +6,6 @@
   browsing and spreadsheets. Derived; rebuild with
   `python dev/build_atlas.py data/per-character data/gbfr-voice-atlas`.
 
-Edit per-character files (or better, `dev/corrections.json`), never the CSV.
+Edit per-character files (or better, add the fix to
+`transcribe/corrections.json` and run `python -m transcribe corrections`),
+never the CSV.

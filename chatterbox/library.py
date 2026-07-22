@@ -118,6 +118,7 @@ class Library:
                 "confidence": r.get("confidence"),
                 "flagged": bool((flags.get(wid) or {}).get("wrong")),
                 "correction": (flags.get(wid) or {}).get("correct") or "",
+                "verified": bool((flags.get(wid) or {}).get("verified")),
                 "duration": r.get("duration_s"),
                 "muted": muted,
                 "swapped_from": swapped_from,

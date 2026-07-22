@@ -1,0 +1,854 @@
+{
+ "_comment": "Ground-truth eval corpus. 'verified': human-confirmed text (matching is punctuation/case-insensitive, see eval_truth.py). 'known_wrong': the listed text was human-flagged WRONG with no replacement given - a model outputting it fails, but differing is only weak evidence of being right. 'unresolved': feedback given but never pinned to a wem_id. Grow all three as feedback arrives; score with eval_truth.py.",
+ "verified": {
+  "369669530": {
+   "pl": "pl0000",
+   "text": "Got em on the ropes!"
+  },
+  "25076995": {
+   "pl": "pl0000",
+   "text": "Diastrophism"
+  },
+  "779504685": {
+   "pl": "pl0000",
+   "text": "Rackam"
+  },
+  "377272513": {
+   "pl": "pl0000",
+   "text": "Id!"
+  },
+  "1060076132": {
+   "pl": "pl0000",
+   "text": "Sandalphon"
+  },
+  "686873304": {
+   "pl": "pl0000",
+   "text": "Seofon"
+  },
+  "6651942": {
+   "pl": "pl0000",
+   "text": "Gallanza!"
+  },
+  "883653850": {
+   "pl": "pl0000",
+   "text": "Fraux"
+  },
+  "241577419": {
+   "pl": "pl0900",
+   "text": "soar!"
+  },
+  "604908894": {
+   "pl": "pl0900",
+   "text": "and score!"
+  },
+  "879962080": {
+   "pl": "pl0900",
+   "text": "Löwenbein: Jagd!",
+   "note": "SBA; was mistranscribed as Percival's Lohenwolf"
+  },
+  "780614151": {
+   "pl": "pl0900",
+   "text": "Well, pincer me timbers!",
+   "note": "recovered from chat 2026-07; had never been applied"
+  },
+  "562089231": {
+   "pl": "pl1300",
+   "text": "Aye, and we'll drag the rest to the darkest depths!"
+  },
+  "355245523": {
+   "pl": "pl1300",
+   "text": "Bless me whiskers!",
+   "note": "user-confirmed in chat; a later omni pass regressed it to 'Lash me whiskers!'"
+  },
+  "108436237": {
+   "pl": "pl1400",
+   "text": "Here, Krabby Krabby Krabby!",
+   "note": "user: three Krabbys, not one"
+  },
+  "441369863": {
+   "pl": "pl2200",
+   "text": "En garde!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "745122813": {
+   "pl": "pl2200",
+   "text": "You're a goner!",
+   "note": "was 'You're a gunner.'"
+  },
+  "378727809": {
+   "pl": "pl2900",
+   "text": "Red Detonation!"
+  },
+  "338751780": {
+   "pl": "pl2900",
+   "text": "Erune woman!"
+  },
+  "920400183": {
+   "pl": "pl2900",
+   "text": "Night shall cover you."
+  },
+  "604042844": {
+   "pl": "pl2900",
+   "text": "Human lass!",
+   "note": "Fediel names allies by race+gender; partner pl0400 is a Human female"
+  },
+  "218777427": {
+   "pl": "pl2900",
+   "text": "Human lass!",
+   "note": "partner pl1800 is a Human female"
+  },
+  "759048792": {
+   "pl": "pl2900",
+   "text": "Erune man!",
+   "note": "partner pl2700 (Eustace) is an Erune male"
+  },
+  "845626067": {
+   "pl": "pl2900",
+   "text": "Mercy unto these skies!",
+   "note": "user-confirmed by ear 2026-07-22 (omni + Gemini pro agreed); the chat-recalled 'Blessing unto these skies' was a misremembering of this line - no other 'unto these skies' clip exists in the atlas"
+  },
+  "825022410": {
+   "pl": "pl0900",
+   "text": "You screwed up, Vane.",
+   "note": "the second flagged Vane clip; omni misheard 'thing'/'Gah!', Whisper-confirmed, fixed in 67f5cfe"
+  },
+  "904727772": {
+   "pl": "pl2900",
+   "text": "Lightning Eradication!",
+   "note": "confirmed via cross-character consensus (shared burst line)"
+  },
+  "36524872": {
+   "pl": "pl0900",
+   "text": "Löwenbein: Jagd!",
+   "note": "Vane charge_name_3; user-confirmed by ear 2026-07-22; was 'Lohenwolf!' (Percival's SBA, glossary snap)"
+  },
+  "1019504325": {
+   "pl": "pl1500",
+   "text": "Briar Rose!",
+   "note": "Ghandagoza's epithet for Rosetta (roses/thorns). User-confirmed 'Briar'; qwen-ASR heard 'Friar', Whisper unprompted heard 'Briar'"
+  },
+  "35162464": {
+   "pl": "pl1500",
+   "text": "Mister Fix It!",
+   "note": "Ghandagoza calling Rolan by his in-game nickname 'Mister Fix It'; atlas had 'Rolan, fix it!'"
+  },
+  "495980171": {
+   "pl": "pl1500",
+   "text": "Master Primarch!",
+   "note": "Ghandagoza's epithet for Sandalphon; atlas had 'Master Primark!'"
+  },
+  "848780028": {
+   "pl": "pl2900",
+   "text": "Dyad! Dyad! Dyad!",
+   "note": "Fediel emo shout; omni heard 'Die! Die! Die!' - Dyad is her name for the captain; ear-verified via tool 2026-07-22"
+  },
+  "616720410": {
+   "pl": "pl2900",
+   "text": "Hmm Hmm Hmm Hmm",
+   "note": "was a degenerate 'Mmm-hmm' x30 repetition loop; ear-verified via tool 2026-07-22"
+  },
+  "1021448995": {
+   "pl": "pl2900",
+   "text": "and Dyads!",
+   "note": "omni heard 'Entiads!'; ear-verified via tool 2026-07-22"
+  },
+  "204788076": {
+   "pl": "pl2400",
+   "text": "Yah yah yah yah YAH!",
+   "note": "was a degenerate 'Hah!' x24 repetition loop; ear-verified via tool 2026-07-22"
+  },
+  "807008820": {
+   "pl": "pl2400",
+   "text": "Eugen!",
+   "note": "Gallanza calling Eugen; omni heard 'Oigan!'; ear-verified via tool 2026-07-22"
+  },
+  "28765731": {
+   "pl": "pl0000",
+   "text": "Hmph!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "647492527": {
+   "pl": "pl0000",
+   "text": "Huh!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "367510941": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "68642341": {
+   "pl": "pl0000",
+   "text": "Huh!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "139270342": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "937076420": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "516329274": {
+   "pl": "pl0000",
+   "text": "Hahahaha!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "622220957": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "111372885": {
+   "pl": "pl0000",
+   "text": "Hmph!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "544572461": {
+   "pl": "pl0000",
+   "text": "Haaaaaa!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "65536328": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "879509941": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "538572038": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "132851416": {
+   "pl": "pl0000",
+   "text": "Gah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "435313772": {
+   "pl": "pl0000",
+   "text": "Gah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "985808028": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "658194277": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "926623695": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "232979092": {
+   "pl": "pl0000",
+   "text": "Gah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "647421948": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "657833981": {
+   "pl": "pl0000",
+   "text": "Huh?!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "559643283": {
+   "pl": "pl0000",
+   "text": "Gah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "704525873": {
+   "pl": "pl0000",
+   "text": "Ahh!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "701768377": {
+   "pl": "pl0000",
+   "text": "Huh!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "892083833": {
+   "pl": "pl0000",
+   "text": "Oh, shucks.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "1008895176": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "447021977": {
+   "pl": "pl0000",
+   "text": "Ugh!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "228407273": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "395503940": {
+   "pl": "pl0000",
+   "text": "Yah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "622370123": {
+   "pl": "pl0000",
+   "text": "Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "44444592": {
+   "pl": "pl0000",
+   "text": "Mmm... delicious.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "724394017": {
+   "pl": "pl0000",
+   "text": "Heh heh heh...",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "81140097": {
+   "pl": "pl0000",
+   "text": "No! No! Aaaah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "130725676": {
+   "pl": "pl0000",
+   "text": "Heh heh heh...",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "11198657": {
+   "pl": "pl0000",
+   "text": "Awww, too bad.",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "357729808": {
+   "pl": "pl0000",
+   "text": "Gah! Cut through it!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "226027865": {
+   "pl": "pl0000",
+   "text": "Heh! Fly like a Vern! Sting like... Lyria!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "503865559": {
+   "pl": "pl0000",
+   "text": "Sheesh! Flammeck is insane!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "183600591": {
+   "pl": "pl0000",
+   "text": "Capita... Oh! I get it!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "759620566": {
+   "pl": "pl0000",
+   "text": "Okay... Not bad.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "968800271": {
+   "pl": "pl0000",
+   "text": "Oh no!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "1034928387": {
+   "pl": "pl0000",
+   "text": "That was close!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "859158126": {
+   "pl": "pl0000",
+   "text": "Jeez! Okay!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "1063541626": {
+   "pl": "pl0000",
+   "text": "Come to papa! Ah, snacks!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "569578643": {
+   "pl": "pl0000",
+   "text": "Wha-what happened to him!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "109973279": {
+   "pl": "pl0000",
+   "text": "Protect Historiaeth!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "170155629": {
+   "pl": "pl0000",
+   "text": "All together! Soyaa!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "686870306": {
+   "pl": "pl0000",
+   "text": "Come back... Id!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "450487997": {
+   "pl": "pl0000",
+   "text": "Heh heh! Our crew is the best!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "787317474": {
+   "pl": "pl0000",
+   "text": "Magic begone!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "618700818": {
+   "pl": "pl0000",
+   "text": "That worked out... somehow or other.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "1043490843": {
+   "pl": "pl0000",
+   "text": "Oh, say more!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "734078065": {
+   "pl": "pl0000",
+   "text": "Lyria... come back to us!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "764002827": {
+   "pl": "pl0000",
+   "text": "Haha! Yes!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "745734847": {
+   "pl": "pl0000",
+   "text": "Eugen!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "450658446": {
+   "pl": "pl0000",
+   "text": "Sorry!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "755100072": {
+   "pl": "pl0000",
+   "text": "Yup!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "20939233": {
+   "pl": "pl0000",
+   "text": "Well, alright!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "430731070": {
+   "pl": "pl0000",
+   "text": "Attack formation!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "380665629": {
+   "pl": "pl0000",
+   "text": "Ya like that?",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "544856954": {
+   "pl": "pl0000",
+   "text": "What's wrong!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "929942885": {
+   "pl": "pl0000",
+   "text": "Okay, Id. You asked for it!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "394663219": {
+   "pl": "pl0000",
+   "text": "Whoa! The Ultimate Fists!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "471582005": {
+   "pl": "pl0000",
+   "text": "Okay, people. It's go time!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "882162198": {
+   "pl": "pl0000",
+   "text": "Ah here it goes One... Two... Three.. Four.. Five... Six... ah.",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "166050571": {
+   "pl": "pl0000",
+   "text": "Don't mind if I do! That hit the spot!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "250499171": {
+   "pl": "pl0000",
+   "text": "Furycane! We beat you once, we'll do it again!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "421053141": {
+   "pl": "pl0000",
+   "text": "Okay, people. It's go time!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "1022908087": {
+   "pl": "pl0000",
+   "text": "Whew! We made it through!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "829691252": {
+   "pl": "pl0000",
+   "text": "All right!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "59498027": {
+   "pl": "pl0000",
+   "text": "I appreciate it!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "330001743": {
+   "pl": "pl0000",
+   "text": "I needed that!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "571740150": {
+   "pl": "pl0000",
+   "text": "Thanks.",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "543448708": {
+   "pl": "pl0000",
+   "text": "Safety First!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "1062948984": {
+   "pl": "pl0000",
+   "text": "Whew! We made it through!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "356081514": {
+   "pl": "pl0000",
+   "text": "Aw man!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "104054421": {
+   "pl": "pl0000",
+   "text": "Just doin' what I can!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "436026800": {
+   "pl": "pl0000",
+   "text": "I'm with ya there!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "58171446": {
+   "pl": "pl0000",
+   "text": "It's freezing...",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "374884222": {
+   "pl": "pl0100",
+   "text": "Let's do this. Okay. Another. And... done. Sweet!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "839072709": {
+   "pl": "pl0100",
+   "text": "Hohoho!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "867111657": {
+   "pl": "pl0100",
+   "text": "Oh well.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "277666364": {
+   "pl": "pl0100",
+   "text": "Ooh boy!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "282195194": {
+   "pl": "pl0100",
+   "text": "Mmm... delicious!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "853454705": {
+   "pl": "pl0100",
+   "text": "Why...?",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "918294596": {
+   "pl": "pl0100",
+   "text": "Great!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "553520635": {
+   "pl": "pl0100",
+   "text": "Hah! Hah! Hah! Hah! Hah!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "157484237": {
+   "pl": "pl0100",
+   "text": "Good...",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "524198090": {
+   "pl": "pl0100",
+   "text": "Okay... I got this... Last one... Phew!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "498665716": {
+   "pl": "pl0100",
+   "text": "We can't let Gallanza outdo us!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "25278357": {
+   "pl": "pl0100",
+   "text": "There. Feeling better already!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "611592356": {
+   "pl": "pl0100",
+   "text": "Sorry.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "28943466": {
+   "pl": "pl0100",
+   "text": "Who... who turned down the heat?",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "205558304": {
+   "pl": "pl0100",
+   "text": "Hehe, congrats!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "631207869": {
+   "pl": "pl0100",
+   "text": "Huh! Thanks, Fraux!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "405067468": {
+   "pl": "pl0100",
+   "text": "Hah! Great!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "138566380": {
+   "pl": "pl0100",
+   "text": "Well, alright!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "573457759": {
+   "pl": "pl0100",
+   "text": "Aww, shucks!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "926566859": {
+   "pl": "pl0100",
+   "text": "You!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "603157136": {
+   "pl": "pl0100",
+   "text": "Okay, Id! You asked for it!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "563571085": {
+   "pl": "pl2200",
+   "text": "Easy!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "299326151": {
+   "pl": "pl2200",
+   "text": "Seia!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "650986987": {
+   "pl": "pl2200",
+   "text": "Up and at em.",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "453083133": {
+   "pl": "pl2200",
+   "text": "Uno, Tweyen, Threo, Feower, Fif, Seox!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "1043106863": {
+   "pl": "pl2200",
+   "text": "I eat timing for breakfast!... Wait...",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "1011783181": {
+   "pl": "pl2200",
+   "text": "Alley-oop! There it is!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "698576988": {
+   "pl": "pl2200",
+   "text": "Heh heh, cool!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "583238064": {
+   "pl": "pl2200",
+   "text": "Just like Seox. He's a lot cooler...",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "466181471": {
+   "pl": "pl2200",
+   "text": "Boo! Ya!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "719793825": {
+   "pl": "pl2200",
+   "text": "Awww, a grabbable pinch monster!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "102292425": {
+   "pl": "pl2200",
+   "text": "Seofon, The Star-Sword Sovereign! Good night, folks!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "272133805": {
+   "pl": "pl2200",
+   "text": "Oh, no! Ugh!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "422081031": {
+   "pl": "pl2200",
+   "text": "Oh, Fraudy-pie!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "460191643": {
+   "pl": "pl2200",
+   "text": "What'cha got?!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "361584726": {
+   "pl": "pl2200",
+   "text": "Haha! What kind of stakes are we talking?",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "455926523": {
+   "pl": "pl2200",
+   "text": "Here goes!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "416993654": {
+   "pl": "pl2200",
+   "text": "Hmph.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "844255291": {
+   "pl": "pl2200",
+   "text": "Secret snack!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "662155168": {
+   "pl": "pl2200",
+   "text": "More like Vain work makes the Pain work!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "646911432": {
+   "pl": "pl2200",
+   "text": "Behold! My cool pose!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "987780661": {
+   "pl": "pl2200",
+   "text": "Star-Sword Sovereign, at your service.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "462592966": {
+   "pl": "pl2200",
+   "text": "Hm.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "407944796": {
+   "pl": "pl2200",
+   "text": "Haha!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "155844141": {
+   "pl": "pl2200",
+   "text": "Phew... got my guard down.",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "740120674": {
+   "pl": "pl2200",
+   "text": "Say \"good night\"!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "256679516": {
+   "pl": "pl2200",
+   "text": "Aww, fudge!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "51170927": {
+   "pl": "pl2200",
+   "text": "Just one set... Feel the burn!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "12226336": {
+   "pl": "pl2200",
+   "text": "Ugh... I'm freezing...",
+   "note": "ear-verified in the review tool 2026-07-22"
+  },
+  "861400045": {
+   "pl": "pl2200",
+   "text": "I am?... I-I mean YES! I AM! Ha ha! Finally, someone gets it!",
+   "note": "correction typed in the review tool 2026-07-22"
+  },
+  "761560667": {
+   "pl": "pl2200",
+   "text": "Hah! Despedazar!",
+   "note": "ear-verified in the review tool 2026-07-22"
+  }
+ },
+ "known_wrong": {
+  "843111311": {
+   "pl": "pl0000",
+   "not": "Ragnarok Form!",
+   "note": "reviewer: wordless grunt hallucinated into words; needs a grunt-prompt retranscription"
+  },
+  "682981727": {
+   "pl": "pl0000",
+   "not": "Sword of Lumiel!",
+   "note": "reviewer: wordless grunt hallucinated into words; needs a grunt-prompt retranscription"
+  },
+  "83655327": {
+   "pl": "pl0000",
+   "not": "We have to stop ongrumine you!",
+   "note": "flagged wrong in the review tool, no correction given"
+  },
+  "140033438": {
+   "pl": "pl0000",
+   "not": "Wait b.",
+   "note": "reviewer: wordless grunt hallucinated into words; needs a grunt-prompt retranscription"
+  },
+  "770909042": {
+   "pl": "pl0000",
+   "not": "Wait a...",
+   "note": "reviewer: wordless grunt hallucinated into words; needs a grunt-prompt retranscription"
+  },
+  "583121647": {
+   "pl": "pl2200",
+   "not": "Spear of Legends!",
+   "note": "reviewer: wordless grunt hallucinated into words; needs a grunt-prompt retranscription"
+  },
+  "245152421": {
+   "pl": "pl2200",
+   "not": "Sword of Lumiel!",
+   "note": "reviewer: wordless grunt hallucinated into words; needs a grunt-prompt retranscription"
+  }
+ },
+ "unresolved": []
+}

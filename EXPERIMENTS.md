@@ -2,7 +2,7 @@
 
 Living log of the precision-transcription work: what was run, what it showed,
 what's next. Goal: combine models/contexts so every line gets the most precise
-transcription available. Companion plan: [PERSONAS.md](PERSONAS.md).
+transcription available. Companion plan: [dev/PERSONAS.md](dev/PERSONAS.md).
 
 All runs: Seofon (pl2200, 911 lines), atlas baseline `data/per-character/pl2200.json`.
 
@@ -10,8 +10,8 @@ All runs: Seofon (pl2200, 911 lines), atlas baseline `data/per-character/pl2200.
 
 | name | model | server | harness |
 |---|---|---|---|
-| omni | Qwen3-Omni-30B-A3B-Instruct **AWQ-4bit** | vllm `qwen3_5-cu130-audio` image, port 8210, GPU0 | `retranscribe.py` (system prompt + glossary + per-char audio exemplars + per-line ctx) |
-| asr | Qwen3-ASR-1.7B | vllm `qwen3_5-cu130` image, port 8211, GPU0 | `asr_compare.py` (context string in system turn, audio-only user turn, `<asr_text>` parsing) |
+| omni | Qwen3-Omni-30B-A3B-Instruct **AWQ-4bit** | vllm `qwen3_5-cu130-audio` image, port 8210, GPU0 | `transcribe/bake.py` + `omni.py` (system prompt + glossary + per-char audio exemplars + per-line ctx) |
+| asr | Qwen3-ASR-1.7B | vllm `qwen3_5-cu130` image, port 8211, GPU0 | `transcribe/asr.py` (context string in system turn, audio-only user turn, `<asr_text>` parsing) |
 
 Server notes: vllm `nightly` image crashes on omni (vision-encoder regression:
 `Qwen2_5_VisionAttention.forward() missing 'sequence_lengths'`); `qwen3_5-cu130`
@@ -89,7 +89,7 @@ than wrong; the E3 loop clip returns empty. ASR biasing only surfaces a listed
 phrase when the audio supports it — the safe version of what E1/E2 tried to do
 with prompt-priming.
 
-### E7 — ensemble merge, Seofon (`dev/ensemble.py` → `build/atlas-ensemble/`)
+### E7 — ensemble merge, Seofon (`transcribe/ensemble.py` → `build/atlas-ensemble/`)
 
 ASR-with-hotwords over the atlas, precision-first merge: keep atlas on ASR
 empty/agreement; on disagreement ASR wins only when atlas conf ≤ -0.3, else
@@ -126,7 +126,7 @@ verified). **In-context iterative refinement is disproven on this model.**
 The control confirms re-listening without drafts is just the familiar first
 pass: it re-breaks 7/18 lines humans had to fix.
 
-### E9 — forced-choice rescoring + quant comparison (`dev/rescore.py`)
+### E9 — forced-choice rescoring + quant comparison (`transcribe/rescore.py`)
 
 Score candidate transcripts by likelihood given the audio (vllm
 `prompt_logprobs` on a forced assistant answer; nothing generated → nothing
@@ -172,6 +172,32 @@ the only oracle. The pipeline should optimize for surfacing good proposals
 cheaply (disagreement review queues, confidence sorting), not for automating
 the final call.
 
+### E12 — text-only lore repair
+
+Can a model spot garbled proper nouns from the transcript text alone, no
+audio? Cases: 11 known garbles (Eternals squat-count, Alley-oop, Feendrache,
+Briar Rose...) + 4 correct-line controls.
+
+| model, prompt | recovered | false positives |
+|---|---|---|
+| local omni 30B, bare | 0/11 | 0/4 |
+| local Qwen3.6-35B (GPU1 chat model), ctx + glossary | 2/11 | 1/4 |
+| Claude Haiku 4.5, ctx + glossary | 3/11 | 1/4 (un-punned "pincer me timbers") |
+| Claude Fable 5 (blind subagent), ctx + glossary | 5/11 | **0/4** |
+| Gemini 3.1 Pro, bare | 6/11 | 1/4 ("Miasma unto these skies") |
+| Gemini 3.1 Pro + per-line ctx + glossary | 6/11 | **0/4** |
+
+The local 30B has no usable lore memory (invented "Unbound", "Rose Garden").
+Gemini catches spelling-level garbles (Primarch, Rackam, goner, Feendrache,
+Alley-oop, the Star-Sword sign-off) and the per-line context eliminated its
+one false positive. Fable was the only model to recover the Eternals
+squat-count (Uno, Tweyen, Threo, Feower, Fif, Seox) and made zero false
+corrections, though it saw all 15 cases in one prompt where the others were
+queried per-case. Audio-only errors ("Happening!" for "Up and at em.")
+stay unreachable by design. Complementary to the ear passes: a text sweep is
+~0.1c/line with no audio upload — viable as a cheap atlas-wide *flagger*
+whose non-OK outputs feed the review queue, never auto-applied.
+
 ## Findings so far
 
 1. Omni prompt-priming (persona/glossary quotes) is unsafe: literal strings
@@ -187,7 +213,7 @@ the final call.
 
 ## Ground-truth corpus (E6, ongoing)
 
-`dev/truth.json` + `dev/eval_truth.py`: every human-verified line becomes a
+`transcribe/truth.json` + `transcribe/evaluate.py`: every human-verified line becomes a
 permanent accuracy + confidence-calibration test. Sources merged: the applied
 corrections, the En-garde clip, the tool's flag store
 (`~/.config/chatterbox/flags.json`), and corrections recovered from old
@@ -211,7 +237,7 @@ text needs an ear) and 35162464 ("Rolan, fix it!", conf -0.49, only oddball
 left in the NP0300 slot).
 
 Grow it with every new piece of feedback (tool flags, chat corrections);
-`eval_truth.py <dirs...>` scores any bake before it ships.
+`python -m transcribe eval <dirs...>` scores any bake before it ships.
 
 ## Next
 
