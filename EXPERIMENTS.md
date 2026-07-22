@@ -6,6 +6,27 @@ transcription available. Companion plan: [dev/PERSONAS.md](dev/PERSONAS.md).
 
 All runs: Seofon (pl2200, 911 lines), atlas baseline `data/per-character/pl2200.json`.
 
+## Platform
+
+All experiments ran on one workstation:
+
+| | |
+|---|---|
+| CPU | AMD Ryzen Threadripper 9960X (24c/48t) |
+| RAM | 128 GB |
+| GPUs | 2× NVIDIA GeForce RTX 5090, 32 GB each (consumer Blackwell, SM 12.0) |
+| Driver | 610.43.02 |
+| OS | Gentoo Linux, kernel 6.18 |
+| Serving | Docker 28.4, vllm OpenAI-compatible images (v0.16 `qwen3_5-cu130` line for the bakes, `v0.19.0-cu130` for the NVFP4 work) |
+| Client | Python 3.13, stdlib urllib only |
+| Cloud access | LiteLLM gateway on a separate LAN server: metered, monitored access to public models via OpenRouter (the Gemini/Claude runs in E10-E12) |
+
+One GPU is dedicated to a permanent model for continuous inference; the other
+hosts the experimental models. The serve scripts pin gpu-memory-utilization
+(0.72 for the AWQ omni, ≤0.74 for NVFP4) rather than assume a clean card. The
+5090s' FP4 tensor cores are not yet exploited by vllm's kernels for this MoE —
+measured in E9/benchmarks, AWQ-int4 via Marlin outruns NVFP4 by ~40% on decode.
+
 ## Setups
 
 | name | model | server | harness |
