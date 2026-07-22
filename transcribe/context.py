@@ -51,34 +51,40 @@ def decode_label(label):
     return base
 
 
+def ally_name(label):
+    """The character a partner-directed line addresses, by name - labels end
+    in an engine tag like _PL0300 or _NP0300; nothing past this function
+    should ever see one. None when the line addresses nobody."""
+    tag = re.search(r"_((PL|NP)\d{4})$", label or "")
+    if not tag:
+        return None
+    return NPC.get(tag.group(1)) or NAMES.get(tag.group(1).lower())
+
+
 def build_ctx(pl, label):
     """Per-line context: speaker, addressee (when the label names one), line
     type. The 'If wordless' grunt tail is dropped - it verifiably pushes worded
     lines into grunts."""
-    ctx = f"This line is spoken by {NAMES.get(pl, pl)}."
-    ally = re.search(r"_((PL|NP)\d{4})$", label or "")
-    if ally:
-        name = NPC.get(ally.group(1)) or NAMES.get(ally.group(1).lower())
-        if pl == "pl2900":
-            ctx += race_hint(pl, label)  # Fediel names allies by race, never by name
-        elif name:
-            ctx += f" It is directed at their ally {name}."
+    speaker = NAMES.get(pl, pl)
+    ctx = f"This line is spoken by {speaker}."
+    ally = ally_name(label)
+    if speaker == "Fediel":
+        ctx += race_hint(speaker, ally)
+    elif ally:
+        ctx += f" It is directed at their ally {ally}."
     line_type = decode_label(label).split(". If wordless")[0]
     if line_type:
         ctx += f" Line type: {line_type}."
     return ctx
 
 
-def race_hint(pl, label):
-    """Fediel (pl2900) is a primal beast who names allies by race and gender, not
-    by name. Her partner-directed lines encode the ally in the label, so nudge the
-    model toward the ally's race and gender - just enough to pick "lass" over "bash".
-    races.json is keyed by character name, resolved through NAMES."""
-    if pl != "pl2900":
+def race_hint(speaker, ally):
+    """Fediel is a primal beast who names allies by race and gender, never by
+    name. Nudge the model toward the ally's race and gender - just enough to
+    pick "lass" over "bash"."""
+    if speaker != "Fediel" or not ally:
         return ""
-    partner = re.search(r"_PL(\d{4})$", label or "")
-    ally = NAMES.get("pl" + partner.group(1)) if partner else None
-    profile = RACES.get(ally) if ally else None
+    profile = RACES.get(ally)
     if not profile or profile.get("race") == "Other":
         return ""
     return f" The ally is a {profile['gender']} {profile['race']}."
