@@ -77,6 +77,7 @@
   <select id=cat></select>
   <label><input type=checkbox id=hidesilent> <span class=lbl>hide silent</span></label>
   <label><input type=checkbox id=hidestreamed> <span class=lbl>hide streamed</span></label>
+  <label title="One flat list, least trustworthy transcripts first - flag and correct as you listen"><input type=checkbox id=review> <span class=lbl>review mode</span></label>
   <span class=spacer></span>
   <span class=pending id=pending></span>
   <button id=apply disabled>Apply</button>
@@ -151,6 +152,7 @@ async function boot() {
   $('#cat').onchange = render;
   $('#hidesilent').onchange = render;
   $('#hidestreamed').onchange = render;
+  $('#review').onchange = render;
   $('#apply').onclick = apply;
   $('#mutechar').onclick = muteCharacter;
   $('#muteall').onclick = muteAll;
@@ -232,6 +234,7 @@ async function load(p) {
 function render() {
   const cat = $('#cat').value, hide = $('#hidesilent').checked;
   const hideStr = $('#hidestreamed').checked;
+  if ($('#review').checked) return renderReview();
   const rows = data.lines.filter(l => l.category === cat)
                          .filter(l => !(hide && !l.transcript))
                          .filter(l => !(hideStr && l.streamed));
@@ -244,6 +247,19 @@ function render() {
     + `<span style="opacity:.6">(${groups[g].length})</span></h2></td></tr>`
     + groups[g].map(row).join('')).join('');
   $('#main').innerHTML = body ? `<table>${THEAD}${body}</table>` : '<p>No lines.</p>';
+  setHead();
+}
+
+// Review mode: every category in one flat list, least trustworthy first, so a
+// correction pass is just "listen from the top". Lines with no confidence
+// (silent, or already human-verified elsewhere) sort last.
+function renderReview() {
+  const rows = data.lines.filter(l => l.transcript)
+    .sort((a, b) => (a.confidence ?? 0) - (b.confidence ?? 0));
+  const body = `<tr class=grp><td colspan=7><h2>Review — worst confidence first `
+    + `<span style="opacity:.6">(${rows.length})</span></h2></td></tr>`
+    + rows.map(row).join('');
+  $('#main').innerHTML = `<table>${THEAD}${body}</table>`;
   setHead();
 }
 
