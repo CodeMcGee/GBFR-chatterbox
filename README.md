@@ -27,10 +27,10 @@ the bundled Python - it will not run.
 29 characters. Source of truth in [`data/per-character/`](data/per-character/);
 see [`data/README.md`](data/README.md).
 
-Columns: `character`, `pl_id`, `wem_id`, `label`, `category`, `ui_source`,
-`group`/`variant`, `transcript`, `transcript_source`, `confidence`,
-`duration_s`, `audio_source`, `prefetch_s`, `sample_rate`, `channels`,
-`silent`.
+Columns: `character`, `pl_id`, `bank`, `wem_id`, `label`, `category`,
+`ui_source`, `group`/`variant`, `transcript`, `transcript_source`,
+`confidence`, `duration_s`, `audio_source`, `prefetch_s`, `sample_rate`,
+`channels`, `silent`.
 
 About 14,500 lines are stored split: ~0.4s in the `.bnk`, the rest streamed
 from a `.pck` in the archives. Bank-only tools transcribe the fragment; these
