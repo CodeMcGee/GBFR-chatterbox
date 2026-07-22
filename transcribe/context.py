@@ -30,9 +30,12 @@ GRUNT_PROMPT = (
     "interjection - never a description, never asterisks, never words.")
 
 
-def decode_label(label):
+def decode_label(label, grunt_hint=True):
     """Turn an engine label into a readable line-type hint, e.g.
-    PL2900_vo_SP_burst_reaction_B_PL0300 -> 'skill or co-op link: burst reaction b'."""
+    PL2900_vo_SP_burst_reaction_B_PL0300 -> 'skill or co-op link: burst reaction b'.
+    grunt_hint appends the offensive/defensive wordless-clip disambiguation;
+    build_ctx wants the bare hint (the tail verifiably pushes worded lines
+    into grunts)."""
     stripped = re.sub(r"^PL\d+_vo_", "", label or "")
     parts = stripped.split("_")
     if not parts:
@@ -41,6 +44,8 @@ def decode_label(label):
     rest = re.sub(r"pl\d{4}", "", " ".join(parts[1:]), flags=re.I)
     rest = " ".join(rest.split()).lower()
     base = f"{cat}: {rest}".strip(": ").strip()
+    if not grunt_hint:
+        return base
     if parts[0] in ("ATK", "SP"):
         base += (". If wordless, this is an OFFENSIVE attacking effort — an "
                  "aggressive battle-cry or exertion (e.g. Hyah!, Rrah!, Tah!), "
@@ -69,22 +74,20 @@ def build_ctx(pl, label):
     ctx = f"This line is spoken by {speaker}."
     ally = ally_name(label)
     if speaker == "Fediel":
-        ctx += race_hint(speaker, ally)
+        ctx += race_hint(ally)
     elif ally:
         ctx += f" It is directed at their ally {ally}."
-    line_type = decode_label(label).split(". If wordless")[0]
+    line_type = decode_label(label, grunt_hint=False)
     if line_type:
         ctx += f" Line type: {line_type}."
     return ctx
 
 
-def race_hint(speaker, ally):
+def race_hint(ally):
     """Fediel is a primal beast who names allies by race and gender, never by
     name. Nudge the model toward the ally's race and gender - just enough to
     pick "lass" over "bash"."""
-    if speaker != "Fediel" or not ally:
-        return ""
-    profile = RACES.get(ally)
+    profile = RACES.get(ally) if ally else None
     if not profile or profile.get("race") == "Other":
         return ""
     return f" The ally is a {profile['gender']} {profile['race']}."

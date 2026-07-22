@@ -8,15 +8,9 @@ the human-caught errors scored better than -0.15) - sort by it, never trust it.
 """
 import json
 import pathlib
-import re
 import sys
 
-from transcribe import ATLAS_DIR, NAMES, PKG
-
-
-def norm(s):
-    """Case/punctuation-insensitive form for matching against truth."""
-    return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
+from transcribe import ATLAS_DIR, NAMES, PKG, norm
 
 
 def truth():

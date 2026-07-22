@@ -18,7 +18,8 @@ def main():
     ap = argparse.ArgumentParser(
         prog="python -m transcribe",
         description=__doc__.splitlines()[0],
-        epilog="commands:\n" + "\n".join(f"  {c:12s}{d}" for c, (_, d) in COMMANDS.items()),
+        epilog="commands:\n" + "\n".join(f"  {name:12s}{summary}"
+                                  for name, (_module, summary) in COMMANDS.items()),
         formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("command", choices=COMMANDS)
     args, rest = ap.parse_known_args()

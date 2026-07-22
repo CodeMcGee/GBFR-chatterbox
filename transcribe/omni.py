@@ -4,9 +4,8 @@ dev/serve_qwen3omni_awq.sh."""
 import base64
 import json
 import pathlib
-import urllib.request
 
-from transcribe import PKG
+from transcribe import PKG, avg_logprob, post_json
 
 
 def audio_part(wav_path):
@@ -47,30 +46,25 @@ PROMPT = build_prompt()
 def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None, temperature=0,
                with_conf=False):
     """Transcribe one clip. exemplars are (wav_path, transcript) few-shot
-    pairs. Returns text, or (text, avg_logprob_confidence) with with_conf."""
+    pairs - each wav given as a path or a pre-built audio content part.
+    Returns text, or (text, avg_logprob_confidence) with with_conf."""
     # system: instructions + glossary. Then verified (audio -> transcript) pairs
     # for THIS character as few-shot turns, priming the model on their voice.
     messages = [{"role": "system", "content": system or PROMPT}]
-    for ex_wav, ex_text in exemplars:
-        messages.append({"role": "user", "content": [audio_part(ex_wav)]})
+    for ex_audio, ex_text in exemplars:
+        # a pre-built content part (dict) or a wav path; callers in hot loops
+        # pre-build so exemplar audio is base64-encoded once, not per line
+        part = ex_audio if isinstance(ex_audio, dict) else audio_part(ex_audio)
+        messages.append({"role": "user", "content": [part]})
         messages.append({"role": "assistant", "content": ex_text})
     target = [audio_part(wav_path)]
     if ctx:
         target.insert(0, {"type": "text", "text": f"Context: {ctx}"})
     messages.append({"role": "user", "content": target})
-    body = json.dumps({
-        "model": model, "temperature": temperature, "max_tokens": 128, "messages": messages,
-        "logprobs": with_conf,
-    }).encode()
-    req = urllib.request.Request(f"{base}/chat/completions", body,
-                                 {"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        choice = json.loads(resp.read())["choices"][0]
+    payload = {"model": model, "temperature": temperature, "max_tokens": 128,
+               "messages": messages, "logprobs": with_conf}
+    choice = post_json(base, "/chat/completions", payload)["choices"][0]
     text = choice["message"]["content"].strip()
     if not with_conf:
         return text
-    # avg token logprob, same idea as Whisper's avg_logprob but on qwen's own
-    # scale: correct lines sit near 0, garbage near -0.2 and below.
-    logprobs = [tok["logprob"]
-                for tok in (choice.get("logprobs") or {}).get("content") or []]
-    return text, (round(sum(logprobs) / len(logprobs), 3) if logprobs else None)
+    return text, avg_logprob(choice)

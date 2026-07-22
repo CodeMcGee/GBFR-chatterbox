@@ -2,42 +2,28 @@
 plain context/bias string (vocabulary, not prose - prose suppresses short
 barks, see EXPERIMENTS E5/E7), the user turn is audio only, and output is
 "language <lang><asr_text><transcript>". No few-shot, no instructions."""
-import base64
 import json
-import pathlib
 import re
-import urllib.request
 
-from transcribe import NAMES, PKG
+from transcribe import NAMES, PKG, avg_logprob, norm, post_json
+from transcribe.omni import audio_part
 
 
 def asr(base, model, wav_path, ctx):
     """Transcribe one clip. Returns (text, avg_logprob_confidence)."""
-    audio_b64 = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
-    body = json.dumps({
+    payload = {
         "model": model, "temperature": 0, "max_tokens": 128,
         "messages": [
             {"role": "system", "content": ctx},
-            {"role": "user", "content": [
-                {"type": "input_audio", "input_audio": {"data": audio_b64, "format": "wav"}}]},
+            {"role": "user", "content": [audio_part(wav_path)]},
         ],
         "logprobs": True,
-    }).encode()
-    req = urllib.request.Request(f"{base}/chat/completions", body,
-                                 {"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        choice = json.loads(resp.read())["choices"][0]
+    }
+    choice = post_json(base, "/chat/completions", payload)["choices"][0]
     text = choice["message"]["content"]
     tail = re.search(r"<asr_text>(.*)", text, re.S)
     text = (tail.group(1) if tail else text).strip()
-    logprobs = [tok["logprob"]
-                for tok in (choice.get("logprobs") or {}).get("content") or []]
-    return text, (round(sum(logprobs) / len(logprobs), 3) if logprobs else None)
-
-
-def _norm(s):
-    """Case/punctuation-insensitive form for dedup."""
-    return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
+    return text, avg_logprob(choice)
 
 
 def hotwords(pl, short=False):
@@ -55,6 +41,7 @@ def hotwords(pl, short=False):
     words += [line["text"] for line in truth["verified"].values() if line["pl"] == pl]
     seen, kept = set(), []
     for word in words:
-        if _norm(word) not in seen:
-            seen.add(_norm(word)); kept.append(word.rstrip("!.?"))
+        if norm(word) not in seen:
+            seen.add(norm(word))
+            kept.append(word.rstrip("!.?"))
     return ". ".join(kept) + "."

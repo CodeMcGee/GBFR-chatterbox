@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Smoke-test the omni server against Whisper-era transcripts on a handful of
-clips. The transcription logic lives in the transcribe package; this script
-re-exports the old names so older scratch scripts keep working.
+clips. The transcription logic lives in the transcribe package.
 
     python dev/smoke_qwen3omni.py [--base http://localhost:8000/v1] [--model qwen3-omni]
 """
@@ -15,10 +14,9 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
 from transcribe import PKG                                    # noqa: E402
-from transcribe.context import GRUNT_PROMPT, decode_label     # noqa: E402,F401
-from transcribe.omni import PROMPT, audio_part, transcribe    # noqa: E402,F401
+from transcribe.context import decode_label                   # noqa: E402
+from transcribe.omni import transcribe                        # noqa: E402
 
-_audio = audio_part                      # old name, kept for scratch scripts
 WAVCACHE = HERE / ".wavcache"
 PCK_DIRS = ["pck", "build/pck-all", "samples/pck"]
 

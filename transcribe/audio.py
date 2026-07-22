@@ -33,9 +33,10 @@ class Audio:
         pname = bank_name.replace("_m.bnk", ".pck")
         if pname not in self.pcks:
             self.pcks[pname] = None
-            for d in PCK_DIRS:
-                if (ROOT / d / pname).exists():
-                    self.pcks[pname] = Pck(ROOT / d / pname); break
+            for pck_dir in PCK_DIRS:
+                if (ROOT / pck_dir / pname).exists():
+                    self.pcks[pname] = Pck(ROOT / pck_dir / pname)
+                    break
             else:                                   # not extracted locally: pull from data.i
                 key = "sound/english(us)/" + pname
                 if self.archive and key in self.archive:
@@ -48,10 +49,11 @@ class Audio:
     def wav(self, bank_name, wem_id, out):
         """Decode one line's FULL audio to `out` - resident bytes from the bank,
         or the streamed original when the bank only holds a prefetch stub."""
-        b = self.bank(bank_name); wid = int(wem_id)
-        data = b.wem(wid)
-        if b.is_stub(wid):
-            pk = self.pck(bank_name)
-            if pk and wid in pk:
-                data = pk.wem(wid)
+        bank = self.bank(bank_name)
+        wid = int(wem_id)
+        data = bank.wem(wid)
+        if bank.is_stub(wid):
+            pck = self.pck(bank_name)
+            if pck and wid in pck:
+                data = pck.wem(wid)
         decode_wav(data, out)

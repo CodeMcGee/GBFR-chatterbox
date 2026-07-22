@@ -51,8 +51,8 @@ def main(argv=None):
     import argparse
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("atlas_dir", nargs="?", default=None)
-    a = ap.parse_args(argv)
-    return 1 if apply(a.atlas_dir) else 0
+    args = ap.parse_args(argv)
+    return 1 if apply(args.atlas_dir) else 0
 
 
 if __name__ == "__main__":

@@ -15,7 +15,7 @@ game install (.bnk / .pck / data.i)
       │                                   audio exemplars + per-line context
       └─ python -m transcribe ensemble    qwen3-ASR cross-check, confidence-gated
       │                                   merge, disagreement review queue
-      └─ python -m transcribe corrections human-verified overlay (never lost to a rebake)
+      └─ python -m transcribe corrections human-verified overlay, reapplied after every pass
       └─ python -m transcribe eval        ground-truth gate: ships only if green
               └─ dev/build_atlas.py       publish the CSV
 ```
@@ -25,24 +25,22 @@ Both model servers are local vllm containers; launch scripts are in `dev/`
 
 ## The rules the pipeline encodes
 
-Each of these came from a measured failure, not taste (E-numbers refer to
-EXPERIMENTS.md):
+Each rule traces to a measured failure (E-numbers refer to EXPERIMENTS.md):
 
-- **Per-line context is facts only** — speaker, addressee, line type. No
-  personas, no quoted catchphrases: any literal string in the prompt gets
-  pasted into low-information clips (E2, E3).
+- **Per-line context is facts only** — speaker, addressee, line type. Any
+  literal string in the prompt gets pasted into low-information clips (E2, E3).
 - **Human lines are armored.** Anything a person verified is in
   `transcribe/corrections.json`, applied after every pass, and marked
   `source_model: "human"` so no automated pass touches it again. Two verified
   fixes were silently regressed by rebakes before this existed.
 - **Confidence prioritizes, never clears.** Very negative avg-logprob reliably
   flags wrongness; near-zero does not mean right — half the human-caught
-  errors scored better than -0.15. Sort review queues by it, nothing more.
-- **Models propose, humans decide.** No model we measured — local 30B omni at
-  two quantizations, dedicated ASR, or cloud pro tier — hears the hard tail
-  (short shouted barks, in-world epithets) reliably (E9, E10, E11). The
-  review flow in the app (flag a line, type the correction) is the oracle;
-  the pipeline's job is to surface good candidates cheaply.
+  errors scored better than -0.15. Sort review queues by it.
+- **Models propose, humans decide.** Every model we measured — local 30B omni
+  at two quantizations, dedicated ASR, cloud pro tier — mishears the hard tail
+  of short shouted barks and in-world epithets (E9, E10, E11). The review flow
+  in the app (flag a line, type the correction) is the oracle; the pipeline's
+  job is to surface good candidates cheaply.
 
 ## The ground-truth corpus
 

@@ -15,18 +15,12 @@ treat the review queue, not the rescue, as the product.
 import argparse
 import json
 import pathlib
-import re
 import tempfile
 
-from transcribe import ATLAS_DIR, NAMES, ROOT, find_game, resolve_pl
+from transcribe import ATLAS_DIR, NAMES, ROOT, find_game, norm, resolve_pl
 from transcribe.asr import asr, hotwords
 from transcribe.audio import Audio
 from transcribe.context import build_ctx
-
-
-def norm(s):
-    """Case/punctuation-insensitive form for agreement checks."""
-    return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
 
 
 def main(argv=None):
@@ -39,17 +33,18 @@ def main(argv=None):
     ap.add_argument("--out", default="build/atlas-ensemble")
     ap.add_argument("--gate", type=float, default=-0.3)
     ap.add_argument("--game")
-    a = ap.parse_args(argv)
+    args = ap.parse_args(argv)
 
-    audio = Audio(find_game(a.game))
-    pl = resolve_pl(a.character)
+    audio = Audio(find_game(args.game))
+    pl = resolve_pl(args.character)
     doc = json.loads((ATLAS_DIR / f"{pl}.json").read_text())
     ctx = hotwords(pl)
-    all_phrases = [phrase for phrase in ctx.split(". ") if phrase]
+    normed_phrases = [norm(phrase) for phrase in ctx.split(". ") if phrase]
 
     def echo(text):
         """True when the model read the hotword list back instead of listening."""
-        return sum(1 for phrase in all_phrases if norm(phrase) in norm(text)) >= 3
+        normed_text = norm(text)
+        return sum(1 for phrase in normed_phrases if phrase in normed_text) >= 3
 
     review, replaced, kept = [], 0, 0
     with tempfile.TemporaryDirectory() as workdir:
@@ -59,7 +54,7 @@ def main(argv=None):
                 continue
             try:
                 audio.wav(line["bank"], wem_id, wav)
-                heard, heard_conf = asr(a.base, a.model, wav, ctx)
+                heard, heard_conf = asr(args.base, args.model, wav, ctx)
                 if heard and (not heard.isascii() or echo(heard)):
                     heard = ""
             except Exception as err:
@@ -69,7 +64,7 @@ def main(argv=None):
             if not heard or norm(heard) == norm(atlas_text) or line.get("source_model") == "human":
                 kept += 1
                 continue
-            action = "TOOK ASR" if (line.get("confidence") or 0) <= a.gate else "kept atlas"
+            action = "TOOK ASR" if (line.get("confidence") or 0) <= args.gate else "kept atlas"
             review.append((wem_id, line.get("label", ""), atlas_text,
                            line.get("confidence"), heard, heard_conf, action))
             if action == "TOOK ASR":
@@ -77,7 +72,8 @@ def main(argv=None):
                     heard, heard_conf, "ensemble-asr"
                 replaced += 1
 
-    out_dir = ROOT / a.out; out_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = ROOT / args.out
+    out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / f"{pl}.json").write_text(json.dumps(doc, indent=1))
     print(f"\n{NAMES.get(pl, pl)}: kept {kept}, ASR replaced {replaced}, "
           f"review queue {len(review) - replaced}")
