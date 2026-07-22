@@ -17,7 +17,7 @@
    "prefetch_s": 0.439,
    "bytes": 31207,
    "transcript": "It's like I blink and the enemy's already a pincushion!",
-   "confidence": null,
+   "confidence": -0.047,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -34,7 +34,7 @@
    "prefetch_s": 0.431,
    "bytes": 19284,
    "transcript": "Oops! Lost control there for a bit.",
-   "confidence": null,
+   "confidence": -0.149,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -51,7 +51,7 @@
    "prefetch_s": 0.451,
    "bytes": 11637,
    "transcript": "Let's cool down a little!",
-   "confidence": null,
+   "confidence": -0.091,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -68,7 +68,7 @@
    "prefetch_s": null,
    "bytes": 14886,
    "transcript": "We've still got a fight to win!",
-   "confidence": null,
+   "confidence": -0.034,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -85,7 +85,7 @@
    "prefetch_s": null,
    "bytes": 14815,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.625,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -102,7 +102,7 @@
    "prefetch_s": 0.248,
    "bytes": 24438,
    "transcript": "Hah! Hah! Hah! A solid victory!",
-   "confidence": null,
+   "confidence": -0.113,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -119,7 +119,7 @@
    "prefetch_s": null,
    "bytes": 3903,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.032,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -137,7 +137,7 @@
    "prefetch_s": 0.422,
    "bytes": 17180,
    "transcript": "I'm loving that support, Beatrix!",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -154,7 +154,7 @@
    "prefetch_s": null,
    "bytes": 12643,
    "transcript": "Aaaaaah!",
-   "confidence": null,
+   "confidence": -0.532,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -171,7 +171,7 @@
    "prefetch_s": 0.436,
    "bytes": 18711,
    "transcript": "Hang in there, guys! We've got this!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -188,7 +188,7 @@
    "prefetch_s": 0.467,
    "bytes": 12879,
    "transcript": "Better say your prayers!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -205,7 +205,7 @@
    "prefetch_s": 0.433,
    "bytes": 26347,
    "transcript": "Your form's not bad either. I saw you swing from the hip.",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -222,7 +222,7 @@
    "prefetch_s": null,
    "bytes": 8460,
    "transcript": "Vaseraga!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -239,7 +239,7 @@
    "prefetch_s": null,
    "bytes": 19173,
    "transcript": "Hope I didn't worry you too much.",
-   "confidence": null,
+   "confidence": -0.008,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -256,7 +256,7 @@
    "prefetch_s": 0.437,
    "bytes": 8854,
    "transcript": "The coolest!",
-   "confidence": null,
+   "confidence": -0.178,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -273,7 +273,7 @@
    "prefetch_s": 0.435,
    "bytes": 25180,
    "transcript": "No rest for the wicked... or the spiritual.",
-   "confidence": null,
+   "confidence": -0.098,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -290,7 +290,7 @@
    "prefetch_s": 0.447,
    "bytes": 18538,
    "transcript": "Well, someone's ready to go.",
-   "confidence": null,
+   "confidence": -0.109,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -307,7 +307,7 @@
    "prefetch_s": null,
    "bytes": 30828,
    "transcript": "Gotta keep moving... It's freezing...",
-   "confidence": null,
+   "confidence": -0.176,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -324,7 +324,7 @@
    "prefetch_s": null,
    "bytes": 14720,
    "transcript": "I'll deal with these pests.",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -341,7 +341,7 @@
    "prefetch_s": 0.453,
    "bytes": 23855,
    "transcript": "Hey Seofon, anyone ever tell you you're kinda cool?",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -358,7 +358,7 @@
    "prefetch_s": null,
    "bytes": 6653,
    "transcript": "Fediel!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -375,7 +375,7 @@
    "prefetch_s": 0.492,
    "bytes": 22679,
    "transcript": "If there's one thing I can do, it's kick ass!",
-   "confidence": null,
+   "confidence": -0.046,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -392,7 +392,7 @@
    "prefetch_s": 0.423,
    "bytes": 18049,
    "transcript": "Handled beautifully, don't you think?",
-   "confidence": null,
+   "confidence": -0.034,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -409,7 +409,7 @@
    "prefetch_s": null,
    "bytes": 4416,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.41,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -426,7 +426,7 @@
    "prefetch_s": 0.441,
    "bytes": 9483,
    "transcript": "Just relax.",
-   "confidence": null,
+   "confidence": -0.08,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -443,7 +443,7 @@
    "prefetch_s": 0.463,
    "bytes": 7054,
    "transcript": "Sounds fair.",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -460,7 +460,7 @@
    "prefetch_s": 0.42,
    "bytes": 26148,
    "transcript": "More like a summer inferno. I better catch up.",
-   "confidence": null,
+   "confidence": -0.091,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -477,7 +477,7 @@
    "prefetch_s": 0.437,
    "bytes": 22931,
    "transcript": "Angra Mainyu! It's insane!",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -494,7 +494,7 @@
    "prefetch_s": null,
    "bytes": 10021,
    "transcript": "Let's do this!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -511,7 +511,7 @@
    "prefetch_s": 0.476,
    "bytes": 11045,
    "transcript": "I won't slow us down.",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -527,8 +527,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3439,
-   "transcript": "Huh!",
-   "confidence": null,
+   "transcript": "Huh?",
+   "confidence": -0.356,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -545,7 +545,7 @@
    "prefetch_s": null,
    "bytes": 9920,
    "transcript": "Oblivion Fall!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -562,7 +562,7 @@
    "prefetch_s": 0.404,
    "bytes": 25351,
    "transcript": "Haha! I'm more than just a pretty face!",
-   "confidence": null,
+   "confidence": -0.116,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -579,7 +579,7 @@
    "prefetch_s": null,
    "bytes": 8164,
    "transcript": "Not bad!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -596,7 +596,7 @@
    "prefetch_s": 0.426,
    "bytes": 10455,
    "transcript": "I knew it would work out!",
-   "confidence": null,
+   "confidence": -0.055,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -613,7 +613,7 @@
    "prefetch_s": null,
    "bytes": 6318,
    "transcript": "Zeta!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -630,7 +630,7 @@
    "prefetch_s": null,
    "bytes": 15432,
    "transcript": "Sorry, got carried away.",
-   "confidence": null,
+   "confidence": -0.111,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -647,7 +647,7 @@
    "prefetch_s": null,
    "bytes": 7773,
    "transcript": "I'm goin' in!",
-   "confidence": null,
+   "confidence": -0.074,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -664,7 +664,7 @@
    "prefetch_s": null,
    "bytes": 9348,
    "transcript": "Speed it up!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -681,7 +681,7 @@
    "prefetch_s": 0.458,
    "bytes": 6659,
    "transcript": "You got it!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -698,7 +698,7 @@
    "prefetch_s": null,
    "bytes": 3793,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.531,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -715,7 +715,7 @@
    "prefetch_s": 0.426,
    "bytes": 29425,
    "transcript": "Makes me dark and mysterious, right?",
-   "confidence": null,
+   "confidence": -0.124,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -732,7 +732,7 @@
    "prefetch_s": null,
    "bytes": 12165,
    "transcript": "Huh! Ugh!",
-   "confidence": null,
+   "confidence": -0.28,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -749,7 +749,7 @@
    "prefetch_s": 0.431,
    "bytes": 28559,
    "transcript": "Seeing the Fist of the Red Lotus, I'm speechless.",
-   "confidence": null,
+   "confidence": -0.097,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -766,7 +766,7 @@
    "prefetch_s": 0.406,
    "bytes": 15148,
    "transcript": "We've got more where that came from!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -783,7 +783,7 @@
    "prefetch_s": null,
    "bytes": 11929,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.37,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -800,7 +800,7 @@
    "prefetch_s": null,
    "bytes": 3817,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.145,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -817,7 +817,7 @@
    "prefetch_s": null,
    "bytes": 4425,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.325,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -834,7 +834,7 @@
    "prefetch_s": null,
    "bytes": 7431,
    "transcript": "Ascension!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -851,7 +851,7 @@
    "prefetch_s": null,
    "bytes": 3887,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.226,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -868,7 +868,7 @@
    "prefetch_s": 0.455,
    "bytes": 10840,
    "transcript": "You're a champ, Vane!",
-   "confidence": null,
+   "confidence": -0.09,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -885,7 +885,7 @@
    "prefetch_s": null,
    "bytes": 3542,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.056,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -902,7 +902,7 @@
    "prefetch_s": null,
    "bytes": 5088,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.117,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -919,7 +919,7 @@
    "prefetch_s": null,
    "bytes": 9882,
    "transcript": "Indominus!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -936,7 +936,7 @@
    "prefetch_s": null,
    "bytes": 6519,
    "transcript": "Not bad!",
-   "confidence": null,
+   "confidence": -0.03,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -953,7 +953,7 @@
    "prefetch_s": 0.501,
    "bytes": 28276,
    "transcript": "Ah, so you need your ass beat before you'll listen.",
-   "confidence": null,
+   "confidence": -0.074,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -970,7 +970,7 @@
    "prefetch_s": null,
    "bytes": 5632,
    "transcript": "Got me!",
-   "confidence": null,
+   "confidence": -0.072,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -987,7 +987,7 @@
    "prefetch_s": 0.442,
    "bytes": 18454,
    "transcript": "Yes! High five, Shar Shar!",
-   "confidence": null,
+   "confidence": -0.166,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1004,7 +1004,7 @@
    "prefetch_s": 0.428,
    "bytes": 14622,
    "transcript": "Right! Let's move!",
-   "confidence": null,
+   "confidence": -0.079,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1021,7 +1021,7 @@
    "prefetch_s": null,
    "bytes": 4717,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.614,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1038,7 +1038,7 @@
    "prefetch_s": 0.43,
    "bytes": 17094,
    "transcript": "Stay sharp! We can't back down yet!",
-   "confidence": null,
+   "confidence": -0.038,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1055,7 +1055,7 @@
    "prefetch_s": null,
    "bytes": 19167,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.477,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1072,7 +1072,7 @@
    "prefetch_s": null,
    "bytes": 6184,
    "transcript": "On me!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1089,7 +1089,7 @@
    "prefetch_s": 0.456,
    "bytes": 16999,
    "transcript": "Ouch! You okay?",
-   "confidence": null,
+   "confidence": -0.034,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1105,8 +1105,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9501,
-   "transcript": "Haha!",
-   "confidence": null,
+   "transcript": "Heh heh heh!",
+   "confidence": -0.416,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1123,7 +1123,7 @@
    "prefetch_s": 0.448,
    "bytes": 10448,
    "transcript": "We make a nice team!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1139,8 +1139,8 @@
    "recovered": true,
    "prefetch_s": 0.407,
    "bytes": 15033,
-   "transcript": "I'm glad to have your help!",
-   "confidence": null,
+   "transcript": "Am I glad to have your help!",
+   "confidence": -0.097,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1157,7 +1157,7 @@
    "prefetch_s": 0.473,
    "bytes": 15121,
    "transcript": "Let's paint the town red!",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1174,7 +1174,7 @@
    "prefetch_s": 0.458,
    "bytes": 18356,
    "transcript": "Oh! I love a good fight!",
-   "confidence": null,
+   "confidence": -0.036,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1191,7 +1191,7 @@
    "prefetch_s": 0.429,
    "bytes": 30364,
    "transcript": "Your roses are beautiful. Shame they fade so quickly.",
-   "confidence": null,
+   "confidence": -0.023,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1208,7 +1208,7 @@
    "prefetch_s": null,
    "bytes": 8883,
    "transcript": "Rip through 'em!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1225,7 +1225,7 @@
    "prefetch_s": null,
    "bytes": 3134,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.073,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1241,8 +1241,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5949,
-   "transcript": "Nyaah!",
-   "confidence": null,
+   "transcript": "Gyah!",
+   "confidence": -0.552,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1259,7 +1259,7 @@
    "prefetch_s": 0.445,
    "bytes": 21193,
    "transcript": "Can't help but feel kinda bad for our foes.",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1276,7 +1276,7 @@
    "prefetch_s": null,
    "bytes": 7471,
    "transcript": "Let's go!",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1293,7 +1293,7 @@
    "prefetch_s": 0.438,
    "bytes": 5172,
    "transcript": "Right!",
-   "confidence": null,
+   "confidence": -0.173,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1310,7 +1310,7 @@
    "prefetch_s": 0.451,
    "bytes": 17056,
    "transcript": "Keep it cool, and keep winning!",
-   "confidence": null,
+   "confidence": -0.137,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1327,7 +1327,7 @@
    "prefetch_s": null,
    "bytes": 6531,
    "transcript": "Let's go!",
-   "confidence": null,
+   "confidence": -0.008,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1344,7 +1344,7 @@
    "prefetch_s": 0.41,
    "bytes": 14797,
    "transcript": "Ooh, you need healing!",
-   "confidence": null,
+   "confidence": -0.29,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1361,7 +1361,7 @@
    "prefetch_s": 0.397,
    "bytes": 19868,
    "transcript": "You're no slouch yourself! Wanna spar sometime?",
-   "confidence": null,
+   "confidence": -0.082,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1378,7 +1378,7 @@
    "prefetch_s": null,
    "bytes": 10635,
    "transcript": "Cagliostro!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1395,7 +1395,7 @@
    "prefetch_s": 0.454,
    "bytes": 8954,
    "transcript": "Always here for ya!",
-   "confidence": null,
+   "confidence": -0.03,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1412,7 +1412,7 @@
    "prefetch_s": 0.242,
    "bytes": 18600,
    "transcript": "Okay then! Game on!",
-   "confidence": null,
+   "confidence": -0.138,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1429,7 +1429,7 @@
    "prefetch_s": null,
    "bytes": 4960,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.199,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1446,7 +1446,7 @@
    "prefetch_s": 0.436,
    "bytes": 13819,
    "transcript": "More where that came from!",
-   "confidence": null,
+   "confidence": -0.008,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1463,7 +1463,7 @@
    "prefetch_s": null,
    "bytes": 10425,
    "transcript": "Not so fast!",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1480,7 +1480,7 @@
    "prefetch_s": 0.452,
    "bytes": 15558,
    "transcript": "Hey Zeta! You ready to go again?",
-   "confidence": null,
+   "confidence": -0.077,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1497,7 +1497,7 @@
    "prefetch_s": null,
    "bytes": 7782,
    "transcript": "You got it!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1514,7 +1514,7 @@
    "prefetch_s": null,
    "bytes": 7873,
    "transcript": "Charlotta!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1531,7 +1531,7 @@
    "prefetch_s": null,
    "bytes": 9251,
    "transcript": "Hmm.",
-   "confidence": null,
+   "confidence": -0.475,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1548,7 +1548,7 @@
    "prefetch_s": 0.42,
    "bytes": 21444,
    "transcript": "Hey, we make a pretty good team, don't you think?",
-   "confidence": null,
+   "confidence": -0.017,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1564,8 +1564,8 @@
    "recovered": true,
    "prefetch_s": 0.426,
    "bytes": 40079,
-   "transcript": "So I may not look the part, but I want nothing more than to protect this crew.",
-   "confidence": null,
+   "transcript": "So, I may not look the part, but I want nothing more than to protect this crew.",
+   "confidence": -0.054,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1581,8 +1581,8 @@
    "recovered": true,
    "prefetch_s": 0.439,
    "bytes": 26132,
-   "transcript": "The Vaseraga Seal of Approval! I'm honored!",
-   "confidence": null,
+   "transcript": "The Vaseraga Seal of Approval! I'm honored.",
+   "confidence": -0.134,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1599,7 +1599,7 @@
    "prefetch_s": null,
    "bytes": 3562,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.41,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1616,7 +1616,7 @@
    "prefetch_s": null,
    "bytes": 6713,
    "transcript": "Neat!",
-   "confidence": null,
+   "confidence": -0.066,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1633,7 +1633,7 @@
    "prefetch_s": 0.46,
    "bytes": 29061,
    "transcript": "It's hard work to keep all that power contained, huh?",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1650,7 +1650,7 @@
    "prefetch_s": null,
    "bytes": 8004,
    "transcript": "Devil what?",
-   "confidence": null,
+   "confidence": -0.351,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1667,7 +1667,7 @@
    "prefetch_s": null,
    "bytes": 9178,
    "transcript": "Not over yet!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1684,7 +1684,7 @@
    "prefetch_s": null,
    "bytes": 7241,
    "transcript": "Gallanza!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1701,7 +1701,7 @@
    "prefetch_s": 0.453,
    "bytes": 12339,
    "transcript": "Come on, you gotta hustle!",
-   "confidence": null,
+   "confidence": -0.108,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1718,7 +1718,7 @@
    "prefetch_s": 0.419,
    "bytes": 16912,
    "transcript": "We had beautiful teamwork on that one!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1735,7 +1735,7 @@
    "prefetch_s": null,
    "bytes": 6050,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.309,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1752,7 +1752,7 @@
    "prefetch_s": 0.419,
    "bytes": 15517,
    "transcript": "Come on! It's all or nothing!",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1769,7 +1769,7 @@
    "prefetch_s": 0.437,
    "bytes": 15351,
    "transcript": "The Fist of Legends!",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1786,7 +1786,7 @@
    "prefetch_s": 0.453,
    "bytes": 19694,
    "transcript": "A magician never reveals her secrets.",
-   "confidence": null,
+   "confidence": -0.02,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1803,7 +1803,7 @@
    "prefetch_s": 0.344,
    "bytes": 17514,
    "transcript": "Alright, people! Let's get started!",
-   "confidence": null,
+   "confidence": -0.121,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1820,7 +1820,7 @@
    "prefetch_s": null,
    "bytes": 16235,
    "transcript": "Hah! Hah!",
-   "confidence": null,
+   "confidence": -0.375,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1837,7 +1837,7 @@
    "prefetch_s": null,
    "bytes": 8983,
    "transcript": "Hmm.",
-   "confidence": null,
+   "confidence": -0.447,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1854,7 +1854,7 @@
    "prefetch_s": null,
    "bytes": 9054,
    "transcript": "Beatrix!",
-   "confidence": null,
+   "confidence": -0.07,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1871,7 +1871,7 @@
    "prefetch_s": 0.411,
    "bytes": 14534,
    "transcript": "Another one bites the dust!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1888,7 +1888,7 @@
    "prefetch_s": null,
    "bytes": 8777,
    "transcript": "You're okay now.",
-   "confidence": null,
+   "confidence": -0.033,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1904,8 +1904,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5334,
-   "transcript": "Hah!",
-   "confidence": null,
+   "transcript": "Rah!",
+   "confidence": -0.447,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1922,7 +1922,7 @@
    "prefetch_s": 0.444,
    "bytes": 25316,
    "transcript": "Oh yeah! It doesn't get better than that!",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1939,7 +1939,7 @@
    "prefetch_s": 0.443,
    "bytes": 11343,
    "transcript": "Sure, why not.",
-   "confidence": null,
+   "confidence": -0.239,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1956,7 +1956,7 @@
    "prefetch_s": 0.411,
    "bytes": 18760,
    "transcript": "We had perfect sync on that one!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1973,7 +1973,7 @@
    "prefetch_s": 0.419,
    "bytes": 9722,
    "transcript": "Focus up, guys!",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -1990,7 +1990,7 @@
    "prefetch_s": 0.464,
    "bytes": 13526,
    "transcript": "I need to do something!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2007,7 +2007,7 @@
    "prefetch_s": 0.489,
    "bytes": 29448,
    "transcript": "Can't believe these guys would mess up such a beautiful castle.",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2024,7 +2024,7 @@
    "prefetch_s": 0.405,
    "bytes": 12214,
    "transcript": "Aw, do you want some pointers?",
-   "confidence": null,
+   "confidence": -0.057,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2041,7 +2041,7 @@
    "prefetch_s": null,
    "bytes": 17016,
    "transcript": "I'm stronger than this!",
-   "confidence": null,
+   "confidence": -0.042,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2057,8 +2057,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 10154,
-   "transcript": "Don't mind if I do!",
-   "confidence": null,
+   "transcript": "Don't mind if I do.",
+   "confidence": -0.075,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2075,7 +2075,7 @@
    "prefetch_s": null,
    "bytes": 7683,
    "transcript": "Hot potato!",
-   "confidence": null,
+   "confidence": -0.03,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -2092,8 +2092,8 @@
    "recovered": true,
    "prefetch_s": 0.414,
    "bytes": 13528,
-   "transcript": "Right. Let's be careful.",
-   "confidence": null,
+   "transcript": "Right! Let's be careful!",
+   "confidence": -0.129,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2110,7 +2110,7 @@
    "prefetch_s": null,
    "bytes": 12911,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.38,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2127,7 +2127,7 @@
    "prefetch_s": 0.451,
    "bytes": 12790,
    "transcript": "Hah! You said it!",
-   "confidence": null,
+   "confidence": -0.106,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2144,7 +2144,7 @@
    "prefetch_s": null,
    "bytes": 4332,
    "transcript": "Ha!",
-   "confidence": null,
+   "confidence": -0.136,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2161,7 +2161,7 @@
    "prefetch_s": 0.441,
    "bytes": 16673,
    "transcript": "Fight for everything you're worth!",
-   "confidence": null,
+   "confidence": -0.01,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2178,7 +2178,7 @@
    "prefetch_s": 0.412,
    "bytes": 33787,
    "transcript": "You act all cool, but underneath the mask, you're a firebrand.",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2194,8 +2194,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8647,
-   "transcript": "Hello, darling.",
-   "confidence": null,
+   "transcript": "Hello, darling!",
+   "confidence": -0.182,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2212,7 +2212,7 @@
    "prefetch_s": 0.409,
    "bytes": 16220,
    "transcript": "What well-behaved pets!",
-   "confidence": null,
+   "confidence": -0.072,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2229,7 +2229,7 @@
    "prefetch_s": 0.459,
    "bytes": 18046,
    "transcript": "Time for a little target practice!",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2246,7 +2246,7 @@
    "prefetch_s": 0.426,
    "bytes": 17968,
    "transcript": "You will be consumed by fire!",
-   "confidence": null,
+   "confidence": -0.041,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2263,7 +2263,7 @@
    "prefetch_s": null,
    "bytes": 7638,
    "transcript": "Sure thing!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2280,7 +2280,7 @@
    "prefetch_s": null,
    "bytes": 4228,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.395,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2297,7 +2297,7 @@
    "prefetch_s": 0.456,
    "bytes": 13900,
    "transcript": "This is it! Lilith!",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2314,7 +2314,7 @@
    "prefetch_s": 0.399,
    "bytes": 11627,
    "transcript": "We've got 'em on the ropes!",
-   "confidence": null,
+   "confidence": -0.049,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2331,7 +2331,7 @@
    "prefetch_s": 0.478,
    "bytes": 24594,
    "transcript": "That swordwork... you're incredible!",
-   "confidence": null,
+   "confidence": -0.178,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2348,7 +2348,7 @@
    "prefetch_s": null,
    "bytes": 10475,
    "transcript": "Let's workshop that!",
-   "confidence": null,
+   "confidence": -0.085,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2365,7 +2365,7 @@
    "prefetch_s": null,
    "bytes": 3861,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.119,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2381,8 +2381,8 @@
    "recovered": true,
    "prefetch_s": 0.478,
    "bytes": 15021,
-   "transcript": "Leave the frontlines to moi.",
-   "confidence": null,
+   "transcript": "Leave the front lines to moi.",
+   "confidence": -0.115,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2399,7 +2399,7 @@
    "prefetch_s": 0.422,
    "bytes": 21021,
    "transcript": "We can do this all day!",
-   "confidence": null,
+   "confidence": -0.139,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2416,7 +2416,7 @@
    "prefetch_s": 0.432,
    "bytes": 22460,
    "transcript": "Huh. Maybe I should get a tagline too.",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2433,7 +2433,7 @@
    "prefetch_s": 0.282,
    "bytes": 20900,
    "transcript": "You ready? Let's have some fun.",
-   "confidence": null,
+   "confidence": -0.054,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2450,7 +2450,7 @@
    "prefetch_s": null,
    "bytes": 9166,
    "transcript": "Cheap shot!",
-   "confidence": null,
+   "confidence": -0.068,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2467,7 +2467,7 @@
    "prefetch_s": 0.473,
    "bytes": 24431,
    "transcript": "I make a pretty dependable partner, don't you think?",
-   "confidence": null,
+   "confidence": -0.017,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2484,7 +2484,7 @@
    "prefetch_s": null,
    "bytes": 9363,
    "transcript": "Prominence Flare!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2501,7 +2501,7 @@
    "prefetch_s": null,
    "bytes": 8332,
    "transcript": "This should do.",
-   "confidence": null,
+   "confidence": -0.041,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2518,7 +2518,7 @@
    "prefetch_s": 0.428,
    "bytes": 21933,
    "transcript": "We'll see you at the bottom of the skies!",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2535,7 +2535,7 @@
    "prefetch_s": 0.423,
    "bytes": 12924,
    "transcript": "Bring the pain, guys!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2552,7 +2552,7 @@
    "prefetch_s": null,
    "bytes": 3800,
    "transcript": "Right!",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2569,7 +2569,7 @@
    "prefetch_s": null,
    "bytes": 11030,
    "transcript": "Here's how it's done!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2586,7 +2586,7 @@
    "prefetch_s": 0.423,
    "bytes": 6836,
    "transcript": "Roger that!",
-   "confidence": null,
+   "confidence": -0.094,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2603,7 +2603,7 @@
    "prefetch_s": null,
    "bytes": 14408,
    "transcript": "Rackam!",
-   "confidence": null,
+   "confidence": -0.222,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2620,7 +2620,7 @@
    "prefetch_s": null,
    "bytes": 20023,
    "transcript": "Oh hellborn flames, I bid you!",
-   "confidence": null,
+   "confidence": -0.145,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2637,7 +2637,7 @@
    "prefetch_s": null,
    "bytes": 12611,
    "transcript": "Ooh...",
-   "confidence": null,
+   "confidence": -0.573,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2654,7 +2654,7 @@
    "prefetch_s": null,
    "bytes": 13296,
    "transcript": "Damn! They got me!",
-   "confidence": null,
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2671,7 +2671,7 @@
    "prefetch_s": 0.462,
    "bytes": 26696,
    "transcript": "Go ahead, get in our way. See what that gets you.",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2688,7 +2688,7 @@
    "prefetch_s": null,
    "bytes": 8274,
    "transcript": "Beat them silly!",
-   "confidence": null,
+   "confidence": -0.14,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2705,7 +2705,7 @@
    "prefetch_s": 0.418,
    "bytes": 12842,
    "transcript": "Nice! Keep it up!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2722,7 +2722,7 @@
    "prefetch_s": 0.492,
    "bytes": 33883,
    "transcript": "A compliment from the Lord of Flames himself? I'm honored.",
-   "confidence": null,
+   "confidence": -0.075,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2739,7 +2739,7 @@
    "prefetch_s": 0.439,
    "bytes": 18013,
    "transcript": "Huh. That takes care of that.",
-   "confidence": null,
+   "confidence": -0.142,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2756,7 +2756,7 @@
    "prefetch_s": null,
    "bytes": 9563,
    "transcript": "You're finished!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2773,7 +2773,7 @@
    "prefetch_s": null,
    "bytes": 7438,
    "transcript": "Gale Burst!",
-   "confidence": null,
+   "confidence": -0.331,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -2791,7 +2791,7 @@
    "prefetch_s": null,
    "bytes": 20252,
    "transcript": "It'll take more than that!",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2808,7 +2808,7 @@
    "prefetch_s": 0.44,
    "bytes": 24908,
    "transcript": "We've already come this far. There's nothing left to fear.",
-   "confidence": null,
+   "confidence": -0.038,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2825,7 +2825,7 @@
    "prefetch_s": null,
    "bytes": 12523,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.381,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2842,7 +2842,7 @@
    "prefetch_s": null,
    "bytes": 5076,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.173,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2859,7 +2859,7 @@
    "prefetch_s": 0.419,
    "bytes": 19696,
    "transcript": "Don't worry, everyone. I've got your back.",
-   "confidence": null,
+   "confidence": -0.085,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2876,7 +2876,7 @@
    "prefetch_s": null,
    "bytes": 3271,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.054,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2893,7 +2893,7 @@
    "prefetch_s": null,
    "bytes": 4026,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.028,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -2911,7 +2911,7 @@
    "prefetch_s": 0.419,
    "bytes": 8220,
    "transcript": "Sir, yes, sir!",
-   "confidence": null,
+   "confidence": -0.228,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2928,7 +2928,7 @@
    "prefetch_s": null,
    "bytes": 8032,
    "transcript": "Ha!",
-   "confidence": null,
+   "confidence": -0.218,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2945,7 +2945,7 @@
    "prefetch_s": 0.423,
    "bytes": 13329,
    "transcript": "Right? Not too shabby!",
-   "confidence": null,
+   "confidence": -0.167,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2962,7 +2962,7 @@
    "prefetch_s": 0.462,
    "bytes": 18205,
    "transcript": "Alright! You got more juice left?",
-   "confidence": null,
+   "confidence": -0.052,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2979,7 +2979,7 @@
    "prefetch_s": 0.423,
    "bytes": 21907,
    "transcript": "Charlotta, you make fighting a breeze!",
-   "confidence": null,
+   "confidence": -0.237,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -2996,7 +2996,7 @@
    "prefetch_s": 0.439,
    "bytes": 23639,
    "transcript": "I'll cash in a favor later.",
-   "confidence": null,
+   "confidence": -0.08,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3013,7 +3013,7 @@
    "prefetch_s": 0.449,
    "bytes": 14982,
    "transcript": "On your knees, big boy!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3030,7 +3030,7 @@
    "prefetch_s": 0.422,
    "bytes": 13213,
    "transcript": "This team is dynamite!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3047,7 +3047,7 @@
    "prefetch_s": 0.43,
    "bytes": 10136,
    "transcript": "Say goodbye!",
-   "confidence": null,
+   "confidence": -0.035,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3064,7 +3064,7 @@
    "prefetch_s": 0.459,
    "bytes": 17575,
    "transcript": "I've seen puppies with more bite!",
-   "confidence": null,
+   "confidence": -0.01,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3081,7 +3081,7 @@
    "prefetch_s": 0.435,
    "bytes": 25722,
    "transcript": "Right? Now come on! We've got a fight to win!",
-   "confidence": null,
+   "confidence": -0.101,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3098,7 +3098,7 @@
    "prefetch_s": null,
    "bytes": 17013,
    "transcript": "Piece of cake.",
-   "confidence": null,
+   "confidence": -0.051,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3115,7 +3115,7 @@
    "prefetch_s": 0.46,
    "bytes": 12314,
    "transcript": "Couldn't do it without you guys!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3132,7 +3132,7 @@
    "prefetch_s": null,
    "bytes": 8912,
    "transcript": "After you!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3149,7 +3149,7 @@
    "prefetch_s": null,
    "bytes": 9298,
    "transcript": "Air Detonation!",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3166,7 +3166,7 @@
    "prefetch_s": 0.276,
    "bytes": 26533,
    "transcript": "You impressed? Thought you might be.",
-   "confidence": null,
+   "confidence": -0.076,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3183,7 +3183,7 @@
    "prefetch_s": 0.439,
    "bytes": 7898,
    "transcript": "You said it!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3200,7 +3200,7 @@
    "prefetch_s": 0.41,
    "bytes": 26295,
    "transcript": "Ooh, is that a competitive streak I detect?",
-   "confidence": null,
+   "confidence": -0.051,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3217,7 +3217,7 @@
    "prefetch_s": 0.392,
    "bytes": 18161,
    "transcript": "I don't back down.",
-   "confidence": null,
+   "confidence": -0.07,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3234,7 +3234,7 @@
    "prefetch_s": 0.435,
    "bytes": 8346,
    "transcript": "Thanks, Captain!",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3251,7 +3251,7 @@
    "prefetch_s": 0.433,
    "bytes": 7386,
    "transcript": "Roger that!",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3268,7 +3268,7 @@
    "prefetch_s": 0.434,
    "bytes": 7906,
    "transcript": "No problem.",
-   "confidence": null,
+   "confidence": -0.094,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3285,7 +3285,7 @@
    "prefetch_s": null,
    "bytes": 4795,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.45,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3302,7 +3302,7 @@
    "prefetch_s": null,
    "bytes": 11427,
    "transcript": "Find your strength.",
-   "confidence": null,
+   "confidence": -0.109,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3319,7 +3319,7 @@
    "prefetch_s": null,
    "bytes": 10323,
    "transcript": "All mine.",
-   "confidence": null,
+   "confidence": -0.101,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3336,7 +3336,7 @@
    "prefetch_s": null,
    "bytes": 7929,
    "transcript": "Siegfried!",
-   "confidence": null,
+   "confidence": -0.052,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3353,7 +3353,7 @@
    "prefetch_s": null,
    "bytes": 10551,
    "transcript": "Don't worry, I'm up!",
-   "confidence": null,
+   "confidence": -0.071,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3370,7 +3370,7 @@
    "prefetch_s": null,
    "bytes": 5275,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.431,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3387,7 +3387,7 @@
    "prefetch_s": 0.433,
    "bytes": 9012,
    "transcript": "We're almost there!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3404,7 +3404,7 @@
    "prefetch_s": 0.403,
    "bytes": 18281,
    "transcript": "Hope the next one's just as good.",
-   "confidence": null,
+   "confidence": -0.038,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3421,7 +3421,7 @@
    "prefetch_s": null,
    "bytes": 16433,
    "transcript": "Won't be trying that again!",
-   "confidence": null,
+   "confidence": -0.058,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3438,7 +3438,7 @@
    "prefetch_s": 0.425,
    "bytes": 35697,
    "transcript": "I've heard of dancing on ice, but never dancing with ice.",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3454,8 +3454,8 @@
    "recovered": true,
    "prefetch_s": 0.484,
    "bytes": 31877,
-   "transcript": "What I would've given for a sister like you.",
-   "confidence": null,
+   "transcript": "Huh. What I would've given for a sister like you.",
+   "confidence": -0.13,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3472,7 +3472,7 @@
    "prefetch_s": 0.476,
    "bytes": 25860,
    "transcript": "Ah, that's why they call you the Sword Sovereign.",
-   "confidence": null,
+   "confidence": -0.047,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3489,7 +3489,7 @@
    "prefetch_s": null,
    "bytes": 3631,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.027,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -3507,7 +3507,7 @@
    "prefetch_s": null,
    "bytes": 17252,
    "transcript": "Thanks! I feel better now!",
-   "confidence": null,
+   "confidence": -0.162,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3524,7 +3524,7 @@
    "prefetch_s": null,
    "bytes": 14638,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.354,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3541,7 +3541,7 @@
    "prefetch_s": 0.451,
    "bytes": 13490,
    "transcript": "Ready to kick it up a notch?",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3558,7 +3558,7 @@
    "prefetch_s": null,
    "bytes": 10425,
    "transcript": "Someone's hyped!",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3575,7 +3575,7 @@
    "prefetch_s": 0.44,
    "bytes": 9277,
    "transcript": "Let's finish it!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3592,7 +3592,7 @@
    "prefetch_s": 0.443,
    "bytes": 33453,
    "transcript": "Such destructive power... gives me chills to be honest.",
-   "confidence": null,
+   "confidence": -0.082,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3609,7 +3609,7 @@
    "prefetch_s": null,
    "bytes": 8444,
    "transcript": "Nice try!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3626,7 +3626,7 @@
    "prefetch_s": null,
    "bytes": 9663,
    "transcript": "Show no mercy!",
-   "confidence": null,
+   "confidence": -0.028,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3643,7 +3643,7 @@
    "prefetch_s": null,
    "bytes": 16526,
    "transcript": "Alright! Winner takes all!",
-   "confidence": null,
+   "confidence": -0.181,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3660,7 +3660,7 @@
    "prefetch_s": 0.448,
    "bytes": 13125,
    "transcript": "One shot, one kill!",
-   "confidence": null,
+   "confidence": -0.035,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3677,7 +3677,7 @@
    "prefetch_s": 0.413,
    "bytes": 9684,
    "transcript": "Thanks for the backup!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3694,7 +3694,7 @@
    "prefetch_s": null,
    "bytes": 7103,
    "transcript": "I'm with ya!",
-   "confidence": null,
+   "confidence": -0.01,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3711,7 +3711,7 @@
    "prefetch_s": 0.453,
    "bytes": 10020,
    "transcript": "What is that power!",
-   "confidence": null,
+   "confidence": -0.079,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3728,7 +3728,7 @@
    "prefetch_s": null,
    "bytes": 5213,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.283,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3745,7 +3745,7 @@
    "prefetch_s": 0.445,
    "bytes": 5598,
    "transcript": "Thanks!",
-   "confidence": null,
+   "confidence": -0.139,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3762,7 +3762,7 @@
    "prefetch_s": null,
    "bytes": 12421,
    "transcript": "Now to finish them off!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3779,7 +3779,7 @@
    "prefetch_s": null,
    "bytes": 2733,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.237,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3796,7 +3796,7 @@
    "prefetch_s": 0.462,
    "bytes": 8800,
    "transcript": "Thanks, Charlotta!",
-   "confidence": null,
+   "confidence": -0.091,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3813,7 +3813,7 @@
    "prefetch_s": null,
    "bytes": 3085,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.19,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -3831,7 +3831,7 @@
    "prefetch_s": null,
    "bytes": 9982,
    "transcript": "Devilish Rumble!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3848,7 +3848,7 @@
    "prefetch_s": null,
    "bytes": 25209,
    "transcript": "Gah! Get off, you creep!",
-   "confidence": null,
+   "confidence": -0.138,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3865,7 +3865,7 @@
    "prefetch_s": null,
    "bytes": 4651,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.339,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3882,7 +3882,7 @@
    "prefetch_s": 0.4,
    "bytes": 11901,
    "transcript": "Yeah! We got this!",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3899,7 +3899,7 @@
    "prefetch_s": 0.48,
    "bytes": 22613,
    "transcript": "You can try, but I've got more where that came from.",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3916,7 +3916,7 @@
    "prefetch_s": null,
    "bytes": 9983,
    "transcript": "My turn now!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3933,7 +3933,7 @@
    "prefetch_s": 0.481,
    "bytes": 22205,
    "transcript": "Infernal power courses through me!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3950,7 +3950,7 @@
    "prefetch_s": null,
    "bytes": 4901,
    "transcript": "Ha!",
-   "confidence": null,
+   "confidence": -0.187,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3967,7 +3967,7 @@
    "prefetch_s": null,
    "bytes": 3156,
    "transcript": "Hyah!",
-   "confidence": null,
+   "confidence": -0.323,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -3984,7 +3984,7 @@
    "prefetch_s": 0.423,
    "bytes": 37091,
    "transcript": "We've had some intense fights in Zegagrande, but it's got its charms.",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4000,8 +4000,8 @@
    "recovered": true,
    "prefetch_s": 0.427,
    "bytes": 40204,
-   "transcript": "Funny coming from me, but your style's more rough and tumble than knightly.",
-   "confidence": null,
+   "transcript": "Funny coming from me, but your style's more rough-and-tumble than knightly.",
+   "confidence": -0.054,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4018,7 +4018,7 @@
    "prefetch_s": null,
    "bytes": 11953,
    "transcript": "Let's tango!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4035,7 +4035,7 @@
    "prefetch_s": null,
    "bytes": 20689,
    "transcript": "You made your bed! Now sleep in it!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4052,7 +4052,7 @@
    "prefetch_s": null,
    "bytes": 4121,
    "transcript": "On it!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4069,7 +4069,7 @@
    "prefetch_s": null,
    "bytes": 7599,
    "transcript": "Lay it on 'em!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4086,7 +4086,7 @@
    "prefetch_s": null,
    "bytes": 6327,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.289,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4103,7 +4103,7 @@
    "prefetch_s": null,
    "bytes": 8388,
    "transcript": "Percival!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4120,7 +4120,7 @@
    "prefetch_s": 0.524,
    "bytes": 13587,
    "transcript": "Anytime, Captain!",
-   "confidence": null,
+   "confidence": -0.049,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4137,7 +4137,7 @@
    "prefetch_s": 0.463,
    "bytes": 31103,
    "transcript": "Fiend? I don't know. I'm only a little devilish.",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4154,7 +4154,7 @@
    "prefetch_s": null,
    "bytes": 7428,
    "transcript": "Still in it!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4171,7 +4171,7 @@
    "prefetch_s": 0.432,
    "bytes": 29569,
    "transcript": "Your darkness... it's kinda terrifying.",
-   "confidence": null,
+   "confidence": -0.105,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4188,7 +4188,7 @@
    "prefetch_s": 0.451,
    "bytes": 22454,
    "transcript": "Gotta say, we are birds of a feather!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4205,7 +4205,7 @@
    "prefetch_s": 0.409,
    "bytes": 16222,
    "transcript": "You're not getting your way, Lilith!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4222,7 +4222,7 @@
    "prefetch_s": 0.413,
    "bytes": 16788,
    "transcript": "Who else wants their ass kicked?",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4239,7 +4239,7 @@
    "prefetch_s": 0.44,
    "bytes": 8659,
    "transcript": "We can't lose!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4256,7 +4256,7 @@
    "prefetch_s": 0.428,
    "bytes": 8101,
    "transcript": "Don't mention it!",
-   "confidence": null,
+   "confidence": -0.071,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4273,7 +4273,7 @@
    "prefetch_s": null,
    "bytes": 5729,
    "transcript": "It's over!",
-   "confidence": null,
+   "confidence": -0.02,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4290,7 +4290,7 @@
    "prefetch_s": null,
    "bytes": 6274,
    "transcript": "Come on!",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4307,7 +4307,7 @@
    "prefetch_s": null,
    "bytes": 17974,
    "transcript": "Taste our power!",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4324,7 +4324,7 @@
    "prefetch_s": null,
    "bytes": 8756,
    "transcript": "Awesome!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4341,7 +4341,7 @@
    "prefetch_s": 0.487,
    "bytes": 25782,
    "transcript": "That armor plating won't save you from my kicks!",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4358,7 +4358,7 @@
    "prefetch_s": null,
    "bytes": 6422,
    "transcript": "Captain!",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4375,7 +4375,7 @@
    "prefetch_s": 0.475,
    "bytes": 19429,
    "transcript": "Make sure to stay hydrated, everyone!",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4392,7 +4392,7 @@
    "prefetch_s": null,
    "bytes": 6450,
    "transcript": "Gotcha!",
-   "confidence": null,
+   "confidence": -0.111,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4409,7 +4409,7 @@
    "prefetch_s": null,
    "bytes": 7603,
    "transcript": "Narmaya!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4426,7 +4426,7 @@
    "prefetch_s": null,
    "bytes": 10100,
    "transcript": "Chaos Detonation!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4443,7 +4443,7 @@
    "prefetch_s": null,
    "bytes": 10598,
    "transcript": "Absolute Zero!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4460,7 +4460,7 @@
    "prefetch_s": null,
    "bytes": 4581,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.064,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4477,7 +4477,7 @@
    "prefetch_s": null,
    "bytes": 4974,
    "transcript": "Hmph!",
-   "confidence": null,
+   "confidence": -0.4,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4494,7 +4494,7 @@
    "prefetch_s": null,
    "bytes": 16730,
    "transcript": "There! I'm ready to go again!",
-   "confidence": null,
+   "confidence": -0.087,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4511,7 +4511,7 @@
    "prefetch_s": null,
    "bytes": 11810,
    "transcript": "Try not to break!",
-   "confidence": null,
+   "confidence": -0.016,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4528,7 +4528,7 @@
    "prefetch_s": null,
    "bytes": 7041,
    "transcript": "What have we got?",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4545,7 +4545,7 @@
    "prefetch_s": null,
    "bytes": 6976,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4562,7 +4562,7 @@
    "prefetch_s": 0.414,
    "bytes": 9447,
    "transcript": "Perfect timing!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4579,7 +4579,7 @@
    "prefetch_s": null,
    "bytes": 9943,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.179,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4596,7 +4596,7 @@
    "prefetch_s": null,
    "bytes": 6672,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.202,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4613,7 +4613,7 @@
    "prefetch_s": 0.455,
    "bytes": 11239,
    "transcript": "Mind if we play a little rough?",
-   "confidence": null,
+   "confidence": -0.001,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4630,7 +4630,7 @@
    "prefetch_s": null,
    "bytes": 5381,
    "transcript": "Nngh!",
-   "confidence": null,
+   "confidence": -0.279,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4647,7 +4647,7 @@
    "prefetch_s": null,
    "bytes": 7673,
    "transcript": "Hold on!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4664,7 +4664,7 @@
    "prefetch_s": 0.447,
    "bytes": 20967,
    "transcript": "Ooh, so ferocious!",
-   "confidence": null,
+   "confidence": -0.084,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4681,7 +4681,7 @@
    "prefetch_s": 0.489,
    "bytes": 10980,
    "transcript": "Excellent teamwork!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4698,7 +4698,7 @@
    "prefetch_s": null,
    "bytes": 6262,
    "transcript": "Bye-bye!",
-   "confidence": null,
+   "confidence": -0.046,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4715,7 +4715,7 @@
    "prefetch_s": 0.452,
    "bytes": 18232,
    "transcript": "Catch your interest?",
-   "confidence": null,
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4732,7 +4732,7 @@
    "prefetch_s": 0.409,
    "bytes": 25390,
    "transcript": "Whoa, no way! You give me too much credit!",
-   "confidence": null,
+   "confidence": -0.063,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4749,7 +4749,7 @@
    "prefetch_s": 0.447,
    "bytes": 32749,
    "transcript": "Hand to hand combat? Nah. Foot to face is more my style.",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4766,7 +4766,7 @@
    "prefetch_s": 0.479,
    "bytes": 30822,
    "transcript": "I don't care how tough you are. No shenanigans, okay?",
-   "confidence": null,
+   "confidence": -0.05,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4783,7 +4783,7 @@
    "prefetch_s": null,
    "bytes": 6409,
    "transcript": "Thanks!",
-   "confidence": null,
+   "confidence": -0.12,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4800,7 +4800,7 @@
    "prefetch_s": 0.466,
    "bytes": 20013,
    "transcript": "Someone's in a hellfire and brimstone.",
-   "confidence": null,
+   "confidence": -0.1,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4817,7 +4817,7 @@
    "prefetch_s": 0.45,
    "bytes": 7558,
    "transcript": "Thanks, Rolan!",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4834,7 +4834,7 @@
    "prefetch_s": null,
    "bytes": 4921,
    "transcript": "On it!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4851,7 +4851,7 @@
    "prefetch_s": null,
    "bytes": 9577,
    "transcript": "I'm waiting!",
-   "confidence": null,
+   "confidence": -0.07,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4868,7 +4868,7 @@
    "prefetch_s": null,
    "bytes": 12556,
    "transcript": "Devil!",
-   "confidence": null,
+   "confidence": -0.028,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4885,7 +4885,7 @@
    "prefetch_s": null,
    "bytes": 7246,
    "transcript": "Katalina!",
-   "confidence": null,
+   "confidence": -0.037,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4902,7 +4902,7 @@
    "prefetch_s": null,
    "bytes": 3683,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.136,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4919,7 +4919,7 @@
    "prefetch_s": null,
    "bytes": 4522,
    "transcript": "Io!",
-   "confidence": null,
+   "confidence": -0.09,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4936,7 +4936,7 @@
    "prefetch_s": 0.43,
    "bytes": 48419,
    "transcript": "Rosetta, how do you balance all of that strength and beauty? It's amazing.",
-   "confidence": null,
+   "confidence": -0.049,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4952,8 +4952,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4392,
-   "transcript": "Nngh!",
-   "confidence": null,
+   "transcript": "Nyah!",
+   "confidence": -0.608,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4970,7 +4970,7 @@
    "prefetch_s": 0.429,
    "bytes": 33421,
    "transcript": "Hah! No kidding! Maybe I woke up on the right side of the bed this morning!",
-   "confidence": null,
+   "confidence": -0.121,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -4987,7 +4987,7 @@
    "prefetch_s": null,
    "bytes": 9592,
    "transcript": "I'll take it from here.",
-   "confidence": null,
+   "confidence": -0.036,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5004,7 +5004,7 @@
    "prefetch_s": 0.444,
    "bytes": 11635,
    "transcript": "Hang on! I'm coming!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5021,7 +5021,7 @@
    "prefetch_s": null,
    "bytes": 10080,
    "transcript": "At your service!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5038,7 +5038,7 @@
    "prefetch_s": null,
    "bytes": 5193,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.182,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5055,7 +5055,7 @@
    "prefetch_s": null,
    "bytes": 8219,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.157,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5072,7 +5072,7 @@
    "prefetch_s": 0.431,
    "bytes": 9712,
    "transcript": "Nice teamwork!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5089,7 +5089,7 @@
    "prefetch_s": 0.465,
    "bytes": 19576,
    "transcript": "We take it down! No matter what!",
-   "confidence": null,
+   "confidence": -0.061,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5106,7 +5106,7 @@
    "prefetch_s": null,
    "bytes": 5102,
    "transcript": "Haha!",
-   "confidence": null,
+   "confidence": -0.184,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5123,7 +5123,7 @@
    "prefetch_s": 0.445,
    "bytes": 19566,
    "transcript": "Ha! Revel all you want!",
-   "confidence": null,
+   "confidence": -0.125,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5140,7 +5140,7 @@
    "prefetch_s": null,
    "bytes": 10098,
    "transcript": "Sweet dreams!",
-   "confidence": null,
+   "confidence": -0.065,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5157,7 +5157,7 @@
    "prefetch_s": null,
    "bytes": 8400,
    "transcript": "Together now!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5174,7 +5174,7 @@
    "prefetch_s": null,
    "bytes": 6392,
    "transcript": "No!",
-   "confidence": null,
+   "confidence": -0.056,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5191,7 +5191,7 @@
    "prefetch_s": null,
    "bytes": 15535,
    "transcript": "Get lost, asshole!",
-   "confidence": null,
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5208,7 +5208,7 @@
    "prefetch_s": 0.454,
    "bytes": 29859,
    "transcript": "Come on, just one? We were a pair of dahlia's!",
-   "confidence": null,
+   "confidence": -0.179,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5225,7 +5225,7 @@
    "prefetch_s": null,
    "bytes": 3313,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.108,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5242,7 +5242,7 @@
    "prefetch_s": null,
    "bytes": 6976,
    "transcript": "Here goes!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5259,7 +5259,7 @@
    "prefetch_s": null,
    "bytes": 6468,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.117,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5276,7 +5276,7 @@
    "prefetch_s": 0.467,
    "bytes": 9834,
    "transcript": "Then we'd better pick it up!",
-   "confidence": null,
+   "confidence": -0.07,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5292,8 +5292,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 13791,
-   "transcript": "Debolicious!",
-   "confidence": null,
+   "transcript": "Devilish!",
+   "confidence": -0.185,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5310,7 +5310,7 @@
    "prefetch_s": 0.453,
    "bytes": 9825,
    "transcript": "Let's end this!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5327,7 +5327,7 @@
    "prefetch_s": null,
    "bytes": 12563,
    "transcript": "This is nothing.",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5344,7 +5344,7 @@
    "prefetch_s": 0.448,
    "bytes": 10904,
    "transcript": "Thanks for the cover fire!",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5361,7 +5361,7 @@
    "prefetch_s": null,
    "bytes": 8169,
    "transcript": "Yodarha!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5378,7 +5378,7 @@
    "prefetch_s": 0.425,
    "bytes": 23181,
    "transcript": "With you as our captain, no one even compares!",
-   "confidence": null,
+   "confidence": -0.04,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5395,7 +5395,7 @@
    "prefetch_s": 0.432,
    "bytes": 12787,
    "transcript": "And that's how it's done!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5412,7 +5412,7 @@
    "prefetch_s": null,
    "bytes": 6401,
    "transcript": "Enough!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5429,7 +5429,7 @@
    "prefetch_s": 0.415,
    "bytes": 10692,
    "transcript": "We gave 'em hell!",
-   "confidence": null,
+   "confidence": -0.071,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5446,7 +5446,7 @@
    "prefetch_s": 0.445,
    "bytes": 12485,
    "transcript": "We've got this in the bag!",
-   "confidence": null,
+   "confidence": -0.01,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5463,7 +5463,7 @@
    "prefetch_s": 0.439,
    "bytes": 17854,
    "transcript": "Couldn't have done it without you and Ambrosk!",
-   "confidence": null,
+   "confidence": -0.081,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5480,7 +5480,7 @@
    "prefetch_s": null,
    "bytes": 12449,
    "transcript": "My lucky day!",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5496,8 +5496,8 @@
    "recovered": true,
    "prefetch_s": 0.457,
    "bytes": 21856,
-   "transcript": "It looks like Furikin, but something's off.",
-   "confidence": null,
+   "transcript": "It looks like Fueokin, but something's off.",
+   "confidence": -0.375,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5514,7 +5514,7 @@
    "prefetch_s": null,
    "bytes": 6838,
    "transcript": "Seofon!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5531,7 +5531,7 @@
    "prefetch_s": 0.425,
    "bytes": 16524,
    "transcript": "Sure! Let's go all out!",
-   "confidence": null,
+   "confidence": -0.035,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5548,7 +5548,7 @@
    "prefetch_s": null,
    "bytes": 3663,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.057,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5565,7 +5565,7 @@
    "prefetch_s": 0.462,
    "bytes": 11100,
    "transcript": "This crew rocks!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5582,7 +5582,7 @@
    "prefetch_s": null,
    "bytes": 8330,
    "transcript": "Sandalphon!",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5599,7 +5599,7 @@
    "prefetch_s": null,
    "bytes": 8428,
    "transcript": "Take this!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5616,7 +5616,7 @@
    "prefetch_s": null,
    "bytes": 19744,
    "transcript": "Fare thee well.",
-   "confidence": null,
+   "confidence": -0.078,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5633,7 +5633,7 @@
    "prefetch_s": 0.449,
    "bytes": 23946,
    "transcript": "It's fine. I'm not the type you need to worry about.",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5650,7 +5650,7 @@
    "prefetch_s": 0.414,
    "bytes": 9400,
    "transcript": "Watch out for the gunk!",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5667,7 +5667,7 @@
    "prefetch_s": 0.436,
    "bytes": 8427,
    "transcript": "Don't even try it!",
-   "confidence": null,
+   "confidence": -0.016,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5684,7 +5684,7 @@
    "prefetch_s": 0.419,
    "bytes": 28946,
    "transcript": "So uh, you've got the devil on edge.",
-   "confidence": null,
+   "confidence": -0.097,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5701,7 +5701,7 @@
    "prefetch_s": 0.453,
    "bytes": 18288,
    "transcript": "Her power is... twisted!",
-   "confidence": null,
+   "confidence": -0.102,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5718,7 +5718,7 @@
    "prefetch_s": 0.503,
    "bytes": 40347,
    "transcript": "I've been through a lot to gain this strength. Though I've warmed up to it now.",
-   "confidence": null,
+   "confidence": -0.063,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5735,7 +5735,7 @@
    "prefetch_s": null,
    "bytes": 9888,
    "transcript": "Shine as One!",
-   "confidence": null,
+   "confidence": -0.064,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5752,7 +5752,7 @@
    "prefetch_s": null,
    "bytes": 9805,
    "transcript": "Rumble!",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5769,7 +5769,7 @@
    "prefetch_s": 0.459,
    "bytes": 27878,
    "transcript": "That's not Id, but they have the same power.",
-   "confidence": null,
+   "confidence": -0.084,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5786,7 +5786,7 @@
    "prefetch_s": 0.431,
    "bytes": 11965,
    "transcript": "Say bye to those buffs!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5803,7 +5803,7 @@
    "prefetch_s": null,
    "bytes": 5927,
    "transcript": "Here we go!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5820,7 +5820,7 @@
    "prefetch_s": null,
    "bytes": 17779,
    "transcript": "A gift!",
-   "confidence": null,
+   "confidence": -0.043,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5837,7 +5837,7 @@
    "prefetch_s": null,
    "bytes": 6157,
    "transcript": "Bingo!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5854,7 +5854,7 @@
    "prefetch_s": 0.44,
    "bytes": 7190,
    "transcript": "Whoa!",
-   "confidence": null,
+   "confidence": -0.033,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5871,7 +5871,7 @@
    "prefetch_s": 0.562,
    "bytes": 10995,
    "transcript": "Me? Never better.",
-   "confidence": null,
+   "confidence": -0.116,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5888,7 +5888,7 @@
    "prefetch_s": 0.452,
    "bytes": 16864,
    "transcript": "Ooh, bullseye on that hit!",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5905,7 +5905,7 @@
    "prefetch_s": 0.44,
    "bytes": 13874,
    "transcript": "There's no way we'll lose!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5922,7 +5922,7 @@
    "prefetch_s": null,
    "bytes": 13478,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.44,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5939,7 +5939,7 @@
    "prefetch_s": 0.445,
    "bytes": 11880,
    "transcript": "Nice try, but no.",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5956,7 +5956,7 @@
    "prefetch_s": 0.424,
    "bytes": 15178,
    "transcript": "Cool! Just lead the way!",
-   "confidence": null,
+   "confidence": -0.107,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5973,7 +5973,7 @@
    "prefetch_s": 0.427,
    "bytes": 17696,
    "transcript": "Let's finish this once and for all!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -5990,7 +5990,7 @@
    "prefetch_s": 0.419,
    "bytes": 14402,
    "transcript": "Alright, who's next?",
-   "confidence": null,
+   "confidence": -0.101,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6007,7 +6007,7 @@
    "prefetch_s": 0.421,
    "bytes": 13633,
    "transcript": "Alright, I'm game!",
-   "confidence": null,
+   "confidence": -0.06,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6023,8 +6023,8 @@
    "recovered": true,
    "prefetch_s": 0.443,
    "bytes": 20866,
-   "transcript": "I like your follow-through!",
-   "confidence": null,
+   "transcript": "Haha! I like your follow-through!",
+   "confidence": -0.185,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6041,7 +6041,7 @@
    "prefetch_s": null,
    "bytes": 6858,
    "transcript": "Maglielle!",
-   "confidence": null,
+   "confidence": -0.017,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6058,7 +6058,7 @@
    "prefetch_s": null,
    "bytes": 9374,
    "transcript": "Hell yes!",
-   "confidence": null,
+   "confidence": -0.032,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6075,7 +6075,7 @@
    "prefetch_s": 0.454,
    "bytes": 16155,
    "transcript": "Gonna kick its legs clean off!",
-   "confidence": null,
+   "confidence": -0.001,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6092,7 +6092,7 @@
    "prefetch_s": 0.422,
    "bytes": 13675,
    "transcript": "I think we pissed him off.",
-   "confidence": null,
+   "confidence": -0.054,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6109,7 +6109,7 @@
    "prefetch_s": 0.404,
    "bytes": 9846,
    "transcript": "Hey, nice one!",
-   "confidence": null,
+   "confidence": -0.068,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6126,7 +6126,7 @@
    "prefetch_s": 0.46,
    "bytes": 11769,
    "transcript": "All together now!",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6143,7 +6143,7 @@
    "prefetch_s": 0.416,
    "bytes": 18993,
    "transcript": "We can't let a little climb stop us now!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6160,7 +6160,7 @@
    "prefetch_s": null,
    "bytes": 9620,
    "transcript": "Nice to be needed!",
-   "confidence": null,
+   "confidence": -0.037,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6177,7 +6177,7 @@
    "prefetch_s": null,
    "bytes": 3986,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.133,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6194,7 +6194,7 @@
    "prefetch_s": 0.448,
    "bytes": 15235,
    "transcript": "Let's get you somewhere safe.",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6211,7 +6211,7 @@
    "prefetch_s": null,
    "bytes": 8983,
    "transcript": "Let's kick it up!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6228,7 +6228,7 @@
    "prefetch_s": null,
    "bytes": 8260,
    "transcript": "This looks helpful.",
-   "confidence": null,
+   "confidence": -0.044,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6245,7 +6245,7 @@
    "prefetch_s": 0.425,
    "bytes": 10474,
    "transcript": "Watch my back for me.",
-   "confidence": null,
+   "confidence": -0.058,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6262,7 +6262,7 @@
    "prefetch_s": null,
    "bytes": 7822,
    "transcript": "Sorry!",
-   "confidence": null,
+   "confidence": -0.295,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6279,7 +6279,7 @@
    "prefetch_s": 0.43,
    "bytes": 24671,
    "transcript": "I won't feel guilty about beating up a machine.",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6296,7 +6296,7 @@
    "prefetch_s": null,
    "bytes": 3672,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.497,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6313,7 +6313,7 @@
    "prefetch_s": null,
    "bytes": 8444,
    "transcript": "I'm goin' in!",
-   "confidence": null,
+   "confidence": -0.089,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6330,7 +6330,7 @@
    "prefetch_s": null,
    "bytes": 6727,
    "transcript": "Ha!",
-   "confidence": null,
+   "confidence": -0.139,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6347,7 +6347,7 @@
    "prefetch_s": 0.435,
    "bytes": 12357,
    "transcript": "Let's see you dodge now!",
-   "confidence": null,
+   "confidence": -0.049,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6364,7 +6364,7 @@
    "prefetch_s": null,
    "bytes": 3222,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.159,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6381,7 +6381,7 @@
    "prefetch_s": null,
    "bytes": 6575,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.329,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6398,7 +6398,7 @@
    "prefetch_s": null,
    "bytes": 11281,
    "transcript": "There. All better.",
-   "confidence": null,
+   "confidence": -0.043,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6414,8 +6414,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 17168,
-   "transcript": "I'm just getting started!",
-   "confidence": null,
+   "transcript": "I'm just getting started.",
+   "confidence": -0.097,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6432,7 +6432,7 @@
    "prefetch_s": 0.494,
    "bytes": 13160,
    "transcript": "I'm pretty reliable, aren't I?",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6449,7 +6449,7 @@
    "prefetch_s": null,
    "bytes": 7097,
    "transcript": "You coming?",
-   "confidence": null,
+   "confidence": -0.058,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6466,7 +6466,7 @@
    "prefetch_s": null,
    "bytes": 5117,
    "transcript": "Ha!",
-   "confidence": null,
+   "confidence": -0.351,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6483,7 +6483,7 @@
    "prefetch_s": 0.452,
    "bytes": 17684,
    "transcript": "Now that was real teamwork!",
-   "confidence": null,
+   "confidence": -0.099,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6500,7 +6500,7 @@
    "prefetch_s": 0.447,
    "bytes": 10680,
    "transcript": "Keep an eye out, everyone!",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6517,7 +6517,7 @@
    "prefetch_s": 0.462,
    "bytes": 20420,
    "transcript": "Hey, nice jawline, Rackam!",
-   "confidence": null,
+   "confidence": -0.15,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6534,7 +6534,7 @@
    "prefetch_s": null,
    "bytes": 10191,
    "transcript": "No escape!",
-   "confidence": null,
+   "confidence": -0.149,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6551,7 +6551,7 @@
    "prefetch_s": null,
    "bytes": 8784,
    "transcript": "You hurt anywhere?",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6568,7 +6568,7 @@
    "prefetch_s": 0.417,
    "bytes": 23865,
    "transcript": "So, how do you swing that giant weapon?",
-   "confidence": null,
+   "confidence": -0.056,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6585,7 +6585,7 @@
    "prefetch_s": 0.433,
    "bytes": 13739,
    "transcript": "We're in full bloom!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6602,7 +6602,7 @@
    "prefetch_s": 0.415,
    "bytes": 14263,
    "transcript": "Tell Aries I said thanks!",
-   "confidence": null,
+   "confidence": -0.131,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6619,7 +6619,7 @@
    "prefetch_s": 0.435,
    "bytes": 21048,
    "transcript": "Aww, look how teensy you are!",
-   "confidence": null,
+   "confidence": -0.058,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6636,7 +6636,7 @@
    "prefetch_s": null,
    "bytes": 8320,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.472,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6653,7 +6653,7 @@
    "prefetch_s": 0.414,
    "bytes": 21483,
    "transcript": "Yep! Time for payback!",
-   "confidence": null,
+   "confidence": -0.133,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6670,7 +6670,7 @@
    "prefetch_s": 0.44,
    "bytes": 27768,
    "transcript": "This thing is tough, but at least it's easy to predict!",
-   "confidence": null,
+   "confidence": -0.057,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6687,7 +6687,7 @@
    "prefetch_s": 0.469,
    "bytes": 7918,
    "transcript": "Bullseye!",
-   "confidence": null,
+   "confidence": -0.041,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6704,7 +6704,7 @@
    "prefetch_s": null,
    "bytes": 10007,
    "transcript": "Tch! That's it!",
-   "confidence": null,
+   "confidence": -0.173,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6721,7 +6721,7 @@
    "prefetch_s": null,
    "bytes": 6428,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.267,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6738,7 +6738,7 @@
    "prefetch_s": 0.416,
    "bytes": 8865,
    "transcript": "Hit 'em while they're down!",
-   "confidence": null,
+   "confidence": -0.037,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6755,7 +6755,7 @@
    "prefetch_s": null,
    "bytes": 10326,
    "transcript": "You're gonna burn!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6772,7 +6772,7 @@
    "prefetch_s": 0.406,
    "bytes": 15638,
    "transcript": "Color me impressed, Siegfried!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6788,8 +6788,8 @@
    "recovered": true,
    "prefetch_s": 0.421,
    "bytes": 16849,
-   "transcript": "Haven't even hit my stride yet!",
-   "confidence": null,
+   "transcript": "Haven't even hit my stride yet.",
+   "confidence": -0.07,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6806,7 +6806,7 @@
    "prefetch_s": 0.421,
    "bytes": 22450,
    "transcript": "Now I see what they mean by blinding speed!",
-   "confidence": null,
+   "confidence": -0.052,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6823,7 +6823,7 @@
    "prefetch_s": null,
    "bytes": 3781,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.325,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6840,7 +6840,7 @@
    "prefetch_s": 0.425,
    "bytes": 14202,
    "transcript": "Go out there and kick ass!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6857,7 +6857,7 @@
    "prefetch_s": 0.44,
    "bytes": 12173,
    "transcript": "Nice and frosty!",
-   "confidence": null,
+   "confidence": -0.029,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6874,7 +6874,7 @@
    "prefetch_s": 0.414,
    "bytes": 17143,
    "transcript": "Took him down with one flash of the sword!",
-   "confidence": null,
+   "confidence": -0.065,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6891,7 +6891,7 @@
    "prefetch_s": null,
    "bytes": 4217,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.106,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6908,7 +6908,7 @@
    "prefetch_s": null,
    "bytes": 5073,
    "transcript": "Get 'em!",
-   "confidence": null,
+   "confidence": -0.05,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6925,7 +6925,7 @@
    "prefetch_s": null,
    "bytes": 5599,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.152,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6941,8 +6941,8 @@
    "recovered": true,
    "prefetch_s": 0.434,
    "bytes": 28654,
-   "transcript": "A little frost won't stop my hellfire!",
-   "confidence": null,
+   "transcript": "Hah! A little frost won't stop my hellfire!",
+   "confidence": -0.132,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6959,7 +6959,7 @@
    "prefetch_s": 0.435,
    "bytes": 12136,
    "transcript": "Don't let up for a second!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6976,7 +6976,7 @@
    "prefetch_s": null,
    "bytes": 10543,
    "transcript": "Dust to Dust!",
-   "confidence": null,
+   "confidence": -0.027,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -6993,7 +6993,7 @@
    "prefetch_s": 0.431,
    "bytes": 29406,
    "transcript": "You brought the speed, I brought the power. Simple perfection.",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7010,7 +7010,7 @@
    "prefetch_s": 0.443,
    "bytes": 23223,
    "transcript": "I dunno. I think we could've gone more hardcore.",
-   "confidence": null,
+   "confidence": -0.172,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7027,7 +7027,7 @@
    "prefetch_s": 0.409,
    "bytes": 12528,
    "transcript": "Haha, you said it!",
-   "confidence": null,
+   "confidence": -0.153,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7044,7 +7044,7 @@
    "prefetch_s": null,
    "bytes": 4399,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.232,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7061,7 +7061,7 @@
    "prefetch_s": 0.429,
    "bytes": 22888,
    "transcript": "Glad to be of service!",
-   "confidence": null,
+   "confidence": -0.046,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7078,7 +7078,7 @@
    "prefetch_s": 0.413,
    "bytes": 19752,
    "transcript": "We've beat it before! We can do it again!",
-   "confidence": null,
+   "confidence": -0.032,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7095,7 +7095,7 @@
    "prefetch_s": 0.417,
    "bytes": 31892,
    "transcript": "Never met someone who could summon so much force with a single punch!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7112,7 +7112,7 @@
    "prefetch_s": 0.45,
    "bytes": 26168,
    "transcript": "I hope we find the catalyst soon... for Lyria's sake.",
-   "confidence": null,
+   "confidence": -0.146,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7129,7 +7129,7 @@
    "prefetch_s": null,
    "bytes": 11019,
    "transcript": "You're a lifesaver!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7146,7 +7146,7 @@
    "prefetch_s": null,
    "bytes": 8500,
    "transcript": "Ugh!",
-   "confidence": null,
+   "confidence": -0.345,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7163,7 +7163,7 @@
    "prefetch_s": null,
    "bytes": 4899,
    "transcript": "Gotcha!",
-   "confidence": null,
+   "confidence": -0.037,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7180,7 +7180,7 @@
    "prefetch_s": null,
    "bytes": 7017,
    "transcript": "Bye-bye!",
-   "confidence": null,
+   "confidence": -0.033,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7197,7 +7197,7 @@
    "prefetch_s": null,
    "bytes": 15261,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.368,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7214,7 +7214,7 @@
    "prefetch_s": 0.275,
    "bytes": 24578,
    "transcript": "Anyway, who's next on the kick list?",
-   "confidence": null,
+   "confidence": -0.073,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7231,7 +7231,7 @@
    "prefetch_s": 0.411,
    "bytes": 15015,
    "transcript": "Thanks for the backup!",
-   "confidence": null,
+   "confidence": -0.216,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7248,7 +7248,7 @@
    "prefetch_s": 0.466,
    "bytes": 18347,
    "transcript": "Fire away! I'll take your opening!",
-   "confidence": null,
+   "confidence": -0.027,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7265,7 +7265,7 @@
    "prefetch_s": 0.482,
    "bytes": 13369,
    "transcript": "Your timing is impeccable!",
-   "confidence": null,
+   "confidence": -0.023,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7282,7 +7282,7 @@
    "prefetch_s": null,
    "bytes": 8644,
    "transcript": "Diastrophism!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7299,7 +7299,7 @@
    "prefetch_s": null,
    "bytes": 7061,
    "transcript": "Uragh!",
-   "confidence": null,
+   "confidence": -0.811,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7316,7 +7316,7 @@
    "prefetch_s": 0.283,
    "bytes": 26357,
    "transcript": "Aww, is it over already? That's no fun.",
-   "confidence": null,
+   "confidence": -0.06,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7333,7 +7333,7 @@
    "prefetch_s": 0.44,
    "bytes": 8769,
    "transcript": "We're almost there!",
-   "confidence": null,
+   "confidence": -0.031,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7349,8 +7349,8 @@
    "recovered": true,
    "prefetch_s": 0.298,
    "bytes": 17911,
-   "transcript": "Hah! Too easy!",
-   "confidence": null,
+   "transcript": "Hah! Hah! Hah! Too easy!",
+   "confidence": -0.306,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7367,7 +7367,7 @@
    "prefetch_s": 0.452,
    "bytes": 10701,
    "transcript": "Back at ya, Percival!",
-   "confidence": null,
+   "confidence": -0.058,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7384,7 +7384,7 @@
    "prefetch_s": null,
    "bytes": 6884,
    "transcript": "I'll follow!",
-   "confidence": null,
+   "confidence": -0.058,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7401,7 +7401,7 @@
    "prefetch_s": null,
    "bytes": 9265,
    "transcript": "Ghandagoza!",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7418,7 +7418,7 @@
    "prefetch_s": null,
    "bytes": 5636,
    "transcript": "Nngh!",
-   "confidence": null,
+   "confidence": -0.272,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7435,7 +7435,7 @@
    "prefetch_s": null,
    "bytes": 5471,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.296,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7452,7 +7452,7 @@
    "prefetch_s": null,
    "bytes": 5302,
    "transcript": "Now!",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7469,7 +7469,7 @@
    "prefetch_s": null,
    "bytes": 17065,
    "transcript": "Let's see how long you last!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7486,7 +7486,7 @@
    "prefetch_s": null,
    "bytes": 14548,
    "transcript": "Okay team, let's do it!",
-   "confidence": null,
+   "confidence": -0.06,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7503,7 +7503,7 @@
    "prefetch_s": 0.39,
    "bytes": 9029,
    "transcript": "Glad you think so!",
-   "confidence": null,
+   "confidence": -0.102,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7520,7 +7520,7 @@
    "prefetch_s": null,
    "bytes": 9802,
    "transcript": "Feels great!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7537,7 +7537,7 @@
    "prefetch_s": null,
    "bytes": 8369,
    "transcript": "That's not fair!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7554,7 +7554,7 @@
    "prefetch_s": 0.436,
    "bytes": 17786,
    "transcript": "Look at you go, Mr. Knight-Captain!",
-   "confidence": null,
+   "confidence": -0.106,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7571,7 +7571,7 @@
    "prefetch_s": null,
    "bytes": 8246,
    "transcript": "Nice!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7588,7 +7588,7 @@
    "prefetch_s": null,
    "bytes": 5324,
    "transcript": "Id!",
-   "confidence": null,
+   "confidence": -0.023,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7605,7 +7605,7 @@
    "prefetch_s": 0.466,
    "bytes": 28077,
    "transcript": "You Eternals always get the job done!",
-   "confidence": null,
+   "confidence": -0.085,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7622,7 +7622,7 @@
    "prefetch_s": null,
    "bytes": 6369,
    "transcript": "Gotcha!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7639,7 +7639,7 @@
    "prefetch_s": 0.461,
    "bytes": 7546,
    "transcript": "Game on!",
-   "confidence": null,
+   "confidence": -0.016,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7656,7 +7656,7 @@
    "prefetch_s": 0.431,
    "bytes": 20086,
    "transcript": "No one beats me in a throwdown!",
-   "confidence": null,
+   "confidence": -0.065,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7673,7 +7673,7 @@
    "prefetch_s": null,
    "bytes": 5855,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.213,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7690,7 +7690,7 @@
    "prefetch_s": 0.435,
    "bytes": 34026,
    "transcript": "Huh? Oh, Tweyen, you're too much!",
-   "confidence": null,
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7707,7 +7707,7 @@
    "prefetch_s": 0.436,
    "bytes": 23382,
    "transcript": "Sparkly AND kickass! Nice!",
-   "confidence": null,
+   "confidence": -0.234,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7724,7 +7724,7 @@
    "prefetch_s": 0.458,
    "bytes": 18026,
    "transcript": "Aww, lil' spiky boy!",
-   "confidence": null,
+   "confidence": -0.175,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7741,7 +7741,7 @@
    "prefetch_s": null,
    "bytes": 8622,
    "transcript": "Now or never!",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7758,7 +7758,7 @@
    "prefetch_s": 0.465,
    "bytes": 17836,
    "transcript": "What the hell? Ghandagoza?",
-   "confidence": null,
+   "confidence": -0.146,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7775,7 +7775,7 @@
    "prefetch_s": 0.415,
    "bytes": 22508,
    "transcript": "This chill makes my skin crawl!",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7792,7 +7792,7 @@
    "prefetch_s": 0.429,
    "bytes": 11661,
    "transcript": "No holds barred, right?",
-   "confidence": null,
+   "confidence": -0.052,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7809,7 +7809,7 @@
    "prefetch_s": 0.439,
    "bytes": 24840,
    "transcript": "Stay calm, stay focused. We'll knock it down.",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7826,7 +7826,7 @@
    "prefetch_s": 0.428,
    "bytes": 25263,
    "transcript": "Fighting's just kinda my thing. Doesn't matter the style.",
-   "confidence": null,
+   "confidence": -0.064,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7843,7 +7843,7 @@
    "prefetch_s": 0.434,
    "bytes": 13766,
    "transcript": "You're a real workhorse!",
-   "confidence": null,
+   "confidence": -0.06,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7860,7 +7860,7 @@
    "prefetch_s": 0.503,
    "bytes": 26301,
    "transcript": "Bet I could destroy you in a contest of strength!",
-   "confidence": null,
+   "confidence": -0.056,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7877,7 +7877,7 @@
    "prefetch_s": null,
    "bytes": 15736,
    "transcript": "And there's more where that came from!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7894,7 +7894,7 @@
    "prefetch_s": null,
    "bytes": 9439,
    "transcript": "They're finished!",
-   "confidence": null,
+   "confidence": -0.109,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7911,7 +7911,7 @@
    "prefetch_s": null,
    "bytes": 6245,
    "transcript": "Open up!",
-   "confidence": null,
+   "confidence": -0.063,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7928,7 +7928,7 @@
    "prefetch_s": 0.48,
    "bytes": 22511,
    "transcript": "Exceptional what? You've lost me.",
-   "confidence": null,
+   "confidence": -0.055,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7945,7 +7945,7 @@
    "prefetch_s": null,
    "bytes": 11247,
    "transcript": "Now we're talking!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7962,7 +7962,7 @@
    "prefetch_s": null,
    "bytes": 10076,
    "transcript": "Ooh, fancy!",
-   "confidence": null,
+   "confidence": -0.117,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7979,7 +7979,7 @@
    "prefetch_s": 0.395,
    "bytes": 19721,
    "transcript": "Ha! Discipline complete!",
-   "confidence": null,
+   "confidence": -0.117,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -7996,7 +7996,7 @@
    "prefetch_s": null,
    "bytes": 3354,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.065,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8013,7 +8013,7 @@
    "prefetch_s": 0.43,
    "bytes": 14051,
    "transcript": "Oh, did I impress you?",
-   "confidence": null,
+   "confidence": -0.054,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8030,7 +8030,7 @@
    "prefetch_s": null,
    "bytes": 16818,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.62,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8047,7 +8047,7 @@
    "prefetch_s": null,
    "bytes": 8845,
    "transcript": "I'll take care of 'em!",
-   "confidence": null,
+   "confidence": -0.016,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8064,7 +8064,7 @@
    "prefetch_s": null,
    "bytes": 11731,
    "transcript": "You push too hard!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8081,7 +8081,7 @@
    "prefetch_s": null,
    "bytes": 3344,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.268,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8098,7 +8098,7 @@
    "prefetch_s": 0.449,
    "bytes": 13376,
    "transcript": "Thanks for the assist, Percival!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8114,8 +8114,8 @@
    "recovered": true,
    "prefetch_s": 0.433,
    "bytes": 17704,
-   "transcript": "Same! Feels like I learned a lot!",
-   "confidence": null,
+   "transcript": "Same! Feels like I learned a lot.",
+   "confidence": -0.114,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8132,7 +8132,7 @@
    "prefetch_s": 0.427,
    "bytes": 20924,
    "transcript": "Whoa. So he's not all talk.",
-   "confidence": null,
+   "confidence": -0.077,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8149,7 +8149,7 @@
    "prefetch_s": 0.438,
    "bytes": 13512,
    "transcript": "You mean so much kick, right?",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8166,7 +8166,7 @@
    "prefetch_s": null,
    "bytes": 5340,
    "transcript": "Nngh!",
-   "confidence": null,
+   "confidence": -0.228,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8183,7 +8183,7 @@
    "prefetch_s": null,
    "bytes": 8945,
    "transcript": "Overwhelm them!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8200,7 +8200,7 @@
    "prefetch_s": null,
    "bytes": 11005,
    "transcript": "Watch yourself, okay?",
-   "confidence": null,
+   "confidence": -0.028,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8217,7 +8217,7 @@
    "prefetch_s": 0.439,
    "bytes": 18555,
    "transcript": "Huh. Guess I owe you one.",
-   "confidence": null,
+   "confidence": -0.205,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8234,7 +8234,7 @@
    "prefetch_s": 0.481,
    "bytes": 21746,
    "transcript": "You said it! Let's hit them hard and fast!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8251,7 +8251,7 @@
    "prefetch_s": null,
    "bytes": 9896,
    "transcript": "Love it!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8268,7 +8268,7 @@
    "prefetch_s": null,
    "bytes": 6398,
    "transcript": "Not bad.",
-   "confidence": null,
+   "confidence": -0.051,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8285,7 +8285,7 @@
    "prefetch_s": null,
    "bytes": 10950,
    "transcript": "Ice Illumination!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8302,7 +8302,7 @@
    "prefetch_s": null,
    "bytes": 12374,
    "transcript": "Hope you said your prayers!",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8319,7 +8319,7 @@
    "prefetch_s": 0.426,
    "bytes": 23427,
    "transcript": "Alright! Too late to turn back now!",
-   "confidence": null,
+   "confidence": -0.068,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8336,7 +8336,7 @@
    "prefetch_s": 0.433,
    "bytes": 24968,
    "transcript": "I've been hearing great things about your coffee.",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8353,7 +8353,7 @@
    "prefetch_s": 0.434,
    "bytes": 13014,
    "transcript": "Same! You made it easy!",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8370,7 +8370,7 @@
    "prefetch_s": null,
    "bytes": 4020,
    "transcript": "On it!",
-   "confidence": null,
+   "confidence": -0.008,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8387,7 +8387,7 @@
    "prefetch_s": 0.433,
    "bytes": 10539,
    "transcript": "First things first!",
-   "confidence": null,
+   "confidence": -0.032,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8404,7 +8404,7 @@
    "prefetch_s": 0.435,
    "bytes": 25735,
    "transcript": "You move like a squall, old timer! Teach me how to do that!",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8421,7 +8421,7 @@
    "prefetch_s": 0.447,
    "bytes": 13693,
    "transcript": "Let me show you how it's done!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8438,7 +8438,7 @@
    "prefetch_s": 0.4,
    "bytes": 28702,
    "transcript": "Well, you've already got dedication in spades.",
-   "confidence": null,
+   "confidence": -0.038,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8455,7 +8455,7 @@
    "prefetch_s": null,
    "bytes": 7550,
    "transcript": "You got it!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8472,7 +8472,7 @@
    "prefetch_s": 0.477,
    "bytes": 21667,
    "transcript": "Um, that's not really our whole deal.",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8489,7 +8489,7 @@
    "prefetch_s": null,
    "bytes": 5641,
    "transcript": "Hmm.",
-   "confidence": null,
+   "confidence": -0.201,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8506,7 +8506,7 @@
    "prefetch_s": 0.424,
    "bytes": 24594,
    "transcript": "Two fighters, but one hundred times the ass-kicking!",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8523,7 +8523,7 @@
    "prefetch_s": 0.43,
    "bytes": 11216,
    "transcript": "No way to go but up!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8540,7 +8540,7 @@
    "prefetch_s": 0.453,
    "bytes": 33860,
    "transcript": "You know, you guys could be using your powers for way better things.",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8557,7 +8557,7 @@
    "prefetch_s": 0.432,
    "bytes": 13359,
    "transcript": "We're just getting started!",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8574,7 +8574,7 @@
    "prefetch_s": 0.443,
    "bytes": 9411,
    "transcript": "Not on my watch!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8591,7 +8591,7 @@
    "prefetch_s": null,
    "bytes": 15657,
    "transcript": "They'll taste my fire!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8608,7 +8608,7 @@
    "prefetch_s": 0.429,
    "bytes": 13715,
    "transcript": "We're not gonna lose!",
-   "confidence": null,
+   "confidence": -0.023,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8625,7 +8625,7 @@
    "prefetch_s": 0.458,
    "bytes": 15270,
    "transcript": "There's passion behind your fire.",
-   "confidence": null,
+   "confidence": -0.05,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8642,7 +8642,7 @@
    "prefetch_s": null,
    "bytes": 8536,
    "transcript": "Comin' in hot!",
-   "confidence": null,
+   "confidence": -0.043,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8659,7 +8659,7 @@
    "prefetch_s": null,
    "bytes": 8124,
    "transcript": "Time's up!",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8676,7 +8676,7 @@
    "prefetch_s": 0.437,
    "bytes": 20205,
    "transcript": "No more games. This ends now!",
-   "confidence": null,
+   "confidence": -0.063,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8693,7 +8693,7 @@
    "prefetch_s": 0.409,
    "bytes": 16625,
    "transcript": "Well managed, Mr. Primark!",
-   "confidence": null,
+   "confidence": -0.157,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8710,7 +8710,7 @@
    "prefetch_s": 0.44,
    "bytes": 19800,
    "transcript": "Wow! You hit like a sledgehammer!",
-   "confidence": null,
+   "confidence": -0.07,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8727,7 +8727,7 @@
    "prefetch_s": null,
    "bytes": 17581,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.443,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8744,7 +8744,7 @@
    "prefetch_s": 0.422,
    "bytes": 22272,
    "transcript": "Trust me, I've got strength to spare.",
-   "confidence": null,
+   "confidence": -0.096,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8761,7 +8761,7 @@
    "prefetch_s": 0.438,
    "bytes": 20160,
    "transcript": "Hang on, just a little longer, Lyria!",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8778,7 +8778,7 @@
    "prefetch_s": 0.478,
    "bytes": 22669,
    "transcript": "Okay, then I'll handle the rough stuff.",
-   "confidence": null,
+   "confidence": -0.101,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8795,7 +8795,7 @@
    "prefetch_s": 0.396,
    "bytes": 15580,
    "transcript": "Yep! Couldn't have gone better!",
-   "confidence": null,
+   "confidence": -0.16,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8812,7 +8812,7 @@
    "prefetch_s": null,
    "bytes": 15380,
    "transcript": "So, how should we do this?",
-   "confidence": null,
+   "confidence": -0.041,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8829,7 +8829,7 @@
    "prefetch_s": null,
    "bytes": 12951,
    "transcript": "You're done for!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8846,7 +8846,7 @@
    "prefetch_s": 0.439,
    "bytes": 10430,
    "transcript": "Well, that worked!",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8863,7 +8863,7 @@
    "prefetch_s": 0.446,
    "bytes": 17748,
    "transcript": "Haha! You're in top form!",
-   "confidence": null,
+   "confidence": -0.122,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8880,7 +8880,7 @@
    "prefetch_s": 0.452,
    "bytes": 26059,
    "transcript": "No mercy, huh? Then I won't hold back either!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8897,7 +8897,7 @@
    "prefetch_s": 0.411,
    "bytes": 10341,
    "transcript": "Yep, I'll be there!",
-   "confidence": null,
+   "confidence": -0.079,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8914,7 +8914,7 @@
    "prefetch_s": 0.452,
    "bytes": 22366,
    "transcript": "Hah! He's still standing!",
-   "confidence": null,
+   "confidence": -0.133,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8931,7 +8931,7 @@
    "prefetch_s": null,
    "bytes": 15433,
    "transcript": "Haaaaaaah!",
-   "confidence": null,
+   "confidence": -0.429,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8948,7 +8948,7 @@
    "prefetch_s": null,
    "bytes": 5287,
    "transcript": "Ugh!",
-   "confidence": null,
+   "confidence": -0.115,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8965,7 +8965,7 @@
    "prefetch_s": 0.406,
    "bytes": 8107,
    "transcript": "Good work, guys!",
-   "confidence": null,
+   "confidence": -0.017,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8981,8 +8981,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3774,
-   "transcript": "Hup!",
-   "confidence": null,
+   "transcript": "Hut!",
+   "confidence": -0.381,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -8999,7 +8999,7 @@
    "prefetch_s": null,
    "bytes": 5973,
    "transcript": "Ferry!",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9016,7 +9016,7 @@
    "prefetch_s": 0.421,
    "bytes": 33662,
    "transcript": "You know, Cagliostro, I bet you could rock a side pony.",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9033,7 +9033,7 @@
    "prefetch_s": 0.444,
    "bytes": 21065,
    "transcript": "Come on! The grind never stops!",
-   "confidence": null,
+   "confidence": -0.064,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9050,7 +9050,7 @@
    "prefetch_s": 0.432,
    "bytes": 19696,
    "transcript": "Hah! Can't hold back now, can I?",
-   "confidence": null,
+   "confidence": -0.145,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9067,7 +9067,7 @@
    "prefetch_s": 0.444,
    "bytes": 9443,
    "transcript": "I'll be right there!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9084,7 +9084,7 @@
    "prefetch_s": null,
    "bytes": 10079,
    "transcript": "Burn to Ash!",
-   "confidence": null,
+   "confidence": -0.117,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9101,7 +9101,7 @@
    "prefetch_s": null,
    "bytes": 7706,
    "transcript": "Come forth!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9118,7 +9118,7 @@
    "prefetch_s": 0.433,
    "bytes": 16969,
    "transcript": "Hey, not bad, Maglielle!",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9135,7 +9135,7 @@
    "prefetch_s": null,
    "bytes": 4416,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.417,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9152,7 +9152,7 @@
    "prefetch_s": null,
    "bytes": 9700,
    "transcript": "You're all mine!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9169,7 +9169,7 @@
    "prefetch_s": 0.422,
    "bytes": 27208,
    "transcript": "Wow! Your flame has bite!",
-   "confidence": null,
+   "confidence": -0.112,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9185,8 +9185,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5212,
-   "transcript": "Hah!",
-   "confidence": null,
+   "transcript": "Haha!",
+   "confidence": -0.305,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9203,7 +9203,7 @@
    "prefetch_s": 0.43,
    "bytes": 23610,
    "transcript": "Haha! Sorry if they frightened you.",
-   "confidence": null,
+   "confidence": -0.258,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9220,7 +9220,7 @@
    "prefetch_s": 0.457,
    "bytes": 25857,
    "transcript": "I'll protect these skies! Watch me!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9237,7 +9237,7 @@
    "prefetch_s": 0.409,
    "bytes": 14512,
    "transcript": "We'll see who's stronger, Id!",
-   "confidence": null,
+   "confidence": -0.082,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9254,7 +9254,7 @@
    "prefetch_s": 0.396,
    "bytes": 10059,
    "transcript": "Way to go, Pack!",
-   "confidence": null,
+   "confidence": -0.131,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9271,7 +9271,7 @@
    "prefetch_s": null,
    "bytes": 10548,
    "transcript": "Stand strong!",
-   "confidence": null,
+   "confidence": -0.094,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9288,7 +9288,7 @@
    "prefetch_s": 0.476,
    "bytes": 26498,
    "transcript": "Its core is wide open! We just need to break it!",
-   "confidence": null,
+   "confidence": -0.016,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9305,7 +9305,7 @@
    "prefetch_s": 0.436,
    "bytes": 23945,
    "transcript": "We sure set the heavens on fire, don't we?",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9322,7 +9322,7 @@
    "prefetch_s": 0.438,
    "bytes": 21852,
    "transcript": "The flower blooms upon the butterfly's call.",
-   "confidence": null,
+   "confidence": -0.028,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9339,7 +9339,7 @@
    "prefetch_s": 0.464,
    "bytes": 29037,
    "transcript": "Let's not with the silly nicknames. People will get the wrong idea.",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9356,7 +9356,7 @@
    "prefetch_s": null,
    "bytes": 10476,
    "transcript": "Crimson Corruption!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9373,7 +9373,7 @@
    "prefetch_s": 0.436,
    "bytes": 23879,
    "transcript": "Hahahaha! Sucks for them running into us!",
-   "confidence": null,
+   "confidence": -0.221,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9390,7 +9390,7 @@
    "prefetch_s": null,
    "bytes": 11439,
    "transcript": "Red Detonation!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9407,7 +9407,7 @@
    "prefetch_s": 0.458,
    "bytes": 25118,
    "transcript": "This power... It's OUR power!",
-   "confidence": null,
+   "confidence": -0.139,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9424,7 +9424,7 @@
    "prefetch_s": null,
    "bytes": 8557,
    "transcript": "Let's do it!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9441,7 +9441,7 @@
    "prefetch_s": 0.44,
    "bytes": 13136,
    "transcript": "I think I've got a read on it!",
-   "confidence": null,
+   "confidence": -0.046,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9458,7 +9458,7 @@
    "prefetch_s": null,
    "bytes": 3551,
    "transcript": "Huh!",
-   "confidence": null,
+   "confidence": -0.376,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9475,7 +9475,7 @@
    "prefetch_s": 0.404,
    "bytes": 16206,
    "transcript": "Yep! Time to strike back!",
-   "confidence": null,
+   "confidence": -0.039,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9492,7 +9492,7 @@
    "prefetch_s": 0.4,
    "bytes": 10808,
    "transcript": "Stay on your toes!",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9509,7 +9509,7 @@
    "prefetch_s": 0.473,
    "bytes": 16336,
    "transcript": "Don't go falling in love with me now!",
-   "confidence": null,
+   "confidence": -0.016,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9526,7 +9526,7 @@
    "prefetch_s": null,
    "bytes": 12314,
    "transcript": "Give me power!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9543,7 +9543,7 @@
    "prefetch_s": null,
    "bytes": 3610,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.208,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9560,7 +9560,7 @@
    "prefetch_s": null,
    "bytes": 3790,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.338,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9577,7 +9577,7 @@
    "prefetch_s": null,
    "bytes": 20579,
    "transcript": "Sweet destruction!",
-   "confidence": null,
+   "confidence": -0.155,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9594,7 +9594,7 @@
    "prefetch_s": null,
    "bytes": 11483,
    "transcript": "Got somethin' for ya!",
-   "confidence": null,
+   "confidence": -0.06,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9611,7 +9611,7 @@
    "prefetch_s": 0.425,
    "bytes": 11193,
    "transcript": "Nice trick!",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9628,7 +9628,7 @@
    "prefetch_s": null,
    "bytes": 2738,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.076,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9645,7 +9645,7 @@
    "prefetch_s": null,
    "bytes": 6213,
    "transcript": "Rackam!",
-   "confidence": null,
+   "confidence": -0.029,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9662,7 +9662,7 @@
    "prefetch_s": 0.41,
    "bytes": 11357,
    "transcript": "That was all you, Rackam!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9679,7 +9679,7 @@
    "prefetch_s": 0.418,
    "bytes": 29823,
    "transcript": "Yeah. Ever since finding the Arkarium and becoming an Evoker.",
-   "confidence": null,
+   "confidence": -0.13,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9696,7 +9696,7 @@
    "prefetch_s": 0.472,
    "bytes": 27489,
    "transcript": "In that case, may I have this dance, Your Highness?",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9713,7 +9713,7 @@
    "prefetch_s": null,
    "bytes": 16420,
    "transcript": "Break them!",
-   "confidence": null,
+   "confidence": -0.023,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9730,7 +9730,7 @@
    "prefetch_s": 0.423,
    "bytes": 16987,
    "transcript": "Lyria's coming back with us!",
-   "confidence": null,
+   "confidence": -0.036,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9747,7 +9747,7 @@
    "prefetch_s": null,
    "bytes": 14443,
    "transcript": "Come on! You've got this!",
-   "confidence": null,
+   "confidence": -0.032,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9764,7 +9764,7 @@
    "prefetch_s": 0.441,
    "bytes": 9312,
    "transcript": "Like what you see?",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9781,7 +9781,7 @@
    "prefetch_s": null,
    "bytes": 10455,
    "transcript": "Tide of Chaos!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9798,7 +9798,7 @@
    "prefetch_s": 0.425,
    "bytes": 13821,
    "transcript": "Fight the dragon, Eid!",
-   "confidence": null,
+   "confidence": -0.163,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9815,7 +9815,7 @@
    "prefetch_s": 0.4,
    "bytes": 26328,
    "transcript": "Aw, thanks! Want a quick spritz after the fight?",
-   "confidence": null,
+   "confidence": -0.087,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9831,8 +9831,8 @@
    "recovered": true,
    "prefetch_s": 0.468,
    "bytes": 26951,
-   "transcript": "What can I say? Fighting with this crew puts me in a good mood!",
-   "confidence": null,
+   "transcript": "What can I say? Fighting with this crew puts me in a good mood.",
+   "confidence": -0.057,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9849,7 +9849,7 @@
    "prefetch_s": 0.414,
    "bytes": 17018,
    "transcript": "Should I take that as a compliment?",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9866,7 +9866,7 @@
    "prefetch_s": 0.443,
    "bytes": 10868,
    "transcript": "He's nuts!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9883,7 +9883,7 @@
    "prefetch_s": 0.438,
    "bytes": 29804,
    "transcript": "If this is you in your sixties, wonder what you could do at twenty!",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9900,7 +9900,7 @@
    "prefetch_s": null,
    "bytes": 11059,
    "transcript": "Exciting?",
-   "confidence": null,
+   "confidence": -0.059,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9916,8 +9916,8 @@
    "recovered": true,
    "prefetch_s": 0.475,
    "bytes": 34932,
-   "transcript": "A wind primal, huh? Whatever. This blowhard's goin' down!",
-   "confidence": null,
+   "transcript": "A wind primal, huh? Whatever. This blowhard's goin' down.",
+   "confidence": -0.104,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9934,7 +9934,7 @@
    "prefetch_s": null,
    "bytes": 17762,
    "transcript": "Hah! I'm back in the fight!",
-   "confidence": null,
+   "confidence": -0.017,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9951,7 +9951,7 @@
    "prefetch_s": null,
    "bytes": 8090,
    "transcript": "Tempest!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9968,7 +9968,7 @@
    "prefetch_s": null,
    "bytes": 6715,
    "transcript": "Here you go!",
-   "confidence": null,
+   "confidence": -0.042,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -9985,7 +9985,7 @@
    "prefetch_s": 0.405,
    "bytes": 9820,
    "transcript": "Keep it tight, people!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10002,7 +10002,7 @@
    "prefetch_s": 0.417,
    "bytes": 17703,
    "transcript": "You guys are the perfect pair!",
-   "confidence": null,
+   "confidence": -0.047,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10019,7 +10019,7 @@
    "prefetch_s": null,
    "bytes": 10666,
    "transcript": "Oh, shit!",
-   "confidence": null,
+   "confidence": -0.2,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10036,7 +10036,7 @@
    "prefetch_s": null,
    "bytes": 9520,
    "transcript": "Comin' right up!",
-   "confidence": null,
+   "confidence": -0.078,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10053,7 +10053,7 @@
    "prefetch_s": null,
    "bytes": 7375,
    "transcript": "Eat dirt!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10070,7 +10070,7 @@
    "prefetch_s": null,
    "bytes": 11455,
    "transcript": "Lightning Eradication!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10087,7 +10087,7 @@
    "prefetch_s": null,
    "bytes": 5126,
    "transcript": "Bring it!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10104,7 +10104,7 @@
    "prefetch_s": null,
    "bytes": 17054,
    "transcript": "It's over when I say it is!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10121,7 +10121,7 @@
    "prefetch_s": null,
    "bytes": 5967,
    "transcript": "Whoa!",
-   "confidence": null,
+   "confidence": -0.04,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10138,7 +10138,7 @@
    "prefetch_s": 0.439,
    "bytes": 13295,
    "transcript": "We make a good team, don't we?",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10155,7 +10155,7 @@
    "prefetch_s": 0.413,
    "bytes": 15030,
    "transcript": "The fun's just getting started!",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10172,7 +10172,7 @@
    "prefetch_s": 0.413,
    "bytes": 22666,
    "transcript": "You break their line, and I'll kick their asses!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10189,7 +10189,7 @@
    "prefetch_s": 0.427,
    "bytes": 11645,
    "transcript": "You're going down!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10206,7 +10206,7 @@
    "prefetch_s": 0.423,
    "bytes": 11809,
    "transcript": "Don't take your eyes off 'em!",
-   "confidence": null,
+   "confidence": -0.049,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10223,7 +10223,7 @@
    "prefetch_s": 0.441,
    "bytes": 9027,
    "transcript": "Love that hustle!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10240,7 +10240,7 @@
    "prefetch_s": 0.425,
    "bytes": 25647,
    "transcript": "So he was hiding his real powers all along?",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10257,7 +10257,7 @@
    "prefetch_s": null,
    "bytes": 14002,
    "transcript": "Light as a feather.",
-   "confidence": null,
+   "confidence": -0.046,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10274,7 +10274,7 @@
    "prefetch_s": 0.426,
    "bytes": 13311,
    "transcript": "Um... is this right?",
-   "confidence": null,
+   "confidence": -0.133,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10291,7 +10291,7 @@
    "prefetch_s": null,
    "bytes": 9692,
    "transcript": "Do your worst!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10308,7 +10308,7 @@
    "prefetch_s": 0.428,
    "bytes": 10208,
    "transcript": "He's strong!",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10325,7 +10325,7 @@
    "prefetch_s": null,
    "bytes": 10271,
    "transcript": "Always happy to help!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10342,7 +10342,7 @@
    "prefetch_s": null,
    "bytes": 12786,
    "transcript": "Opportunity Knocks!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10359,7 +10359,7 @@
    "prefetch_s": 0.257,
    "bytes": 22159,
    "transcript": "Well... not too shabby.",
-   "confidence": null,
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10376,7 +10376,7 @@
    "prefetch_s": 0.475,
    "bytes": 14496,
    "transcript": "No worries, I'm a pro!",
-   "confidence": null,
+   "confidence": -0.12,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10393,7 +10393,7 @@
    "prefetch_s": null,
    "bytes": 4840,
    "transcript": "Eugen!",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10410,7 +10410,7 @@
    "prefetch_s": 0.433,
    "bytes": 7899,
    "transcript": "Thanks, Eugen!",
-   "confidence": null,
+   "confidence": -0.034,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10427,7 +10427,7 @@
    "prefetch_s": 0.422,
    "bytes": 29661,
    "transcript": "Do I have the strength to protect these skies?",
-   "confidence": null,
+   "confidence": -0.035,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10444,7 +10444,7 @@
    "prefetch_s": 0.481,
    "bytes": 21593,
    "transcript": "You can cut the formal stuff. We're allies.",
-   "confidence": null,
+   "confidence": -0.02,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10461,7 +10461,7 @@
    "prefetch_s": 0.38,
    "bytes": 10491,
    "transcript": "Watch my back, okay?",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10478,7 +10478,7 @@
    "prefetch_s": 0.443,
    "bytes": 9292,
    "transcript": "Thanks, Katalina!",
-   "confidence": null,
+   "confidence": -0.081,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10495,7 +10495,7 @@
    "prefetch_s": 0.434,
    "bytes": 27029,
    "transcript": "Yeah, passion. It's what keeps me strong.",
-   "confidence": null,
+   "confidence": -0.089,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10512,7 +10512,7 @@
    "prefetch_s": null,
    "bytes": 12396,
    "transcript": "Slick moves.",
-   "confidence": null,
+   "confidence": -0.104,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10529,7 +10529,7 @@
    "prefetch_s": 0.434,
    "bytes": 16475,
    "transcript": "Exactly what I was thinking!",
-   "confidence": null,
+   "confidence": -0.009,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10546,7 +10546,7 @@
    "prefetch_s": 0.441,
    "bytes": 10597,
    "transcript": "Way to go, team!",
-   "confidence": null,
+   "confidence": -0.022,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10563,7 +10563,7 @@
    "prefetch_s": null,
    "bytes": 3166,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.164,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10580,7 +10580,7 @@
    "prefetch_s": null,
    "bytes": 23179,
    "transcript": "Mhm! We'll light their fire anytime!",
-   "confidence": null,
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10597,7 +10597,7 @@
    "prefetch_s": 0.454,
    "bytes": 13065,
    "transcript": "That was unreal!",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10614,7 +10614,7 @@
    "prefetch_s": null,
    "bytes": 10957,
    "transcript": "Don't mind if I do!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10631,7 +10631,7 @@
    "prefetch_s": 0.445,
    "bytes": 15613,
    "transcript": "No defense is impenetrable!",
-   "confidence": null,
+   "confidence": -0.042,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10648,7 +10648,7 @@
    "prefetch_s": 0.495,
    "bytes": 24652,
    "transcript": "Okay, Gallanza! To the stronger warrior!",
-   "confidence": null,
+   "confidence": -0.084,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10665,7 +10665,7 @@
    "prefetch_s": null,
    "bytes": 16791,
    "transcript": "I have to get up!",
-   "confidence": null,
+   "confidence": -0.187,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10682,7 +10682,7 @@
    "prefetch_s": null,
    "bytes": 5626,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.156,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10699,7 +10699,7 @@
    "prefetch_s": 0.426,
    "bytes": 4852,
    "transcript": "On it!",
-   "confidence": null,
+   "confidence": -0.028,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10716,7 +10716,7 @@
    "prefetch_s": 0.421,
    "bytes": 12483,
    "transcript": "Pull out all the stops!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10733,7 +10733,7 @@
    "prefetch_s": 0.427,
    "bytes": 28528,
    "transcript": "Here comes the poetry! Watch out, bad guys!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10750,7 +10750,7 @@
    "prefetch_s": 0.441,
    "bytes": 29144,
    "transcript": "Id. Thanks... for protecting Lyria.",
-   "confidence": null,
+   "confidence": -0.217,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10767,7 +10767,7 @@
    "prefetch_s": null,
    "bytes": 13702,
    "transcript": "Hah! Cha!",
-   "confidence": null,
+   "confidence": -0.409,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10784,7 +10784,7 @@
    "prefetch_s": 0.474,
    "bytes": 14183,
    "transcript": "I'll try not to let you down.",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10801,7 +10801,7 @@
    "prefetch_s": 0.436,
    "bytes": 16596,
    "transcript": "Nice! We've got her on the ropes!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10818,7 +10818,7 @@
    "prefetch_s": null,
    "bytes": 3796,
    "transcript": "Hyah!",
-   "confidence": null,
+   "confidence": -0.222,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10835,7 +10835,7 @@
    "prefetch_s": 0.449,
    "bytes": 19203,
    "transcript": "Id! You're still in there, right?",
-   "confidence": null,
+   "confidence": -0.071,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10852,7 +10852,7 @@
    "prefetch_s": 0.416,
    "bytes": 7872,
    "transcript": "Hey, no sweat!",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10869,7 +10869,7 @@
    "prefetch_s": null,
    "bytes": 12233,
    "transcript": "Time to heat things up!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10886,7 +10886,7 @@
    "prefetch_s": null,
    "bytes": 11294,
    "transcript": "Gotta get back in there!",
-   "confidence": null,
+   "confidence": -0.001,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10903,7 +10903,7 @@
    "prefetch_s": null,
    "bytes": 11229,
    "transcript": "Need to focus up!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10920,7 +10920,7 @@
    "prefetch_s": null,
    "bytes": 7408,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.293,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10937,7 +10937,7 @@
    "prefetch_s": 0.484,
    "bytes": 11392,
    "transcript": "I'll deal with this!",
-   "confidence": null,
+   "confidence": -0.027,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10954,7 +10954,7 @@
    "prefetch_s": 0.424,
    "bytes": 22562,
    "transcript": "I hope the monastery's not too far.",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10971,7 +10971,7 @@
    "prefetch_s": null,
    "bytes": 5643,
    "transcript": "Vane!",
-   "confidence": null,
+   "confidence": -0.055,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -10988,7 +10988,7 @@
    "prefetch_s": null,
    "bytes": 3667,
    "transcript": "Hyah!",
-   "confidence": null,
+   "confidence": -0.34,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11005,7 +11005,7 @@
    "prefetch_s": null,
    "bytes": 6306,
    "transcript": "Tweyen!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11022,7 +11022,7 @@
    "prefetch_s": null,
    "bytes": 9791,
    "transcript": "Earth Detonation!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11039,7 +11039,7 @@
    "prefetch_s": null,
    "bytes": 9841,
    "transcript": "Finders keepers.",
-   "confidence": null,
+   "confidence": -0.217,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11056,7 +11056,7 @@
    "prefetch_s": null,
    "bytes": 9634,
    "transcript": "A one-two!",
-   "confidence": null,
+   "confidence": -0.226,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11073,7 +11073,7 @@
    "prefetch_s": null,
    "bytes": 8978,
    "transcript": "Let me help you up!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11090,7 +11090,7 @@
    "prefetch_s": 0.438,
    "bytes": 14494,
    "transcript": "You kick ass, Captain!",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11107,7 +11107,7 @@
    "prefetch_s": 0.42,
    "bytes": 7499,
    "transcript": "That was cool!",
-   "confidence": null,
+   "confidence": -0.097,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11124,7 +11124,7 @@
    "prefetch_s": 0.414,
    "bytes": 13159,
    "transcript": "That goes for both of us!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11141,7 +11141,7 @@
    "prefetch_s": 0.445,
    "bytes": 17901,
    "transcript": "Never noticed how much ass we kick together!",
-   "confidence": null,
+   "confidence": -0.075,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11158,7 +11158,7 @@
    "prefetch_s": 0.437,
    "bytes": 18565,
    "transcript": "Verily, I'm all business.",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11175,7 +11175,7 @@
    "prefetch_s": 0.4,
    "bytes": 15450,
    "transcript": "Oof! That one stung!",
-   "confidence": null,
+   "confidence": -0.045,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11192,7 +11192,7 @@
    "prefetch_s": null,
    "bytes": 5970,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.366,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11208,8 +11208,8 @@
    "recovered": true,
    "prefetch_s": 0.467,
    "bytes": 26350,
-   "transcript": "All these swords flying around! Be careful, guys!",
-   "confidence": null,
+   "transcript": "All these swords flying around. Be careful, guys!",
+   "confidence": -0.111,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11226,7 +11226,7 @@
    "prefetch_s": 0.407,
    "bytes": 18963,
    "transcript": "Who's a good boy?",
-   "confidence": null,
+   "confidence": -0.132,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11243,7 +11243,7 @@
    "prefetch_s": null,
    "bytes": 6554,
    "transcript": "You got it!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11260,7 +11260,7 @@
    "prefetch_s": null,
    "bytes": 11430,
    "transcript": "Catch these hands!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11277,7 +11277,7 @@
    "prefetch_s": null,
    "bytes": 9295,
    "transcript": "Comin' right up!",
-   "confidence": null,
+   "confidence": -0.033,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11294,7 +11294,7 @@
    "prefetch_s": null,
    "bytes": 11944,
    "transcript": "Hah! Too bad!",
-   "confidence": null,
+   "confidence": -0.035,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11311,7 +11311,7 @@
    "prefetch_s": null,
    "bytes": 9996,
    "transcript": "Blue Detonation!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11328,7 +11328,7 @@
    "prefetch_s": 0.449,
    "bytes": 17140,
    "transcript": "You put the brute in brutal for sure!",
-   "confidence": null,
+   "confidence": -0.064,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11345,7 +11345,7 @@
    "prefetch_s": 0.4,
    "bytes": 15041,
    "transcript": "Mission Break Stuff Complete!",
-   "confidence": null,
+   "confidence": -0.332,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11362,7 +11362,7 @@
    "prefetch_s": 0.465,
    "bytes": 20376,
    "transcript": "Ugh. This place gives me the creeps.",
-   "confidence": null,
+   "confidence": -0.089,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11379,7 +11379,7 @@
    "prefetch_s": null,
    "bytes": 3933,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.189,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11396,7 +11396,7 @@
    "prefetch_s": null,
    "bytes": 9050,
    "transcript": "Catch this!",
-   "confidence": null,
+   "confidence": -0.001,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11413,7 +11413,7 @@
    "prefetch_s": 0.446,
    "bytes": 21346,
    "transcript": "Really? You wanna train together sometime?",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11430,7 +11430,7 @@
    "prefetch_s": 0.481,
    "bytes": 23674,
    "transcript": "Good work, Narmaya! Let's get ready for the next one!",
-   "confidence": null,
+   "confidence": -0.04,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11447,7 +11447,7 @@
    "prefetch_s": 0.472,
    "bytes": 19469,
    "transcript": "That commitment will get you far, Lancelot!",
-   "confidence": null,
+   "confidence": -0.036,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11464,7 +11464,7 @@
    "prefetch_s": 0.472,
    "bytes": 45847,
    "transcript": "And thorns of steel! I'm cool, I'm cool!",
-   "confidence": null,
+   "confidence": -0.172,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11481,7 +11481,7 @@
    "prefetch_s": 0.443,
    "bytes": 25779,
    "transcript": "Super cute? Don't know if I'd call myself that.",
-   "confidence": null,
+   "confidence": -0.032,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11498,7 +11498,7 @@
    "prefetch_s": null,
    "bytes": 6804,
    "transcript": "Rosetta!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11515,7 +11515,7 @@
    "prefetch_s": 0.464,
    "bytes": 19029,
    "transcript": "And straight to the depths of hell!",
-   "confidence": null,
+   "confidence": -0.053,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11532,7 +11532,7 @@
    "prefetch_s": 0.479,
    "bytes": 14113,
    "transcript": "You guys come to your senses yet?",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11549,7 +11549,7 @@
    "prefetch_s": 0.454,
    "bytes": 8222,
    "transcript": "Good job, Io!",
-   "confidence": null,
+   "confidence": -0.024,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11566,7 +11566,7 @@
    "prefetch_s": null,
    "bytes": 8780,
    "transcript": "Can you still fight?",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11583,7 +11583,7 @@
    "prefetch_s": null,
    "bytes": 5092,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.286,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11600,7 +11600,7 @@
    "prefetch_s": 0.446,
    "bytes": 11812,
    "transcript": "That was great!",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11617,7 +11617,7 @@
    "prefetch_s": 0.454,
    "bytes": 24080,
    "transcript": "Hey, just make sure you take care of him.",
-   "confidence": null,
+   "confidence": -0.026,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11634,7 +11634,7 @@
    "prefetch_s": null,
    "bytes": 10376,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.461,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11651,7 +11651,7 @@
    "prefetch_s": null,
    "bytes": 14679,
    "transcript": "Not my day!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11667,8 +11667,8 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8258,
-   "transcript": "Oh no!",
-   "confidence": null,
+   "transcript": "Oh no...",
+   "confidence": -0.185,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11685,7 +11685,7 @@
    "prefetch_s": 0.466,
    "bytes": 18246,
    "transcript": "I'll drown the world in my splendor!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11702,7 +11702,7 @@
    "prefetch_s": null,
    "bytes": 11628,
    "transcript": "To raise the world!",
-   "confidence": null,
+   "confidence": -0.029,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11718,8 +11718,8 @@
    "recovered": true,
    "prefetch_s": 0.467,
    "bytes": 31365,
-   "transcript": "Not too bad yourself! Your swordsmanship is next level!",
-   "confidence": null,
+   "transcript": "Not too bad yourself. Your swordsmanship is next level.",
+   "confidence": -0.065,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11736,7 +11736,7 @@
    "prefetch_s": null,
    "bytes": 3241,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.073,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11753,7 +11753,7 @@
    "prefetch_s": 0.455,
    "bytes": 18574,
    "transcript": "You really put it all on the line, don't you?",
-   "confidence": null,
+   "confidence": -0.019,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11770,7 +11770,7 @@
    "prefetch_s": null,
    "bytes": 8424,
    "transcript": "Eustace!",
-   "confidence": null,
+   "confidence": -0.01,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11787,7 +11787,7 @@
    "prefetch_s": 0.45,
    "bytes": 21480,
    "transcript": "Clench your jaw, 'cause this is gonna hurt!",
-   "confidence": null,
+   "confidence": -0.074,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11804,7 +11804,7 @@
    "prefetch_s": null,
    "bytes": 14493,
    "transcript": "Play with fire and get burned!",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11821,7 +11821,7 @@
    "prefetch_s": null,
    "bytes": 6757,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.102,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11838,7 +11838,7 @@
    "prefetch_s": 0.439,
    "bytes": 28068,
    "transcript": "Ooh, it's not every day I get to spar with a titan!",
-   "confidence": null,
+   "confidence": -0.062,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11855,7 +11855,7 @@
    "prefetch_s": null,
    "bytes": 6809,
    "transcript": "What's this?",
-   "confidence": null,
+   "confidence": -0.023,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11872,7 +11872,7 @@
    "prefetch_s": 0.441,
    "bytes": 27397,
    "transcript": "Worried over little ol' me? Heh heh heh. Thanks.",
-   "confidence": null,
+   "confidence": -0.202,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11889,7 +11889,7 @@
    "prefetch_s": 0.517,
    "bytes": 19638,
    "transcript": "I guess we should thank you.",
-   "confidence": null,
+   "confidence": -0.066,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11906,7 +11906,7 @@
    "prefetch_s": 0.441,
    "bytes": 19778,
    "transcript": "Hmm. I'll take beautiful.",
-   "confidence": null,
+   "confidence": -0.205,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11923,7 +11923,7 @@
    "prefetch_s": 0.415,
    "bytes": 32120,
    "transcript": "Right? Thing together staves off the loneliness.",
-   "confidence": null,
+   "confidence": -0.212,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11940,7 +11940,7 @@
    "prefetch_s": 0.46,
    "bytes": 10506,
    "transcript": "I've slowed them for ya!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11957,7 +11957,7 @@
    "prefetch_s": null,
    "bytes": 17130,
    "transcript": "Let's go, Devil!",
-   "confidence": null,
+   "confidence": -0.047,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11974,7 +11974,7 @@
    "prefetch_s": null,
    "bytes": 13298,
    "transcript": "Ha! Nice!",
-   "confidence": null,
+   "confidence": -0.144,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -11991,7 +11991,7 @@
    "prefetch_s": 0.442,
    "bytes": 10583,
    "transcript": "It's not over yet!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12008,7 +12008,7 @@
    "prefetch_s": null,
    "bytes": 6168,
    "transcript": "Ugh!",
-   "confidence": null,
+   "confidence": -0.301,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12025,7 +12025,7 @@
    "prefetch_s": 0.411,
    "bytes": 19894,
    "transcript": "Oh, you haven't seen anything yet.",
-   "confidence": null,
+   "confidence": -0.034,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12041,8 +12041,8 @@
    "recovered": true,
    "prefetch_s": 0.423,
    "bytes": 15418,
-   "transcript": "Come on, Fraux, you can do this!",
-   "confidence": null,
+   "transcript": "Come on, Frau, you can do this!",
+   "confidence": -0.088,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12059,7 +12059,7 @@
    "prefetch_s": null,
    "bytes": 7509,
    "transcript": "They're done!",
-   "confidence": null,
+   "confidence": -0.025,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12076,7 +12076,7 @@
    "prefetch_s": 0.403,
    "bytes": 10499,
    "transcript": "Then let's keep it up!",
-   "confidence": null,
+   "confidence": -0.002,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12093,7 +12093,7 @@
    "prefetch_s": 0.478,
    "bytes": 18014,
    "transcript": "I'll burn brighter! Hotter!",
-   "confidence": null,
+   "confidence": -0.067,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12110,7 +12110,7 @@
    "prefetch_s": 0.417,
    "bytes": 10096,
    "transcript": "That was easy!",
-   "confidence": null,
+   "confidence": -0.092,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12127,7 +12127,7 @@
    "prefetch_s": null,
    "bytes": 9989,
    "transcript": "Light Detonation!",
-   "confidence": null,
+   "confidence": -0.202,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12144,7 +12144,7 @@
    "prefetch_s": null,
    "bytes": 10355,
    "transcript": "End of the line!",
-   "confidence": null,
+   "confidence": -0.013,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12161,7 +12161,7 @@
    "prefetch_s": null,
    "bytes": 8453,
    "transcript": "I've got your back!",
-   "confidence": null,
+   "confidence": -0.02,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12178,7 +12178,7 @@
    "prefetch_s": null,
    "bytes": 9763,
    "transcript": "Full Reversal!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12195,7 +12195,7 @@
    "prefetch_s": 0.405,
    "bytes": 10711,
    "transcript": "Thanks, that means a lot!",
-   "confidence": null,
+   "confidence": -0.119,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12212,7 +12212,7 @@
    "prefetch_s": 0.436,
    "bytes": 36471,
    "transcript": "Feels great to go all out from time to time! Come on, let's bag the rest of 'em!",
-   "confidence": null,
+   "confidence": -0.037,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12229,7 +12229,7 @@
    "prefetch_s": null,
    "bytes": 4492,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.341,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12246,7 +12246,7 @@
    "prefetch_s": null,
    "bytes": 8733,
    "transcript": "Lancelot!",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12263,7 +12263,7 @@
    "prefetch_s": null,
    "bytes": 18294,
    "transcript": "Power!",
-   "confidence": null,
+   "confidence": -0.021,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12280,7 +12280,7 @@
    "prefetch_s": null,
    "bytes": 27323,
    "transcript": "The nightmare beckons.",
-   "confidence": null,
+   "confidence": -0.055,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12297,7 +12297,7 @@
    "prefetch_s": 0.438,
    "bytes": 8071,
    "transcript": "Hold still!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12314,7 +12314,7 @@
    "prefetch_s": 0.442,
    "bytes": 11728,
    "transcript": "Caught your eye, did I?",
-   "confidence": null,
+   "confidence": -0.006,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12331,7 +12331,7 @@
    "prefetch_s": null,
    "bytes": 5639,
    "transcript": "Push it!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12348,7 +12348,7 @@
    "prefetch_s": 0.439,
    "bytes": 7527,
    "transcript": "Not bad!",
-   "confidence": null,
+   "confidence": -0.043,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12365,7 +12365,7 @@
    "prefetch_s": null,
    "bytes": 4085,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.318,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12382,7 +12382,7 @@
    "prefetch_s": 0.451,
    "bytes": 20132,
    "transcript": "Understood. No holding back.",
-   "confidence": null,
+   "confidence": -0.042,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12399,7 +12399,7 @@
    "prefetch_s": 0.461,
    "bytes": 13727,
    "transcript": "Sure thing! Lead on!",
-   "confidence": null,
+   "confidence": -0.063,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12416,7 +12416,7 @@
    "prefetch_s": 0.466,
    "bytes": 17682,
    "transcript": "We're on fire!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12433,7 +12433,7 @@
    "prefetch_s": 0.441,
    "bytes": 19551,
    "transcript": "Come on! We can do this!",
-   "confidence": null,
+   "confidence": -0.036,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12450,7 +12450,7 @@
    "prefetch_s": null,
    "bytes": 2725,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.104,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -12468,7 +12468,7 @@
    "prefetch_s": 0.43,
    "bytes": 30576,
    "transcript": "Huh. Your fire seems a little different from the devil's.",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12485,7 +12485,7 @@
    "prefetch_s": null,
    "bytes": 2488,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.096,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12502,7 +12502,7 @@
    "prefetch_s": 0.4,
    "bytes": 11362,
    "transcript": "Aw, thanks.",
-   "confidence": null,
+   "confidence": -0.178,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12519,7 +12519,7 @@
    "prefetch_s": 0.45,
    "bytes": 11756,
    "transcript": "Let's break through them!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12536,7 +12536,7 @@
    "prefetch_s": 0.433,
    "bytes": 7876,
    "transcript": "Take 'em out!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12553,7 +12553,7 @@
    "prefetch_s": 0.384,
    "bytes": 14317,
    "transcript": "Right, I'm all focus!",
-   "confidence": null,
+   "confidence": -0.151,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12570,7 +12570,7 @@
    "prefetch_s": null,
    "bytes": 13653,
    "transcript": "Let's see here...",
-   "confidence": null,
+   "confidence": -0.069,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12587,7 +12587,7 @@
    "prefetch_s": null,
    "bytes": 9547,
    "transcript": "Bring it home!",
-   "confidence": null,
+   "confidence": -0.004,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12604,7 +12604,7 @@
    "prefetch_s": 0.364,
    "bytes": 18841,
    "transcript": "So that's how a vet gets things done.",
-   "confidence": null,
+   "confidence": -0.107,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12621,7 +12621,7 @@
    "prefetch_s": null,
    "bytes": 9439,
    "transcript": "Not gonna run!",
-   "confidence": null,
+   "confidence": -0.09,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12638,7 +12638,7 @@
    "prefetch_s": null,
    "bytes": 24959,
    "transcript": "Hah! Hah! Hah!",
-   "confidence": null,
+   "confidence": -0.439,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12655,7 +12655,7 @@
    "prefetch_s": null,
    "bytes": 9961,
    "transcript": "They're toast!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12672,7 +12672,7 @@
    "prefetch_s": null,
    "bytes": 9839,
    "transcript": "Wide open!",
-   "confidence": null,
+   "confidence": -0.132,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12689,7 +12689,7 @@
    "prefetch_s": null,
    "bytes": 10476,
    "transcript": "Let's end this!",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12706,7 +12706,7 @@
    "prefetch_s": 0.427,
    "bytes": 32541,
    "transcript": "So, Id. You know you give off a little brother vibe, right?",
-   "confidence": null,
+   "confidence": -0.048,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12723,7 +12723,7 @@
    "prefetch_s": null,
    "bytes": 7722,
    "transcript": "Ready or not!",
-   "confidence": null,
+   "confidence": -0.011,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12740,7 +12740,7 @@
    "prefetch_s": null,
    "bytes": 3472,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.08,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni",
    "corrected": "consensus"
@@ -12758,7 +12758,7 @@
    "prefetch_s": null,
    "bytes": 3877,
    "transcript": "Do it!",
-   "confidence": null,
+   "confidence": -0.012,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12775,7 +12775,7 @@
    "prefetch_s": null,
    "bytes": 12423,
    "transcript": "Quaking Pulverization!",
-   "confidence": null,
+   "confidence": -0.005,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12792,7 +12792,7 @@
    "prefetch_s": 0.418,
    "bytes": 24401,
    "transcript": "My job's a lot easier knowing you've got me covered.",
-   "confidence": null,
+   "confidence": -0.007,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12809,7 +12809,7 @@
    "prefetch_s": 0.44,
    "bytes": 22533,
    "transcript": "Me, my coordination, or both.",
-   "confidence": null,
+   "confidence": -0.125,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12826,7 +12826,7 @@
    "prefetch_s": null,
    "bytes": 10120,
    "transcript": "Right in the face!",
-   "confidence": null,
+   "confidence": -0.001,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12843,7 +12843,7 @@
    "prefetch_s": 0.422,
    "bytes": 18864,
    "transcript": "Well, someone works fast.",
-   "confidence": null,
+   "confidence": -0.083,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12860,7 +12860,7 @@
    "prefetch_s": null,
    "bytes": 11967,
    "transcript": "Oof! Nice one!",
-   "confidence": null,
+   "confidence": -0.15,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12877,7 +12877,7 @@
    "prefetch_s": null,
    "bytes": 9622,
    "transcript": "Nice little workout!",
-   "confidence": null,
+   "confidence": -0.042,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12894,7 +12894,7 @@
    "prefetch_s": 0.427,
    "bytes": 19857,
    "transcript": "Feel free to call me anytime, Mister Fix-It!",
-   "confidence": null,
+   "confidence": -0.093,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12911,7 +12911,7 @@
    "prefetch_s": null,
    "bytes": 8367,
    "transcript": "Dead Lands!",
-   "confidence": null,
+   "confidence": -0.16,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12928,7 +12928,7 @@
    "prefetch_s": null,
    "bytes": 9962,
    "transcript": "Easy breezy!",
-   "confidence": null,
+   "confidence": -0.103,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12945,7 +12945,7 @@
    "prefetch_s": null,
    "bytes": 11084,
    "transcript": "Let's get you standing!",
-   "confidence": null,
+   "confidence": -0.042,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12962,7 +12962,7 @@
    "prefetch_s": 0.442,
    "bytes": 21371,
    "transcript": "I like the way you think! Let's go!",
-   "confidence": null,
+   "confidence": -0.037,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12979,7 +12979,7 @@
    "prefetch_s": 0.427,
    "bytes": 15950,
    "transcript": "Nice footwork, guys! Keep it up!",
-   "confidence": null,
+   "confidence": -0.01,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -12996,7 +12996,7 @@
    "prefetch_s": null,
    "bytes": 6298,
    "transcript": "Following!",
-   "confidence": null,
+   "confidence": -0.018,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13012,8 +13012,8 @@
    "recovered": true,
    "prefetch_s": 0.468,
    "bytes": 14423,
-   "transcript": "Thanks for the help, Maglielle!",
-   "confidence": null,
+   "transcript": "Thanks for the help, Maglielle.",
+   "confidence": -0.067,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13030,7 +13030,7 @@
    "prefetch_s": null,
    "bytes": 24293,
    "transcript": "Whew... sure is frosty here.",
-   "confidence": null,
+   "confidence": -0.211,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13047,7 +13047,7 @@
    "prefetch_s": null,
    "bytes": 8206,
    "transcript": "Hah!",
-   "confidence": null,
+   "confidence": -0.115,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13064,7 +13064,7 @@
    "prefetch_s": 0.418,
    "bytes": 16674,
    "transcript": "With strength to match!",
-   "confidence": null,
+   "confidence": -0.046,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13081,7 +13081,7 @@
    "prefetch_s": null,
    "bytes": 8672,
    "transcript": "Ready or not!",
-   "confidence": null,
+   "confidence": -0.014,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13098,7 +13098,7 @@
    "prefetch_s": null,
    "bytes": 8781,
    "transcript": "Here we go!",
-   "confidence": null,
+   "confidence": -0.003,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13115,7 +13115,7 @@
    "prefetch_s": 0.427,
    "bytes": 16796,
    "transcript": "Proved my mettle, did I?",
-   "confidence": null,
+   "confidence": -0.061,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13132,7 +13132,7 @@
    "prefetch_s": 0.448,
    "bytes": 9695,
    "transcript": "Who's to say?",
-   "confidence": null,
+   "confidence": -0.015,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   },
@@ -13149,7 +13149,7 @@
    "prefetch_s": null,
    "bytes": 3468,
    "transcript": "Gah!",
-   "confidence": null,
+   "confidence": -0.372,
    "bank": "vo_pl2800_02_00_00_m.bnk",
    "source_model": "qwen3-omni"
   }
