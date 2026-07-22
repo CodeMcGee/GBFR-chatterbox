@@ -94,8 +94,10 @@ def make_handler(app):
                         return self.send(200, app.mute_all())
                     return self.send(200, app.mute_character(body["pl"]))
                 if self.path == "/api/flag":
-                    return self.send(200, app.set_flag(body["wem_id"], body.get("wrong", True),
-                                                       body.get("correct")))
+                    return self.send(200, app.set_flag(body["wem_id"],
+                                                       wrong=body.get("wrong"),
+                                                       correct=body.get("correct"),
+                                                       verified=body.get("verified")))
                 if self.path == "/api/extract-pcks":
                     return self.send(200, app.extract_pcks())
                 if self.path == "/api/revert":

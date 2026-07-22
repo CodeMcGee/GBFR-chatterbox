@@ -35,7 +35,9 @@
   tr.on-swapped .txt { color:var(--swap); }
   tr.on-wrong { background:rgba(220,80,80,.10); }
   tr.on-wrong .txt { color:#ff9d9d; }
-  td.flag { width:26px; text-align:center; }
+  td.flag { width:44px; text-align:center; white-space:nowrap; }
+  td.flag input.ok { accent-color:#2f9e44; margin-left:4px; }
+  tr.on-verified td.txt { opacity:.55; }
   td.flag input { cursor:pointer; }
   input.fix { margin-top:4px; width:90%; background:#1a1a1a; color:#ff9d9d;
     border:1px solid #553; border-radius:3px; padding:2px 5px; font:inherit; }
@@ -255,7 +257,8 @@ function render() {
 // (silent, or already human-verified elsewhere) sort last.
 function renderReview() {
   const rows = data.lines.filter(l => l.transcript)
-    .sort((a, b) => (a.confidence ?? 0) - (b.confidence ?? 0));
+    .sort((a, b) => (a.verified - b.verified)     // done lines sink to the bottom
+      || (a.confidence ?? 0) - (b.confidence ?? 0));
   const body = `<tr class=grp><td colspan=7><h2>Review — worst confidence first `
     + `<span style="opacity:.6">(${rows.length})</span></h2></td></tr>`
     + rows.map(row).join('');
@@ -271,7 +274,7 @@ function setHead() {
 addEventListener('resize', setHead);
 
 const THEAD = `<thead><tr>
-  <th class=flag title="Mark transcripts that are wrong">Wrong?</th>
+  <th class=flag title="Left box: transcript is wrong. Right box: verified correct, never revisit">Wrong/OK</th>
   <th title="Preview the line">Play</th>
   <th>Transcript</th>
   <th class=conf title="Transcription confidence (0 = confident, very negative = likely wrong)">Conf</th>
@@ -287,11 +290,14 @@ function row(l) {
   const muted = isMuted(l);
   const from = swaps[l.wem_id] || l.swapped_from;
   const note = (!muted && from) ? ` &rarr; plays ${said(from)}` : '';
-  const cls = [muted ? 'on-muted' : (from ? 'on-swapped' : ''), l.flagged ? 'on-wrong' : ''].join(' ').trim();
+  const cls = [muted ? 'on-muted' : (from ? 'on-swapped' : ''), l.flagged ? 'on-wrong' : '',
+    l.verified ? 'on-verified' : ''].join(' ').trim();
   return `<tr class="${cls}">
     <td class=flag><input type=checkbox ${l.flagged ? 'checked' : ''}
       title="Mark this transcript as incorrect"
-      onchange="toggleFlag('${l.wem_id}', this)"></td>
+      onchange="toggleFlag('${l.wem_id}', this)"><input type=checkbox class=ok
+      ${l.verified ? 'checked' : ''} title="Transcript verified correct - never revisit"
+      onchange="toggleVerified('${l.wem_id}', this)"></td>
     <td class=act style="text-align:left;width:52px">
       <button onclick="play('${l.wem_id}')" title="Preview">&#9654;</button>${l.preview_full ? ''
         : `<span class=clip title="Only the ${l.prefetch_s ?? '~0.4'}s cached in the game bank can be previewed here \u2014 the rest of this line streams from the game archives. The full line is ${l.duration ? l.duration.toFixed(2) : '?'}s and is unaffected by muting.">&#9899;</span>`}</td>
@@ -311,9 +317,16 @@ function row(l) {
 // qwen avg-logprob scale: correct lines ~0, known-bad ~-0.2 (measured)
 const confClass = c => c == null ? '' : c < -0.2 ? 'c-bad' : c < -0.1 ? 'c-mid' : '';
 
+async function toggleVerified(id, el) {
+  const l = data.lines.find(x => x.wem_id === id);
+  if (l) { l.verified = el.checked; if (el.checked) l.flagged = false; }
+  await post('/api/flag', { wem_id: id, verified: el.checked });
+  render();                                       // verified clears wrong; redraw both boxes
+}
+
 async function toggleFlag(id, el) {
   const l = data.lines.find(x => x.wem_id === id);
-  if (l) l.flagged = el.checked;                 // keep local state in sync
+  if (l) { l.flagged = el.checked; if (el.checked) l.verified = false; }
   const tr = el.closest('tr');
   tr.classList.toggle('on-wrong', el.checked);
   const fix = tr.querySelector('.fix');

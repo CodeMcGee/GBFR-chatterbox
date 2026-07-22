@@ -61,3 +61,16 @@ def test_evaluate_score(tmp_path):
     bad = {"lines": {wid: {"transcript": "nonsense", "confidence": -0.9}}}
     (tmp_path / "pl9999.json").write_text(json.dumps(bad))
     assert evaluate.score(str(tmp_path)) == 1    # one wrong verified line
+
+
+def test_flag_states(tmp_path):
+    from chatterbox.store import Store
+    store = Store(tmp_path / "profile.json")
+    store.set_flag("111", wrong=True, correct="fixed words")
+    assert store.flags()["111"] == {"wrong": True, "correct": "fixed words"}
+    store.set_flag("111", verified=True)          # verified clears wrong
+    assert store.flags()["111"] == {"verified": True}
+    store.set_flag("111", wrong=True)             # wrong clears verified
+    assert store.flags()["111"] == {"wrong": True}
+    store.set_flag("111", wrong=False)            # clearing the last state drops the entry
+    assert "111" not in store.flags()
