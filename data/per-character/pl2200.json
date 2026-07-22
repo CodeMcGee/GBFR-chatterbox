@@ -193,7 +193,7 @@
    "transcript": "Ugh... I'm freezing...",
    "confidence": -0.247,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "13302552": {
    "wem_id": "13302552",
@@ -804,10 +804,10 @@
    "recovered": true,
    "prefetch_s": 0.562,
    "bytes": 116057,
-   "transcript": "Just one sec... Feel the burn!",
+   "transcript": "Just one set... Feel the burn!",
    "confidence": -0.249,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "53440845": {
    "wem_id": "53440845",
@@ -2135,7 +2135,7 @@
    "transcript": "Phew... got my guard down.",
    "confidence": -0.254,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "157141222": {
    "wem_id": "157141222",
@@ -3373,10 +3373,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 3444,
-   "transcript": "Sword of Lumiel!",
-   "confidence": -0.73,
+   "transcript": "Tch!",
+   "confidence": -0.285,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni-grunt"
   },
   "245212144": {
    "wem_id": "245212144",
@@ -3526,10 +3526,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 8857,
-   "transcript": "Nah, fudge!",
+   "transcript": "Aww, fudge!",
    "confidence": -0.25,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "257501531": {
    "wem_id": "257501531",
@@ -3629,10 +3629,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 12650,
-   "transcript": "No, no! Ugh!",
+   "transcript": "Oh, no! Ugh!",
    "confidence": -0.301,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "272749400": {
    "wem_id": "272749400",
@@ -3919,10 +3919,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 5689,
-   "transcript": "Seofon: Seia!",
+   "transcript": "Seia!",
    "confidence": -0.669,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "299589733": {
    "wem_id": "299589733",
@@ -5078,7 +5078,7 @@
    "transcript": "Haha!",
    "confidence": -0.261,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "409296338": {
    "wem_id": "409296338",
@@ -5265,7 +5265,7 @@
    "transcript": "Hmph.",
    "confidence": -0.287,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "417432270": {
    "wem_id": "417432270",
@@ -5603,10 +5603,10 @@
    "recovered": true,
    "prefetch_s": 0.511,
    "bytes": 65139,
-   "transcript": "Unra, Toyan, Thrio, Faur, Fiff, Seox",
+   "transcript": "Uno, Tweyen, Threo, Feower, Fif, Seox!",
    "confidence": -0.589,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "454462519": {
    "wem_id": "454462519",
@@ -5640,7 +5640,7 @@
    "transcript": "Here goes!",
    "confidence": -0.291,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "456304436": {
    "wem_id": "456304436",
@@ -5688,10 +5688,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 9810,
-   "transcript": "What you got?",
+   "transcript": "What'cha got?!",
    "confidence": -0.298,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "461413753": {
    "wem_id": "461413753",
@@ -5742,7 +5742,7 @@
    "transcript": "Hm.",
    "confidence": -0.265,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "462912036": {
    "wem_id": "462912036",
@@ -5793,7 +5793,7 @@
    "transcript": "Boo! Ya!",
    "confidence": -0.362,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "466492750": {
    "wem_id": "466492750",
@@ -6968,7 +6968,7 @@
    "transcript": "Easy!",
    "confidence": -0.222,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "563691090": {
    "wem_id": "563691090",
@@ -7356,10 +7356,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 4764,
-   "transcript": "Spear of Legends!",
-   "confidence": -0.703,
+   "transcript": "Siu!",
+   "confidence": -0.629,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "qwen3-omni-grunt"
   },
   "583238064": {
    "wem_id": "583238064",
@@ -7373,10 +7373,10 @@
    "recovered": true,
    "prefetch_s": 0.639,
    "bytes": 66539,
-   "transcript": "Just like Ciac's. He's a lot cooler.",
+   "transcript": "Just like Seox. He's a lot cooler...",
    "confidence": -0.385,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "583984817": {
    "wem_id": "583984817",
@@ -8223,10 +8223,10 @@
    "recovered": true,
    "prefetch_s": 0.522,
    "bytes": 28300,
-   "transcript": "Behold! My coup pose!",
+   "transcript": "Behold! My cool pose!",
    "confidence": -0.276,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "647983380": {
    "wem_id": "647983380",
@@ -8308,10 +8308,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 7980,
-   "transcript": "Happening!",
+   "transcript": "Up and at em.",
    "confidence": -0.782,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "651478628": {
    "wem_id": "651478628",
@@ -8447,7 +8447,7 @@
    "transcript": "More like Vain work makes the Pain work!",
    "confidence": -0.278,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "664440716": {
    "wem_id": "664440716",
@@ -9025,7 +9025,7 @@
    "transcript": "Heh heh, cool!",
    "confidence": -0.389,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "698671332": {
    "wem_id": "698671332",
@@ -9311,10 +9311,10 @@
    "recovered": true,
    "prefetch_s": 0.457,
    "bytes": 22562,
-   "transcript": "A grabbable pinch monster!",
+   "transcript": "Awww, a grabbable pinch monster!",
    "confidence": -0.354,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "721365574": {
    "wem_id": "721365574",
@@ -9669,10 +9669,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 6889,
-   "transcript": "Second night!",
+   "transcript": "Say \"good night\"!",
    "confidence": -0.254,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "741402797": {
    "wem_id": "741402797",
@@ -9927,7 +9927,7 @@
    "transcript": "Hah! Despedazar!",
    "confidence": -0.228,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "761698535": {
    "wem_id": "761698535",
@@ -12634,7 +12634,7 @@
    "transcript": "Star-Sword Sovereign, at your service.",
    "confidence": -0.269,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "990220526": {
    "wem_id": "990220526",
@@ -12954,10 +12954,10 @@
    "recovered": false,
    "prefetch_s": null,
    "bytes": 17891,
-   "transcript": "Mallyoop! There it is!",
+   "transcript": "Alley-oop! There it is!",
    "confidence": -0.462,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "1013851622": {
    "wem_id": "1013851622",
@@ -13379,10 +13379,10 @@
    "recovered": true,
    "prefetch_s": 0.451,
    "bytes": 19697,
-   "transcript": "I ate timing for breakfast! Wait.",
+   "transcript": "I eat timing for breakfast!... Wait...",
    "confidence": -0.556,
    "bank": "vo_pl2200_01_02_00_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "1043528756": {
    "wem_id": "1043528756",
@@ -13891,9 +13891,9 @@
    "prefetch_s": 0.429,
    "bytes": 32977,
    "bank": "vo_pl2200_02_00_00_m.bnk",
-   "transcript": "So von the star sword sovereign! Good night, folks!",
+   "transcript": "Seofon, The Star-Sword Sovereign! Good night, folks!",
    "confidence": -0.334,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "103127133": {
    "wem_id": "103127133",
@@ -14420,7 +14420,7 @@
    "bank": "vo_pl2200_02_00_00_m.bnk",
    "transcript": "Haha! What kind of stakes are we talking?",
    "confidence": -0.297,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "367067000": {
    "wem_id": "367067000",
@@ -14505,7 +14505,7 @@
    "bank": "vo_pl2200_02_00_00_m.bnk",
    "transcript": "Oh, Fraudy-pie!",
    "confidence": -0.299,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "453466328": {
    "wem_id": "453466328",
@@ -15132,9 +15132,9 @@
    "prefetch_s": 0.684,
    "bytes": 44149,
    "bank": "vo_pl2200_02_00_00_m.bnk",
-   "transcript": "By am? I mean, yes! I am! Ha ha! Finally, someone gets it!",
+   "transcript": "I am?... I-I mean YES! I AM! Ha ha! Finally, someone gets it!",
    "confidence": -0.247,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "863870999": {
    "wem_id": "863870999",
@@ -15491,7 +15491,7 @@
    "bank": "vo_pl2200_01_03_00_m.bnk",
    "transcript": "Secret snack!",
    "confidence": -0.285,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "973403450": {
    "wem_id": "973403450",

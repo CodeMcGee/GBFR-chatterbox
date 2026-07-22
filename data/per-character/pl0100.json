@@ -228,7 +228,7 @@
    "transcript": "There. Feeling better already!",
    "confidence": -0.241,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "26007812": {
    "wem_id": "26007812",
@@ -364,7 +364,7 @@
    "transcript": "Who... who turned down the heat?",
    "confidence": -0.234,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "29596927": {
    "wem_id": "29596927",
@@ -1982,7 +1982,7 @@
    "transcript": "Well, alright!",
    "confidence": -0.224,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "141354716": {
    "wem_id": "141354716",
@@ -2272,7 +2272,7 @@
    "transcript": "Good...",
    "confidence": -0.296,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "158066988": {
    "wem_id": "158066988",
@@ -3037,7 +3037,7 @@
    "transcript": "Hehe, congrats!",
    "confidence": -0.233,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "205693727": {
    "wem_id": "205693727",
@@ -4211,7 +4211,7 @@
    "transcript": "Ooh boy!",
    "confidence": -0.373,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "277779241": {
    "wem_id": "277779241",
@@ -5691,7 +5691,7 @@
    "transcript": "Hah! Great!",
    "confidence": -0.225,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "405422816": {
    "wem_id": "405422816",
@@ -7321,10 +7321,10 @@
    "recovered": true,
    "prefetch_s": 0.435,
    "bytes": 17393,
-   "transcript": "We can't let Galvanz outdo us!",
+   "transcript": "We can't let Gallanza outdo us!",
    "confidence": -0.26,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "500810016": {
    "wem_id": "500810016",
@@ -8768,10 +8768,10 @@
    "recovered": true,
    "prefetch_s": 0.472,
    "bytes": 15338,
-   "transcript": "Okay, Ed! You asked for it!",
+   "transcript": "Okay, Id! You asked for it!",
    "confidence": -0.218,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "608772892": {
    "wem_id": "608772892",
@@ -8856,7 +8856,7 @@
    "transcript": "Sorry.",
    "confidence": -0.241,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "613721939": {
    "wem_id": "613721939",
@@ -12176,7 +12176,7 @@
    "transcript": "Hohoho!",
    "confidence": -0.397,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "840198740": {
    "wem_id": "840198740",
@@ -12329,7 +12329,7 @@
    "transcript": "Why...?",
    "confidence": -0.349,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "854095149": {
    "wem_id": "854095149",
@@ -13077,7 +13077,7 @@
    "transcript": "Great!",
    "confidence": -0.313,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "920147406": {
    "wem_id": "920147406",
@@ -13145,7 +13145,7 @@
    "transcript": "You!",
    "confidence": -0.222,
    "bank": "vo_pl0100_m.bnk",
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "926611577": {
    "wem_id": "926611577",
@@ -16139,7 +16139,7 @@
    "bank": "vo_pl0100_02_00_00_m.bnk",
    "transcript": "Huh! Thanks, Fraux!",
    "confidence": -0.233,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "637459645": {
    "wem_id": "637459645",
@@ -17261,7 +17261,7 @@
    "bank": "vo_pl0100_01_01_00_m.bnk",
    "transcript": "Hah! Hah! Hah! Hah! Hah!",
    "confidence": -0.311,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "594740517": {
    "wem_id": "594740517",
@@ -17397,7 +17397,7 @@
    "bank": "vo_pl0100_01_01_00_m.bnk",
    "transcript": "Oh well.",
    "confidence": -0.383,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "945083299": {
    "wem_id": "945083299",
@@ -17720,7 +17720,7 @@
    "bank": "vo_pl0100_01_02_00_m.bnk",
    "transcript": "Let's do this. Okay. Another. And... done. Sweet!",
    "confidence": -0.387,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "428218608": {
    "wem_id": "428218608",
@@ -17822,7 +17822,7 @@
    "bank": "vo_pl0100_01_02_00_m.bnk",
    "transcript": "Okay... I got this... Last one... Phew!",
    "confidence": -0.296,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "551052753": {
    "wem_id": "551052753",
@@ -17856,7 +17856,7 @@
    "bank": "vo_pl0100_01_02_00_m.bnk",
    "transcript": "Aww, shucks!",
    "confidence": -0.223,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "580460836": {
    "wem_id": "580460836",
@@ -18077,7 +18077,7 @@
    "bank": "vo_pl0100_01_03_00_m.bnk",
    "transcript": "Mmm... delicious!",
    "confidence": -0.37,
-   "source_model": "qwen3-omni"
+   "source_model": "human"
   },
   "412424186": {
    "wem_id": "412424186",
