@@ -88,7 +88,8 @@ game folder into it (Steam -> Manage -> Browse local files) and run again.
 | `serve.py` | Entry point |
 | `chatterbox/` | The package: game formats + app domains, one module each |
 | `data/` | The published dataset |
-| `dev/` | Dataset and release build scripts |
+| `transcribe/` | Transcription pipeline ([TRANSCRIBING.md](TRANSCRIBING.md)) |
+| `dev/` | Scratch, model-server scripts, release build |
 | `tests/` | Test suite |
 
 ## For developers
@@ -98,7 +99,7 @@ and [vgmstream](https://vgmstream.org) at `tools/vgmstream-cli` for previews.
 
 ```
 python serve.py      # falls back to data/per-character automatically
-uv run pytest        # test suite, 70% coverage gate
+uv run pytest        # test suite (--cov for the 70% coverage gate)
 ```
 
 ## Contributing
@@ -106,7 +107,7 @@ uv run pytest        # test suite, 70% coverage gate
 - **Transcript corrections:** flag lines as wrong in the app and type the
   corrected words - that writes `%APPDATA%\chatterbox\flags.json` - then open
   an issue with its contents, or plain `"wem_id": "correct words"` pairs.
-  Verified fixes land in `dev/corrections.json` and the next dataset build.
+  Verified fixes land in `transcribe/corrections.json` and the next dataset build.
 - **PRs welcome** for code, prompting, or transcription fixes.
 
 ## Licence

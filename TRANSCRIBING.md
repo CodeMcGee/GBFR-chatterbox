@@ -20,8 +20,8 @@ game install (.bnk / .pck / data.i)
               └─ dev/build_atlas.py       publish the CSV
 ```
 
-Both model servers are local vllm containers; launch scripts are in `dev/`
-(`serve_qwen3omni_awq.sh` for omni, the ASR variant alongside).
+Both model servers are local vllm containers; launch with
+`dev/serve_qwen3omni_awq.sh` (omni) and `dev/serve_qwen3asr.sh` (ASR).
 
 ## The rules the pipeline encodes
 
