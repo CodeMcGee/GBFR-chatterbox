@@ -72,11 +72,13 @@ def build_ctx(pl, label):
 def race_hint(pl, label):
     """Fediel (pl2900) is a primal beast who names allies by race and gender, not
     by name. Her partner-directed lines encode the ally in the label, so nudge the
-    model toward the ally's race and gender - just enough to pick "lass" over "bash"."""
+    model toward the ally's race and gender - just enough to pick "lass" over "bash".
+    races.json is keyed by character name, resolved through NAMES."""
     if pl != "pl2900":
         return ""
     m = re.search(r"_PL(\d{4})$", label or "")
-    pr = RACES.get("pl" + m.group(1)) if m else None
+    ally = NAMES.get("pl" + m.group(1)) if m else None
+    pr = RACES.get(ally) if ally else None
     if not pr or pr.get("race") == "Other":
         return ""
     return f" The ally is a {pr['gender']} {pr['race']}."
