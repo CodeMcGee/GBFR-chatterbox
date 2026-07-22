@@ -36,8 +36,10 @@ from concurrent.futures import ThreadPoolExecutor
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
-from retranscribe import Audio, build_ctx
-from smoke_qwen3omni import PROMPT, _audio
+from transcribe.audio import Audio
+from transcribe.context import build_ctx
+from transcribe import PKG
+from transcribe.omni import PROMPT
 from cloud_check import SYSTEM as NEUTRAL
 from test_refine_truth import WRONG_DRAFT
 import serve
@@ -85,7 +87,7 @@ def messages_for(variant, ctx, wav_b64, exemplars):
 
 def score(out_path):
     rows = [json.loads(l) for l in out_path.read_text().splitlines() if l.strip()]
-    truth = json.loads((HERE / "truth.json").read_text())["verified"]
+    truth = json.loads((PKG / "truth.json").read_text())["verified"]
     by = collections.defaultdict(list)
     for r in rows:
         if "error" not in r:
@@ -146,8 +148,8 @@ def main():
                     done.add((r["wid"], r["variant"], r["vote"], r["model"]))
 
     audio = Audio(pathlib.Path(serve.find_game(a.game)))
-    truth = json.loads((HERE / "truth.json").read_text())["verified"]
-    ex_map = json.loads((HERE / "exemplars.json").read_text())
+    truth = json.loads((PKG / "truth.json").read_text())["verified"]
+    ex_map = json.loads((PKG / "exemplars.json").read_text())
     docs, wav64, ex64 = {}, {}, {}
 
     with tempfile.TemporaryDirectory() as td:

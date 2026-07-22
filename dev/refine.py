@@ -18,8 +18,10 @@ import tempfile
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
-from retranscribe import Audio, build_ctx, PERSONA
-from smoke_qwen3omni import transcribe
+from transcribe.audio import Audio
+from transcribe.context import build_ctx
+from transcribe import PKG
+from transcribe.omni import transcribe
 import serve
 
 
@@ -52,7 +54,7 @@ def main():
     doc = json.loads((ROOT / "data/per-character" / f"{a.pl}.json").read_text())
     asr_p = ROOT / a.asr_dir / f"{a.pl}.json"
     asr = json.loads(asr_p.read_text())["lines"] if asr_p.exists() else {}
-    ex_map = json.loads((HERE / "exemplars.json").read_text())
+    ex_map = json.loads((PKG / "exemplars.json").read_text())
 
     lines = doc["lines"]
     targets = [a.wem] if a.wem else [

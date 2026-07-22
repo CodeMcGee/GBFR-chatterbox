@@ -24,7 +24,9 @@ import urllib.request
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(HERE))
-from retranscribe import Audio, build_ctx
+from transcribe.audio import Audio
+from transcribe.context import build_ctx
+from transcribe import PKG
 from test_refine_truth import WRONG_DRAFT
 import serve
 
@@ -68,7 +70,7 @@ def main():
         sys.exit("set LITELLM_KEY in the environment")
 
     audio = Audio(pathlib.Path(serve.find_game(a.game)))
-    truth = json.loads((HERE / "truth.json").read_text())["verified"]
+    truth = json.loads((PKG / "truth.json").read_text())["verified"]
     targets = {w: t for w, t in truth.items()
                if a.all_verified or w in WRONG_DRAFT}
     docs, right = {}, 0
