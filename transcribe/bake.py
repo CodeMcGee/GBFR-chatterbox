@@ -20,40 +20,42 @@ def bake_character(pl, doc, audio, base, model, ex_map, out_file):
     """Transcribe every non-human line of one character's doc and write it to
     out_file. Returns the number of lines transcribed."""
     lines = doc["lines"]
-    with tempfile.TemporaryDirectory() as td:
+    with tempfile.TemporaryDirectory() as workdir:
         # per-character exemplars: decode each once, reuse for every line
         exemplars = []
-        for e in ex_map.get(pl, []):
-            er = lines.get(e["wem_id"])
-            if not er:
+        for example in ex_map.get(pl, []):
+            example_id = example["wem_id"]
+            atlas_line = lines.get(example_id)
+            if not atlas_line:
                 continue
-            ew = pathlib.Path(td) / f"ex_{e['wem_id']}.wav"
+            example_wav = pathlib.Path(workdir) / f"ex_{example_id}.wav"
             try:
-                audio.wav(er["bank"], e["wem_id"], ew)
-                exemplars.append((str(ew), e["transcript"], e["wem_id"]))
+                audio.wav(atlas_line["bank"], example_id, example_wav)
+                exemplars.append((str(example_wav), example["transcript"], example_id))
             except Exception:
                 pass
 
-        new = 0
-        wav = pathlib.Path(td) / "t.wav"
-        for wid, r in lines.items():
-            if not r.get("bank") or r.get("source_model") == "human":
+        transcribed = 0
+        wav = pathlib.Path(workdir) / "target.wav"
+        for wem_id, line in lines.items():
+            if not line.get("bank") or line.get("source_model") == "human":
                 continue                        # never rebake a human-verified line
             try:
-                audio.wav(r["bank"], wid, wav)
-                ex = [(w, t) for w, t, ewid in exemplars if ewid != wid]
+                audio.wav(line["bank"], wem_id, wav)
+                fewshot = [(path, text) for path, text, ex_id in exemplars
+                           if ex_id != wem_id]  # never show the target its own answer
                 got, conf = transcribe(base, model, wav,
-                                       build_ctx(pl, r.get("label", "")), ex,
+                                       build_ctx(pl, line.get("label", "")), fewshot,
                                        with_conf=True)
-            except Exception as e:
-                print(f"  {pl} {wid}: {type(e).__name__}: {e}", flush=True)
+            except Exception as err:
+                print(f"  {pl} {wem_id}: {type(err).__name__}: {err}", flush=True)
                 continue
-            r["transcript"] = got
-            r["confidence"] = conf
-            r["source_model"] = "qwen3-omni"
-            new += 1
+            line["transcript"] = got
+            line["confidence"] = conf
+            line["source_model"] = "qwen3-omni"
+            transcribed += 1
     out_file.write_text(json.dumps(doc, indent=1))
-    return new
+    return transcribed
 
 
 def main(argv=None):

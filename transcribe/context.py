@@ -33,8 +33,8 @@ GRUNT_PROMPT = (
 def decode_label(label):
     """Turn an engine label into a readable line-type hint, e.g.
     PL2900_vo_SP_burst_reaction_B_PL0300 -> 'skill or co-op link: burst reaction b'."""
-    s = re.sub(r"^PL\d+_vo_", "", label or "")
-    parts = s.split("_")
+    stripped = re.sub(r"^PL\d+_vo_", "", label or "")
+    parts = stripped.split("_")
     if not parts:
         return ""
     cat = CAT.get(parts[0], parts[0].lower())
@@ -56,16 +56,16 @@ def build_ctx(pl, label):
     type. The 'If wordless' grunt tail is dropped - it verifiably pushes worded
     lines into grunts."""
     ctx = f"This line is spoken by {NAMES.get(pl, pl)}."
-    m = re.search(r"_((PL|NP)\d{4})$", label or "")
-    if m:
-        name = NPC.get(m.group(1)) or NAMES.get(m.group(1).lower())
+    ally = re.search(r"_((PL|NP)\d{4})$", label or "")
+    if ally:
+        name = NPC.get(ally.group(1)) or NAMES.get(ally.group(1).lower())
         if pl == "pl2900":
             ctx += race_hint(pl, label)  # Fediel names allies by race, never by name
         elif name:
             ctx += f" It is directed at their ally {name}."
-    lt = decode_label(label).split(". If wordless")[0]
-    if lt:
-        ctx += f" Line type: {lt}."
+    line_type = decode_label(label).split(". If wordless")[0]
+    if line_type:
+        ctx += f" Line type: {line_type}."
     return ctx
 
 
@@ -76,9 +76,9 @@ def race_hint(pl, label):
     races.json is keyed by character name, resolved through NAMES."""
     if pl != "pl2900":
         return ""
-    m = re.search(r"_PL(\d{4})$", label or "")
-    ally = NAMES.get("pl" + m.group(1)) if m else None
-    pr = RACES.get(ally) if ally else None
-    if not pr or pr.get("race") == "Other":
+    partner = re.search(r"_PL(\d{4})$", label or "")
+    ally = NAMES.get("pl" + partner.group(1)) if partner else None
+    profile = RACES.get(ally) if ally else None
+    if not profile or profile.get("race") == "Other":
         return ""
-    return f" The ally is a {pr['gender']} {pr['race']}."
+    return f" The ally is a {profile['gender']} {profile['race']}."

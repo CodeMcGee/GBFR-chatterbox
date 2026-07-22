@@ -11,18 +11,18 @@ from transcribe import PKG
 
 def audio_part(wav_path):
     """A chat-completions input_audio content part for a wav file."""
-    b = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
-    return {"type": "input_audio", "input_audio": {"data": b, "format": "wav"}}
+    audio_b64 = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
+    return {"type": "input_audio", "input_audio": {"data": audio_b64, "format": "wav"}}
 
 
 def build_prompt():
     """Compose the transcription prompt, seeding it with the domain glossary so
     shouted skill/SBA names and proper nouns are transcribed, not spelled out
     phonetically. See transcribe/glossary.json."""
-    g = json.loads((PKG / "glossary.json").read_text())
-    chars = sorted(g["characters"])
-    moves = sorted({m for c in g["characters"].values()
-                    for m in c["skills"] + ([c["sba"]] if "sba" in c else [])})
+    glossary = json.loads((PKG / "glossary.json").read_text())
+    chars = sorted(glossary["characters"])
+    moves = sorted({move for entry in glossary["characters"].values()
+                    for move in entry["skills"] + ([entry["sba"]] if "sba" in entry else [])})
     return (
         "You are transcribing short English combat voice lines from the game "
         "Granblue Fantasy: Relink. Lines are often shouted in combat and under "
@@ -38,7 +38,7 @@ def build_prompt():
         "- Output ONLY the transcription: no quotes, no speaker label, no notes.\n\n"
         "Characters: " + ", ".join(chars) + "\n"
         "Skills & Skybound Arts: " + ", ".join(moves) + "\n"
-        "World terms: " + ", ".join(g["world_terms"]))
+        "World terms: " + ", ".join(glossary["world_terms"]))
 
 
 PROMPT = build_prompt()
@@ -64,12 +64,13 @@ def transcribe(base, model, wav_path, ctx="", exemplars=(), system=None, tempera
     }).encode()
     req = urllib.request.Request(f"{base}/chat/completions", body,
                                  {"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        ch = json.loads(r.read())["choices"][0]
-    text = ch["message"]["content"].strip()
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        choice = json.loads(resp.read())["choices"][0]
+    text = choice["message"]["content"].strip()
     if not with_conf:
         return text
     # avg token logprob, same idea as Whisper's avg_logprob but on qwen's own
     # scale: correct lines sit near 0, garbage near -0.2 and below.
-    lps = [t["logprob"] for t in (ch.get("logprobs") or {}).get("content") or []]
-    return text, (round(sum(lps) / len(lps), 3) if lps else None)
+    logprobs = [tok["logprob"]
+                for tok in (choice.get("logprobs") or {}).get("content") or []]
+    return text, (round(sum(logprobs) / len(logprobs), 3) if logprobs else None)

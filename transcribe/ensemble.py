@@ -45,42 +45,45 @@ def main(argv=None):
     pl = resolve_pl(a.character)
     doc = json.loads((ATLAS_DIR / f"{pl}.json").read_text())
     ctx = hotwords(pl)
-    all_phrases = [p for p in ctx.split(". ") if p]
+    all_phrases = [phrase for phrase in ctx.split(". ") if phrase]
 
     def echo(text):
         """True when the model read the hotword list back instead of listening."""
-        return sum(1 for p in all_phrases if norm(p) in norm(text)) >= 3
+        return sum(1 for phrase in all_phrases if norm(phrase) in norm(text)) >= 3
 
-    review, took, kept = [], 0, 0
-    with tempfile.TemporaryDirectory() as td:
-        wav = pathlib.Path(td) / "t.wav"
-        for wid, r in doc["lines"].items():
-            if not r.get("bank"):
+    review, replaced, kept = [], 0, 0
+    with tempfile.TemporaryDirectory() as workdir:
+        wav = pathlib.Path(workdir) / "target.wav"
+        for wem_id, line in doc["lines"].items():
+            if not line.get("bank"):
                 continue
             try:
-                audio.wav(r["bank"], wid, wav)
-                got, conf = asr(a.base, a.model, wav, ctx)
-                if got and (not got.isascii() or echo(got)):
-                    got = ""
-            except Exception as e:
-                print(f"  {wid}: {type(e).__name__}: {e}", flush=True)
+                audio.wav(line["bank"], wem_id, wav)
+                heard, heard_conf = asr(a.base, a.model, wav, ctx)
+                if heard and (not heard.isascii() or echo(heard)):
+                    heard = ""
+            except Exception as err:
+                print(f"  {wem_id}: {type(err).__name__}: {err}", flush=True)
                 continue
-            at = r.get("transcript") or ""
-            if not got or norm(got) == norm(at) or r.get("source_model") == "human":
+            atlas_text = line.get("transcript") or ""
+            if not heard or norm(heard) == norm(atlas_text) or line.get("source_model") == "human":
                 kept += 1
                 continue
-            if (r.get("confidence") or 0) <= a.gate:
-                review.append((wid, r.get("label", ""), at, r.get("confidence"), got, conf, "TOOK ASR"))
-                r["transcript"], r["confidence"], r["source_model"] = got, conf, "ensemble-asr"
-                took += 1
-            else:
-                review.append((wid, r.get("label", ""), at, r.get("confidence"), got, conf, "kept atlas"))
+            action = "TOOK ASR" if (line.get("confidence") or 0) <= a.gate else "kept atlas"
+            review.append((wem_id, line.get("label", ""), atlas_text,
+                           line.get("confidence"), heard, heard_conf, action))
+            if action == "TOOK ASR":
+                line["transcript"], line["confidence"], line["source_model"] = \
+                    heard, heard_conf, "ensemble-asr"
+                replaced += 1
 
     out_dir = ROOT / a.out; out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / f"{pl}.json").write_text(json.dumps(doc, indent=1))
-    print(f"\n{NAMES.get(pl, pl)}: kept {kept}, ASR replaced {took}, review queue {len(review) - took}")
-    for wid, lab, at, ac, got, gc, act in review:
-        print(f"  [{act}] {wid} [{lab}] atlas={at!r} ({ac}) asr={got!r} ({gc})")
+    print(f"\n{NAMES.get(pl, pl)}: kept {kept}, ASR replaced {replaced}, "
+          f"review queue {len(review) - replaced}")
+    for wem_id, label, atlas_text, atlas_conf, heard, heard_conf, action in review:
+        print(f"  [{action}] {wem_id} [{label}] atlas={atlas_text!r} ({atlas_conf}) "
+              f"asr={heard!r} ({heard_conf})")
 
 
 if __name__ == "__main__":

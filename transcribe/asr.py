@@ -13,25 +13,26 @@ from transcribe import NAMES, PKG
 
 def asr(base, model, wav_path, ctx):
     """Transcribe one clip. Returns (text, avg_logprob_confidence)."""
-    b = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
+    audio_b64 = base64.b64encode(pathlib.Path(wav_path).read_bytes()).decode()
     body = json.dumps({
         "model": model, "temperature": 0, "max_tokens": 128,
         "messages": [
             {"role": "system", "content": ctx},
             {"role": "user", "content": [
-                {"type": "input_audio", "input_audio": {"data": b, "format": "wav"}}]},
+                {"type": "input_audio", "input_audio": {"data": audio_b64, "format": "wav"}}]},
         ],
         "logprobs": True,
     }).encode()
     req = urllib.request.Request(f"{base}/chat/completions", body,
                                  {"Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        ch = json.loads(r.read())["choices"][0]
-    text = ch["message"]["content"]
-    m = re.search(r"<asr_text>(.*)", text, re.S)
-    text = (m.group(1) if m else text).strip()
-    lps = [t["logprob"] for t in (ch.get("logprobs") or {}).get("content") or []]
-    return text, (round(sum(lps) / len(lps), 3) if lps else None)
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        choice = json.loads(resp.read())["choices"][0]
+    text = choice["message"]["content"]
+    tail = re.search(r"<asr_text>(.*)", text, re.S)
+    text = (tail.group(1) if tail else text).strip()
+    logprobs = [tok["logprob"]
+                for tok in (choice.get("logprobs") or {}).get("content") or []]
+    return text, (round(sum(logprobs) / len(logprobs), 3) if logprobs else None)
 
 
 def _norm(s):
@@ -44,16 +45,16 @@ def hotwords(pl, short=False):
     catchphrases, plus ally names unless short=True. A long context (or any
     conversational phrase in it) suppresses short barks - the lean list is for
     bark rescue."""
-    g = json.loads((PKG / "glossary.json").read_text())
+    glossary = json.loads((PKG / "glossary.json").read_text())
     name = NAMES.get(pl, pl)
-    c = g["characters"].get(name, {})
-    words = list(c.get("skills", [])) + ([c["sba"]] if "sba" in c else [])
+    entry = glossary["characters"].get(name, {})
+    words = list(entry.get("skills", [])) + ([entry["sba"]] if "sba" in entry else [])
     if not short:
-        words += sorted(g["characters"])        # ally names, for call lines
+        words += sorted(glossary["characters"])        # ally names, for call lines
     truth = json.loads((PKG / "truth.json").read_text())
-    words += [t["text"] for t in truth["verified"].values() if t["pl"] == pl]
-    seen, out = set(), []
-    for w in words:
-        if _norm(w) not in seen:
-            seen.add(_norm(w)); out.append(w.rstrip("!.?"))
-    return ". ".join(out) + "."
+    words += [line["text"] for line in truth["verified"].values() if line["pl"] == pl]
+    seen, kept = set(), []
+    for word in words:
+        if _norm(word) not in seen:
+            seen.add(_norm(word)); kept.append(word.rstrip("!.?"))
+    return ". ".join(kept) + "."

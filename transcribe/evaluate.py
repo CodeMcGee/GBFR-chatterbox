@@ -26,11 +26,11 @@ def truth():
 
 def lines_of(src):
     """Flatten a dir of per-character JSONs into one {wem_id: line} map."""
-    out = {}
-    for p in pathlib.Path(src).glob("pl*.json"):
-        for wid, r in json.loads(p.read_text())["lines"].items():
-            out[wid] = r
-    return out
+    lines = {}
+    for path in pathlib.Path(src).glob("pl*.json"):
+        for wem_id, line in json.loads(path.read_text())["lines"].items():
+            lines[wem_id] = line
+    return lines
 
 
 def score(src, corpus=None):
@@ -39,29 +39,34 @@ def score(src, corpus=None):
     corpus = corpus or truth()
     lines = lines_of(src)
     right, wrong, missing = [], [], []
-    for wid, t in corpus["verified"].items():
-        r = lines.get(wid)
-        if not r:
-            missing.append(wid); continue
-        (right if norm(r.get("transcript")) == norm(t["text"]) else wrong).append((wid, r))
-    kw_hits = [wid for wid, t in corpus["known_wrong"].items()
-               if wid in lines and norm(lines[wid].get("transcript")) == norm(t["not"])]
+    for wem_id, entry in corpus["verified"].items():
+        line = lines.get(wem_id)
+        if not line:
+            missing.append(wem_id); continue
+        bucket = right if norm(line.get("transcript")) == norm(entry["text"]) else wrong
+        bucket.append((wem_id, line))
+    known_wrong_hits = [
+        wem_id for wem_id, entry in corpus["known_wrong"].items()
+        if wem_id in lines and norm(lines[wem_id].get("transcript")) == norm(entry["not"])]
 
     n = len(right) + len(wrong)
     print(f"{src}: verified {len(right)}/{n} correct"
           + (f", {len(missing)} not in source" if missing else "")
-          + f"; known-wrong text reproduced on {len(kw_hits)}/{len(corpus['known_wrong'])}"
-          + (f" ({', '.join(kw_hits)})" if kw_hits else ""))
-    for wid, r in wrong:
-        print(f"  WRONG {wid} ({NAMES.get(corpus['verified'][wid].get('pl'), '?')}): {r.get('transcript')!r} (conf {r.get('confidence')}) "
-              f"!= {corpus['verified'][wid]['text']!r}")
-    cr = [r.get("confidence") for _, r in right if r.get("confidence") is not None]
-    cw = [r.get("confidence") for _, r in wrong if r.get("confidence") is not None]
-    if cr and cw:
-        mr, mw = sum(cr) / len(cr), sum(cw) / len(cw)
-        print(f"  conf: correct avg {mr:.3f}, wrong avg {mw:.3f} -> "
-              + ("separates" if mw < mr else "DOES NOT separate"))
-    return len(wrong) + len(kw_hits)
+          + f"; known-wrong text reproduced on {len(known_wrong_hits)}/{len(corpus['known_wrong'])}"
+          + (f" ({', '.join(known_wrong_hits)})" if known_wrong_hits else ""))
+    for wem_id, line in wrong:
+        who = NAMES.get(corpus["verified"][wem_id].get("pl"), "?")
+        print(f"  WRONG {wem_id} ({who}): {line.get('transcript')!r} "
+              f"(conf {line.get('confidence')}) "
+              f"!= {corpus['verified'][wem_id]['text']!r}")
+    conf_right = [l.get("confidence") for _, l in right if l.get("confidence") is not None]
+    conf_wrong = [l.get("confidence") for _, l in wrong if l.get("confidence") is not None]
+    if conf_right and conf_wrong:
+        avg_right = sum(conf_right) / len(conf_right)
+        avg_wrong = sum(conf_wrong) / len(conf_wrong)
+        print(f"  conf: correct avg {avg_right:.3f}, wrong avg {avg_wrong:.3f} -> "
+              + ("separates" if avg_wrong < avg_right else "DOES NOT separate"))
+    return len(wrong) + len(known_wrong_hits)
 
 
 def main(argv=None):
