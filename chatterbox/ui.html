@@ -223,6 +223,7 @@ async function enableFullPreviews() {
 
 async function load(p) {
   pl = p; mutes = new Set(); unmutes = new Set(); swaps = {}; sync();
+  clearWavCache();          // previewed wavs from the last character stay out of memory
   data = await (await fetch('/api/lines?pl=' + p)).json();
   const present = [...new Set(data.lines.map(l => l.category))].filter(c => CATS[c]);
   const count = c => data.lines.filter(l => l.category === c).length;
@@ -371,12 +372,19 @@ function clearWavCache() {
   for (const url of wavCache.values()) URL.revokeObjectURL(url);
   wavCache = new Map();
 }
+const WAV_CACHE_MAX = 40; // a review pass previews hundreds of clips; cap the kept blobs
+
 async function play(id) {
   audio.pause();
   if (!wavCache.has(id)) {
     // no-store so a refetch after enabling full previews cannot be served the
     // browser's cached truncated copy
     const blob = await (await fetch(`/api/wav?pl=${pl}&id=${id}`, {cache: 'no-store'})).blob();
+    if (wavCache.size >= WAV_CACHE_MAX) {      // Map iterates in insertion order
+      const oldest = wavCache.keys().next().value;
+      URL.revokeObjectURL(wavCache.get(oldest));
+      wavCache.delete(oldest);
+    }
     wavCache.set(id, URL.createObjectURL(blob));
   }
   const a = new Audio(wavCache.get(id));   // local handle: a later click may reassign `audio`
