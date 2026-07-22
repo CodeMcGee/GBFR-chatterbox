@@ -40,7 +40,9 @@ truth. **Transcripts are machine generated and some are wrong** - treat them as
 a search index. Weak spots: proper nouns, short shouted lines, grunts.
 `confidence` is the model's own score (near 0 = confident, more negative =
 likelier wrong); filter on it if accuracy matters. Listen before believing
-anything that reads oddly.
+anything that reads oddly. How the transcripts are produced — and the
+measurements behind every pipeline rule — is documented in
+[TRANSCRIBING.md](TRANSCRIBING.md) and [EXPERIMENTS.md](EXPERIMENTS.md).
 
 ## The tool
 
