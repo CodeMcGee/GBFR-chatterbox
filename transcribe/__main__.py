@@ -1,30 +1,28 @@
-"""python -m transcribe <command>
+"""python -m transcribe <command> - the transcription pipeline CLI.
 
-  bake         re-transcribe the atlas through a local omni server
-  ensemble     ASR cross-check + gated merge over one character
-  corrections  overlay human-verified fixes onto the atlas
-  eval         score sources against the ground-truth corpus
+Each command owns its own argument parser; this level only dispatches, so
+run `python -m transcribe <command> --help` for per-command options.
 """
-import sys
+import argparse
+
+COMMANDS = {
+    "bake": ("transcribe.bake", "re-transcribe the atlas through a local omni server"),
+    "ensemble": ("transcribe.ensemble", "ASR cross-check + gated merge for one character"),
+    "corrections": ("transcribe.corrections", "overlay human-verified fixes onto the atlas"),
+    "eval": ("transcribe.evaluate", "score sources against the ground-truth corpus"),
+}
 
 
 def main():
-    cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    argv = sys.argv[2:]
-    if cmd == "bake":
-        from transcribe.bake import main as run
-        return run(argv)
-    if cmd == "ensemble":
-        from transcribe.ensemble import main as run
-        return run(argv)
-    if cmd == "corrections":
-        from transcribe.corrections import main as run
-        return run(argv)
-    if cmd == "eval":
-        from transcribe.evaluate import main as run
-        return run(argv)
-    print(__doc__.strip())
-    return 0 if cmd in ("", "-h", "--help") else 1
+    ap = argparse.ArgumentParser(
+        prog="python -m transcribe",
+        description=__doc__.splitlines()[0],
+        epilog="commands:\n" + "\n".join(f"  {c:12s}{d}" for c, (_, d) in COMMANDS.items()),
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("command", choices=COMMANDS)
+    args, rest = ap.parse_known_args()
+    module = __import__(COMMANDS[args.command][0], fromlist=["main"])
+    return module.main(rest)
 
 
 if __name__ == "__main__":
