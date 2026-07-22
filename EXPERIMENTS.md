@@ -180,7 +180,8 @@ Briar Rose...) + 4 correct-line controls.
 
 | model, prompt | recovered | false positives |
 |---|---|---|
-| local omni, bare | 0/11 | 0/4 |
+| local omni 30B, bare | 0/11 | 0/4 |
+| local Qwen3.6-35B (GPU1 chat model), ctx + glossary | 2/11 | 1/4 |
 | Gemini 3.1 Pro, bare | 6/11 | 1/4 ("Miasma unto these skies") |
 | Gemini 3.1 Pro + per-line ctx + glossary | 6/11 | **0/4** |
 
