@@ -18,8 +18,8 @@ CATEGORIES = {
     'DUO': 'Duo/Pair', 'CMM': 'Emote/Command', 'ETC': 'Misc', 'MOV': 'Movement',
 }
 FIELDS = ['character', 'pl_id', 'bank', 'wem_id', 'label', 'category', 'ui_source',
-          'group', 'variant', 'transcript', 'confidence', 'duration_s', 'audio_source',
-          'prefetch_s', 'sample_rate', 'channels', 'silent']
+          'group', 'variant', 'transcript', 'transcript_source', 'confidence',
+          'duration_s', 'audio_source', 'prefetch_s', 'sample_rate', 'channels', 'silent']
 
 
 def ui_source(cat, variant):
@@ -58,6 +58,9 @@ def rows(atlas_dir):
                 'transcript': r.get('transcript') or '',
                 # recogniser's own average log probability; near 0 is confident,
                 # strongly negative is usually wrong. Blank where nothing was said.
+                # who produced the transcript: 'human' rows are ear-verified
+                # and never overwritten by rebakes; the rest name the model
+                'transcript_source': r.get('source_model', '') if r.get('transcript') else '',
                 'confidence': r.get('confidence') if r.get('transcript') else '',
                 'duration_s': r.get('duration_s'),
                 # where the full audio lives

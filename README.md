@@ -28,20 +28,24 @@ the bundled Python - it will not run.
 see [`data/README.md`](data/README.md).
 
 Columns: `character`, `pl_id`, `wem_id`, `label`, `category`, `ui_source`,
-`group`/`variant`, `transcript`, `confidence`, `duration_s`, `audio_source`,
-`prefetch_s`, `sample_rate`, `channels`, `silent`.
+`group`/`variant`, `transcript`, `transcript_source`, `confidence`,
+`duration_s`, `audio_source`, `prefetch_s`, `sample_rate`, `channels`,
+`silent`.
 
 About 14,500 lines are stored split: ~0.4s in the `.bnk`, the rest streamed
 from a `.pck` in the archives. Bank-only tools transcribe the fragment; these
 lines were reassembled first, so durations and transcripts cover the whole line.
 
 Battle lines have no subtitle track in the game files, so there is no ground
-truth. **Transcripts are machine generated and some are wrong** - treat them as
-a search index. Weak spots: proper nouns, short shouted lines, grunts.
-`confidence` is the model's own score (near 0 = confident, more negative =
-likelier wrong); filter on it if accuracy matters. Listen before believing
-anything that reads oddly. How the transcripts are produced — and the
-measurements behind every pipeline rule — is documented in
+truth in the game data. **Most transcripts are machine generated and some are
+wrong** - treat those as a search index. Weak spots: proper nouns, short
+shouted lines, grunts. `transcript_source` says who produced each line:
+`human` rows are ear-verified (a growing set, currently 160+) and protected
+from rebakes; the rest name the model. `confidence` is the model's own score
+(near 0 = confident, more negative = likelier wrong); filter on it if
+accuracy matters, but treat it as a triage signal, never proof. Listen before
+believing anything that reads oddly. How the transcripts are produced — and
+the measurements behind every pipeline rule — is documented in
 [TRANSCRIBING.md](TRANSCRIBING.md) and [EXPERIMENTS.md](EXPERIMENTS.md).
 
 ## The tool
@@ -49,6 +53,12 @@ measurements behind every pipeline rule — is documented in
 A viewer for the dataset: browse a character's lines, listen to each against
 your installed game files, and - the experiment part - mute or swap them.
 Nothing is uploaded or downloaded.
+
+**Review mode** (checkbox in the header) flattens every category into one
+list sorted least-trustworthy-first, for correcting transcripts by ear: play
+a line, then either tick the red box and type what it really says, or tick
+the green box to mark it verified so it never resurfaces. Verified lines
+sink to the bottom; your marks live in `%APPDATA%\chatterbox\flags.json`.
 
 ### Running it (Windows)
 
@@ -104,10 +114,12 @@ uv run pytest        # test suite (--cov for the 70% coverage gate)
 
 ## Contributing
 
-- **Transcript corrections:** flag lines as wrong in the app and type the
-  corrected words - that writes `%APPDATA%\chatterbox\flags.json` - then open
-  an issue with its contents, or plain `"wem_id": "correct words"` pairs.
-  Verified fixes land in `transcribe/corrections.json` and the next dataset build.
+- **Transcript corrections:** use review mode - tick wrong lines and type
+  the corrected words, tick the green box on lines you have confirmed - then
+  open an issue with the contents of `%APPDATA%\chatterbox\flags.json`, or
+  plain `"wem_id": "correct words"` pairs. Accepted fixes land in
+  `transcribe/corrections.json`, the ground-truth corpus, and the next
+  dataset build.
 - **PRs welcome** for code, prompting, or transcription fixes.
 
 ## Licence
