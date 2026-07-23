@@ -1,0 +1,6190 @@
+{
+ "pl_id": "pl2800",
+ "character": "Fraux",
+ "lines": {
+  "155557427": {
+   "label": "PL2800_vo_ATK_ability_1_2",
+   "en_wem_id": "385623454",
+   "jp_real": "これで折れるかな？",
+   "jp_confidence": -0.146,
+   "en_literal": "Can I break you now?",
+   "english": "Try not to break!"
+  },
+  "1051555728": {
+   "label": "PL2800_vo_ATK_ability_2_2",
+   "en_wem_id": "118322961",
+   "jp_real": "出番だよ！",
+   "jp_confidence": -0.071,
+   "en_literal": "It's my moment!",
+   "english": "Not so fast!"
+  },
+  "183219819": {
+   "label": "PL2800_vo_ATK_ability_1_1",
+   "en_wem_id": "916988535",
+   "jp_real": "やっちゃって！",
+   "jp_confidence": -0.058,
+   "en_literal": "I did it!",
+   "english": "Catch these hands!"
+  },
+  "247302314": {
+   "label": "PL2800_vo_ATK_ability_3_1",
+   "en_wem_id": "71934983",
+   "jp_real": "インドミナス！",
+   "jp_confidence": -0.041,
+   "en_literal": "Indominus!",
+   "english": "Indominus!"
+  },
+  "952417571": {
+   "label": "PL2800_vo_ATK_ability_2_1",
+   "en_wem_id": "1033079384",
+   "jp_real": "逃げないの？",
+   "jp_confidence": -0.042,
+   "en_literal": "You're not getting away!",
+   "english": "Not gonna run!"
+  },
+  "479057154": {
+   "label": "PL2800_vo_ATK_ability_3_2",
+   "en_wem_id": "582435169",
+   "jp_real": "スリスブスカラ！",
+   "jp_confidence": -0.136,
+   "en_literal": "I'll crush you!",
+   "english": "Dust to Dust!"
+  },
+  "1051821775": {
+   "label": "PL2800_vo_ATK_ability_4_1",
+   "en_wem_id": "842622135",
+   "jp_real": "オポチュニティ！",
+   "jp_confidence": -0.068,
+   "en_literal": "Opportunity Knocks",
+   "english": "Opportunity Knocks!"
+  },
+  "664050100": {
+   "label": "PL2800_vo_ATK_ability_4_2",
+   "en_wem_id": "386767786",
+   "jp_real": "ダァァァァッ！！",
+   "jp_confidence": -0.658,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "40838113": {
+   "label": "PL2800_vo_ATK_ability_4_3",
+   "en_wem_id": "715161443",
+   "jp_real": "食らいつくよ！",
+   "jp_confidence": -0.223,
+   "en_literal": "I'll crush you!",
+   "english": "Comin' in hot!"
+  },
+  "621511765": {
+   "label": "PL2800_vo_ATK_ability_5_a_1",
+   "en_wem_id": "335140690",
+   "jp_real": "向かってくるなら容赦はしないよ！",
+   "jp_confidence": -0.051,
+   "en_literal": "If you're coming at me, I won't hold back!",
+   "english": "You made your bed! Now sleep in it!"
+  },
+  "612819247": {
+   "label": "PL2800_vo_ATK_ability_5_a_2",
+   "en_wem_id": "617687991",
+   "jp_real": "どこまで耐えられるかな？",
+   "jp_confidence": -0.029,
+   "en_literal": "How much longer can you endure?",
+   "english": "Let's see how long you last!"
+  },
+  "564363261": {
+   "label": "PL2800_vo_ATK_ability_5_a_3",
+   "en_wem_id": "681155349",
+   "jp_real": "覚悟はできてる？",
+   "jp_confidence": -0.096,
+   "en_literal": "Are you ready?",
+   "english": "Hope you said your prayers!"
+  },
+  "338162158": {
+   "label": "PL2800_vo_ATK_ability_5_b_1",
+   "en_wem_id": "439917027",
+   "jp_real": "ハッ！",
+   "jp_confidence": -0.21,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "986338787": {
+   "label": "PL2800_vo_ATK_ability_5_b_2",
+   "en_wem_id": "151942737",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.082,
+   "en_literal": "Hah!",
+   "english": "Rah!"
+  },
+  "550052245": {
+   "label": "PL2800_vo_ATK_ability_5_b_3",
+   "en_wem_id": "1057939797",
+   "jp_real": "デッドランズ！",
+   "jp_confidence": -0.137,
+   "en_literal": "Dead Lands",
+   "english": "Dead Lands!"
+  },
+  "1017535047": {
+   "label": "PL2800_vo_ATK_ability_6_a_1",
+   "en_wem_id": "402604139",
+   "jp_real": "さーて",
+   "jp_confidence": -0.232,
+   "en_literal": "Now then!",
+   "english": "I'm waiting!"
+  },
+  "677580377": {
+   "label": "PL2800_vo_ATK_ability_6_a_2",
+   "en_wem_id": "536450357",
+   "jp_real": "来ないの？",
+   "jp_confidence": -0.115,
+   "en_literal": "You're not coming?",
+   "english": "You coming?"
+  },
+  "958017762": {
+   "label": "PL2800_vo_ATK_ability_6_a_3",
+   "en_wem_id": "834624654",
+   "jp_real": "どこからでも",
+   "jp_confidence": -0.178,
+   "en_literal": "From anywhere!",
+   "english": "Do your worst!"
+  },
+  "959773621": {
+   "label": "PL2800_vo_ATK_ability_6_b_1",
+   "en_wem_id": "302217336",
+   "jp_real": "惜しかったね！",
+   "jp_confidence": -0.075,
+   "en_literal": "I was right!",
+   "english": "Nice try!"
+  },
+  "712054836": {
+   "label": "PL2800_vo_ATK_ability_6_b_2",
+   "en_wem_id": "917958903",
+   "jp_real": "ハイ！残念！",
+   "jp_confidence": -0.28,
+   "en_literal": "Hey, what a bummer!",
+   "english": "Hah! Too bad!"
+  },
+  "771214157": {
+   "label": "PL2800_vo_ATK_ability_6_b_3",
+   "en_wem_id": "557239785",
+   "jp_real": "アマイアマイ！",
+   "jp_confidence": -0.252,
+   "en_literal": "Too sweet!",
+   "english": "Tch! That's it!"
+  },
+  "44057645": {
+   "label": "PL2800_vo_ATK_ability_7_1",
+   "en_wem_id": "729273985",
+   "jp_real": "許してあげない！",
+   "jp_confidence": -0.085,
+   "en_literal": "I won't forgive you!",
+   "english": "You're done for!"
+  },
+  "883934967": {
+   "label": "PL2800_vo_ATK_ability_7_2",
+   "en_wem_id": "767255476",
+   "jp_real": "最後まで抗うから！",
+   "jp_confidence": -0.094,
+   "en_literal": "I'll fight to the very end!",
+   "english": "Stand strong!"
+  },
+  "187369872": {
+   "label": "PL2800_vo_ATK_ability_7_3",
+   "en_wem_id": "817221398",
+   "jp_real": "私は負けない！",
+   "jp_confidence": -0.1,
+   "en_literal": "I won't lose!",
+   "english": "It's over when I say it is!"
+  },
+  "778628326": {
+   "label": "PL2800_vo_ATK_ability_8_1",
+   "en_wem_id": "747387355",
+   "jp_real": "パワーアッププラット！",
+   "jp_confidence": -0.114,
+   "en_literal": "Power Plant!",
+   "english": "Burn to Ash!"
+  },
+  "366691384": {
+   "label": "PL2800_vo_ATK_ability_8_2",
+   "en_wem_id": "240085671",
+   "jp_real": "デアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアア",
+   "jp_confidence": -0.04,
+   "en_literal": "Hah!",
+   "english": "Ha!"
+  },
+  "290966904": {
+   "label": "PL2800_vo_ATK_ability_8_3",
+   "en_wem_id": "932860562",
+   "jp_real": "アタレ！",
+   "jp_confidence": -0.394,
+   "en_literal": "Hah!",
+   "english": "Catch this!"
+  },
+  "995905149": {
+   "label": "PL2800_vo_ATK_change_rev_1",
+   "en_wem_id": "210386249",
+   "jp_real": "この力で！",
+   "jp_confidence": -0.267,
+   "en_literal": "With this power...",
+   "english": "This should do."
+  },
+  "358590494": {
+   "label": "PL2800_vo_ATK_change_rev_1st_1",
+   "en_wem_id": "108403689",
+   "jp_real": "イエス！",
+   "jp_confidence": -0.603,
+   "en_literal": "Yes!",
+   "english": "Let's go!"
+  },
+  "60874595": {
+   "label": "PL2800_vo_ATK_change_rev_1st_2",
+   "en_wem_id": "373249799",
+   "jp_real": "これで！",
+   "jp_confidence": -0.182,
+   "en_literal": "With this!",
+   "english": "Come on!"
+  },
+  "1018992632": {
+   "label": "PL2800_vo_ATK_change_rev_2",
+   "en_wem_id": "811147364",
+   "jp_real": "やろうか！",
+   "jp_confidence": -0.197,
+   "en_literal": "Let's do this!",
+   "english": "Bring it!"
+  },
+  "98038544": {
+   "label": "PL2800_vo_ATK_change_up_1",
+   "en_wem_id": "618608491",
+   "jp_real": "カラダガカリイ!",
+   "jp_confidence": -0.318,
+   "en_literal": "My body feels light!",
+   "english": "Feels great!"
+  },
+  "1034916171": {
+   "label": "PL2800_vo_ATK_change_up_1st_1",
+   "en_wem_id": "57306229",
+   "jp_real": "もっと早く!",
+   "jp_confidence": -0.189,
+   "en_literal": "Faster!",
+   "english": "Speed it up!"
+  },
+  "693018763": {
+   "label": "PL2800_vo_ATK_change_up_1st_2",
+   "en_wem_id": "715550328",
+   "jp_real": "許してあげない！",
+   "jp_confidence": -0.065,
+   "en_literal": "I won't forgive you!",
+   "english": "Time's up!"
+  },
+  "673320539": {
+   "label": "PL2800_vo_ATK_change_up_2",
+   "en_wem_id": "997073009",
+   "jp_real": "反転！",
+   "jp_confidence": -0.102,
+   "en_literal": "Counter!",
+   "english": "Full Reversal!"
+  },
+  "851818535": {
+   "label": "PL2800_vo_ATK_charge_line_4",
+   "en_wem_id": "276848148",
+   "jp_real": "力がみなぎる！",
+   "jp_confidence": -0.208,
+   "en_literal": "Power's overflowing!",
+   "english": "Find your strength."
+  },
+  "649363278": {
+   "label": "PL2800_vo_ATK_charge_line_5",
+   "en_wem_id": "707156219",
+   "jp_real": "私の力！",
+   "jp_confidence": -0.438,
+   "en_literal": "My... power...",
+   "english": "They'll taste my fire!"
+  },
+  "10844490": {
+   "label": "PL2800_vo_ATK_charge_s_1",
+   "en_wem_id": "740318880",
+   "jp_real": "ハァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァ",
+   "jp_confidence": -0.023,
+   "en_literal": "Hah!",
+   "english": "Haaaaaaah!"
+  },
+  "1026127990": {
+   "label": "PL2800_vo_ATK_charge_s_2",
+   "en_wem_id": "63974992",
+   "jp_real": "フフッ！",
+   "jp_confidence": -0.279,
+   "en_literal": "Huh!",
+   "english": "Hah!"
+  },
+  "608547138": {
+   "label": "PL2800_vo_ATK_charge_s_3",
+   "en_wem_id": "1065822801",
+   "jp_real": "グラン！",
+   "jp_confidence": -0.583,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1013456941": {
+   "label": "PL2800_vo_ATK_default_l_1",
+   "en_wem_id": "424821384",
+   "jp_real": "ハァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァ",
+   "jp_confidence": -0.026,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1052692505": {
+   "label": "PL2800_vo_ATK_default_l_2",
+   "en_wem_id": "974546238",
+   "jp_real": "トライヤー！",
+   "jp_confidence": -0.508,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "949610525": {
+   "label": "PL2800_vo_ATK_default_line_l_1",
+   "en_wem_id": "529569011",
+   "jp_real": "デヤッ！",
+   "jp_confidence": -0.381,
+   "en_literal": "Hah!",
+   "english": "Ha!"
+  },
+  "866709782": {
+   "label": "PL2800_vo_ATK_default_line_l_2",
+   "en_wem_id": "539781802",
+   "jp_real": "ハハハハハ",
+   "jp_confidence": -0.331,
+   "en_literal": "Hahahaha!",
+   "english": "Ha!"
+  },
+  "251015116": {
+   "label": "PL2800_vo_ATK_default_line_l_3",
+   "en_wem_id": "996129569",
+   "jp_real": "終わり？",
+   "jp_confidence": -0.371,
+   "en_literal": "Over?",
+   "english": "End of the line!"
+  },
+  "653842486": {
+   "label": "PL2800_vo_ATK_default_line_s_1",
+   "en_wem_id": "462031658",
+   "jp_real": "セイ!",
+   "jp_confidence": -0.612,
+   "en_literal": "See!",
+   "english": "Hah!"
+  },
+  "353240020": {
+   "label": "PL2800_vo_ATK_default_line_s_2",
+   "en_wem_id": "515719202",
+   "jp_real": "ハッ！",
+   "jp_confidence": -0.146,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "134668276": {
+   "label": "PL2800_vo_ATK_default_line_s_3",
+   "en_wem_id": "570439331",
+   "jp_real": "これはどう？",
+   "jp_confidence": -0.041,
+   "en_literal": "How's this?",
+   "english": "Hah!"
+  },
+  "411052392": {
+   "label": "PL2800_vo_ATK_default_line_s_4",
+   "en_wem_id": "197265884",
+   "jp_real": "タ！",
+   "jp_confidence": -0.863,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "725374876": {
+   "label": "PL2800_vo_ATK_default_line_s_5",
+   "en_wem_id": "170882077",
+   "jp_real": "ほら！",
+   "jp_confidence": -0.151,
+   "en_literal": "Hold it!",
+   "english": "Ha!"
+  },
+  "359023464": {
+   "label": "PL2800_vo_ATK_default_line_s_6",
+   "en_wem_id": "429551300",
+   "jp_real": "デュオ！",
+   "jp_confidence": -0.737,
+   "en_literal": "Dea!",
+   "english": "Haha!"
+  },
+  "645972268": {
+   "label": "PL2800_vo_ATK_default_ll_1",
+   "en_wem_id": "627229855",
+   "jp_real": "ここだ！",
+   "jp_confidence": -0.261,
+   "en_literal": "Here!",
+   "english": "Gotcha!"
+  },
+  "310450022": {
+   "label": "PL2800_vo_ATK_default_ll_2",
+   "en_wem_id": "232032637",
+   "jp_real": "吹き飛べ！",
+   "jp_confidence": -0.18,
+   "en_literal": "Blow it away!",
+   "english": "You're finished!"
+  },
+  "532196482": {
+   "label": "PL2800_vo_ATK_default_ll_3",
+   "en_wem_id": "810837327",
+   "jp_real": "くらえ！",
+   "jp_confidence": -0.209,
+   "en_literal": "Take this!",
+   "english": "Eat dirt!"
+  },
+  "194116205": {
+   "label": "PL2800_vo_ATK_default_s_1",
+   "en_wem_id": "1020836152",
+   "jp_real": "はっ！",
+   "jp_confidence": -0.192,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "969831226": {
+   "label": "PL2800_vo_ATK_default_s_2",
+   "en_wem_id": "311675124",
+   "jp_real": "ギャッ！",
+   "jp_confidence": -0.38,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1033100017": {
+   "label": "PL2800_vo_ATK_default_s_3",
+   "en_wem_id": "905365248",
+   "jp_real": "デアッ！",
+   "jp_confidence": -0.206,
+   "en_literal": "Dead Lands",
+   "english": "Hyah!"
+  },
+  "1019108104": {
+   "label": "PL2800_vo_ATK_default_s_4",
+   "en_wem_id": "64873195",
+   "jp_real": "それ！",
+   "jp_confidence": -0.8,
+   "en_literal": "Stop!",
+   "english": "Hah!"
+  },
+  "925812872": {
+   "label": "PL2800_vo_ATK_default_ss_1",
+   "en_wem_id": "960306648",
+   "jp_real": "ハッ！",
+   "jp_confidence": -0.136,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "52694045": {
+   "label": "PL2800_vo_ATK_default_ss_2",
+   "en_wem_id": "134009569",
+   "jp_real": "フッ！",
+   "jp_confidence": -0.372,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1051635468": {
+   "label": "PL2800_vo_ATK_default_ss_3",
+   "en_wem_id": "784108892",
+   "jp_real": "ドン！",
+   "jp_confidence": -0.199,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "149040214": {
+   "label": "PL2800_vo_ATK_default_ss_4",
+   "en_wem_id": "1049710280",
+   "jp_real": "エイ!",
+   "jp_confidence": -0.58,
+   "en_literal": "Hey!",
+   "english": "Hah!"
+  },
+  "841552280": {
+   "label": "PL2800_vo_ATK_default_ss_5",
+   "en_wem_id": "321860169",
+   "jp_real": "はっはっは！",
+   "jp_confidence": -0.424,
+   "en_literal": "Hah!",
+   "english": "Hyah!"
+  },
+  "1031829955": {
+   "label": "PL2800_vo_ATK_default_ss_6",
+   "en_wem_id": "1017932720",
+   "jp_real": "ほら",
+   "jp_confidence": -0.331,
+   "en_literal": "Hold it!",
+   "english": "Hah!"
+  },
+  "556536256": {
+   "label": "PL2800_vo_ATK_default_ss_7",
+   "en_wem_id": "1073398454",
+   "jp_real": "ファルク！",
+   "jp_confidence": -0.892,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "745886628": {
+   "label": "PL2800_vo_ATK_default_ss_8",
+   "en_wem_id": "310252428",
+   "jp_real": "ドォー！",
+   "jp_confidence": -0.548,
+   "en_literal": "No!",
+   "english": "Hah!"
+  },
+  "573496118": {
+   "label": "PL2800_vo_ATK_fin_rev_1",
+   "en_wem_id": "434631307",
+   "jp_real": "じゃあね！",
+   "jp_confidence": -0.304,
+   "en_literal": "Let's go!",
+   "english": "Sweet dreams!"
+  },
+  "125796701": {
+   "label": "PL2800_vo_ATK_fin_rev_2",
+   "en_wem_id": "596714173",
+   "jp_real": "バイバイ",
+   "jp_confidence": -0.186,
+   "en_literal": "Bye-bye!",
+   "english": "Bye-bye!"
+  },
+  "886151532": {
+   "label": "PL2800_vo_ATK_fin_up_1",
+   "en_wem_id": "878204416",
+   "jp_real": "タッタッ！",
+   "jp_confidence": -0.511,
+   "en_literal": "Hah!",
+   "english": "Hah! Cha!"
+  },
+  "199971651": {
+   "label": "PL2800_vo_ATK_fin_up_2",
+   "en_wem_id": "436214522",
+   "jp_real": "邪魔をしないで！",
+   "jp_confidence": -0.188,
+   "en_literal": "I won't let you interfere!",
+   "english": "Get lost, asshole!"
+  },
+  "209475176": {
+   "label": "PL2800_vo_ATK_line_s_fin_1",
+   "en_wem_id": "594723342",
+   "jp_real": "ここだ！",
+   "jp_confidence": -0.194,
+   "en_literal": "Here it is!",
+   "english": "Gotcha!"
+  },
+  "1003586222": {
+   "label": "PL2800_vo_ATK_line_s_fin_2",
+   "en_wem_id": "888214979",
+   "jp_real": "ヤッ！",
+   "jp_confidence": -0.748,
+   "en_literal": "Hah!",
+   "english": "Hyah!"
+  },
+  "914032066": {
+   "label": "PL2800_vo_DMG_bind_1",
+   "en_wem_id": "39993986",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.635,
+   "en_literal": "Hah!",
+   "english": "Huh?"
+  },
+  "1000443796": {
+   "label": "PL2800_vo_DMG_bind_2",
+   "en_wem_id": "584998146",
+   "jp_real": "なあああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.061,
+   "en_literal": "No!",
+   "english": "Hah!"
+  },
+  "979319586": {
+   "label": "PL2800_vo_DMG_bind_3",
+   "en_wem_id": "932547176",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.1,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "446759260": {
+   "label": "PL2800_vo_DMG_bind_stay",
+   "en_wem_id": "313124559",
+   "jp_real": "くっ…こんな…",
+   "jp_confidence": -0.532,
+   "en_literal": "Hah!",
+   "english": "Gah! Get off, you creep!"
+  },
+  "88274652": {
+   "label": "PL2800_vo_DMG_bind_stay_2",
+   "en_wem_id": "7019202",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.736,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "360778490": {
+   "label": "PL2800_vo_DMG_bind_stay_3",
+   "en_wem_id": "615491415",
+   "jp_real": "うっ…くっ…",
+   "jp_confidence": -0.556,
+   "en_literal": "Ugh...!",
+   "english": "Nngh!"
+  },
+  "812753537": {
+   "label": "PL2800_vo_DMG_blocked_1",
+   "en_wem_id": "819310888",
+   "jp_real": "おーい！",
+   "jp_confidence": -0.559,
+   "en_literal": "Owai!",
+   "english": "Whoa!"
+  },
+  "455260917": {
+   "label": "PL2800_vo_DMG_blocked_2",
+   "en_wem_id": "435741969",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.048,
+   "en_literal": "Hah!",
+   "english": "No!"
+  },
+  "96834351": {
+   "label": "PL2800_vo_DMG_blocked_3",
+   "en_wem_id": "750330663",
+   "jp_real": "はぁ…",
+   "jp_confidence": -1.062,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "719778780": {
+   "label": "PL2800_vo_DMG_default_l_1",
+   "en_wem_id": "895490601",
+   "jp_real": "あっそ！",
+   "jp_confidence": -0.322,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "697210686": {
+   "label": "PL2800_vo_DMG_default_l_2",
+   "en_wem_id": "141923175",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.07,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "703498371": {
+   "label": "PL2800_vo_DMG_default_l_3",
+   "en_wem_id": "557635675",
+   "jp_real": "そんな",
+   "jp_confidence": -0.591,
+   "en_literal": "No way!",
+   "english": "Gah!"
+  },
+  "746967117": {
+   "label": "PL2800_vo_DMG_default_l_4",
+   "en_wem_id": "344230386",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.06,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "291881674": {
+   "label": "PL2800_vo_DMG_default_l_5",
+   "en_wem_id": "387086764",
+   "jp_real": "カッ！",
+   "jp_confidence": -0.612,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "568038865": {
+   "label": "PL2800_vo_DMG_default_m_1",
+   "en_wem_id": "307108929",
+   "jp_real": "カアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアアア",
+   "jp_confidence": -0.051,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "172405584": {
+   "label": "PL2800_vo_DMG_default_m_2",
+   "en_wem_id": "65741976",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.069,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "211458504": {
+   "label": "PL2800_vo_DMG_default_m_3",
+   "en_wem_id": "674255694",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.071,
+   "en_literal": "Hah!",
+   "english": "Nngh!"
+  },
+  "289429355": {
+   "label": "PL2800_vo_DMG_default_m_4",
+   "en_wem_id": "92573094",
+   "jp_real": "セマ！",
+   "jp_confidence": -0.355,
+   "en_literal": "Sima!",
+   "english": "Hah!"
+  },
+  "240139834": {
+   "label": "PL2800_vo_DMG_default_m_5",
+   "en_wem_id": "314053410",
+   "jp_real": "ラニ？",
+   "jp_confidence": -0.412,
+   "en_literal": "What?",
+   "english": "Gah!"
+  },
+  "238143105": {
+   "label": "PL2800_vo_DMG_default_m_6",
+   "en_wem_id": "107010667",
+   "jp_real": "グラン！",
+   "jp_confidence": -0.747,
+   "en_literal": "Hah!",
+   "english": "Gyah!"
+  },
+  "346687069": {
+   "label": "PL2800_vo_DMG_default_s_1",
+   "en_wem_id": "526479943",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.49,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "734977237": {
+   "label": "PL2800_vo_DMG_default_s_10",
+   "en_wem_id": "117673623",
+   "jp_real": "ぐっ！",
+   "jp_confidence": -0.628,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "742560876": {
+   "label": "PL2800_vo_DMG_default_s_11",
+   "en_wem_id": "380871339",
+   "jp_real": "ガッ！",
+   "jp_confidence": -0.401,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "133336149": {
+   "label": "PL2800_vo_DMG_default_s_12",
+   "en_wem_id": "71341009",
+   "jp_real": "くっ！",
+   "jp_confidence": -0.696,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1051743204": {
+   "label": "PL2800_vo_DMG_default_s_13",
+   "en_wem_id": "279942802",
+   "jp_real": "うっ！",
+   "jp_confidence": -0.389,
+   "en_literal": "Huh!",
+   "english": "Hah!"
+  },
+  "291857121": {
+   "label": "PL2800_vo_DMG_default_s_14",
+   "en_wem_id": "989174947",
+   "jp_real": "いやっ！",
+   "jp_confidence": -0.516,
+   "en_literal": "Yah!",
+   "english": "Ugh!"
+  },
+  "242792731": {
+   "label": "PL2800_vo_DMG_default_s_15",
+   "en_wem_id": "741470863",
+   "jp_real": "つあっ！",
+   "jp_confidence": -0.658,
+   "en_literal": "Hah!",
+   "english": "Ugh!"
+  },
+  "167896188": {
+   "label": "PL2800_vo_DMG_default_s_2",
+   "en_wem_id": "566996539",
+   "jp_real": "……！",
+   "jp_confidence": -1.094,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "745604194": {
+   "label": "PL2800_vo_DMG_default_s_3",
+   "en_wem_id": "187388704",
+   "jp_real": "グッ！",
+   "jp_confidence": -0.841,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "134349783": {
+   "label": "PL2800_vo_DMG_default_s_4",
+   "en_wem_id": "786237568",
+   "jp_real": "グッ！",
+   "jp_confidence": -0.591,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1037582134": {
+   "label": "PL2800_vo_DMG_default_s_5",
+   "en_wem_id": "1004085431",
+   "jp_real": "はぁ…",
+   "jp_confidence": -1.049,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1002705468": {
+   "label": "PL2800_vo_DMG_default_s_6",
+   "en_wem_id": "388306537",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.175,
+   "en_literal": "Hah!",
+   "english": "Nngh!"
+  },
+  "944631240": {
+   "label": "PL2800_vo_DMG_default_s_7",
+   "en_wem_id": "671369234",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.284,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "179965943": {
+   "label": "PL2800_vo_DMG_default_s_8",
+   "en_wem_id": "59795989",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.476,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1040199474": {
+   "label": "PL2800_vo_DMG_default_s_9",
+   "en_wem_id": "68569251",
+   "jp_real": "ラッ！",
+   "jp_confidence": -0.726,
+   "en_literal": "No!",
+   "english": "Hah!"
+  },
+  "385385294": {
+   "label": "PL2800_vo_DMG_down_1",
+   "en_wem_id": "866582771",
+   "jp_real": "立て直さないと！",
+   "jp_confidence": -0.158,
+   "en_literal": "I have to regroup!",
+   "english": "I have to get up!"
+  },
+  "1066966263": {
+   "label": "PL2800_vo_DMG_down_2",
+   "en_wem_id": "282488006",
+   "jp_real": "ちょっとピンチかもね",
+   "jp_confidence": -0.142,
+   "en_literal": "We might be in a bit of a pinch...",
+   "english": "Won't be trying that again!"
+  },
+  "795756961": {
+   "label": "PL2800_vo_DMG_down_3",
+   "en_wem_id": "164270773",
+   "jp_real": "絶対、負けないから！",
+   "jp_confidence": -0.098,
+   "en_literal": "I absolutely won't lose!",
+   "english": "I'm stronger than this!"
+  },
+  "839397106": {
+   "label": "PL2800_vo_DMG_down_move",
+   "en_wem_id": "596739614",
+   "jp_real": "……！",
+   "jp_confidence": -1.137,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "823673987": {
+   "label": "PL2800_vo_DMG_down_move_2",
+   "en_wem_id": "236525744",
+   "jp_real": "……！",
+   "jp_confidence": -1.211,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "627933665": {
+   "label": "PL2800_vo_DMG_down_move_3",
+   "en_wem_id": "496563536",
+   "jp_real": "はっ…はっ…",
+   "jp_confidence": -0.712,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "713332992": {
+   "label": "PL2800_vo_DMG_down_move_4",
+   "en_wem_id": "294376573",
+   "jp_real": "はぁ…はぁ…",
+   "jp_confidence": -0.489,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "615942278": {
+   "label": "PL2800_vo_DMG_down_stay",
+   "en_wem_id": "721605649",
+   "jp_real": "……！",
+   "jp_confidence": -1.077,
+   "en_literal": "Hah...!",
+   "english": "Hah!"
+  },
+  "1014186468": {
+   "label": "PL2800_vo_DMG_down_stay_2",
+   "en_wem_id": "95867027",
+   "jp_real": "……はぁ……はぁ……",
+   "jp_confidence": -0.544,
+   "en_literal": "Hah... Hah...",
+   "english": "Hah!"
+  },
+  "789238656": {
+   "label": "PL2800_vo_DMG_down_stay_3",
+   "en_wem_id": "1033916744",
+   "jp_real": "はっ…！",
+   "jp_confidence": -0.732,
+   "en_literal": "Hah... Hah...",
+   "english": "Hah! Hah! Hah!"
+  },
+  "756962436": {
+   "label": "PL2800_vo_DMG_rise_1",
+   "en_wem_id": "205956111",
+   "jp_real": "ユダしたかな？",
+   "jp_confidence": -0.507,
+   "en_literal": "I was careless...",
+   "english": "Cheap shot!"
+  },
+  "405288822": {
+   "label": "PL2800_vo_DMG_rise_2",
+   "en_wem_id": "855389726",
+   "jp_real": "やるわね",
+   "jp_confidence": -0.268,
+   "en_literal": "I'll do it.",
+   "english": "Slick moves."
+  },
+  "790327236": {
+   "label": "PL2800_vo_DMG_rise_3",
+   "en_wem_id": "61518774",
+   "jp_real": "くっ…！ もう…！",
+   "jp_confidence": -0.543,
+   "en_literal": "Hah!",
+   "english": "Huh! Ugh!"
+  },
+  "540058640": {
+   "label": "PL2800_vo_DMG_rise_4",
+   "en_wem_id": "445206274",
+   "jp_real": "負けない！",
+   "jp_confidence": -0.032,
+   "en_literal": "I won't lose!",
+   "english": "This is nothing."
+  },
+  "969817222": {
+   "label": "PL2800_vo_DMG_rise_5",
+   "en_wem_id": "535209828",
+   "jp_real": "まだまだここから",
+   "jp_confidence": -0.376,
+   "en_literal": "Not done yet!",
+   "english": "I'm just getting started."
+  },
+  "203635041": {
+   "label": "PL2800_vo_DMG_shakes_1",
+   "en_wem_id": "629200707",
+   "jp_real": "トッタ！",
+   "jp_confidence": -0.668,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "827469256": {
+   "label": "PL2800_vo_DMG_shakes_2",
+   "en_wem_id": "571344734",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.422,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1066976029": {
+   "label": "PL2800_vo_DMG_shakes_3",
+   "en_wem_id": "389136897",
+   "jp_real": "なに！？",
+   "jp_confidence": -0.217,
+   "en_literal": "What!?",
+   "english": "Hold on!"
+  },
+  "1038355251": {
+   "label": "PL2800_vo_DMG_st_common_1",
+   "en_wem_id": "619662506",
+   "jp_real": "絡め取られ…！",
+   "jp_confidence": -0.439,
+   "en_literal": "I'm being entangled!",
+   "english": "That's not fair!"
+  },
+  "778131543": {
+   "label": "PL2800_vo_DMG_st_common_2",
+   "en_wem_id": "224073612",
+   "jp_real": "嫌な視線",
+   "jp_confidence": -1.119,
+   "en_literal": "I'll handle it!",
+   "english": "Damn! They got me!"
+  },
+  "37357489": {
+   "label": "PL2800_vo_DMG_st_common_3",
+   "en_wem_id": "954634854",
+   "jp_real": "しまった！",
+   "jp_confidence": -0.101,
+   "en_literal": "Dammit!",
+   "english": "Oh no..."
+  },
+  "153985989": {
+   "label": "PL2800_vo_DMG_st_knocked",
+   "en_wem_id": "953996540",
+   "jp_real": "うっ…！",
+   "jp_confidence": -0.518,
+   "en_literal": "Ugh...",
+   "english": "Gah!"
+  },
+  "188356831": {
+   "label": "PL2800_vo_DMG_st_knocked_2",
+   "en_wem_id": "552297127",
+   "jp_real": "……！",
+   "jp_confidence": -1.249,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "348745327": {
+   "label": "PL2800_vo_DMG_st_knocked_3",
+   "en_wem_id": "664225186",
+   "jp_real": "……！",
+   "jp_confidence": -1.081,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "863639267": {
+   "label": "PL2800_vo_DMG_st_knocked_4",
+   "en_wem_id": "144909040",
+   "jp_real": "あっ…",
+   "jp_confidence": -0.67,
+   "en_literal": "Hah!",
+   "english": "Hah! Hah!"
+  },
+  "909805425": {
+   "label": "PL2800_vo_DMG_st_knocked_5",
+   "en_wem_id": "593112302",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.412,
+   "en_literal": "Hah!",
+   "english": "Ugh!"
+  },
+  "1071764162": {
+   "label": "PL2800_vo_DUO_buff_A",
+   "en_wem_id": "657869148",
+   "jp_real": "これでもっと戦える！",
+   "jp_confidence": -0.039,
+   "en_literal": "I can fight even more now!",
+   "english": "Now we're talking!"
+  },
+  "31873631": {
+   "label": "PL2800_vo_DUO_buff_A_2",
+   "en_wem_id": "521712359",
+   "jp_real": "力が湧いてくる！",
+   "jp_confidence": -0.07,
+   "en_literal": "Power's surging!",
+   "english": "Let's kick it up!"
+  },
+  "527996081": {
+   "label": "PL2800_vo_DUO_buff_A_3",
+   "en_wem_id": "416213765",
+   "jp_real": "私に任せて！",
+   "jp_confidence": -0.162,
+   "en_literal": "Leave it to me!",
+   "english": "I'll take it from here."
+  },
+  "674471646": {
+   "label": "PL2800_vo_DUO_buff_B",
+   "en_wem_id": "1071287155",
+   "jp_real": "確かに受け取ったよ",
+   "jp_confidence": -0.047,
+   "en_literal": "I definitely got it.",
+   "english": "Here we go!"
+  },
+  "125941182": {
+   "label": "PL2800_vo_DUO_buff_B_2",
+   "en_wem_id": "983359706",
+   "jp_real": "あはは、いい感じ！",
+   "jp_confidence": -0.087,
+   "en_literal": "Good feeling!",
+   "english": "Ha! Nice!"
+  },
+  "1035158459": {
+   "label": "PL2800_vo_DUO_recovery_A",
+   "en_wem_id": "395870561",
+   "jp_real": "ありがとう",
+   "jp_confidence": -0.318,
+   "en_literal": "Thank you!",
+   "english": "Thanks!"
+  },
+  "39089234": {
+   "label": "PL2800_vo_DUO_recovery_A_2",
+   "en_wem_id": "1055759139",
+   "jp_real": "やった！嬉しい！",
+   "jp_confidence": -0.04,
+   "en_literal": "I did it! I'm so happy!",
+   "english": "Oof! Nice one!"
+  },
+  "311934541": {
+   "label": "PL2800_vo_DUO_recovery_A_3",
+   "en_wem_id": "507491166",
+   "jp_real": "がんばるね",
+   "jp_confidence": -0.283,
+   "en_literal": "I'll do my best!",
+   "english": "Hell yes!"
+  },
+  "781341949": {
+   "label": "PL2800_vo_DUO_recovery_B",
+   "en_wem_id": "38554617",
+   "jp_real": "助かったわ",
+   "jp_confidence": -0.05,
+   "en_literal": "I'm saved!",
+   "english": "Let's do this!"
+  },
+  "861508436": {
+   "label": "PL2800_vo_DUO_rescue1_A",
+   "en_wem_id": "795714833",
+   "jp_real": "さあ、がんばろっか！",
+   "jp_confidence": -0.091,
+   "en_literal": "Let's do our best!",
+   "english": "Come on! You've got this!"
+  },
+  "732049953": {
+   "label": "PL2800_vo_DUO_rescue1_A_2",
+   "en_wem_id": "908828641",
+   "jp_real": "ほら、しっかり！",
+   "jp_confidence": -0.195,
+   "en_literal": "Hey, hold on tight!",
+   "english": "Let me help you up!"
+  },
+  "787457656": {
+   "label": "PL2800_vo_DUO_rescue1_A_3",
+   "en_wem_id": "6586684",
+   "jp_real": "まだ終わりじゃないよね",
+   "jp_confidence": -0.059,
+   "en_literal": "It's not over yet, right?",
+   "english": "We've still got a fight to win!"
+  },
+  "21170468": {
+   "label": "PL2800_vo_DUO_rescue1_B",
+   "en_wem_id": "668943232",
+   "jp_real": "無理しすぎだよ！",
+   "jp_confidence": -0.073,
+   "en_literal": "You're pushing yourself too hard!",
+   "english": "You push too hard!"
+  },
+  "180313718": {
+   "label": "PL2800_vo_DUO_rescue1_B_2",
+   "en_wem_id": "543777262",
+   "jp_real": "どこか痛いところはない？",
+   "jp_confidence": -0.049,
+   "en_literal": "Any place that hurts?",
+   "english": "You hurt anywhere?"
+  },
+  "305504072": {
+   "label": "PL2800_vo_DUO_rescue1_B_3",
+   "en_wem_id": "149939161",
+   "jp_real": "もう大丈夫だから",
+   "jp_confidence": -0.08,
+   "en_literal": "I'm fine now.",
+   "english": "You're okay now."
+  },
+  "188725320": {
+   "label": "PL2800_vo_DUO_rescue1_C",
+   "en_wem_id": "947408258",
+   "jp_real": "まだ、いける？",
+   "jp_confidence": -0.261,
+   "en_literal": "I can still go!",
+   "english": "Can you still fight?"
+  },
+  "513315039": {
+   "label": "PL2800_vo_DUO_rescue1_C_2",
+   "en_wem_id": "1059755654",
+   "jp_real": "さあ、立て直そう！",
+   "jp_confidence": -0.09,
+   "en_literal": "Let's regroup!",
+   "english": "Let's get you standing!"
+  },
+  "77068999": {
+   "label": "PL2800_vo_DUO_rescue1_C_3",
+   "en_wem_id": "675771856",
+   "jp_real": "焦らずに行こっか",
+   "jp_confidence": -0.232,
+   "en_literal": "Let's go without panicking!",
+   "english": "Watch yourself, okay?"
+  },
+  "658838186": {
+   "label": "PL2800_vo_DUO_rescue2_A",
+   "en_wem_id": "591171404",
+   "jp_real": "助かった。ありがとう。",
+   "jp_confidence": -0.19,
+   "en_literal": "I'm saved! Thank you!",
+   "english": "You're a lifesaver!"
+  },
+  "239386136": {
+   "label": "PL2800_vo_DUO_rescue2_A_2",
+   "en_wem_id": "382141394",
+   "jp_real": "これでまた戦える！",
+   "jp_confidence": -0.158,
+   "en_literal": "Now I can fight again!",
+   "english": "There! I'm ready to go again!"
+  },
+  "120493892": {
+   "label": "PL2800_vo_DUO_rescue2_A_3",
+   "en_wem_id": "51731926",
+   "jp_real": "ユダルラーハ！",
+   "jp_confidence": -0.457,
+   "en_literal": "I let my guard down...",
+   "english": "Sorry, got carried away."
+  },
+  "1052502090": {
+   "label": "PL2800_vo_DUO_rescue2_B",
+   "en_wem_id": "524765930",
+   "jp_real": "ごめんね",
+   "jp_confidence": -0.108,
+   "en_literal": "I'm sorry!",
+   "english": "Sorry!"
+  },
+  "347573532": {
+   "label": "PL2800_vo_DUO_rescue2_B_2",
+   "en_wem_id": "291369020",
+   "jp_real": "ありがとう。もう平気だよ。",
+   "jp_confidence": -0.054,
+   "en_literal": "Thank you. I'm okay now.",
+   "english": "Thanks! I feel better now!"
+  },
+  "49945830": {
+   "label": "PL2800_vo_DUO_rescue2_B_3",
+   "en_wem_id": "893306057",
+   "jp_real": "挽回しなきゃね！",
+   "jp_confidence": -0.201,
+   "en_literal": "I have to make a complete mess of things!",
+   "english": "Gotta get back in there!"
+  },
+  "726800232": {
+   "label": "PL2800_vo_DUO_rescue2_C",
+   "en_wem_id": "18993090",
+   "jp_real": "心配かけちゃってごめんなさい！",
+   "jp_confidence": -0.139,
+   "en_literal": "I'm sorry for causing you concern.",
+   "english": "Hope I didn't worry you too much."
+  },
+  "357818901": {
+   "label": "PL2800_vo_DUO_rescue2_C_2",
+   "en_wem_id": "894628319",
+   "jp_real": "もっと集中しなきゃ！",
+   "jp_confidence": -0.062,
+   "en_literal": "I need to focus more!",
+   "english": "Need to focus up!"
+  },
+  "698926577": {
+   "label": "PL2800_vo_DUO_rescue2_C_3",
+   "en_wem_id": "534919445",
+   "jp_real": "もう平気",
+   "jp_confidence": -0.235,
+   "en_literal": "I'm fine!",
+   "english": "There. All better."
+  },
+  "506071842": {
+   "label": "PL2800_vo_ETC_box_check_l_1",
+   "en_wem_id": "677920986",
+   "jp_real": "嬉しいね",
+   "jp_confidence": -0.25,
+   "en_literal": "I'm glad!",
+   "english": "Love it!"
+  },
+  "676502918": {
+   "label": "PL2800_vo_ETC_box_check_l_2",
+   "en_wem_id": "661121465",
+   "jp_real": "ラッキー！",
+   "jp_confidence": -0.216,
+   "en_literal": "Lucky?",
+   "english": "Ooh, fancy!"
+  },
+  "949420306": {
+   "label": "PL2800_vo_ETC_box_check_l_3",
+   "en_wem_id": "457700033",
+   "jp_real": "え？いいの？",
+   "jp_confidence": -0.127,
+   "en_literal": "Huh? Are you sure?",
+   "english": "My lucky day!"
+  },
+  "1065544891": {
+   "label": "PL2800_vo_ETC_box_check_s_1",
+   "en_wem_id": "679489154",
+   "jp_real": "おおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおおお",
+   "jp_confidence": -0.035,
+   "en_literal": "Ooh!",
+   "english": "Not bad."
+  },
+  "271962188": {
+   "label": "PL2800_vo_ETC_box_check_s_2",
+   "en_wem_id": "521900996",
+   "jp_real": "いいかもね",
+   "jp_confidence": -0.047,
+   "en_literal": "Maybe I should!",
+   "english": "This looks helpful."
+  },
+  "648154117": {
+   "label": "PL2800_vo_ETC_box_check_s_3",
+   "en_wem_id": "277653082",
+   "jp_real": "やったね！",
+   "jp_confidence": -0.053,
+   "en_literal": "I did it!",
+   "english": "All mine."
+  },
+  "80271794": {
+   "label": "PL2800_vo_ETC_box_open_1",
+   "en_wem_id": "655007702",
+   "jp_real": "さて",
+   "jp_confidence": -0.135,
+   "en_literal": "Well then!",
+   "english": "Open up!"
+  },
+  "660101629": {
+   "label": "PL2800_vo_ETC_box_open_2",
+   "en_wem_id": "386218472",
+   "jp_real": "どれどれ？",
+   "jp_confidence": -0.186,
+   "en_literal": "Which one?",
+   "english": "What have we got?"
+  },
+  "975289743": {
+   "label": "PL2800_vo_ETC_box_open_3",
+   "en_wem_id": "802578836",
+   "jp_real": "ワクワク",
+   "jp_confidence": -0.064,
+   "en_literal": "Waku waku!",
+   "english": "Exciting?"
+  },
+  "990743577": {
+   "label": "PL2800_vo_ETC_collateral_reaction",
+   "en_wem_id": "222160088",
+   "jp_real": "ラカム！",
+   "jp_confidence": -0.017,
+   "en_literal": "Rackam!",
+   "english": "Rackam!"
+  },
+  "286029132": {
+   "label": "PL2800_vo_ETC_comeback_1",
+   "en_wem_id": "805205705",
+   "jp_real": "あっ、挽回するね！",
+   "jp_confidence": -0.244,
+   "en_literal": "I'm going to wreck you.",
+   "english": "Hah! I'm back in the fight!"
+  },
+  "674658322": {
+   "label": "PL2800_vo_ETC_comeback_2",
+   "en_wem_id": "279441380",
+   "jp_real": "心配しないで",
+   "jp_confidence": -0.098,
+   "en_literal": "Don't you worry.",
+   "english": "Don't worry, I'm up!"
+  },
+  "497703914": {
+   "label": "PL2800_vo_ETC_comeback_3",
+   "en_wem_id": "234412592",
+   "jp_real": "まだまだここから",
+   "jp_confidence": -0.404,
+   "en_literal": "There's still more to come!",
+   "english": "It'll take more than that!"
+  },
+  "768748003": {
+   "label": "PL2800_vo_ETC_lift_1",
+   "en_wem_id": "780766940",
+   "jp_real": "ヨッタ！",
+   "jp_confidence": -0.318,
+   "en_literal": "Hah!",
+   "english": "Huh!"
+  },
+  "538871582": {
+   "label": "PL2800_vo_ETC_lift_2",
+   "en_wem_id": "533110227",
+   "jp_real": "はっ！",
+   "jp_confidence": -0.181,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "608910174": {
+   "label": "PL2800_vo_ETC_lift_3",
+   "en_wem_id": "743257921",
+   "jp_real": "よっしゃ！",
+   "jp_confidence": -0.214,
+   "en_literal": "Alright!",
+   "english": "Hut!"
+  },
+  "897661675": {
+   "label": "PL2800_vo_ETC_lift_stay_1",
+   "en_wem_id": "381307347",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.608,
+   "en_literal": "Hah!",
+   "english": "Hmph!"
+  },
+  "450267488": {
+   "label": "PL2800_vo_ETC_lift_stay_2",
+   "en_wem_id": "276676315",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.682,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "567282843": {
+   "label": "PL2800_vo_ETC_lift_stay_3",
+   "en_wem_id": "949593764",
+   "jp_real": "はぁ…",
+   "jp_confidence": -0.856,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "461591222": {
+   "label": "PL2800_vo_ETC_lift_stay_4",
+   "en_wem_id": "616627187",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.789,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "436359741": {
+   "label": "PL2800_vo_ETC_lift_stay_5",
+   "en_wem_id": "424277350",
+   "jp_real": "はぁ…",
+   "jp_confidence": -0.897,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "451832623": {
+   "label": "PL2800_vo_ETC_lift_stay_6",
+   "en_wem_id": "915122306",
+   "jp_real": "はぁ…",
+   "jp_confidence": -0.926,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1071374615": {
+   "label": "PL2800_vo_ETC_lift_stay_7",
+   "en_wem_id": "867057673",
+   "jp_real": "はぁ…",
+   "jp_confidence": -0.842,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "7763583": {
+   "label": "PL2800_vo_ETC_lift_stay_line",
+   "en_wem_id": "257245792",
+   "jp_real": "サッテッタ！",
+   "jp_confidence": -0.372,
+   "en_literal": "Got it!",
+   "english": "Piece of cake."
+  },
+  "685441063": {
+   "label": "PL2800_vo_ETC_lift_stay_line_2",
+   "en_wem_id": "827253496",
+   "jp_real": "い、いっと、っと！",
+   "jp_confidence": -0.792,
+   "en_literal": "Hah!",
+   "english": "Light as a feather."
+  },
+  "237713934": {
+   "label": "PL2800_vo_ETC_lockon_1",
+   "en_wem_id": "727044403",
+   "jp_real": "フフフ、私にどうされたい？",
+   "jp_confidence": -0.316,
+   "en_literal": "Huh? What do you want to do to me?",
+   "english": "So, how should we do this?"
+  },
+  "483122827": {
+   "label": "PL2800_vo_ETC_lockon_2",
+   "en_wem_id": "25651079",
+   "jp_real": "お邪魔虫には消えてもらわないとね",
+   "jp_confidence": -0.092,
+   "en_literal": "I can't let you get away, you little pest!",
+   "english": "I'll deal with these pests."
+  },
+  "297533807": {
+   "label": "PL2800_vo_ETC_lockon_3",
+   "en_wem_id": "55159244",
+   "jp_real": "戦闘開始！",
+   "jp_confidence": -0.124,
+   "en_literal": "Beginning of battle!",
+   "english": "I'm goin' in!"
+  },
+  "1006239651": {
+   "label": "PL2800_vo_ETC_lockon_4",
+   "en_wem_id": "329467327",
+   "jp_real": "さあ、始めよっか！",
+   "jp_confidence": -0.141,
+   "en_literal": "Let's get this started!",
+   "english": "Let's tango!"
+  },
+  "85948265": {
+   "label": "PL2800_vo_ETC_lockon_5",
+   "en_wem_id": "304743579",
+   "jp_real": "私が相手だよ！",
+   "jp_confidence": -0.037,
+   "en_literal": "I'm your opponent!",
+   "english": "Alright! Winner takes all!"
+  },
+  "158077356": {
+   "label": "PL2800_vo_ETC_pic_1",
+   "en_wem_id": "699595718",
+   "jp_real": "おっ",
+   "jp_confidence": -0.442,
+   "en_literal": "Huh?",
+   "english": "Hmm."
+  },
+  "410718102": {
+   "label": "PL2800_vo_ETC_pic_2",
+   "en_wem_id": "134804520",
+   "jp_real": "へえ？",
+   "jp_confidence": -0.391,
+   "en_literal": "Huh?",
+   "english": "Neat!"
+  },
+  "845300991": {
+   "label": "PL2800_vo_ETC_pic_3",
+   "en_wem_id": "175183310",
+   "jp_real": "なんだろ？",
+   "jp_confidence": -0.362,
+   "en_literal": "What could it be?",
+   "english": "Hello, darling!"
+  },
+  "110714907": {
+   "label": "PL2800_vo_ETC_pic_line_1",
+   "en_wem_id": "906715463",
+   "jp_real": "もらっちゃお",
+   "jp_confidence": -0.259,
+   "en_literal": "I'll take it!",
+   "english": "Finders keepers."
+  },
+  "145271994": {
+   "label": "PL2800_vo_ETC_pic_line_2",
+   "en_wem_id": "977853165",
+   "jp_real": "これは？",
+   "jp_confidence": -0.055,
+   "en_literal": "This is...?",
+   "english": "What's this?"
+  },
+  "49456914": {
+   "label": "PL2800_vo_ETC_pic_line_3",
+   "en_wem_id": "166461632",
+   "jp_real": "ヨッタ！",
+   "jp_confidence": -0.197,
+   "en_literal": "Yuppa!",
+   "english": "Don't mind if I do."
+  },
+  "624645967": {
+   "label": "PL2800_vo_ETC_quest_clear_1",
+   "en_wem_id": "7447691",
+   "jp_real": "フッフッハ！お疲れ様！",
+   "jp_confidence": -0.315,
+   "en_literal": "Huh! Huh! Ha! Good job!",
+   "english": "Hah! Hah! Hah! A solid victory!"
+  },
+  "992650402": {
+   "label": "PL2800_vo_ETC_quest_clear_2",
+   "en_wem_id": "266884059",
+   "jp_real": "これが私の力だよ！",
+   "jp_confidence": -0.159,
+   "en_literal": "This is my power!",
+   "english": "You impressed? Thought you might be."
+  },
+  "833266812": {
+   "label": "PL2800_vo_ETC_quest_clear_3",
+   "en_wem_id": "608917908",
+   "jp_real": "はっはっはっ、やったね！",
+   "jp_confidence": -0.242,
+   "en_literal": "Hah! Hah! Hah! I did it!",
+   "english": "Hah! Hah! Hah! Too easy!"
+  },
+  "895843502": {
+   "label": "PL2800_vo_ETC_quest_clear_4",
+   "en_wem_id": "597434411",
+   "jp_real": "さて、った！次はどこに行く？",
+   "jp_confidence": -0.2,
+   "en_literal": "Well then, where to next?",
+   "english": "Anyway, who's next on the kick list?"
+  },
+  "214105104": {
+   "label": "PL2800_vo_ETC_quest_clear_5",
+   "en_wem_id": "847224668",
+   "jp_real": "まあ、こうなるよね。",
+   "jp_confidence": -0.331,
+   "en_literal": "Well, this is how it goes, right?",
+   "english": "Well... not too shabby."
+  },
+  "747930678": {
+   "label": "PL2800_vo_ETC_quest_clear_6",
+   "en_wem_id": "604290407",
+   "jp_real": "もうちょっと楽しみたかった。なんてね。",
+   "jp_confidence": -0.111,
+   "en_literal": "I wanted to enjoy it a little longer... but that's okay.",
+   "english": "Aww, is it over already? That's no fun."
+  },
+  "651874164": {
+   "label": "PL2800_vo_ETC_quest_start_1",
+   "en_wem_id": "144499373",
+   "jp_real": "私の力、見せてあげる！",
+   "jp_confidence": -0.076,
+   "en_literal": "I'll show you my power!",
+   "english": "Alright, people! Let's get started!"
+  },
+  "551005068": {
+   "label": "PL2800_vo_ETC_quest_start_2",
+   "en_wem_id": "117527324",
+   "jp_real": "それじゃあ、行こっか！",
+   "jp_confidence": -0.044,
+   "en_literal": "Then let's go!",
+   "english": "Okay then! Game on!"
+  },
+  "1015008063": {
+   "label": "PL2800_vo_ETC_quest_start_3",
+   "en_wem_id": "205105772",
+   "jp_real": "一緒？に？楽しもう？",
+   "jp_confidence": -0.519,
+   "en_literal": "Let's have fun together!",
+   "english": "You ready? Let's have some fun."
+  },
+  "45857106": {
+   "label": "PL2800_vo_ETC_throw_heavy_1",
+   "en_wem_id": "30722949",
+   "jp_real": "はっ！",
+   "jp_confidence": -0.376,
+   "en_literal": "Hah!",
+   "english": "Gah!"
+  },
+  "664016848": {
+   "label": "PL2800_vo_ETC_throw_heavy_2",
+   "en_wem_id": "413019051",
+   "jp_real": "エッ！",
+   "jp_confidence": -0.568,
+   "en_literal": "Eh?",
+   "english": "Nyah!"
+  },
+  "485842929": {
+   "label": "PL2800_vo_ETC_throw_heavy_3",
+   "en_wem_id": "238888212",
+   "jp_real": "トンデケッ！",
+   "jp_confidence": -0.381,
+   "en_literal": "Get out of my way!",
+   "english": "Hah!"
+  },
+  "553111259": {
+   "label": "PL2800_vo_ETC_throw_light_1",
+   "en_wem_id": "806002435",
+   "jp_real": "あげる！",
+   "jp_confidence": -0.15,
+   "en_literal": "I'll give it!",
+   "english": "Here you go!"
+  },
+  "917196134": {
+   "label": "PL2800_vo_ETC_throw_light_2",
+   "en_wem_id": "166811757",
+   "jp_real": "さあ！",
+   "jp_confidence": -0.888,
+   "en_literal": "Got it!",
+   "english": "Hot potato!"
+  },
+  "562434550": {
+   "label": "PL2800_vo_ETC_throw_light_3",
+   "en_wem_id": "106700546",
+   "jp_real": "ここだ！",
+   "jp_confidence": -0.297,
+   "en_literal": "Here it is!",
+   "english": "Hah!"
+  },
+  "1024290700": {
+   "label": "PL2800_vo_MOV_dodge_1",
+   "en_wem_id": "437121463",
+   "jp_real": "ハッ！",
+   "jp_confidence": -0.212,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "608994913": {
+   "label": "PL2800_vo_MOV_dodge_2",
+   "en_wem_id": "860293153",
+   "jp_real": "フッ！",
+   "jp_confidence": -0.353,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "380076670": {
+   "label": "PL2800_vo_MOV_dodge_3",
+   "en_wem_id": "661651064",
+   "jp_real": "はっ！",
+   "jp_confidence": -0.287,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "145934802": {
+   "label": "PL2800_vo_MOV_dodge_3rd_1",
+   "en_wem_id": "239814756",
+   "jp_real": "ここ！",
+   "jp_confidence": -0.486,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "706174249": {
+   "label": "PL2800_vo_MOV_dodge_3rd_2",
+   "en_wem_id": "239837162",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.775,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "601022538": {
+   "label": "PL2800_vo_MOV_dodge_3rd_3",
+   "en_wem_id": "756651454",
+   "jp_real": "アマッ！",
+   "jp_confidence": -0.263,
+   "en_literal": "Am I?",
+   "english": "Haha!"
+  },
+  "305768096": {
+   "label": "PL2800_vo_MOV_dodge_4",
+   "en_wem_id": "70584588",
+   "jp_real": "いや！",
+   "jp_confidence": -0.717,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "756535613": {
+   "label": "PL2800_vo_MOV_dodge_5",
+   "en_wem_id": "9251248",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.224,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "730710108": {
+   "label": "PL2800_vo_MOV_dodge_6",
+   "en_wem_id": "289210296",
+   "jp_real": "フフッ",
+   "jp_confidence": -0.721,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "171601812": {
+   "label": "PL2800_vo_MOV_fall_1",
+   "en_wem_id": "808533909",
+   "jp_real": "あっ、だめ！",
+   "jp_confidence": -0.235,
+   "en_literal": "No!",
+   "english": "Oh, shit!"
+  },
+  "859194164": {
+   "label": "PL2800_vo_MOV_fall_2",
+   "en_wem_id": "12073036",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.061,
+   "en_literal": "Hah!",
+   "english": "Aaaaaah!"
+  },
+  "904823919": {
+   "label": "PL2800_vo_MOV_fall_3",
+   "en_wem_id": "954041690",
+   "jp_real": "キャーっ！",
+   "jp_confidence": -0.748,
+   "en_literal": "All Fall Down!",
+   "english": "Not my day!"
+  },
+  "366513714": {
+   "label": "PL2800_vo_MOV_ukemi_1",
+   "en_wem_id": "790234941",
+   "jp_real": "あっ！",
+   "jp_confidence": -0.513,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1071888689": {
+   "label": "PL2800_vo_MOV_ukemi_2",
+   "en_wem_id": "1013139969",
+   "jp_real": "ハッ！",
+   "jp_confidence": -0.169,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "1044772477": {
+   "label": "PL2800_vo_MOV_ukemi_3",
+   "en_wem_id": "534599428",
+   "jp_real": "ユッ！",
+   "jp_confidence": -0.568,
+   "en_literal": "Yo!",
+   "english": "Hah!"
+  },
+  "517137077": {
+   "label": "PL2800_vo_MOV_ukemi_line_1",
+   "en_wem_id": "352566676",
+   "jp_real": "まだだよ！",
+   "jp_confidence": -0.153,
+   "en_literal": "Not yet!",
+   "english": "Still in it!"
+  },
+  "580982368": {
+   "label": "PL2800_vo_MOV_ukemi_line_2",
+   "en_wem_id": "45356252",
+   "jp_real": "やるね",
+   "jp_confidence": -0.287,
+   "en_literal": "I'll do it!",
+   "english": "Not bad!"
+  },
+  "365742155": {
+   "label": "PL2800_vo_MOV_ukemi_line_3",
+   "en_wem_id": "409814218",
+   "jp_real": "はっ！",
+   "jp_confidence": -0.253,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "893228501": {
+   "label": "PL2800_vo_MOV_wait_A",
+   "en_wem_id": "168720974",
+   "jp_real": "ああ",
+   "jp_confidence": -0.993,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "163238744": {
+   "label": "PL2800_vo_MOV_wait_A_2",
+   "en_wem_id": "1027363685",
+   "jp_real": "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ",
+   "jp_confidence": -0.061,
+   "en_literal": "Huh?",
+   "english": "Let's see here..."
+  },
+  "404437425": {
+   "label": "PL2800_vo_MOV_wait_B",
+   "en_wem_id": "126703090",
+   "jp_real": "うん。",
+   "jp_confidence": -0.601,
+   "en_literal": "Hmm.",
+   "english": "Hmm."
+  },
+  "59458571": {
+   "label": "PL2800_vo_MOV_wait_B_2",
+   "en_wem_id": "101877183",
+   "jp_real": "ははっ",
+   "jp_confidence": -0.768,
+   "en_literal": "Hah!",
+   "english": "Heh heh heh!"
+  },
+  "853916865": {
+   "label": "PL2800_vo_MOV_wait_C",
+   "en_wem_id": "147597747",
+   "jp_real": "うーん。",
+   "jp_confidence": -0.455,
+   "en_literal": "Hmm...",
+   "english": "Hmm."
+  },
+  "1031239898": {
+   "label": "PL2800_vo_MOV_wait_C_2",
+   "en_wem_id": "224021044",
+   "jp_real": "うん！",
+   "jp_confidence": -0.507,
+   "en_literal": "Hm!",
+   "english": "Ooh..."
+  },
+  "448182743": {
+   "label": "PL2800_vo_MOV_wait_cold_1",
+   "en_wem_id": "1064769481",
+   "jp_real": "さ、さすがに冷えるなあ",
+   "jp_confidence": -0.203,
+   "en_literal": "This is way too cold!",
+   "english": "Whew... sure is frosty here."
+  },
+  "355993106": {
+   "label": "PL2800_vo_MOV_wait_cold_2",
+   "en_wem_id": "22483372",
+   "jp_real": "動いてないと凍えそう",
+   "jp_confidence": -0.07,
+   "en_literal": "If I don't move, I'll freeze to death.",
+   "english": "Gotta keep moving... It's freezing..."
+  },
+  "187182366": {
+   "label": "PL2800_vo_NAV_common_praise_1",
+   "en_wem_id": "75959343",
+   "jp_real": "さすがだね！",
+   "jp_confidence": -0.111,
+   "en_literal": "Not bad!",
+   "english": "Not bad!"
+  },
+  "679384079": {
+   "label": "PL2800_vo_NAV_common_praise_2",
+   "en_wem_id": "375058548",
+   "jp_real": "すごい！",
+   "jp_confidence": -0.237,
+   "en_literal": "Amazing!",
+   "english": "Awesome!"
+  },
+  "691775431": {
+   "label": "PL2800_vo_NAV_common_praise_3",
+   "en_wem_id": "622330102",
+   "jp_real": "やるね！",
+   "jp_confidence": -0.033,
+   "en_literal": "Let's do this!",
+   "english": "Nice!"
+  },
+  "438935707": {
+   "label": "PL2800_vo_NAV_dmg_reaction_1",
+   "en_wem_id": "100558871",
+   "jp_real": "今の、大丈夫？",
+   "jp_confidence": -0.174,
+   "en_literal": "Are you okay?",
+   "english": "Ouch! You okay?"
+  },
+  "27326186": {
+   "label": "PL2800_vo_NAV_dmg_reaction_2",
+   "en_wem_id": "914091586",
+   "jp_real": "うわっ、痛そう！",
+   "jp_confidence": -0.298,
+   "en_literal": "Ugh! That looks painful!",
+   "english": "Oof! That one stung!"
+  },
+  "363759024": {
+   "label": "PL2800_vo_NAV_dmg_reaction_3",
+   "en_wem_id": "111066563",
+   "jp_real": "早く回復を！",
+   "jp_confidence": -0.137,
+   "en_literal": "Hurry up and recover!",
+   "english": "Ooh, you need healing!"
+  },
+  "272877092": {
+   "label": "PL2800_vo_NAV_enemy_break_A",
+   "en_wem_id": "558282114",
+   "jp_real": "今が攻めどきね！",
+   "jp_confidence": -0.133,
+   "en_literal": "Now's our chance!",
+   "english": "Hit 'em while they're down!"
+  },
+  "823056290": {
+   "label": "PL2800_vo_NAV_enemy_break_B",
+   "en_wem_id": "1026026761",
+   "jp_real": "一気に攻めるよ！",
+   "jp_confidence": -0.055,
+   "en_literal": "I'll destroy them all at once!",
+   "english": "Take 'em out!"
+  },
+  "873981003": {
+   "label": "PL2800_vo_NAV_enemy_break_C",
+   "en_wem_id": "387440079",
+   "jp_real": "これで折れるかな？",
+   "jp_confidence": -0.166,
+   "en_literal": "I wonder if this'll break 'em!",
+   "english": "Mind if we play a little rough?"
+  },
+  "936901364": {
+   "label": "PL2800_vo_NAV_enemy_break_reaction_A",
+   "en_wem_id": "781128646",
+   "jp_real": "よし、反撃に出よう！",
+   "jp_confidence": -0.073,
+   "en_literal": "Alright, let's hit back!",
+   "english": "Yep! Time to strike back!"
+  },
+  "620159243": {
+   "label": "PL2800_vo_NAV_enemy_break_reaction_B",
+   "en_wem_id": "314302689",
+   "jp_real": "私に任せて！",
+   "jp_confidence": -0.112,
+   "en_literal": "Leave it to me!",
+   "english": "Yeah! We got this!"
+  },
+  "722859554": {
+   "label": "PL2800_vo_NAV_enemy_break_reaction_C",
+   "en_wem_id": "216156763",
+   "jp_real": "このチカラで！",
+   "jp_confidence": -0.146,
+   "en_literal": "With this power!",
+   "english": "Bring the pain, guys!"
+  },
+  "930404035": {
+   "label": "PL2800_vo_NAV_enemy_crush_parts_1",
+   "en_wem_id": "922822771",
+   "jp_real": "ブイ破壊、成功！",
+   "jp_confidence": -0.112,
+   "en_literal": "V-Crush Success!",
+   "english": "Mission Break Stuff Complete!"
+  },
+  "177785028": {
+   "label": "PL2800_vo_NAV_enemy_crush_parts_2",
+   "en_wem_id": "994613782",
+   "jp_real": "意外と脆いんだ",
+   "jp_confidence": -0.198,
+   "en_literal": "You're surprisingly fragile.",
+   "english": "That was easy!"
+  },
+  "253907124": {
+   "label": "PL2800_vo_NAV_enemy_crush_parts_3",
+   "en_wem_id": "733011776",
+   "jp_real": "聞いたんじゃない？",
+   "jp_confidence": -0.067,
+   "en_literal": "I told you so!",
+   "english": "Well, that worked!"
+  },
+  "366229450": {
+   "label": "PL2800_vo_NAV_enemy_overdrive_A",
+   "en_wem_id": "508681814",
+   "jp_real": "おこらせちゃったみたいね",
+   "jp_confidence": -0.217,
+   "en_literal": "Looks like I made it mad.",
+   "english": "I think we pissed him off."
+  },
+  "177506520": {
+   "label": "PL2800_vo_NAV_enemy_overdrive_B",
+   "en_wem_id": "20481415",
+   "jp_real": "フフフ…相手、やるみたい",
+   "jp_confidence": -0.311,
+   "en_literal": "Huh? Looks like the enemy's going all out.",
+   "english": "Well, someone's ready to go."
+  },
+  "555757471": {
+   "label": "PL2800_vo_NAV_enemy_overdrive_C",
+   "en_wem_id": "159939011",
+   "jp_real": "みんな、集中して！",
+   "jp_confidence": -0.084,
+   "en_literal": "Everyone, focus!",
+   "english": "Focus up, guys!"
+  },
+  "1033402834": {
+   "label": "PL2800_vo_NAV_enemy_overdrive_reaction_A",
+   "en_wem_id": "440688916",
+   "jp_real": "それじゃ、見せてもらおうかな？",
+   "jp_confidence": -0.041,
+   "en_literal": "Then shall I show you?",
+   "english": "Then we'd better pick it up!"
+  },
+  "471854508": {
+   "label": "PL2800_vo_NAV_enemy_overdrive_reaction_B",
+   "en_wem_id": "823452453",
+   "jp_real": "敵から目を離さないで！",
+   "jp_confidence": -0.109,
+   "en_literal": "Don't take your eyes off the enemy!",
+   "english": "Don't take your eyes off 'em!"
+  },
+  "128998363": {
+   "label": "PL2800_vo_NAV_enemy_overdrive_reaction_C",
+   "en_wem_id": "167464608",
+   "jp_real": "そうだね。慎重に行こっか。",
+   "jp_confidence": -0.211,
+   "en_literal": "That's right. Let's be careful.",
+   "english": "Right! Let's be careful!"
+  },
+  "923279878": {
+   "label": "PL2800_vo_NAV_get_snp_1",
+   "en_wem_id": "634812121",
+   "jp_real": "カニさんミーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイーイ",
+   "jp_confidence": -0.071,
+   "en_literal": "Crab-san, get ready!",
+   "english": "Aww, lil' spiky boy!"
+  },
+  "844294900": {
+   "label": "PL2800_vo_NAV_get_snp_2",
+   "en_wem_id": "520261326",
+   "jp_real": "保護しとかないとね",
+   "jp_confidence": -0.041,
+   "en_literal": "I'll have to protect you.",
+   "english": "Let's get you somewhere safe."
+  },
+  "858158362": {
+   "label": "PL2800_vo_NAV_get_snp_3",
+   "en_wem_id": "550094503",
+   "jp_real": "小さなカニさんがいるよ！",
+   "jp_confidence": -0.053,
+   "en_literal": "There's a little crab over there!",
+   "english": "Aww, look how teensy you are!"
+  },
+  "262019196": {
+   "label": "PL2800_vo_NAV_hp_down_reaction_1",
+   "en_wem_id": "746988590",
+   "jp_real": "すぐに助けに行く！",
+   "jp_confidence": -0.05,
+   "en_literal": "I'll go help right away!",
+   "english": "I'll be right there!"
+  },
+  "681723638": {
+   "label": "PL2800_vo_NAV_hp_down_reaction_2",
+   "en_wem_id": "417496491",
+   "jp_real": "無理しちゃだめ！",
+   "jp_confidence": -0.09,
+   "en_literal": "Don't push yourself too hard!",
+   "english": "Hang on! I'm coming!"
+  },
+  "835327147": {
+   "label": "PL2800_vo_NAV_hp_down_reaction_3",
+   "en_wem_id": "868545644",
+   "jp_real": "大丈夫？",
+   "jp_confidence": -0.058,
+   "en_literal": "I'm fine!",
+   "english": "On it!"
+  },
+  "170148593": {
+   "label": "PL2800_vo_NAV_just_move_reaction_1",
+   "en_wem_id": "790090784",
+   "jp_real": "さすがだね！",
+   "jp_confidence": -0.188,
+   "en_literal": "Not bad!",
+   "english": "Nice trick!"
+  },
+  "873543780": {
+   "label": "PL2800_vo_NAV_just_move_reaction_2",
+   "en_wem_id": "861164284",
+   "jp_real": "オドロイタ！",
+   "jp_confidence": -0.428,
+   "en_literal": "I'm surprised!",
+   "english": "That was unreal!"
+  },
+  "516662826": {
+   "label": "PL2800_vo_NAV_just_move_reaction_3",
+   "en_wem_id": "491757636",
+   "jp_real": "ワオ！",
+   "jp_confidence": -0.467,
+   "en_literal": "Whoa!",
+   "english": "Whoa!"
+  },
+  "1042513186": {
+   "label": "PL2800_vo_NAV_throw_default_reaction_1",
+   "en_wem_id": "556979729",
+   "jp_real": "いい感じ！",
+   "jp_confidence": -0.074,
+   "en_literal": "Good feeling!",
+   "english": "Bullseye!"
+  },
+  "185366858": {
+   "label": "PL2800_vo_NAV_throw_default_reaction_2",
+   "en_wem_id": "1009987884",
+   "jp_real": "今、の、見、て、くれ、て、た？",
+   "jp_confidence": -0.248,
+   "en_literal": "You see that?",
+   "english": "Caught your eye, did I?"
+  },
+  "438750911": {
+   "label": "PL2800_vo_NAV_throw_default_reaction_3",
+   "en_wem_id": "628590726",
+   "jp_real": "狙い通り！",
+   "jp_confidence": -0.016,
+   "en_literal": "Target acquired!",
+   "english": "Game on!"
+  },
+  "1063953750": {
+   "label": "PL2800_vo_NAV_throw_dispel_reaction_1",
+   "en_wem_id": "482869419",
+   "jp_real": "強化は消すよ！",
+   "jp_confidence": -0.06,
+   "en_literal": "I'll erase your power!",
+   "english": "Say bye to those buffs!"
+  },
+  "251471044": {
+   "label": "PL2800_vo_NAV_throw_dispel_reaction_2",
+   "en_wem_id": "707064897",
+   "jp_real": "スキにはさせないから！",
+   "jp_confidence": -0.313,
+   "en_literal": "I won't let you have your way!",
+   "english": "Not on my watch!"
+  },
+  "973410635": {
+   "label": "PL2800_vo_NAV_throw_dispel_reaction_3",
+   "en_wem_id": "473152014",
+   "jp_real": "無駄だよ！",
+   "jp_confidence": -0.065,
+   "en_literal": "It's useless!",
+   "english": "Don't even try it!"
+  },
+  "16658699": {
+   "label": "PL2800_vo_NAV_throw_freeze_reaction_1",
+   "en_wem_id": "1008522995",
+   "jp_real": "そこで止まってて！",
+   "jp_confidence": -0.124,
+   "en_literal": "Stop right there!",
+   "english": "Hold still!"
+  },
+  "526367806": {
+   "label": "PL2800_vo_NAV_throw_freeze_reaction_2",
+   "en_wem_id": "568995577",
+   "jp_real": "どう？冷たい？",
+   "jp_confidence": -0.152,
+   "en_literal": "How's that? Cold, huh?",
+   "english": "Nice and frosty!"
+  },
+  "143562671": {
+   "label": "PL2800_vo_NAV_throw_freeze_reaction_3",
+   "en_wem_id": "6142819",
+   "jp_real": "固まっちゃった？",
+   "jp_confidence": -0.174,
+   "en_literal": "You're frozen!",
+   "english": "Let's cool down a little!"
+  },
+  "513490237": {
+   "label": "PL2800_vo_NAV_throw_slow_reaction_1",
+   "en_wem_id": "30973783",
+   "jp_real": "のんびりだね",
+   "jp_confidence": -0.139,
+   "en_literal": "You're taking it easy, aren't you?",
+   "english": "Just relax."
+  },
+  "689767053": {
+   "label": "PL2800_vo_NAV_throw_slow_reaction_2",
+   "en_wem_id": "980771418",
+   "jp_real": "敵の動きがスローになった！",
+   "jp_confidence": -0.026,
+   "en_literal": "Enemy's movements have slowed!",
+   "english": "I've slowed them for ya!"
+  },
+  "73814780": {
+   "label": "PL2800_vo_NAV_throw_slow_reaction_3",
+   "en_wem_id": "530399946",
+   "jp_real": "それじゃあ避けられないよね",
+   "jp_confidence": -0.124,
+   "en_literal": "Then you can't dodge it, right?",
+   "english": "Let's see you dodge now!"
+  },
+  "132460384": {
+   "label": "PL2800_vo_NAV_throw_spear_reaction_1",
+   "en_wem_id": "695602057",
+   "jp_real": "力比べなら負けないよ！",
+   "jp_confidence": -0.035,
+   "en_literal": "I won't lose in a strength contest!",
+   "english": "Let me show you how it's done!"
+  },
+  "174436358": {
+   "label": "PL2800_vo_SP_burst_dark_1",
+   "en_wem_id": "380120239",
+   "jp_real": "ガオスデトネーション！",
+   "jp_confidence": -0.158,
+   "en_literal": "Chaos Detonation!",
+   "english": "Chaos Detonation!"
+  },
+  "163502159": {
+   "label": "PL2800_vo_SP_burst_dark_2",
+   "en_wem_id": "43190026",
+   "jp_real": "ナラクのフォールダウン！",
+   "jp_confidence": -0.092,
+   "en_literal": "Fall Down!",
+   "english": "Oblivion Fall!"
+  },
+  "555756982": {
+   "label": "PL2800_vo_SP_burst_dark_3",
+   "en_wem_id": "797601958",
+   "jp_real": "ケイユースタイド！",
+   "jp_confidence": -0.311,
+   "en_literal": "Canyon Style!",
+   "english": "Tide of Chaos!"
+  },
+  "906345432": {
+   "label": "PL2800_vo_SP_burst_earth_1",
+   "en_wem_id": "906623038",
+   "jp_real": "アースデトネーション！",
+   "jp_confidence": -0.073,
+   "en_literal": "Earth Detonation",
+   "english": "Earth Detonation!"
+  },
+  "1043014542": {
+   "label": "PL2800_vo_SP_burst_earth_2",
+   "en_wem_id": "1053948755",
+   "jp_real": "地絶のパルバライズ！",
+   "jp_confidence": -0.077,
+   "en_literal": "Paralyzing Desolation!",
+   "english": "Quaking Pulverization!"
+  },
+  "575784042": {
+   "label": "PL2800_vo_SP_burst_earth_3",
+   "en_wem_id": "603427822",
+   "jp_real": "ディアスタロフィズム！",
+   "jp_confidence": -0.071,
+   "en_literal": "The Astrophizm!",
+   "english": "Diastrophism!"
+  },
+  "295992929": {
+   "label": "PL2800_vo_SP_burst_fire_1",
+   "en_wem_id": "776693892",
+   "jp_real": "レッドデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデデ",
+   "jp_confidence": -0.03,
+   "en_literal": "Let's detonation!",
+   "english": "Red Detonation!"
+  },
+  "289711064": {
+   "label": "PL2800_vo_SP_burst_fire_2",
+   "en_wem_id": "773848175",
+   "jp_real": "グレンノコラプション！",
+   "jp_confidence": -0.061,
+   "en_literal": "Guren no Collapse!",
+   "english": "Crimson Corruption!"
+  },
+  "425494821": {
+   "label": "PL2800_vo_SP_burst_fire_3",
+   "en_wem_id": "207676678",
+   "jp_real": "プロミネンスフレア！",
+   "jp_confidence": -0.046,
+   "en_literal": "Prominence Flare!",
+   "english": "Prominence Flare!"
+  },
+  "269235575": {
+   "label": "PL2800_vo_SP_burst_girl",
+   "en_wem_id": "908223764",
+   "jp_real": "セーノー！",
+   "jp_confidence": -0.358,
+   "en_literal": "No!",
+   "english": "A one-two!"
+  },
+  "428140351": {
+   "label": "PL2800_vo_SP_burst_light_1",
+   "en_wem_id": "994668155",
+   "jp_real": "アークデトネーション！",
+   "jp_confidence": -0.079,
+   "en_literal": "Arc Detonation",
+   "english": "Light Detonation!"
+  },
+  "839053128": {
+   "label": "PL2800_vo_SP_burst_light_2",
+   "en_wem_id": "811102477",
+   "jp_real": "ライデンのエラディケート！",
+   "jp_confidence": -0.085,
+   "en_literal": "Lightning Eradicator!",
+   "english": "Lightning Eradication!"
+  },
+  "140442733": {
+   "label": "PL2800_vo_SP_burst_light_3",
+   "en_wem_id": "67493705",
+   "jp_real": "アセンション！",
+   "jp_confidence": -0.047,
+   "en_literal": "Ascension!",
+   "english": "Ascension!"
+  },
+  "208650965": {
+   "label": "PL2800_vo_SP_burst_reaction_2chain",
+   "en_wem_id": "308065341",
+   "jp_real": "次も決めちゃお！",
+   "jp_confidence": -0.226,
+   "en_literal": "I'll decide the next one too!",
+   "english": "Now to finish them off!"
+  },
+  "143404124": {
+   "label": "PL2800_vo_SP_burst_reaction_3chain",
+   "en_wem_id": "651158951",
+   "jp_real": "だよね！いい連携！",
+   "jp_confidence": -0.098,
+   "en_literal": "Right? Nice link!",
+   "english": "And there's more where that came from!"
+  },
+  "97026920": {
+   "label": "PL2800_vo_SP_burst_reaction_3chain_2",
+   "en_wem_id": "840102858",
+   "jp_real": "役に立てて嬉しいな！",
+   "jp_confidence": -0.055,
+   "en_literal": "Glad I could be of help!",
+   "english": "Always happy to help!"
+  },
+  "264530839": {
+   "label": "PL2800_vo_SP_burst_reaction_finish",
+   "en_wem_id": "971612341",
+   "jp_real": "これが私たちの力だよ！",
+   "jp_confidence": -0.033,
+   "en_literal": "This is our power!",
+   "english": "Play with fire and get burned!"
+  },
+  "691495802": {
+   "label": "PL2800_vo_SP_burst_reaction_finish_2",
+   "en_wem_id": "1056375248",
+   "jp_real": "爽快だったでしょ？",
+   "jp_confidence": -0.036,
+   "en_literal": "That was a great recovery, wasn't it?",
+   "english": "Nice little workout!"
+  },
+  "790097585": {
+   "label": "PL2800_vo_SP_burst_reaction_fullchain",
+   "en_wem_id": "860426048",
+   "jp_real": "あはは、最高の連携だったね！",
+   "jp_confidence": -0.114,
+   "en_literal": "That was the best coordination!",
+   "english": "Mhm! We'll light their fire anytime!"
+  },
+  "662063265": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0000",
+   "en_wem_id": "908968383",
+   "jp_real": "やるわね、団長",
+   "jp_confidence": -0.092,
+   "en_literal": "I'm on it, Captain!",
+   "english": "You kick ass, Captain!"
+  },
+  "947628279": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0200",
+   "en_wem_id": "270286496",
+   "jp_real": "おっ！意外とカタリナも負けず嫌いだったりして？",
+   "jp_confidence": -0.058,
+   "en_literal": "Huh. You're surprisingly competitive, Katalina.",
+   "english": "Ooh, is that a competitive streak I detect?"
+  },
+  "636279711": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0300",
+   "en_wem_id": "998786735",
+   "jp_real": "思いっきり体を動かすと気持ちいいなあ！どんどん行こう！",
+   "jp_confidence": -0.111,
+   "en_literal": "It feels so good to move my body to the max! Let's keep going!",
+   "english": "Feels great to go all out from time to time! Come on, let's bag the rest of 'em!"
+  },
+  "257926345": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0400",
+   "en_wem_id": "153324998",
+   "jp_real": "すごいね！今の最高にかっこよかった！",
+   "jp_confidence": -0.156,
+   "en_literal": "That was amazing! That last move was so cool!",
+   "english": "Oh yeah! It doesn't get better than that!"
+  },
+  "606424907": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0500",
+   "en_wem_id": "1053971564",
+   "jp_real": "後方からのサポートがあると戦いやすいわ",
+   "jp_confidence": -0.092,
+   "en_literal": "It's easier to fight with support from the rear!",
+   "english": "My job's a lot easier knowing you've got me covered."
+  },
+  "490084763": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0600",
+   "en_wem_id": "411395509",
+   "jp_real": "ロゼッタって、美しさと強さを両立させていて、すごいと思う！",
+   "jp_confidence": -0.078,
+   "en_literal": "I think Rosetta is amazing because she manages to balance beauty and strength.",
+   "english": "Rosetta, how do you balance all of that strength and beauty? It's amazing."
+  },
+  "311967485": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0700",
+   "en_wem_id": "766400591",
+   "jp_real": "みんな、やったね！",
+   "jp_confidence": -0.057,
+   "en_literal": "Everyone, we did it!",
+   "english": "Way to go, Pack!"
+  },
+  "589392731": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0800",
+   "en_wem_id": "284161269",
+   "jp_real": "すごい！氷を纏って待っているみたいだね！",
+   "jp_confidence": -0.11,
+   "en_literal": "Wow, it's like he's waiting for us wrapped in ice.",
+   "english": "I've heard of dancing on ice, but never dancing with ice."
+  },
+  "481305140": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL0900",
+   "en_wem_id": "545811536",
+   "jp_real": "重そうな武器をよく振り回せるよね",
+   "jp_confidence": -0.096,
+   "en_literal": "You sure know how to swing that heavy weapon.",
+   "english": "So, how do you swing that giant weapon?"
+  },
+  "489055896": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1000",
+   "en_wem_id": "1018614844",
+   "jp_real": "ふーん。やっぱりレヴィルの炎とは少し違うよね。",
+   "jp_confidence": -0.213,
+   "en_literal": "Huh... You're definitely different from the flames of Revil, aren't you?",
+   "english": "Huh. Your fire seems a little different from the devil's."
+  },
+  "717302886": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1100",
+   "en_wem_id": "301816015",
+   "jp_real": "すさまじい破壊力だね！びっくりしちゃった！",
+   "jp_confidence": -0.074,
+   "en_literal": "That's some incredible destructive power! I'm totally surprised!",
+   "english": "Such destructive power... gives me chills to be honest."
+  },
+  "250716992": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1200",
+   "en_wem_id": "84383897",
+   "jp_real": "やった！サルちゃん、ハイタッチ！",
+   "jp_confidence": -0.092,
+   "en_literal": "I did it! Charla-chan, I'm back!",
+   "english": "Yes! High five, Shar Shar!"
+  },
+  "426503756": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1300",
+   "en_wem_id": "566069236",
+   "jp_real": "目にも留まらぬ速さとはこのことだね",
+   "jp_confidence": -0.148,
+   "en_literal": "So this is what you mean by speed that can't even be seen.",
+   "english": "Now I see what they mean by blinding speed!"
+  },
+  "238668576": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1400",
+   "en_wem_id": "935994487",
+   "jp_real": "よし！次に備えて！ナルメア！",
+   "jp_confidence": -0.094,
+   "en_literal": "Alright! Get ready for the next one, Narmaya!",
+   "english": "Good work, Narmaya! Let's get ready for the next one!"
+  },
+  "754387440": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1500",
+   "en_wem_id": "62165612",
+   "jp_real": "レンテンコウが生還付き！なるほど！",
+   "jp_confidence": -0.37,
+   "en_literal": "The lightning strike is a favorite of the Holy Sword! I see.",
+   "english": "Seeing the Fist of the Red Lotus, I'm speechless."
+  },
+  "71021507": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1600",
+   "en_wem_id": "119358579",
+   "jp_real": "ゼタ、次も頼っていい？",
+   "jp_confidence": -0.043,
+   "en_literal": "Zeta, can I count on you again next time?",
+   "english": "Hey Zeta! You ready to go again?"
+  },
+  "725316881": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1700",
+   "en_wem_id": "130481668",
+   "jp_real": "みんなを守りたい気持ち、それは私も同じだから。",
+   "jp_confidence": -0.108,
+   "en_literal": "I want to protect everyone too. That's exactly how I feel.",
+   "english": "So, I may not look the part, but I want nothing more than to protect this crew."
+  },
+  "420594056": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1800",
+   "en_wem_id": "958145234",
+   "jp_real": "私の光で照らしてみせる",
+   "jp_confidence": -0.148,
+   "en_literal": "I'll show you with my light!",
+   "english": "I'll drown the world in my splendor!"
+  },
+  "1004035201": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL1900",
+   "en_wem_id": "733951445",
+   "jp_real": "いい調子だね、イド！",
+   "jp_confidence": -0.094,
+   "en_literal": "You're on a roll, Id!",
+   "english": "Haha! You're in top form!"
+  },
+  "592874787": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2100",
+   "en_wem_id": "141233023",
+   "jp_real": "連携、綺麗に決まったね！",
+   "jp_confidence": -0.137,
+   "en_literal": "Link! It's decided to be beautiful!",
+   "english": "We had beautiful teamwork on that one!"
+  },
+  "512632292": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2200",
+   "en_wem_id": "26279265",
+   "jp_real": "シエテって面白くて頼もしいよね",
+   "jp_confidence": -0.081,
+   "en_literal": "Seofon, you're so interesting and reliable!",
+   "english": "Hey Seofon, anyone ever tell you you're kinda cool?"
+  },
+  "556477005": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2300",
+   "en_wem_id": "29642906",
+   "jp_real": "きれいに決めてやったね！",
+   "jp_confidence": -0.169,
+   "en_literal": "I cleaned up the mess for you!",
+   "english": "Handled beautifully, don't you think?"
+  },
+  "286671339": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2400",
+   "en_wem_id": "107495209",
+   "jp_real": "なんだか相手がかわいそうね",
+   "jp_confidence": -0.063,
+   "en_literal": "I feel kinda sorry for the opponent.",
+   "english": "Can't help but feel kinda bad for our foes."
+  },
+  "140560672": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2500",
+   "en_wem_id": "155992303",
+   "jp_real": "見た目にも綺麗な攻撃。さすがね。",
+   "jp_confidence": -0.059,
+   "en_literal": "That's a beautiful attack. You're amazing.",
+   "english": "We had perfect sync on that one!"
+  },
+  "340227607": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2600",
+   "en_wem_id": "963831328",
+   "jp_real": "覚悟のこもった、いい一撃になったね！",
+   "jp_confidence": -0.034,
+   "en_literal": "That was a good hit with full conviction!",
+   "english": "You really put it all on the line, don't you?"
+  },
+  "139527932": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2700",
+   "en_wem_id": "769357646",
+   "jp_real": "ホノオトイナズマノクミアワセテ、イイカモネ。",
+   "jp_confidence": -0.205,
+   "en_literal": "Combining fire and lightning... might be good.",
+   "english": "We sure set the heavens on fire, don't we?"
+  },
+  "744934299": {
+   "label": "PL2800_vo_SP_burst_reaction_talk1_PL2900",
+   "en_wem_id": "361384974",
+   "jp_real": "すさまじい力…少し怖いかも。",
+   "jp_confidence": -0.156,
+   "en_literal": "Incredible power... might be a little scary.",
+   "english": "Your darkness... it's kinda terrifying."
+  },
+  "216390093": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0000",
+   "en_wem_id": "449070841",
+   "jp_real": "団長と一緒だと、負ける気がしないんだ！",
+   "jp_confidence": -0.152,
+   "en_literal": "With the captain by my side, I don't feel like losing.",
+   "english": "With you as our captain, no one even compares!"
+  },
+  "666956948": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0200",
+   "en_wem_id": "662058429",
+   "jp_real": "あら？やりすぎちゃった？",
+   "jp_confidence": -0.059,
+   "en_literal": "Oh? Did I go a bit too far?",
+   "english": "Oh, did I impress you?"
+  },
+  "369953207": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0300",
+   "en_wem_id": "990998357",
+   "jp_real": "次はもっと本気で行くよ！",
+   "jp_confidence": -0.058,
+   "en_literal": "Next time, I'll go even more serious!",
+   "english": "Oh, you haven't seen anything yet."
+  },
+  "719165346": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0400",
+   "en_wem_id": "933237252",
+   "jp_real": "へぇ？私と一緒にトレーニングしてみる？",
+   "jp_confidence": -0.065,
+   "en_literal": "Huh? Wanna train with me?",
+   "english": "Really? You wanna train together sometime?"
+  },
+  "794339876": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0500",
+   "en_wem_id": "849471971",
+   "jp_real": "心配してくれてありがとう",
+   "jp_confidence": -0.07,
+   "en_literal": "Thanks for worrying about me.",
+   "english": "No worries, I'm a pro!"
+  },
+  "50709612": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0600",
+   "en_wem_id": "945270354",
+   "jp_real": "沈んだ後は私が踏みつけてあげる！",
+   "jp_confidence": -0.09,
+   "en_literal": "After they sink, I'll stomp them down!",
+   "english": "And straight to the depths of hell!"
+  },
+  "334607222": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0700",
+   "en_wem_id": "584032720",
+   "jp_real": "うーん、もっと力強く攻めても良かったかもね。",
+   "jp_confidence": -0.12,
+   "en_literal": "Hmm... maybe I should've attacked more aggressively.",
+   "english": "I dunno. I think we could've gone more hardcore."
+  },
+  "635717488": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0800",
+   "en_wem_id": "5838371",
+   "jp_real": "あら？加減できてなかったらごめんなさい？",
+   "jp_confidence": -0.093,
+   "en_literal": "Oh? Sorry if I didn't time that right.",
+   "english": "Oops! Lost control there for a bit."
+  },
+  "556597671": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL0900",
+   "en_wem_id": "756857428",
+   "jp_real": "おどろかせちゃったらごめんね",
+   "jp_confidence": -0.114,
+   "en_literal": "Sorry I surprised you!",
+   "english": "Haha! Sorry if they frightened you."
+  },
+  "113264177": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1000",
+   "en_wem_id": "220001127",
+   "jp_real": "了解！",
+   "jp_confidence": -0.316,
+   "en_literal": "Understood.",
+   "english": "Roger that!"
+  },
+  "864433983": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1100",
+   "en_wem_id": "912407554",
+   "jp_real": "了解！もっと頑張らないとね！",
+   "jp_confidence": -0.047,
+   "en_literal": "Understood. I'll have to try even harder.",
+   "english": "Verily, I'm all business."
+  },
+  "589654419": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1200",
+   "en_wem_id": "202974612",
+   "jp_real": "決め台詞とか、ちょっと羨ましいかも。",
+   "jp_confidence": -0.064,
+   "en_literal": "Your catchphrases are kinda enviable.",
+   "english": "Huh. Maybe I should get a tagline too."
+  },
+  "48151973": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1300",
+   "en_wem_id": "583150871",
+   "jp_real": "スピードとパワーが織りなす連携、完璧だったよね！",
+   "jp_confidence": -0.043,
+   "en_literal": "The synergy of speed and power was perfect, wasn't it?",
+   "english": "You brought the speed, I brought the power. Simple perfection."
+  },
+  "258412902": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1400",
+   "en_wem_id": "696135926",
+   "jp_real": "どこまでもストイックにまっすぐなんだね",
+   "jp_confidence": -0.105,
+   "en_literal": "You're so straightforward, going all the way to the end in one go.",
+   "english": "Well, you've already got dedication in spades."
+  },
+  "387142098": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1500",
+   "en_wem_id": "392898744",
+   "jp_real": "それは、開花ぶりすぎだってば！",
+   "jp_confidence": -0.307,
+   "en_literal": "That's... way too much of a gamble.",
+   "english": "Whoa, no way! You give me too much credit!"
+  },
+  "802809947": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1600",
+   "en_wem_id": "774957423",
+   "jp_real": "あははは、相手も運が悪かったってことね。",
+   "jp_confidence": -0.113,
+   "en_literal": "Looks like your opponent just had a really bad day.",
+   "english": "Hahahaha! Sucks for them running into us!"
+  },
+  "470221352": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1700",
+   "en_wem_id": "413269691",
+   "jp_real": "あはは、なんだか調子がいいみたい",
+   "jp_confidence": -0.184,
+   "en_literal": "Looks like you're in a good mood!",
+   "english": "Hah! No kidding! Maybe I woke up on the right side of the bed this morning!"
+  },
+  "508026522": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1800",
+   "en_wem_id": "210999717",
+   "jp_real": "お空の底までご案内",
+   "jp_confidence": -0.044,
+   "en_literal": "I'll take you to the bottom of the sky!",
+   "english": "We'll see you at the bottom of the skies!"
+  },
+  "552234896": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL1900",
+   "en_wem_id": "60346828",
+   "jp_real": "なかなかミステリアスでしょ？",
+   "jp_confidence": -0.041,
+   "en_literal": "Heh... I'm quite the mystery, aren't I?",
+   "english": "Makes me dark and mysterious, right?"
+  },
+  "138990203": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2100",
+   "en_wem_id": "723935351",
+   "jp_real": "力には自信があるんだ！",
+   "jp_confidence": -0.225,
+   "en_literal": "I'm confident in my power!",
+   "english": "Trust me, I've got strength to spare."
+  },
+  "862640266": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2200",
+   "en_wem_id": "565827867",
+   "jp_real": "まだまだここからだよ！",
+   "jp_confidence": -0.151,
+   "en_literal": "It's only just begun!",
+   "english": "Haven't even hit my stride yet."
+  },
+  "1066674224": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2300",
+   "en_wem_id": "799274868",
+   "jp_real": "うん！みんなと戦ってると、なんだか前向きになれる気がする！",
+   "jp_confidence": -0.083,
+   "en_literal": "Huh! Fighting alongside everyone makes me feel kinda optimistic!",
+   "english": "What can I say? Fighting with this crew puts me in a good mood."
+  },
+  "124403162": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2400",
+   "en_wem_id": "584614353",
+   "jp_real": "私も！",
+   "jp_confidence": -0.216,
+   "en_literal": "Me too!",
+   "english": "Haha, you said it!"
+  },
+  "1062711393": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2500",
+   "en_wem_id": "1059928386",
+   "jp_real": "私も同感！一気にいくよ！",
+   "jp_confidence": -0.045,
+   "en_literal": "I'm with you! Let's go all at once!",
+   "english": "I like the way you think! Let's go!"
+  },
+  "232557443": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2600",
+   "en_wem_id": "19175584",
+   "jp_real": "へえ？やるじゃない！",
+   "jp_confidence": -0.199,
+   "en_literal": "Huh? You're doing it!",
+   "english": "The coolest!"
+  },
+  "116471791": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2700",
+   "en_wem_id": "305689814",
+   "jp_real": "ユーステス、次もバッチリ決めないとね！",
+   "jp_confidence": -0.158,
+   "en_literal": "I'll nail the next one too!",
+   "english": "One shot, one kill!"
+  },
+  "136418566": {
+   "label": "PL2800_vo_SP_burst_reaction_talk2_PL2900",
+   "en_wem_id": "433147225",
+   "jp_real": "それじゃ、遠慮なく行くよ！",
+   "jp_confidence": -0.099,
+   "en_literal": "Then I'll go ahead without hesitation!",
+   "english": "Ha! Revel all you want!"
+  },
+  "961711515": {
+   "label": "PL2800_vo_SP_burst_speak_A",
+   "en_wem_id": "465355299",
+   "jp_real": "そこだ！",
+   "jp_confidence": -0.247,
+   "en_literal": "There!",
+   "english": "Take this!"
+  },
+  "474676522": {
+   "label": "PL2800_vo_SP_burst_speak_B",
+   "en_wem_id": "570786157",
+   "jp_real": "ウナレ！",
+   "jp_confidence": -0.287,
+   "en_literal": "Unare!",
+   "english": "Get 'em!"
+  },
+  "390542352": {
+   "label": "PL2800_vo_SP_burst_speak_C",
+   "en_wem_id": "478686399",
+   "jp_real": "ヒラメケ",
+   "jp_confidence": -0.21,
+   "en_literal": "Sparkle!",
+   "english": "Shine as One!"
+  },
+  "180209883": {
+   "label": "PL2800_vo_SP_burst_water_1",
+   "en_wem_id": "920313351",
+   "jp_real": "ブルー・デトネーション！",
+   "jp_confidence": -0.176,
+   "en_literal": "Blue Detonation!",
+   "english": "Blue Detonation!"
+  },
+  "32186023": {
+   "label": "PL2800_vo_SP_burst_water_2",
+   "en_wem_id": "679985326",
+   "jp_real": "無償のイルミネート！",
+   "jp_confidence": -0.215,
+   "en_literal": "Illuminator of the Unseen",
+   "english": "Ice Illumination!"
+  },
+  "818797511": {
+   "label": "PL2800_vo_SP_burst_water_3",
+   "en_wem_id": "380460818",
+   "jp_real": "アブソリュータゼロ！",
+   "jp_confidence": -0.159,
+   "en_literal": "Absolute Zero!",
+   "english": "Absolute Zero!"
+  },
+  "518235352": {
+   "label": "PL2800_vo_SP_burst_wind_1",
+   "en_wem_id": "264459470",
+   "jp_real": "エアロデトネーション！",
+   "jp_confidence": -0.034,
+   "en_literal": "Aero Detonation!",
+   "english": "Air Detonation!"
+  },
+  "727266977": {
+   "label": "PL2800_vo_SP_burst_wind_2",
+   "en_wem_id": "805782077",
+   "jp_real": "ランカイのテンペスト！",
+   "jp_confidence": -0.077,
+   "en_literal": "Tempest of the Lower Heavens",
+   "english": "Tempest!"
+  },
+  "656539351": {
+   "label": "PL2800_vo_SP_burst_wind_3",
+   "en_wem_id": "233202940",
+   "jp_real": "バーストゲイル！",
+   "jp_confidence": -0.037,
+   "en_literal": "Burst Gate!",
+   "english": "Gale Burst!"
+  },
+  "486423345": {
+   "label": "PL2800_vo_SP_charge_name_1_1",
+   "en_wem_id": "374057132",
+   "jp_real": "解き放つ！",
+   "jp_confidence": -0.142,
+   "en_literal": "Release!",
+   "english": "Taste our power!"
+  },
+  "161166377": {
+   "label": "PL2800_vo_SP_charge_name_1_2",
+   "en_wem_id": "312196319",
+   "jp_real": "デビリッシランブル！",
+   "jp_confidence": -0.205,
+   "en_literal": "Debiri Shichiramburu!",
+   "english": "Devilish Rumble!"
+  },
+  "429112487": {
+   "label": "PL2800_vo_SP_charge_name_2_1",
+   "en_wem_id": "441203153",
+   "jp_real": "デビリッシャー！",
+   "jp_confidence": -0.33,
+   "en_literal": "Debilitation!",
+   "english": "Devilish!"
+  },
+  "627458": {
+   "label": "PL2800_vo_SP_charge_name_2_2",
+   "en_wem_id": "480002646",
+   "jp_real": "ランブル！",
+   "jp_confidence": -0.324,
+   "en_literal": "Lambrequin!",
+   "english": "Rumble!"
+  },
+  "314393428": {
+   "label": "PL2800_vo_SP_charge_name_3_1",
+   "en_wem_id": "783522099",
+   "jp_real": "この私の",
+   "jp_confidence": -0.088,
+   "en_literal": "This is my...",
+   "english": "Give me power!"
+  },
+  "149075852": {
+   "label": "PL2800_vo_SP_charge_name_3_2",
+   "en_wem_id": "959736470",
+   "jp_real": "力となりて！",
+   "jp_confidence": -0.457,
+   "en_literal": "Be my power!",
+   "english": "To raise the world!"
+  },
+  "170424196": {
+   "label": "PL2800_vo_SP_charge_speak_1_1",
+   "en_wem_id": "404817450",
+   "jp_real": "デビル！",
+   "jp_confidence": -0.168,
+   "en_literal": "Debil!",
+   "english": "Devil!"
+  },
+  "203422855": {
+   "label": "PL2800_vo_SP_charge_speak_1_2",
+   "en_wem_id": "891156155",
+   "jp_real": "戦列なる力を！",
+   "jp_confidence": -0.347,
+   "en_literal": "The power of the split line!",
+   "english": "Time to heat things up!"
+  },
+  "87796745": {
+   "label": "PL2800_vo_SP_charge_speak_2_1",
+   "en_wem_id": "981004834",
+   "jp_real": "デビル！お願い！",
+   "jp_confidence": -0.06,
+   "en_literal": "Debile, please!",
+   "english": "Let's go, Devil!"
+  },
+  "190770435": {
+   "label": "PL2800_vo_SP_charge_speak_2_2",
+   "en_wem_id": "386993191",
+   "jp_real": "ハァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァ",
+   "jp_confidence": -0.023,
+   "en_literal": "Hah!",
+   "english": "Hah!"
+  },
+  "178115428": {
+   "label": "PL2800_vo_SP_charge_speak_3",
+   "en_wem_id": "223271759",
+   "jp_real": "すべてを焼き尽くす悪魔の業火よ！",
+   "jp_confidence": -0.065,
+   "en_literal": "The devil's splendor that burns everything to the ground!",
+   "english": "Oh hellborn flames, I bid you!"
+  },
+  "164650204": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0100",
+   "en_wem_id": "376133016",
+   "jp_real": "ダーチョ！",
+   "jp_confidence": -0.32,
+   "en_literal": "Got it!",
+   "english": "Captain!"
+  },
+  "260061586": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0200",
+   "en_wem_id": "408462663",
+   "jp_real": "カタリナ！",
+   "jp_confidence": -0.007,
+   "en_literal": "Katalina!",
+   "english": "Katalina!"
+  },
+  "527126146": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0300",
+   "en_wem_id": "792287363",
+   "jp_real": "ラカム！",
+   "jp_confidence": -0.014,
+   "en_literal": "Rackam!",
+   "english": "Rackam!"
+  },
+  "988769702": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0400",
+   "en_wem_id": "410571749",
+   "jp_real": "イオちゃん！",
+   "jp_confidence": -0.034,
+   "en_literal": "Io-chan!",
+   "english": "Io!"
+  },
+  "83329818": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0500",
+   "en_wem_id": "850998240",
+   "jp_real": "オイゲン！",
+   "jp_confidence": -0.017,
+   "en_literal": "Eugen!",
+   "english": "Eugen!"
+  },
+  "308048304": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0600",
+   "en_wem_id": "945128735",
+   "jp_real": "ロゼッタ！",
+   "jp_confidence": -0.006,
+   "en_literal": "Rosetta!",
+   "english": "Rosetta!"
+  },
+  "961893701": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0700",
+   "en_wem_id": "743791626",
+   "jp_real": "フェリちゃん！",
+   "jp_confidence": -0.14,
+   "en_literal": "Ferry-chan!",
+   "english": "Ferry!"
+  },
+  "59767526": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0800",
+   "en_wem_id": "1004224837",
+   "jp_real": "ランスロット！",
+   "jp_confidence": -0.015,
+   "en_literal": "Lancelot!",
+   "english": "Lancelot!"
+  },
+  "796110041": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL0900",
+   "en_wem_id": "904578683",
+   "jp_real": "ヴェイン！",
+   "jp_confidence": -0.114,
+   "en_literal": "Vane!",
+   "english": "Vane!"
+  },
+  "393244212": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1000",
+   "en_wem_id": "345483159",
+   "jp_real": "パーシヴァル！",
+   "jp_confidence": -0.012,
+   "en_literal": "Percival!",
+   "english": "Percival!"
+  },
+  "1012470602": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1100",
+   "en_wem_id": "279175705",
+   "jp_real": "ジークフリート！",
+   "jp_confidence": -0.016,
+   "en_literal": "Siegfried!",
+   "english": "Siegfried!"
+  },
+  "260267876": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1200",
+   "en_wem_id": "122502663",
+   "jp_real": "シャルちゃん！",
+   "jp_confidence": -0.289,
+   "en_literal": "Charlotta!",
+   "english": "Charlotta!"
+  },
+  "651929300": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1300",
+   "en_wem_id": "448780470",
+   "jp_real": "ヨダルラーハ！",
+   "jp_confidence": -0.049,
+   "en_literal": "Yodarha!",
+   "english": "Yodarha!"
+  },
+  "336840773": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1400",
+   "en_wem_id": "379141291",
+   "jp_real": "ナルメア！",
+   "jp_confidence": -0.057,
+   "en_literal": "Narmaya!",
+   "english": "Narmaya!"
+  },
+  "20240442": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1500",
+   "en_wem_id": "615450894",
+   "jp_real": "ガンダゴウザ！",
+   "jp_confidence": -0.013,
+   "en_literal": "Ghandagoza!",
+   "english": "Ghandagoza!"
+  },
+  "1053866436": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1600",
+   "en_wem_id": "51016211",
+   "jp_real": "ゼタ！",
+   "jp_confidence": -0.027,
+   "en_literal": "Zeta!",
+   "english": "Zeta!"
+  },
+  "642828774": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1700",
+   "en_wem_id": "15651446",
+   "jp_real": "バザラガ！",
+   "jp_confidence": -0.009,
+   "en_literal": "Bazalaga!",
+   "english": "Vaseraga!"
+  },
+  "817468474": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1800",
+   "en_wem_id": "114471692",
+   "jp_real": "カリオストロちゃん！",
+   "jp_confidence": -0.165,
+   "en_literal": "Cagliostro!",
+   "english": "Cagliostro!"
+  },
+  "551948162": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL1900",
+   "en_wem_id": "623711212",
+   "jp_real": "イド！",
+   "jp_confidence": -0.011,
+   "en_literal": "Id!",
+   "english": "Id!"
+  },
+  "711599751": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2100",
+   "en_wem_id": "464891390",
+   "jp_real": "サンダルフォン！",
+   "jp_confidence": -0.007,
+   "en_literal": "Sandalphon!",
+   "english": "Sandalphon!"
+  },
+  "690155288": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2200",
+   "en_wem_id": "461778355",
+   "jp_real": "シエテ！",
+   "jp_confidence": -0.017,
+   "en_literal": "Seofon!",
+   "english": "Seofon!"
+  },
+  "892782048": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2300",
+   "en_wem_id": "906131201",
+   "jp_real": "ソーン！",
+   "jp_confidence": -0.026,
+   "en_literal": "So-o-o-n!",
+   "english": "Tweyen!"
+  },
+  "81049771": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2400",
+   "en_wem_id": "139059015",
+   "jp_real": "ガランツァ！",
+   "jp_confidence": -0.017,
+   "en_literal": "Gallanza!",
+   "english": "Gallanza!"
+  },
+  "614652562": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2500",
+   "en_wem_id": "505151268",
+   "jp_real": "マギラフリーダ！",
+   "jp_confidence": -0.07,
+   "en_literal": "Magilare Freeda!",
+   "english": "Maglielle!"
+  },
+  "228796538": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2600",
+   "en_wem_id": "148304220",
+   "jp_real": "ベアトリクス！",
+   "jp_confidence": -0.009,
+   "en_literal": "Beatrix!",
+   "english": "Beatrix!"
+  },
+  "393817032": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2700",
+   "en_wem_id": "968249507",
+   "jp_real": "ユーステス！",
+   "jp_confidence": -0.015,
+   "en_literal": "Eustace!",
+   "english": "Eustace!"
+  },
+  "258026211": {
+   "label": "PL2800_vo_SP_charge_speak_call_PL2900",
+   "en_wem_id": "27010973",
+   "jp_real": "フェディエル！",
+   "jp_confidence": -0.014,
+   "en_literal": "Fediel!",
+   "english": "Fediel!"
+  },
+  "78676932": {
+   "label": "PL2800_vo_SP_charge_speak_chain_1",
+   "en_wem_id": "688609150",
+   "jp_real": "了解！",
+   "jp_confidence": -0.189,
+   "en_literal": "Understood!",
+   "english": "On it!"
+  },
+  "148901796": {
+   "label": "PL2800_vo_SP_charge_speak_chain_2",
+   "en_wem_id": "603978157",
+   "jp_real": "任せといて！",
+   "jp_confidence": -0.332,
+   "en_literal": "Leave it to me!",
+   "english": "Uragh!"
+  },
+  "734089596": {
+   "label": "PL2800_vo_SP_charge_speak_chain_3",
+   "en_wem_id": "1047651482",
+   "jp_real": "覚悟はいい？",
+   "jp_confidence": -0.033,
+   "en_literal": "Ready?",
+   "english": "Ready or not!"
+  },
+  "264625400": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0000",
+   "en_wem_id": "418289883",
+   "jp_real": "姉妹ありがとう",
+   "jp_confidence": -0.46,
+   "en_literal": "Thanks for the assist!",
+   "english": "At your service!"
+  },
+  "507298019": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0200",
+   "en_wem_id": "992363874",
+   "jp_real": "逃がさない！",
+   "jp_confidence": -0.044,
+   "en_literal": "I won't let you get away!",
+   "english": "They're done!"
+  },
+  "43547034": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0300",
+   "en_wem_id": "788054203",
+   "jp_real": "追い詰める！",
+   "jp_confidence": -0.053,
+   "en_literal": "I'll corner you!",
+   "english": "Got somethin' for ya!"
+  },
+  "156448555": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0400",
+   "en_wem_id": "996628052",
+   "jp_real": "力になるよ！",
+   "jp_confidence": -0.293,
+   "en_literal": "I'll be your strength!",
+   "english": "I've got your back!"
+  },
+  "644726115": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0500",
+   "en_wem_id": "778782983",
+   "jp_real": "行くね！",
+   "jp_confidence": -0.049,
+   "en_literal": "Let's go!",
+   "english": "Let's do it!"
+  },
+  "407450082": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0600",
+   "en_wem_id": "638328116",
+   "jp_real": "チャンスね！",
+   "jp_confidence": -0.227,
+   "en_literal": "Chance!",
+   "english": "Now or never!"
+  },
+  "609770361": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0700",
+   "en_wem_id": "1028133445",
+   "jp_real": "ここで決める！",
+   "jp_confidence": -0.087,
+   "en_literal": "I'll settle this right here!",
+   "english": "Bring it home!"
+  },
+  "350666787": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0800",
+   "en_wem_id": "809909814",
+   "jp_real": "ソッコーだね！",
+   "jp_confidence": -0.27,
+   "en_literal": "Let's go!",
+   "english": "Comin' right up!"
+  },
+  "979470613": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL0900",
+   "en_wem_id": "696748938",
+   "jp_real": "私に任せて！",
+   "jp_confidence": -0.16,
+   "en_literal": "Leave it to me!",
+   "english": "You got it!"
+  },
+  "811290795": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1000",
+   "en_wem_id": "563751650",
+   "jp_real": "焼き尽くせ！",
+   "jp_confidence": -0.319,
+   "en_literal": "Burn it all!",
+   "english": "You're gonna burn!"
+  },
+  "645802594": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1100",
+   "en_wem_id": "1060790142",
+   "jp_real": "私も続くよ！",
+   "jp_confidence": -0.055,
+   "en_literal": "I'm following up too!",
+   "english": "Following!"
+  },
+  "821108275": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1200",
+   "en_wem_id": "226541450",
+   "jp_real": "一気にいくよ！",
+   "jp_confidence": -0.061,
+   "en_literal": "I'm going all at once!",
+   "english": "Beat them silly!"
+  },
+  "554540846": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1300",
+   "en_wem_id": "1043046716",
+   "jp_real": "終わらせる！",
+   "jp_confidence": -0.179,
+   "en_literal": "I'll end this!",
+   "english": "Let's end this!"
+  },
+  "27413099": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1400",
+   "en_wem_id": "917602381",
+   "jp_real": "お待たせ！",
+   "jp_confidence": -0.079,
+   "en_literal": "I've been waiting!",
+   "english": "Comin' right up!"
+  },
+  "368571022": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1500",
+   "en_wem_id": "136410122",
+   "jp_real": "わかった！",
+   "jp_confidence": -0.181,
+   "en_literal": "Got it!",
+   "english": "Devil what?"
+  },
+  "982311604": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1600",
+   "en_wem_id": "1010905268",
+   "jp_real": "もっとだね！",
+   "jp_confidence": -0.078,
+   "en_literal": "More!",
+   "english": "Push it!"
+  },
+  "365447110": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1700",
+   "en_wem_id": "138303529",
+   "jp_real": "まだだ!",
+   "jp_confidence": -0.711,
+   "en_literal": "Not yet!",
+   "english": "Not over yet!"
+  },
+  "546384522": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1800",
+   "en_wem_id": "260453993",
+   "jp_real": "続ける！",
+   "jp_confidence": -0.623,
+   "en_literal": "Keep it up!",
+   "english": "After you!"
+  },
+  "728757235": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL1900",
+   "en_wem_id": "861188007",
+   "jp_real": "繋ぐね！",
+   "jp_confidence": -0.151,
+   "en_literal": "Let's link!",
+   "english": "Don't mind if I do!"
+  },
+  "956446262": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2100",
+   "en_wem_id": "675008563",
+   "jp_real": "力が溢れる！",
+   "jp_confidence": -0.116,
+   "en_literal": "Power's overflowing!",
+   "english": "Overwhelm them!"
+  },
+  "828261625": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2200",
+   "en_wem_id": "195617905",
+   "jp_real": "よーし！",
+   "jp_confidence": -0.156,
+   "en_literal": "Alright!",
+   "english": "Let's workshop that!"
+  },
+  "604820800": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2300",
+   "en_wem_id": "319677959",
+   "jp_real": "私の番！",
+   "jp_confidence": -0.08,
+   "en_literal": "My turn!",
+   "english": "My turn now!"
+  },
+  "376246446": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2400",
+   "en_wem_id": "298655064",
+   "jp_real": "アツが強い！",
+   "jp_confidence": -0.153,
+   "en_literal": "The pressure's intense!",
+   "english": "Someone's hyped!"
+  },
+  "791815830": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2500",
+   "en_wem_id": "666115595",
+   "jp_real": "指揮受けた！",
+   "jp_confidence": -0.211,
+   "en_literal": "Received!",
+   "english": "I'll take care of 'em!"
+  },
+  "413328916": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2600",
+   "en_wem_id": "1070837048",
+   "jp_real": "一気にいこう！",
+   "jp_confidence": -0.189,
+   "en_literal": "Let's go all at once!",
+   "english": "Ready or not!"
+  },
+  "387336141": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2700",
+   "en_wem_id": "399777833",
+   "jp_real": "了解！",
+   "jp_confidence": -0.143,
+   "en_literal": "Understood!",
+   "english": "On it!"
+  },
+  "771037237": {
+   "label": "PL2800_vo_SP_charge_speak_chain_PL2900",
+   "en_wem_id": "219630873",
+   "jp_real": "見せてあげる！",
+   "jp_confidence": -0.062,
+   "en_literal": "I'll show you!",
+   "english": "Here's how it's done!"
+  },
+  "9276945": {
+   "label": "PL2800_vo_SP_charge_start_1",
+   "en_wem_id": "748470715",
+   "jp_real": "イコーカ！",
+   "jp_confidence": -0.351,
+   "en_literal": "Let's go!",
+   "english": "Come forth!"
+  },
+  "52754904": {
+   "label": "PL2800_vo_SP_charge_start_2",
+   "en_wem_id": "487034156",
+   "jp_real": "ここかな！",
+   "jp_confidence": -0.16,
+   "en_literal": "Here it is!",
+   "english": "Bingo!"
+  },
+  "1000252887": {
+   "label": "PL2800_vo_SP_charge_start_3",
+   "en_wem_id": "454420515",
+   "jp_real": "トライアタ！",
+   "jp_confidence": -0.573,
+   "en_literal": "Gotcha!",
+   "english": "Enough!"
+  },
+  "35914937": {
+   "label": "PL2800_vo_SP_link_la_A",
+   "en_wem_id": "219172340",
+   "jp_real": "わかった！",
+   "jp_confidence": -0.129,
+   "en_literal": "Got it!",
+   "english": "Right!"
+  },
+  "623328169": {
+   "label": "PL2800_vo_SP_link_la_A_2",
+   "en_wem_id": "915632824",
+   "jp_real": "決めろ！",
+   "jp_confidence": -0.177,
+   "en_literal": "I'll do it!",
+   "english": "You got it!"
+  },
+  "620382376": {
+   "label": "PL2800_vo_SP_link_la_A_3",
+   "en_wem_id": "1035525678",
+   "jp_real": "ノガサナイ!",
+   "jp_confidence": -0.147,
+   "en_literal": "I won't let you get away!",
+   "english": "They're toast!"
+  },
+  "655596969": {
+   "label": "PL2800_vo_SP_link_la_A_PL0000",
+   "en_wem_id": "305935092",
+   "jp_real": "エンゴするよ！",
+   "jp_confidence": -0.161,
+   "en_literal": "I've got your back!",
+   "english": "I'm with ya!"
+  },
+  "811297343": {
+   "label": "PL2800_vo_SP_link_la_B",
+   "en_wem_id": "1059248217",
+   "jp_real": "これでどう？",
+   "jp_confidence": -0.03,
+   "en_literal": "How's this?",
+   "english": "Easy breezy!"
+  },
+  "302978207": {
+   "label": "PL2800_vo_SP_link_la_B_2",
+   "en_wem_id": "186025648",
+   "jp_real": "了解！",
+   "jp_confidence": -0.069,
+   "en_literal": "Ready!",
+   "english": "Sure thing!"
+  },
+  "987060384": {
+   "label": "PL2800_vo_SP_link_la_B_3",
+   "en_wem_id": "437252216",
+   "jp_real": "追撃！",
+   "jp_confidence": -0.11,
+   "en_literal": "Pursuit",
+   "english": "Here goes!"
+  },
+  "597316887": {
+   "label": "PL2800_vo_SP_link_la_B_PL0000",
+   "en_wem_id": "529235791",
+   "jp_real": "追撃する！",
+   "jp_confidence": -0.079,
+   "en_literal": "I'll pursue!",
+   "english": "I'm goin' in!"
+  },
+  "763569921": {
+   "label": "PL2800_vo_SP_link_la_C",
+   "en_wem_id": "338798483",
+   "jp_real": "任せって！",
+   "jp_confidence": -0.43,
+   "en_literal": "Leave it to me!",
+   "english": "On it!"
+  },
+  "788205395": {
+   "label": "PL2800_vo_SP_link_la_C_2",
+   "en_wem_id": "613011378",
+   "jp_real": "私が行く！",
+   "jp_confidence": -0.04,
+   "en_literal": "I'll go!",
+   "english": "I'll follow!"
+  },
+  "514994085": {
+   "label": "PL2800_vo_SP_link_la_C_3",
+   "en_wem_id": "303951717",
+   "jp_real": "容赦はしない！",
+   "jp_confidence": -0.283,
+   "en_literal": "I won't lose!",
+   "english": "Show no mercy!"
+  },
+  "1047939108": {
+   "label": "PL2800_vo_SP_link_la_C_PL0000",
+   "en_wem_id": "513498584",
+   "jp_real": "ここだね！",
+   "jp_confidence": -0.186,
+   "en_literal": "Here it is!",
+   "english": "Nice to be needed!"
+  },
+  "186223928": {
+   "label": "PL2800_vo_SP_link_la_self_1",
+   "en_wem_id": "751989149",
+   "jp_real": "いただきます！",
+   "jp_confidence": -0.315,
+   "en_literal": "Here I go!",
+   "english": "You're all mine!"
+  },
+  "258217517": {
+   "label": "PL2800_vo_SP_link_la_self_1_B",
+   "en_wem_id": "392238972",
+   "jp_real": "ミキった！",
+   "jp_confidence": -0.284,
+   "en_literal": "I've got it!",
+   "english": "Bye-bye!"
+  },
+  "256557187": {
+   "label": "PL2800_vo_SP_link_la_self_1_C",
+   "en_wem_id": "1054433363",
+   "jp_real": "遅いよ遅い！",
+   "jp_confidence": -0.141,
+   "en_literal": "Too slow!",
+   "english": "Right in the face!"
+  },
+  "346463345": {
+   "label": "PL2800_vo_SP_link_la_self_2",
+   "en_wem_id": "653070165",
+   "jp_real": "ストメル！",
+   "jp_confidence": -0.177,
+   "en_literal": "I'll crush you!",
+   "english": "They're finished!"
+  },
+  "688083702": {
+   "label": "PL2800_vo_SP_link_la_self_2_B",
+   "en_wem_id": "371920021",
+   "jp_real": "アマイ！",
+   "jp_confidence": -0.582,
+   "en_literal": "Am I?",
+   "english": "It's over!"
+  },
+  "837232454": {
+   "label": "PL2800_vo_SP_link_la_self_2_C",
+   "en_wem_id": "542303377",
+   "jp_real": "逃げないの？",
+   "jp_confidence": -0.027,
+   "en_literal": "You're not running away?",
+   "english": "No escape!"
+  },
+  "722378914": {
+   "label": "PL2800_vo_SP_link_la_self_3",
+   "en_wem_id": "321281881",
+   "jp_real": "ハァッ！",
+   "jp_confidence": -0.298,
+   "en_literal": "Huh?",
+   "english": "Ha!"
+  },
+  "954293197": {
+   "label": "PL2800_vo_SP_link_la_self_3_B",
+   "en_wem_id": "377642514",
+   "jp_real": "スキアリ！",
+   "jp_confidence": -0.249,
+   "en_literal": "Skill!",
+   "english": "Gotcha!"
+  },
+  "787841625": {
+   "label": "PL2800_vo_SP_link_la_self_3_C",
+   "en_wem_id": "106052078",
+   "jp_real": "突破するよ！",
+   "jp_confidence": -0.045,
+   "en_literal": "I'm breaking through!",
+   "english": "Rip through 'em!"
+  },
+  "531638458": {
+   "label": "PL2800_vo_SP_link_lc_A",
+   "en_wem_id": "110202029",
+   "jp_real": "おねがい！",
+   "jp_confidence": -0.247,
+   "en_literal": "Please!",
+   "english": "Let's go!"
+  },
+  "789706437": {
+   "label": "PL2800_vo_SP_link_lc_A_2",
+   "en_wem_id": "82198611",
+   "jp_real": "いける！",
+   "jp_confidence": -0.27,
+   "en_literal": "I can do it!",
+   "english": "Got me!"
+  },
+  "755659121": {
+   "label": "PL2800_vo_SP_link_lc_A_3",
+   "en_wem_id": "99424093",
+   "jp_real": "私に続いて!",
+   "jp_confidence": -0.2,
+   "en_literal": "Follow me!",
+   "english": "On me!"
+  },
+  "652786249": {
+   "label": "PL2800_vo_SP_link_lc_B",
+   "en_wem_id": "1037319815",
+   "jp_real": "ココ！",
+   "jp_confidence": -0.234,
+   "en_literal": "Here!",
+   "english": "Wide open!"
+  },
+  "517180013": {
+   "label": "PL2800_vo_SP_link_lc_B_2",
+   "en_wem_id": "435524366",
+   "jp_real": "合わせて！",
+   "jp_confidence": -0.28,
+   "en_literal": "Let's combine!",
+   "english": "Together now!"
+  },
+  "752282563": {
+   "label": "PL2800_vo_SP_link_lc_B_3",
+   "en_wem_id": "1052966974",
+   "jp_real": "やって！",
+   "jp_confidence": -0.069,
+   "en_literal": "Got it!",
+   "english": "Do it!"
+  },
+  "138323336": {
+   "label": "PL2800_vo_SP_link_lc_C",
+   "en_wem_id": "617376854",
+   "jp_real": "今！",
+   "jp_confidence": -0.281,
+   "en_literal": "Now!",
+   "english": "Now!"
+  },
+  "491234613": {
+   "label": "PL2800_vo_SP_link_lc_C_2",
+   "en_wem_id": "484683800",
+   "jp_real": "チャンスだよ！",
+   "jp_confidence": -0.022,
+   "en_literal": "Now's our chance!",
+   "english": "Here we go!"
+  },
+  "566292909": {
+   "label": "PL2800_vo_SP_link_lc_C_3",
+   "en_wem_id": "342256995",
+   "jp_real": "叩き込む！",
+   "jp_confidence": -0.167,
+   "en_literal": "Smash it in!",
+   "english": "Lay it on 'em!"
+  },
+  "1016330045": {
+   "label": "PL2800_vo_SP_link_ms_boss_1st_1_FIRST",
+   "en_wem_id": "803046795",
+   "jp_real": "風の聖晶獣か。ここは私に任せて。",
+   "jp_confidence": -0.169,
+   "en_literal": "The Wind's Holy Arrow, huh? Leave this to me!",
+   "english": "A wind primal, huh? Whatever. This blowhard's goin' down."
+  },
+  "476060269": {
+   "label": "PL2800_vo_SP_link_ms_boss_2st_1_A",
+   "en_wem_id": "672461870",
+   "jp_real": "強い！さすがに言うだけはあるみたい！",
+   "jp_confidence": -0.063,
+   "en_literal": "Strong... You're not just bragging.",
+   "english": "Whoa. So he's not all talk."
+  },
+  "521844856": {
+   "label": "PL2800_vo_SP_link_ms_boss_2st_1_B",
+   "en_wem_id": "628635322",
+   "jp_real": "力比べなら負けないから",
+   "jp_confidence": -0.178,
+   "en_literal": "If it's a contest of strength, I won't lose!",
+   "english": "No one beats me in a throwdown!"
+  },
+  "257139568": {
+   "label": "PL2800_vo_SP_link_ms_boss_2st_1_C",
+   "en_wem_id": "738585695",
+   "jp_real": "へぇ？まだ立てるんだ",
+   "jp_confidence": -0.384,
+   "en_literal": "Huh? You're still standing?",
+   "english": "Hah! He's still standing!"
+  },
+  "227201181": {
+   "label": "PL2800_vo_SP_link_ms_boss_2st_1_FIRST",
+   "en_wem_id": "76202595",
+   "jp_real": "話が通じないんなら、こうするしかないよね！",
+   "jp_confidence": -0.13,
+   "en_literal": "If you won't listen, then I guess there's nothing else I can do!",
+   "english": "Ah, so you need your ass beat before you'll listen."
+  },
+  "585674709": {
+   "label": "PL2800_vo_SP_link_ms_boss_3st_1_FIRST",
+   "en_wem_id": "723984213",
+   "jp_real": "待ってテルリリアちゃん！すぐにこいつを",
+   "jp_confidence": -0.165,
+   "en_literal": "Wait a sec, Lyria! I'll deal with this guy right away!",
+   "english": "Hang on, just a little longer, Lyria!"
+  },
+  "389423192": {
+   "label": "PL2800_vo_SP_link_ms_boss_3st_2_FIRST",
+   "en_wem_id": "578413981",
+   "jp_real": "その兵務ごと吹き飛ばすから！",
+   "jp_confidence": -0.089,
+   "en_literal": "I'll blow away your entire reputation!",
+   "english": "Hah! A little frost won't stop my hellfire!"
+  },
+  "749629576": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_1_FIRST",
+   "en_wem_id": "521996965",
+   "jp_real": "背中、預かるよ！",
+   "jp_confidence": -0.052,
+   "en_literal": "I'll take your back!",
+   "english": "Watch my back for me."
+  },
+  "877110776": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_2_FIRST",
+   "en_wem_id": "915420642",
+   "jp_real": "ケンを浮かせるなんて、珍しい技だね。注意しよう。",
+   "jp_confidence": -0.136,
+   "en_literal": "I've never seen someone float a sword like that. It's a rare technique. Be careful.",
+   "english": "All these swords flying around. Be careful, guys!"
+  },
+  "1012282670": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_3_A",
+   "en_wem_id": "861229982",
+   "jp_real": "どんな防御にも必ず隙があるはず",
+   "jp_confidence": -0.137,
+   "en_literal": "There must be a weakness in any defense!",
+   "english": "No defense is impenetrable!"
+  },
+  "566328266": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_3_B",
+   "en_wem_id": "886975834",
+   "jp_real": "うっ！押してる押してる！",
+   "jp_confidence": -0.067,
+   "en_literal": "I'm pushing! I'm pushing!",
+   "english": "Nice! We've got her on the ropes!"
+  },
+  "271532389": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_3_C",
+   "en_wem_id": "444089138",
+   "jp_real": "よし！決まった！",
+   "jp_confidence": -0.062,
+   "en_literal": "Alright! It's decided!",
+   "english": "Let's end this!"
+  },
+  "704345795": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_3_FIRST",
+   "en_wem_id": "736189068",
+   "jp_real": "一瞬の油断が命取りってね",
+   "jp_confidence": -0.097,
+   "en_literal": "One moment of carelessness could cost you your life, you know.",
+   "english": "No mercy, huh? Then I won't hold back either!"
+  },
+  "1056701741": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_4_A",
+   "en_wem_id": "176070894",
+   "jp_real": "弱点がわかりやすくて助かる！",
+   "jp_confidence": -0.114,
+   "en_literal": "It's easy to see the weakness, so it's helpful!",
+   "english": "Time for a little target practice!"
+  },
+  "901123387": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_4_B",
+   "en_wem_id": "567467935",
+   "jp_real": "この調子のまま行こう！",
+   "jp_confidence": -0.085,
+   "en_literal": "Let's keep this momentum going!",
+   "english": "Go out there and kick ass!"
+  },
+  "190765167": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_4_C",
+   "en_wem_id": "644010568",
+   "jp_real": "落ち着いて、弱点を攻めるしかないかな",
+   "jp_confidence": -0.089,
+   "en_literal": "Calm down... I guess I have no choice but to attack the weak point.",
+   "english": "Stay calm, stay focused. We'll knock it down."
+  },
+  "918932662": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_4_FIRST",
+   "en_wem_id": "977580677",
+   "jp_real": "大きな的だから叩きがいがある！",
+   "jp_confidence": -0.133,
+   "en_literal": "It's a big target, so it's worth hitting!",
+   "english": "Ooh, it's not every day I get to spar with a titan!"
+  },
+  "951796683": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_5_A",
+   "en_wem_id": "142087890",
+   "jp_real": "みんな、ここが正念場だよ！",
+   "jp_confidence": -0.039,
+   "en_literal": "Everyone! This is where we show off our skills!",
+   "english": "Come on! It's all or nothing!"
+  },
+  "487920893": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_5_B",
+   "en_wem_id": "509357025",
+   "jp_real": "もっと行くよ！集中攻撃！",
+   "jp_confidence": -0.03,
+   "en_literal": "Let's go! Concentrated Attack!",
+   "english": "All together now!"
+  },
+  "228575707": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_5_C",
+   "en_wem_id": "249229325",
+   "jp_real": "そろそろ決着をつけるよ！",
+   "jp_confidence": -0.031,
+   "en_literal": "Let's settle this!",
+   "english": "On your knees, big boy!"
+  },
+  "422009766": {
+   "label": "PL2800_vo_SP_link_ms_boss_4st_5_FIRST",
+   "en_wem_id": "769245711",
+   "jp_real": "救出さえつければ、あとはひたすら叩くのみ！",
+   "jp_confidence": -0.119,
+   "en_literal": "If I can just land a rescue... then it's just a matter of pounding away!",
+   "english": "Its core is wide open! We just need to break it!"
+  },
+  "262316196": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_1_A",
+   "en_wem_id": "375076947",
+   "jp_real": "どんな装甲だって蹴り破ってみせる！",
+   "jp_confidence": -0.038,
+   "en_literal": "I'll kick through any formation!",
+   "english": "That armor plating won't save you from my kicks!"
+  },
+  "8302815": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_1_B",
+   "en_wem_id": "556451793",
+   "jp_real": "ゴテゴテしてるけど動きは単純だね",
+   "jp_confidence": -0.047,
+   "en_literal": "You're all show and no go.",
+   "english": "This thing is tough, but at least it's easy to predict!"
+  },
+  "396249228": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_1_C",
+   "en_wem_id": "508077123",
+   "jp_real": "その足、折らせてもらうから！",
+   "jp_confidence": -0.05,
+   "en_literal": "I'll let you have that leg.",
+   "english": "Gonna kick its legs clean off!"
+  },
+  "85119290": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_1_FIRST",
+   "en_wem_id": "525027853",
+   "jp_real": "機械が相手なら遠慮はいらないかな",
+   "jp_confidence": -0.157,
+   "en_literal": "If it's a machine on the other side, I don't think I need to hold back.",
+   "english": "I won't feel guilty about beating up a machine."
+  },
+  "617759740": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_2_A",
+   "en_wem_id": "703835862",
+   "jp_real": "ねぇ、その力、正しく使う気はない？",
+   "jp_confidence": -0.132,
+   "en_literal": "Hey, don't you think you should use that power properly?",
+   "english": "You know, you guys could be using your powers for way better things."
+  },
+  "203527998": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_2_B",
+   "en_wem_id": "540211540",
+   "jp_real": "見た？私たちの連携",
+   "jp_confidence": -0.072,
+   "en_literal": "Did you see that? Our teamwork!",
+   "english": "Now that was real teamwork!"
+  },
+  "234537662": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_2_C",
+   "en_wem_id": "713535339",
+   "jp_real": "絶対、負けないから！",
+   "jp_confidence": -0.085,
+   "en_literal": "I absolutely won't lose!",
+   "english": "We're not gonna lose!"
+  },
+  "762119544": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_2_FIRST",
+   "en_wem_id": "718894268",
+   "jp_real": "誰も傷つけさせないから",
+   "jp_confidence": -0.039,
+   "en_literal": "I won't let anyone get hurt.",
+   "english": "No more games. This ends now!"
+  },
+  "981766449": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_3_A",
+   "en_wem_id": "795569726",
+   "jp_real": "この力で、ルリアちゃんを取り戻す！",
+   "jp_confidence": -0.089,
+   "en_literal": "I'll use this power to get Lyria-chan back!",
+   "english": "Lyria's coming back with us!"
+  },
+  "822532391": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_3_B",
+   "en_wem_id": "761260519",
+   "jp_real": "ここでアナタを越えるヨ！イド！",
+   "jp_confidence": -0.17,
+   "en_literal": "I'll surpass you here!",
+   "english": "We'll see who's stronger, Id!"
+  },
+  "110800696": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_3_C",
+   "en_wem_id": "823397850",
+   "jp_real": "リベンジ！行くよ！",
+   "jp_confidence": -0.044,
+   "en_literal": "Revenge! Here I go!",
+   "english": "You're going down!"
+  },
+  "289713124": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_3_FIRST",
+   "en_wem_id": "556291431",
+   "jp_real": "さあ、今度はあなたが倒される番だよ。",
+   "jp_confidence": -0.08,
+   "en_literal": "Now it's your turn to be defeated.",
+   "english": "Yep! Time for payback!"
+  },
+  "234291539": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_4_A",
+   "en_wem_id": "801768923",
+   "jp_real": "なんて凶暴な",
+   "jp_confidence": -0.187,
+   "en_literal": "How monstrous...",
+   "english": "He's nuts!"
+  },
+  "495613382": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_4_B",
+   "en_wem_id": "500784765",
+   "jp_real": "結局をつけるよ",
+   "jp_confidence": -0.41,
+   "en_literal": "Let's settle this!",
+   "english": "Let's finish this once and for all!"
+  },
+  "22847110": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_4_C",
+   "en_wem_id": "970947744",
+   "jp_real": "さあ、覚悟してもらうから！",
+   "jp_confidence": -0.121,
+   "en_literal": "Then, I'll have you prepared.",
+   "english": "Clench your jaw, 'cause this is gonna hurt!"
+  },
+  "918185650": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_4_FIRST",
+   "en_wem_id": "826847293",
+   "jp_real": "こんな力を隠し持っていたなんて",
+   "jp_confidence": -0.14,
+   "en_literal": "To think I was hiding such power...",
+   "english": "So he was hiding his real powers all along?"
+  },
+  "881505535": {
+   "label": "PL2800_vo_SP_link_ms_boss_6st_5_FIRST",
+   "en_wem_id": "34740100",
+   "jp_real": "これがアンラマンユの力",
+   "jp_confidence": -0.135,
+   "en_literal": "This is... the power of Anlamunyu!",
+   "english": "Angra Mainyu! It's insane!"
+  },
+  "758113492": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_1_A",
+   "en_wem_id": "778914378",
+   "jp_real": "動きはだいたい読めた",
+   "jp_confidence": -0.064,
+   "en_literal": "I've got a good read on their movements.",
+   "english": "I think I've got a read on it!"
+  },
+  "32237931": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_1_B",
+   "en_wem_id": "589683178",
+   "jp_real": "うん、勝てない相手じゃない",
+   "jp_confidence": -0.112,
+   "en_literal": "I'm not dealing with an opponent I can't beat.",
+   "english": "We've beat it before! We can do it again!"
+  },
+  "958813498": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_1_C",
+   "en_wem_id": "494930373",
+   "jp_real": "そうそう！今の感じだね！",
+   "jp_confidence": -0.026,
+   "en_literal": "That's right! That's the feeling!",
+   "english": "Ooh, bullseye on that hit!"
+  },
+  "768195045": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_1_FIRST",
+   "en_wem_id": "457850339",
+   "jp_real": "似てるけど、フラカーンとは違う？",
+   "jp_confidence": -0.162,
+   "en_literal": "It's similar, but it's different from Fraux.",
+   "english": "It looks like Fueokin, but something's off."
+  },
+  "208045036": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_2_A",
+   "en_wem_id": "692195215",
+   "jp_real": "とにかくこいつを倒さなきゃ",
+   "jp_confidence": -0.073,
+   "en_literal": "I have to take this guy down!",
+   "english": "First things first!"
+  },
+  "1010962600": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_2_B",
+   "en_wem_id": "898526321",
+   "jp_real": "私に任せて！",
+   "jp_confidence": -0.08,
+   "en_literal": "Leave it to me!",
+   "english": "I'll deal with this!"
+  },
+  "1056631345": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_2_C",
+   "en_wem_id": "299299336",
+   "jp_real": "さあ、決めていくよ！",
+   "jp_confidence": -0.12,
+   "en_literal": "Let's do this!",
+   "english": "Let's finish it!"
+  },
+  "834236493": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_2_FIRST",
+   "en_wem_id": "874060176",
+   "jp_real": "イド、ルリアちゃんを守ってくれてありがとう",
+   "jp_confidence": -0.128,
+   "en_literal": "Id, thank you for protecting Lyria-chan.",
+   "english": "Id. Thanks... for protecting Lyria."
+  },
+  "967906275": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_3_FIRST",
+   "en_wem_id": "640757072",
+   "jp_real": "この嫌な冷気は何？",
+   "jp_confidence": -0.211,
+   "en_literal": "What is this awful aura?",
+   "english": "This chill makes my skin crawl!"
+  },
+  "453450257": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_4_A",
+   "en_wem_id": "978320939",
+   "jp_real": "一応、お礼は言っておくわね。ガランツァ",
+   "jp_confidence": -0.092,
+   "en_literal": "I'll just say thanks, Gallanza.",
+   "english": "I guess we should thank you."
+  },
+  "720082723": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_4_B",
+   "en_wem_id": "863210313",
+   "jp_real": "私だって、いいとこ見せなきゃ！",
+   "jp_confidence": -0.103,
+   "en_literal": "I have to show them my good side too!",
+   "english": "Okay, Gallanza! To the stronger warrior!"
+  },
+  "196613419": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_4_C",
+   "en_wem_id": "13128542",
+   "jp_real": "みんなしっかり！私がついてる！",
+   "jp_confidence": -0.029,
+   "en_literal": "Everyone, hold on tight! I've got your back!",
+   "english": "Hang in there, guys! We've got this!"
+  },
+  "113505150": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_4_FIRST",
+   "en_wem_id": "640034571",
+   "jp_real": "ガランツァ！どういう風の吹き回し！",
+   "jp_confidence": -0.09,
+   "en_literal": "Gallanza... what kind of wind is this?",
+   "english": "What the hell? Ghandagoza?"
+  },
+  "572573775": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_5_A",
+   "en_wem_id": "234852399",
+   "jp_real": "今さら、恐れることなんて何もないから",
+   "jp_confidence": -0.138,
+   "en_literal": "There's nothing to fear now.",
+   "english": "We've already come this far. There's nothing left to fear."
+  },
+  "705851295": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_5_B",
+   "en_wem_id": "470191567",
+   "jp_real": "アシバには気をつけないとね",
+   "jp_confidence": -0.116,
+   "en_literal": "I have to be careful of the pitfalls.",
+   "english": "Watch out for the gunk!"
+  },
+  "942533944": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_5_C",
+   "en_wem_id": "280394316",
+   "jp_real": "みんな、もう少しだから！",
+   "jp_confidence": -0.112,
+   "en_literal": "Everyone, just a little more!",
+   "english": "We're almost there!"
+  },
+  "745557147": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_5_FIRST",
+   "en_wem_id": "1062909991",
+   "jp_real": "ナギラフリラ、さっきは助けてくれてありがとう",
+   "jp_confidence": -0.109,
+   "en_literal": "Nagira Furiira, arigatou for helping me out earlier.",
+   "english": "Thanks for the help, Maglielle."
+  },
+  "182415489": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_6_A",
+   "en_wem_id": "870762479",
+   "jp_real": "私の全ての力を出し切る！",
+   "jp_confidence": -0.175,
+   "en_literal": "I'll give it my all!",
+   "english": "Pull out all the stops!"
+  },
+  "936354119": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_6_B",
+   "en_wem_id": "428419306",
+   "jp_real": "必ず食い止めてみせるから！",
+   "jp_confidence": -0.106,
+   "en_literal": "I'll definitely stop you.",
+   "english": "We take it down! No matter what!"
+  },
+  "666220185": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_6_C",
+   "en_wem_id": "760131207",
+   "jp_real": "私が守るよ！必ず！",
+   "jp_confidence": -0.061,
+   "en_literal": "I'll protect you. I definitely will.",
+   "english": "I'll protect these skies! Watch me!"
+  },
+  "741481263": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_6_FIRST",
+   "en_wem_id": "363453785",
+   "jp_real": "これ以上、リリスの好きにはさせない！",
+   "jp_confidence": -0.056,
+   "en_literal": "I won't let you go any further, Lilith!",
+   "english": "You're not getting your way, Lilith!"
+  },
+  "943460228": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_7_A",
+   "en_wem_id": "190646867",
+   "jp_real": "リリス！終わりにしよう！",
+   "jp_confidence": -0.082,
+   "en_literal": "Lilis, let's finish this.",
+   "english": "This is it! Lilith!"
+  },
+  "189188697": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_7_B",
+   "en_wem_id": "496558695",
+   "jp_real": "きっと勝てるよ！がんばろ！",
+   "jp_confidence": -0.073,
+   "en_literal": "I'm sure we can win! Let's do our best!",
+   "english": "There's no way we'll lose!"
+  },
+  "870514428": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_7_C",
+   "en_wem_id": "13296493",
+   "jp_real": "ここで必ず倒す！",
+   "jp_confidence": -0.053,
+   "en_literal": "I'll definitely defeat you here!",
+   "english": "Better say your prayers!"
+  },
+  "243832819": {
+   "label": "PL2800_vo_SP_link_ms_boss_7st_7_FIRST",
+   "en_wem_id": "777561146",
+   "jp_real": "この絆の力ならきっと",
+   "jp_confidence": -0.124,
+   "en_literal": "With the power of this bond... I'm sure...",
+   "english": "This power... It's OUR power!"
+  },
+  "107647542": {
+   "label": "PL2800_vo_SP_link_ms_boss_8st_1_A",
+   "en_wem_id": "890289342",
+   "jp_real": "ねえ、イド！聞こえる？",
+   "jp_confidence": -0.138,
+   "en_literal": "Hey, Id! Can you hear me?",
+   "english": "Id! You're still in there, right?"
+  },
+  "707858911": {
+   "label": "PL2800_vo_SP_link_ms_boss_8st_1_B",
+   "en_wem_id": "797635665",
+   "jp_real": "きっと届くはずだから",
+   "jp_confidence": -0.085,
+   "en_literal": "I'm sure I can reach it.",
+   "english": "Fight the dragon, Eid!"
+  },
+  "331429717": {
+   "label": "PL2800_vo_SP_link_ms_boss_8st_1_C",
+   "en_wem_id": "172096331",
+   "jp_real": "最後まで、抗ってみせるよ！",
+   "jp_confidence": -0.08,
+   "en_literal": "I'll fight you to the very end!",
+   "english": "Fight for everything you're worth!"
+  },
+  "538288537": {
+   "label": "PL2800_vo_SP_link_ms_boss_8st_1_FIRST",
+   "en_wem_id": "681352556",
+   "jp_real": "ここまできたら、前に進むしかない！",
+   "jp_confidence": -0.085,
+   "en_literal": "There's no turning back now. I have to move forward!",
+   "english": "Alright! Too late to turn back now!"
+  },
+  "633220654": {
+   "label": "PL2800_vo_SP_link_ms_boss_9st_1_FIRST",
+   "en_wem_id": "481894817",
+   "jp_real": "イドじゃないけど、同じ力を感じる。",
+   "jp_confidence": -0.152,
+   "en_literal": "It's not Id, but I feel the same power.",
+   "english": "That's not Id, but they have the same power."
+  },
+  "331613863": {
+   "label": "PL2800_vo_SP_link_ms_boss_A",
+   "en_wem_id": "994438001",
+   "jp_real": "見せてあげる！私の力！",
+   "jp_confidence": -0.057,
+   "en_literal": "I'll show you my power!",
+   "english": "I'll burn brighter! Hotter!"
+  },
+  "409787019": {
+   "label": "PL2800_vo_SP_link_ms_boss_B",
+   "en_wem_id": "105152693",
+   "jp_real": "あはは、戦いには慣れてるから",
+   "jp_confidence": -0.203,
+   "en_literal": "I'm used to fighting.",
+   "english": "Oh! I love a good fight!"
+  },
+  "110764727": {
+   "label": "PL2800_vo_SP_link_ms_boss_C",
+   "en_wem_id": "454152078",
+   "jp_real": "この調子でいこうか！",
+   "jp_confidence": -0.09,
+   "en_literal": "Let's go with this momentum!",
+   "english": "And that's how it's done!"
+  },
+  "206259356": {
+   "label": "PL2800_vo_SP_link_ms_lose_1st_1_FIRST",
+   "en_wem_id": "306097246",
+   "jp_real": "この力は一体",
+   "jp_confidence": -0.326,
+   "en_literal": "What power is this?",
+   "english": "What is that power!"
+  },
+  "186155705": {
+   "label": "PL2800_vo_SP_link_ms_lose_1st_A",
+   "en_wem_id": "836193128",
+   "jp_real": "てごわい！",
+   "jp_confidence": -0.244,
+   "en_literal": "That's terrifying!",
+   "english": "He's strong!"
+  },
+  "628600897": {
+   "label": "PL2800_vo_SP_link_ms_lose_1st_B",
+   "en_wem_id": "160895971",
+   "jp_real": "苦しい状況だね",
+   "jp_confidence": -0.163,
+   "en_literal": "This is a tough situation.",
+   "english": "I need to do something!"
+  },
+  "154951512": {
+   "label": "PL2800_vo_SP_link_ms_lose_1st_C",
+   "en_wem_id": "368677402",
+   "jp_real": "このままじゃ",
+   "jp_confidence": -0.167,
+   "en_literal": "I can't go on like this!",
+   "english": "We can't lose!"
+  },
+  "89723643": {
+   "label": "PL2800_vo_SP_link_ms_lose_5st_1_FIRST",
+   "en_wem_id": "474712148",
+   "jp_real": "この異常な力…何？",
+   "jp_confidence": -0.26,
+   "en_literal": "This abnormal power... what is it?",
+   "english": "Her power is... twisted!"
+  },
+  "694419781": {
+   "label": "PL2800_vo_SP_link_ms_normal_1st_1_FIRST",
+   "en_wem_id": "604732517",
+   "jp_real": "最大へ急ごう！",
+   "jp_confidence": -0.175,
+   "en_literal": "Let's go all out!",
+   "english": "We're almost there!"
+  },
+  "593654379": {
+   "label": "PL2800_vo_SP_link_ms_normal_2st_1_A",
+   "en_wem_id": "256283274",
+   "jp_real": "抵抗しても無駄だよ！",
+   "jp_confidence": -0.037,
+   "en_literal": "It's useless to resist!",
+   "english": "I've seen puppies with more bite!"
+  },
+  "281920739": {
+   "label": "PL2800_vo_SP_link_ms_normal_2st_1_B",
+   "en_wem_id": "367299119",
+   "jp_real": "次に蹴り飛ばされたいのは誰？",
+   "jp_confidence": -0.02,
+   "en_literal": "Who's next to get kicked in the face?",
+   "english": "Who else wants their ass kicked?"
+  },
+  "629192242": {
+   "label": "PL2800_vo_SP_link_ms_normal_2st_1_C",
+   "en_wem_id": "498139781",
+   "jp_real": "どいてもらうね！",
+   "jp_confidence": -0.1,
+   "en_literal": "I'll have you step aside.",
+   "english": "Nice try, but no."
+  },
+  "842207724": {
+   "label": "PL2800_vo_SP_link_ms_normal_2st_1_FIRST",
+   "en_wem_id": "254417385",
+   "jp_real": "ゲチラスヨ！",
+   "jp_confidence": -0.291,
+   "en_literal": "I'm going to kick your face in!",
+   "english": "Say goodbye!"
+  },
+  "502017564": {
+   "label": "PL2800_vo_SP_link_ms_normal_3st_1_FIRST",
+   "en_wem_id": "899038109",
+   "jp_real": "セイドウはまだ遠いのかな",
+   "jp_confidence": -0.221,
+   "en_literal": "Is the path still far away?",
+   "english": "I hope the monastery's not too far."
+  },
+  "553656670": {
+   "label": "PL2800_vo_SP_link_ms_normal_3st_2_FIRST",
+   "en_wem_id": "239704711",
+   "jp_real": "この力、あなたたちのために使うよ！",
+   "jp_confidence": -0.109,
+   "en_literal": "I'll use this power for you!",
+   "english": "Don't worry, everyone. I've got your back."
+  },
+  "726309287": {
+   "label": "PL2800_vo_SP_link_ms_normal_4st_1_A",
+   "en_wem_id": "590297009",
+   "jp_real": "触媒か…早く見つかるといいけど",
+   "jp_confidence": -0.16,
+   "en_literal": "Catalyst... I hope it's found soon.",
+   "english": "I hope we find the catalyst soon... for Lyria's sake."
+  },
+  "648728898": {
+   "label": "PL2800_vo_SP_link_ms_normal_4st_1_B",
+   "en_wem_id": "376876960",
+   "jp_real": "アツさに負けずに、がんばらなきゃね！",
+   "jp_confidence": -0.143,
+   "en_literal": "I won't lose to the heat. I've got to do my best!",
+   "english": "Make sure to stay hydrated, everyone!"
+  },
+  "504870077": {
+   "label": "PL2800_vo_SP_link_ms_normal_4st_1_C",
+   "en_wem_id": "91525466",
+   "jp_real": "よし！行こ！",
+   "jp_confidence": -0.181,
+   "en_literal": "Alright! Let's go!",
+   "english": "Right! Let's move!"
+  },
+  "154855605": {
+   "label": "PL2800_vo_SP_link_ms_normal_4st_1_FIRST",
+   "en_wem_id": "321956169",
+   "jp_real": "ゼーガでの戦いにも、ちょっと慣れてきたかな？",
+   "jp_confidence": -0.057,
+   "en_literal": "I'm getting a little used to fighting in Zegga, huh?",
+   "english": "We've had some intense fights in Zegagrande, but it's got its charms."
+  },
+  "821771161": {
+   "label": "PL2800_vo_SP_link_ms_normal_6st_1_A",
+   "en_wem_id": "945909283",
+   "jp_real": "ちょっとは目が覚めた？",
+   "jp_confidence": -0.008,
+   "en_literal": "You're awake now?",
+   "english": "You guys come to your senses yet?"
+  },
+  "638595764": {
+   "label": "PL2800_vo_SP_link_ms_normal_6st_1_B",
+   "en_wem_id": "224842683",
+   "jp_real": "ヨッテタカッテ、ナンテシテモムダダカラ！",
+   "jp_confidence": -0.142,
+   "en_literal": "Even if I fight you, it's all useless.",
+   "english": "Go ahead, get in our way. See what that gets you."
+  },
+  "241326459": {
+   "label": "PL2800_vo_SP_link_ms_normal_6st_1_C",
+   "en_wem_id": "1023606239",
+   "jp_real": "一気に駆け抜けるよ！",
+   "jp_confidence": -0.017,
+   "en_literal": "I'm gonna rush through them all at once!",
+   "english": "Let's break through them!"
+  },
+  "299137103": {
+   "label": "PL2800_vo_SP_link_ms_normal_6st_1_FIRST",
+   "en_wem_id": "162198439",
+   "jp_real": "きれいなお城をめちゃくちゃにした罰ってところね",
+   "jp_confidence": -0.091,
+   "en_literal": "I'm sorry, but I can't provide the requested translation.",
+   "english": "Can't believe these guys would mess up such a beautiful castle."
+  },
+  "1012021832": {
+   "label": "PL2800_vo_SP_link_ms_normal_7st_1_A",
+   "en_wem_id": "927573167",
+   "jp_real": "それにしても不気味な場所だね",
+   "jp_confidence": -0.016,
+   "en_literal": "This place is pretty creepy.",
+   "english": "Ugh. This place gives me the creeps."
+  },
+  "287617077": {
+   "label": "PL2800_vo_SP_link_ms_normal_7st_1_B",
+   "en_wem_id": "703651388",
+   "jp_real": "とにかく先に進むしかないよね",
+   "jp_confidence": -0.092,
+   "en_literal": "Anyway, we've just gotta keep moving forward, right?",
+   "english": "No way to go but up!"
+  },
+  "574255043": {
+   "label": "PL2800_vo_SP_link_ms_normal_7st_1_C",
+   "en_wem_id": "1017003625",
+   "jp_real": "よし！次行こう！",
+   "jp_confidence": -0.117,
+   "en_literal": "Alright! Let's go!",
+   "english": "Come on! We can do this!"
+  },
+  "245254019": {
+   "label": "PL2800_vo_SP_link_ms_normal_7st_1_FIRST",
+   "en_wem_id": "511495565",
+   "jp_real": "足止めされるわけにはいかない！",
+   "jp_confidence": -0.156,
+   "en_literal": "I won't let myself be held back!",
+   "english": "We can't let a little climb stop us now!"
+  },
+  "749204704": {
+   "label": "PL2800_vo_SP_link_ms_normal_A",
+   "en_wem_id": "501069515",
+   "jp_real": "さあ、次！",
+   "jp_confidence": -0.148,
+   "en_literal": "Alright, next!",
+   "english": "Alright, who's next?"
+  },
+  "768252956": {
+   "label": "PL2800_vo_SP_link_ms_normal_B",
+   "en_wem_id": "540298529",
+   "jp_real": "油断は禁物だね！",
+   "jp_confidence": -0.056,
+   "en_literal": "Complacency is a liability.",
+   "english": "Keep an eye out, everyone!"
+  },
+  "384855014": {
+   "label": "PL2800_vo_SP_link_ms_normal_C",
+   "en_wem_id": "781355079",
+   "jp_real": "慎重に行こう",
+   "jp_confidence": -0.317,
+   "en_literal": "Let's go carefully.",
+   "english": "Stay on your toes!"
+  },
+  "616751885": {
+   "label": "PL2800_vo_SP_link_multi_talk1_A_1",
+   "en_wem_id": "742570582",
+   "jp_real": "みんな、さすがね！",
+   "jp_confidence": -0.086,
+   "en_literal": "Everyone, seriously!",
+   "english": "Good work, guys!"
+  },
+  "466344524": {
+   "label": "PL2800_vo_SP_link_multi_talk1_A_2",
+   "en_wem_id": "462689389",
+   "jp_real": "みんなすごい！",
+   "jp_confidence": -0.119,
+   "en_literal": "Everyone's amazing!",
+   "english": "This crew rocks!"
+  },
+  "778808309": {
+   "label": "PL2800_vo_SP_link_multi_talk1_A_3",
+   "en_wem_id": "455202903",
+   "jp_real": "みんな、やるわね！",
+   "jp_confidence": -0.026,
+   "en_literal": "Everyone, let's do this!",
+   "english": "We gave 'em hell!"
+  },
+  "655940222": {
+   "label": "PL2800_vo_SP_link_multi_talk1_B_1",
+   "en_wem_id": "857849153",
+   "jp_real": "みんなバッチリだった！",
+   "jp_confidence": -0.108,
+   "en_literal": "Everyone's in perfect sync!",
+   "english": "Way to go, team!"
+  },
+  "930828785": {
+   "label": "PL2800_vo_SP_link_multi_talk1_B_2",
+   "en_wem_id": "258210787",
+   "jp_real": "これもみんなのおかげだね！",
+   "jp_confidence": -0.029,
+   "en_literal": "It's all thanks to everyone!",
+   "english": "Couldn't do it without you guys!"
+  },
+  "931895059": {
+   "label": "PL2800_vo_SP_link_multi_talk1_B_3",
+   "en_wem_id": "456576076",
+   "jp_real": "流れ、来てるよ！みんな！",
+   "jp_confidence": -0.097,
+   "en_literal": "It's coming! Everyone, look out!",
+   "english": "We've got this in the bag!"
+  },
+  "994838197": {
+   "label": "PL2800_vo_SP_link_multi_talk1_C_1",
+   "en_wem_id": "807217004",
+   "jp_real": "みんな、引き締めていこう！",
+   "jp_confidence": -0.04,
+   "en_literal": "Everyone, let's stay focused!",
+   "english": "Keep it tight, people!"
+  },
+  "791788266": {
+   "label": "PL2800_vo_SP_link_multi_talk1_C_2",
+   "en_wem_id": "1060735469",
+   "jp_real": "みんな、この調子で行くよ！",
+   "jp_confidence": -0.102,
+   "en_literal": "Everyone! Let's keep this up!",
+   "english": "Nice footwork, guys! Keep it up!"
+  },
+  "403603715": {
+   "label": "PL2800_vo_SP_link_multi_talk1_C_3",
+   "en_wem_id": "192243228",
+   "jp_real": "この勢い、維持しよう！",
+   "jp_confidence": -0.097,
+   "en_literal": "I'll keep this momentum going!",
+   "english": "We've got 'em on the ropes!"
+  },
+  "611259497": {
+   "label": "PL2800_vo_SP_link_multi_talk2_A_1",
+   "en_wem_id": "725233290",
+   "jp_real": "結構うまくいったね！",
+   "jp_confidence": -0.108,
+   "en_literal": "That went pretty well!",
+   "english": "Yep! Couldn't have gone better!"
+  },
+  "530304123": {
+   "label": "PL2800_vo_SP_link_multi_talk2_A_2",
+   "en_wem_id": "820996060",
+   "jp_real": "まだまだここからだよ！",
+   "jp_confidence": -0.051,
+   "en_literal": "It's just the beginning!",
+   "english": "The fun's just getting started!"
+  },
+  "660587737": {
+   "label": "PL2800_vo_SP_link_multi_talk2_A_3",
+   "en_wem_id": "50534047",
+   "jp_real": "うん、調子いいみたい！",
+   "jp_confidence": -0.18,
+   "en_literal": "Huh? You seem to be in good spirits!",
+   "english": "I knew it would work out!"
+  },
+  "1062545402": {
+   "label": "PL2800_vo_SP_link_multi_talk2_B_1",
+   "en_wem_id": "62950129",
+   "jp_real": "うん！まだまだいける！",
+   "jp_confidence": -0.153,
+   "en_literal": "Huh! I can still go!",
+   "english": "We've got more where that came from!"
+  },
+  "582218660": {
+   "label": "PL2800_vo_SP_link_multi_talk2_B_2",
+   "en_wem_id": "251316223",
+   "jp_real": "次も一緒に頑張ろう！",
+   "jp_confidence": -0.144,
+   "en_literal": "Let's do our best together again!",
+   "english": "This team is dynamite!"
+  },
+  "255259399": {
+   "label": "PL2800_vo_SP_link_multi_talk2_B_3",
+   "en_wem_id": "169140485",
+   "jp_real": "あはは、確かにね！",
+   "jp_confidence": -0.158,
+   "en_literal": "Hehe, you're right.",
+   "english": "Hah! You said it!"
+  },
+  "957838144": {
+   "label": "PL2800_vo_SP_link_multi_talk2_C_1",
+   "en_wem_id": "32507809",
+   "jp_real": "そうだね！",
+   "jp_confidence": -0.044,
+   "en_literal": "That's right!",
+   "english": "Sounds fair."
+  },
+  "687632866": {
+   "label": "PL2800_vo_SP_link_multi_talk2_C_2",
+   "en_wem_id": "1026185591",
+   "jp_real": "うん！がんばろっか！",
+   "jp_confidence": -0.119,
+   "en_literal": "Huh! Let's give it our all!",
+   "english": "Right, I'm all focus!"
+  },
+  "497156944": {
+   "label": "PL2800_vo_SP_link_multi_talk2_C_3",
+   "en_wem_id": "642623319",
+   "jp_real": "手加減なしでいいよね？",
+   "jp_confidence": -0.061,
+   "en_literal": "No need to hold back, right?",
+   "english": "No holds barred, right?"
+  },
+  "365160241": {
+   "label": "PL2800_vo_SP_link_talk1_A",
+   "en_wem_id": "1011057501",
+   "jp_real": "いい感じね！",
+   "jp_confidence": -0.051,
+   "en_literal": "Good feeling!",
+   "english": "Not bad!"
+  },
+  "635365742": {
+   "label": "PL2800_vo_SP_link_talk1_A_2",
+   "en_wem_id": "386922797",
+   "jp_real": "完璧なタイミングだった！",
+   "jp_confidence": -0.03,
+   "en_literal": "That was perfect timing!",
+   "english": "Perfect timing!"
+  },
+  "720525998": {
+   "label": "PL2800_vo_SP_link_talk1_A_3",
+   "en_wem_id": "826265622",
+   "jp_real": "頼もしいな！",
+   "jp_confidence": -0.112,
+   "en_literal": "I'm counting on you!",
+   "english": "Love that hustle!"
+  },
+  "838304369": {
+   "label": "PL2800_vo_SP_link_talk1_A_NP0300",
+   "en_wem_id": "473670457",
+   "jp_real": "デビルがあなたのこと警戒してるみたい",
+   "jp_confidence": -0.067,
+   "en_literal": "Looks like Devil's wary of you.",
+   "english": "So uh, you've got the devil on edge."
+  },
+  "302132832": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0000",
+   "en_wem_id": "273455861",
+   "jp_real": "団長、ありがとう！",
+   "jp_confidence": -0.04,
+   "en_literal": "Captain, thank you!",
+   "english": "Thanks, Captain!"
+  },
+  "179443905": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0200",
+   "en_wem_id": "853255517",
+   "jp_real": "ありがとう、カタリナ！",
+   "jp_confidence": -0.1,
+   "en_literal": "Thank you, Katalina!",
+   "english": "Thanks, Katalina!"
+  },
+  "417166787": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0300",
+   "en_wem_id": "508978209",
+   "jp_real": "いい連携！",
+   "jp_confidence": -0.169,
+   "en_literal": "Nice link!",
+   "english": "Hey, nice one!"
+  },
+  "1051567258": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0400",
+   "en_wem_id": "946384307",
+   "jp_real": "やったね、イオちゃん！",
+   "jp_confidence": -0.049,
+   "en_literal": "We did it, Io-chan!",
+   "english": "Good job, Io!"
+  },
+  "500787422": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0500",
+   "en_wem_id": "851934629",
+   "jp_real": "ありがとう、オイゲン",
+   "jp_confidence": -0.161,
+   "en_literal": "Thank you, Eugen!",
+   "english": "Thanks, Eugen!"
+  },
+  "899126267": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0600",
+   "en_wem_id": "548455462",
+   "jp_real": "今の！決まったね！",
+   "jp_confidence": -0.099,
+   "en_literal": "That was a hit!",
+   "english": "We're in full bloom!"
+  },
+  "695747382": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0700",
+   "en_wem_id": "661174245",
+   "jp_real": "お仕置き完了！",
+   "jp_confidence": -0.214,
+   "en_literal": "All set!",
+   "english": "Ha! Discipline complete!"
+  },
+  "263976908": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0800",
+   "en_wem_id": "1054624438",
+   "jp_real": "まさに早技だね",
+   "jp_confidence": -0.278,
+   "en_literal": "That's quite the quick move!",
+   "english": "Well, someone works fast."
+  },
+  "130527431": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL0900",
+   "en_wem_id": "68988223",
+   "jp_real": "ヴェインのおかげで助かったよ！",
+   "jp_confidence": -0.058,
+   "en_literal": "Thanks to Vane, I was saved!",
+   "english": "You're a champ, Vane!"
+  },
+  "770065210": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1000",
+   "en_wem_id": "752075002",
+   "jp_real": "今の炎の勢い、手応えありだね！",
+   "jp_confidence": -0.094,
+   "en_literal": "That flaming momentum just now... it's got some serious weight to it!",
+   "english": "Wow! Your flame has bite!"
+  },
+  "1000625091": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1100",
+   "en_wem_id": "328625385",
+   "jp_real": "私が言うのもなんだけど、足癖が悪いって言われたことない？",
+   "jp_confidence": -0.042,
+   "en_literal": "I hate to say it, but have you never been told you have a bad habit of kicking people in the face?",
+   "english": "Funny coming from me, but your style's more rough-and-tumble than knightly."
+  },
+  "70428839": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1200",
+   "en_wem_id": "630617507",
+   "jp_real": "キラキラしてて、かっこいいね！",
+   "jp_confidence": -0.136,
+   "en_literal": "You're all sparkly and stuff. So cool!",
+   "english": "Sparkly AND kickass! Nice!"
+  },
+  "449957927": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1300",
+   "en_wem_id": "802435155",
+   "jp_real": "ヨダルラーハって若い頃はもっと凄かったの？",
+   "jp_confidence": -0.045,
+   "en_literal": "Yodarha, you were even more amazing when you were young?",
+   "english": "If this is you in your sixties, wonder what you could do at twenty!"
+  },
+  "943117995": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1400",
+   "en_wem_id": "770488001",
+   "jp_real": "花開く時、蝶来たり",
+   "jp_confidence": -0.338,
+   "en_literal": "When the flower blooms, the time of the end comes.",
+   "english": "The flower blooms upon the butterfly's call."
+  },
+  "526811965": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1500",
+   "en_wem_id": "589924922",
+   "jp_real": "コブシひとつをここまで磨き上げるなんて、すごいなぁ！",
+   "jp_confidence": -0.274,
+   "en_literal": "I can't believe you've polished a single fist to this extent. That's amazing.",
+   "english": "Never met someone who could summon so much force with a single punch!"
+  },
+  "1015105539": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1600",
+   "en_wem_id": "714366068",
+   "jp_real": "情熱的でいい炎ね",
+   "jp_confidence": -0.135,
+   "en_literal": "Passionate, huh? Nice fire.",
+   "english": "There's passion behind your fire."
+  },
+  "462230708": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1700",
+   "en_wem_id": "921183495",
+   "jp_real": "とんでもない強烈な一撃！",
+   "jp_confidence": -0.061,
+   "en_literal": "An incredibly powerful blow!",
+   "english": "You put the brute in brutal for sure!"
+  },
+  "629952602": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1800",
+   "en_wem_id": "1016045221",
+   "jp_real": "あっ、調子いいみたい！",
+   "jp_confidence": -0.124,
+   "en_literal": "Looks like you're in good shape!",
+   "english": "We're on fire!"
+  },
+  "779488255": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL1900",
+   "en_wem_id": "744333797",
+   "jp_real": "よーし、次！行くよ！",
+   "jp_confidence": -0.144,
+   "en_literal": "Alright, next! Let's go!",
+   "english": "Come on! The grind never stops!"
+  },
+  "176481907": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2100",
+   "en_wem_id": "720261731",
+   "jp_real": "ありがとう、天使長さん",
+   "jp_confidence": -0.293,
+   "en_literal": "Thank you, Commander!",
+   "english": "Well managed, Mr. Primark!"
+  },
+  "746562858": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2200",
+   "en_wem_id": "286792507",
+   "jp_real": "これが転生拳王の実力ってわけね",
+   "jp_confidence": -0.126,
+   "en_literal": "So this is the true power of the Reincarnated Sword King, huh?",
+   "english": "Ah, that's why they call you the Sword Sovereign."
+  },
+  "447636761": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2300",
+   "en_wem_id": "3015233",
+   "jp_real": "すごい！意識する前に矢が飛んでくる！",
+   "jp_confidence": -0.136,
+   "en_literal": "Wow! The arrows are coming before I even realize it!",
+   "english": "It's like I blink and the enemy's already a pincushion!"
+  },
+  "131591649": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2400",
+   "en_wem_id": "721477535",
+   "jp_real": "ワオ！すごい力ね！",
+   "jp_confidence": -0.26,
+   "en_literal": "Wow! That's an amazing power!",
+   "english": "Wow! You hit like a sledgehammer!"
+  },
+  "829350378": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2500",
+   "en_wem_id": "748849781",
+   "jp_real": "へぇ？やるわね、マギラフリラ",
+   "jp_confidence": -0.231,
+   "en_literal": "Huh? You're really going all out, Maglielle!",
+   "english": "Hey, not bad, Maglielle!"
+  },
+  "791347601": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2600",
+   "en_wem_id": "11786964",
+   "jp_real": "援護ありがとう、ベアトリクス！",
+   "jp_confidence": -0.118,
+   "en_literal": "Thanks for the backup, Beatrix!",
+   "english": "I'm loving that support, Beatrix!"
+  },
+  "408971046": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2700",
+   "en_wem_id": "425425264",
+   "jp_real": "いい連携だったね",
+   "jp_confidence": -0.139,
+   "en_literal": "That was a good link!",
+   "english": "Nice teamwork!"
+  },
+  "390114396": {
+   "label": "PL2800_vo_SP_link_talk1_A_PL2900",
+   "en_wem_id": "294594155",
+   "jp_real": "この調子で、次も私が！",
+   "jp_confidence": -0.091,
+   "en_literal": "I'll take the next one too!",
+   "english": "Ready to kick it up a notch?"
+  },
+  "112003789": {
+   "label": "PL2800_vo_SP_link_talk1_B",
+   "en_wem_id": "227009666",
+   "jp_real": "やった！いい感じ！",
+   "jp_confidence": -0.027,
+   "en_literal": "I did it! This feels good!",
+   "english": "Nice! Keep it up!"
+  },
+  "144332052": {
+   "label": "PL2800_vo_SP_link_talk1_B_2",
+   "en_wem_id": "391007086",
+   "jp_real": "いい連携ね",
+   "jp_confidence": -0.142,
+   "en_literal": "Nice link!",
+   "english": "Excellent teamwork!"
+  },
+  "706102150": {
+   "label": "PL2800_vo_SP_link_talk1_B_3",
+   "en_wem_id": "909438840",
+   "jp_real": "今のはカッコよかったよ！",
+   "jp_confidence": -0.255,
+   "en_literal": "That was awesome!",
+   "english": "That was cool!"
+  },
+  "521463617": {
+   "label": "PL2800_vo_SP_link_talk1_B_NP0300",
+   "en_wem_id": "398533731",
+   "jp_real": "ありがとう、ローラン",
+   "jp_confidence": -0.143,
+   "en_literal": "Thank you, Rolan!",
+   "english": "Thanks, Rolan!"
+  },
+  "207919574": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0000",
+   "en_wem_id": "504402252",
+   "jp_real": "あはは、すごい追撃だったね！",
+   "jp_confidence": -0.074,
+   "en_literal": "That was quite the follow-up!",
+   "english": "Haha! I like your follow-through!"
+  },
+  "575176559": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0200",
+   "en_wem_id": "549857629",
+   "jp_real": "アレスもありがとうね",
+   "jp_confidence": -0.209,
+   "en_literal": "Thanks, Ares.",
+   "english": "Tell Aries I said thanks!"
+  },
+  "365636718": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0300",
+   "en_wem_id": "445496411",
+   "jp_real": "援護射撃！どうも！",
+   "jp_confidence": -0.081,
+   "en_literal": "Support attack! How about it?",
+   "english": "Thanks for the cover fire!"
+  },
+  "985794131": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0400",
+   "en_wem_id": "853031534",
+   "jp_real": "背中は預けるね",
+   "jp_confidence": -0.134,
+   "en_literal": "I'll leave my back to you!",
+   "english": "Watch my back, okay?"
+  },
+  "30426612": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0500",
+   "en_wem_id": "1030133503",
+   "jp_real": "さすが、大人の余裕って感じだね！",
+   "jp_confidence": -0.119,
+   "en_literal": "You're as calm and collected as ever, Eugen.",
+   "english": "So that's how a vet gets things done."
+  },
+  "972288111": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0600",
+   "en_wem_id": "105843780",
+   "jp_real": "綺麗な薔薇、散ってしまうのは少し寂しいな。",
+   "jp_confidence": -0.147,
+   "en_literal": "Beautiful petals... It's a little sad to see them wither away.",
+   "english": "Your roses are beautiful. Shame they fade so quickly."
+  },
+  "437594329": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0700",
+   "en_wem_id": "284552984",
+   "jp_real": "私にもフェリちゃんみたいな妹がいたらよかったのに。",
+   "jp_confidence": -0.154,
+   "en_literal": "I wish I had a little sister like Ferry.",
+   "english": "Huh. What I would've given for a sister like you."
+  },
+  "77899715": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0800",
+   "en_wem_id": "619775556",
+   "jp_real": "ありがとう、騎士団長さん",
+   "jp_confidence": -0.098,
+   "en_literal": "Thank you, Knight Captain.",
+   "english": "Look at you go, Mr. Knight-Captain!"
+  },
+  "209017308": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL0900",
+   "en_wem_id": "700753848",
+   "jp_real": "元気百倍って感じの連携だった！",
+   "jp_confidence": -0.154,
+   "en_literal": "That was a 100x more energetic link than I expected!",
+   "english": "Two fighters, but one hundred times the ass-kicking!"
+  },
+  "815485500": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1000",
+   "en_wem_id": "396766317",
+   "jp_real": "まさか地獄の豪華って感じ？",
+   "jp_confidence": -0.152,
+   "en_literal": "It's like the splendor of hell itself!",
+   "english": "Someone's in a hellfire and brimstone."
+  },
+  "531204831": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1100",
+   "en_wem_id": "564274179",
+   "jp_real": "さすがはジークフリートだね",
+   "jp_confidence": -0.072,
+   "en_literal": "You're quite something, Siegfried.",
+   "english": "Color me impressed, Siegfried!"
+  },
+  "1054719524": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1200",
+   "en_wem_id": "192671606",
+   "jp_real": "たくましい剣技、圧倒されちゃった",
+   "jp_confidence": -0.106,
+   "en_literal": "Your swordplay was impressive, but I was overwhelmed.",
+   "english": "That swordwork... you're incredible!"
+  },
+  "191760339": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1300",
+   "en_wem_id": "570349000",
+   "jp_real": "ヨダルラーハ！",
+   "jp_confidence": -0.265,
+   "en_literal": "It's decided! Just like one shot!",
+   "english": "Took him down with one flash of the sword!"
+  },
+  "1019320783": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1400",
+   "en_wem_id": "989008032",
+   "jp_real": "まだだまだ、ここからだね！",
+   "jp_confidence": -0.333,
+   "en_literal": "Not yet. It's just beginning.",
+   "english": "It's not over yet!"
+  },
+  "834539123": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1500",
+   "en_wem_id": "390401517",
+   "jp_real": "ワオオオ！強烈？",
+   "jp_confidence": -0.356,
+   "en_literal": "Whoa! That's intense!",
+   "english": "Ooh, so ferocious!"
+  },
+  "25492149": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1600",
+   "en_wem_id": "184932879",
+   "jp_real": "消し潰しになるまで",
+   "jp_confidence": -0.519,
+   "en_literal": "Until it's erased!",
+   "english": "You will be consumed by fire!"
+  },
+  "132485369": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1700",
+   "en_wem_id": "393671964",
+   "jp_real": "いくら打たれ強くたって、無理は禁物だからね。",
+   "jp_confidence": -0.078,
+   "en_literal": "No matter how tough you are, you're still out of your depth.",
+   "english": "I don't care how tough you are. No shenanigans, okay?"
+  },
+  "646535251": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1800",
+   "en_wem_id": "201701152",
+   "jp_real": "さあ、まだまだ行くよ！",
+   "jp_confidence": -0.041,
+   "en_literal": "Alright, let's go!",
+   "english": "We can do this all day!"
+  },
+  "1028671704": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL1900",
+   "en_wem_id": "1047308270",
+   "jp_real": "イドって、なんだか放っておけない感じなんだよね。",
+   "jp_confidence": -0.043,
+   "en_literal": "Id's just... hard to leave alone, you know?",
+   "english": "So, Id. You know you give off a little brother vibe, right?"
+  },
+  "773100059": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2100",
+   "en_wem_id": "684580509",
+   "jp_real": "サンダルフォン、あなたの淹れるコーヒー、評判いいみたいだね。",
+   "jp_confidence": -0.183,
+   "en_literal": "Your coffee's getting a good reputation, huh?",
+   "english": "I've been hearing great things about your coffee."
+  },
+  "1030225505": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2200",
+   "en_wem_id": "103340762",
+   "jp_real": "いい連携だったわ。ありがとう。",
+   "jp_confidence": -0.059,
+   "en_literal": "That was a good link! Thanks!",
+   "english": "We make a nice team!"
+  },
+  "64557734": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2300",
+   "en_wem_id": "393041126",
+   "jp_real": "手応えならぬ、足応えありってね！",
+   "jp_confidence": -0.1,
+   "en_literal": "I've got a solid grip on my feet, you know!",
+   "english": "Hand to hand combat? Nah. Foot to face is more my style."
+  },
+  "206774706": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2400",
+   "en_wem_id": "819318898",
+   "jp_real": "協力ありがとう、ガランツァ",
+   "jp_confidence": -0.129,
+   "en_literal": "Thanks for the teamwork, Gallanza!",
+   "english": "We make a good team, don't we?"
+  },
+  "109109597": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2500",
+   "en_wem_id": "305746508",
+   "jp_real": "支援ありがとう！",
+   "jp_confidence": -0.101,
+   "en_literal": "Thanks for the support!",
+   "english": "Thanks for the backup!"
+  },
+  "39465995": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2600",
+   "en_wem_id": "321037379",
+   "jp_real": "力が溢れて止まらないの！",
+   "jp_confidence": -0.038,
+   "en_literal": "My power's overflowing and I can't stop!",
+   "english": "Infernal power courses through me!"
+  },
+  "571373367": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2700",
+   "en_wem_id": "174100987",
+   "jp_real": "なるほど。クールな見た目でハートは熱血感？って感じかな。",
+   "jp_confidence": -0.101,
+   "en_literal": "I see. So you're cool on the outside but hot on the inside?",
+   "english": "You act all cool, but underneath the mask, you're a firebrand."
+  },
+  "536310016": {
+   "label": "PL2800_vo_SP_link_talk1_B_PL2900",
+   "en_wem_id": "644170515",
+   "jp_real": "合わせてくれてありがとう！",
+   "jp_confidence": -0.169,
+   "en_literal": "Thanks for syncing up with me!",
+   "english": "You're a real workhorse!"
+  },
+  "861247544": {
+   "label": "PL2800_vo_SP_link_talk1_C",
+   "en_wem_id": "705638069",
+   "jp_real": "さあ、ここからだね！",
+   "jp_confidence": -0.041,
+   "en_literal": "Well then, let's go!",
+   "english": "We're just getting started!"
+  },
+  "323138230": {
+   "label": "PL2800_vo_SP_link_talk1_C_2",
+   "en_wem_id": "92891541",
+   "jp_real": "油断せず、研ぎ澄まして！",
+   "jp_confidence": -0.077,
+   "en_literal": "Don't let your guard down. Sharpen your blade.",
+   "english": "Stay sharp! We can't back down yet!"
+  },
+  "341180279": {
+   "label": "PL2800_vo_SP_link_talk1_C_3",
+   "en_wem_id": "109776918",
+   "jp_real": "注意を怠らないようにしないと",
+   "jp_confidence": -0.077,
+   "en_literal": "I have to stay alert.",
+   "english": "Keep it cool, and keep winning!"
+  },
+  "713872807": {
+   "label": "PL2800_vo_SP_link_talk1_C_NP0300",
+   "en_wem_id": "242309193",
+   "jp_real": "よし！まだまだいけるよね！",
+   "jp_confidence": -0.102,
+   "en_literal": "Alright! We've still got some fight left in us, right?",
+   "english": "Alright! You got more juice left?"
+  },
+  "774829247": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0000",
+   "en_wem_id": "140425181",
+   "jp_real": "さ、次に備えよっか！",
+   "jp_confidence": -0.103,
+   "en_literal": "Alright, let's prepare for the next one!",
+   "english": "Come on, you gotta hustle!"
+  },
+  "59740535": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0200",
+   "en_wem_id": "271273706",
+   "jp_real": "私は負けられないから",
+   "jp_confidence": -0.102,
+   "en_literal": "I can't afford to lose.",
+   "english": "I don't back down."
+  },
+  "395008636": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0300",
+   "en_wem_id": "541047317",
+   "jp_real": "さすがはラカムね。かっこいい。",
+   "jp_confidence": -0.185,
+   "en_literal": "You're something else, Rackam! So cool!",
+   "english": "Hey, nice jawline, Rackam!"
+  },
+  "302270978": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0400",
+   "en_wem_id": "201618905",
+   "jp_real": "全員は私に任せて！",
+   "jp_confidence": -0.16,
+   "en_literal": "I'll handle the vanguard!",
+   "english": "Leave the front lines to moi."
+  },
+  "153566539": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0500",
+   "en_wem_id": "231852427",
+   "jp_real": "おお、なんとかなったかな？",
+   "jp_confidence": -0.198,
+   "en_literal": "I hope that worked out somehow.",
+   "english": "Huh. That takes care of that."
+  },
+  "194439632": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0600",
+   "en_wem_id": "104280912",
+   "jp_real": "赤く染めあげましょう",
+   "jp_confidence": -0.098,
+   "en_literal": "Let's dye it red!",
+   "english": "Let's paint the town red!"
+  },
+  "974278707": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0700",
+   "en_wem_id": "175428543",
+   "jp_real": "素敵なペットちゃんたちだね",
+   "jp_confidence": -0.235,
+   "en_literal": "What lovely little pets you have.",
+   "english": "What well-behaved pets!"
+  },
+  "214880967": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0800",
+   "en_wem_id": "597506364",
+   "jp_real": "エンゴしてくれて助かったよ！",
+   "jp_confidence": -0.07,
+   "en_literal": "Thanks for covering my back!",
+   "english": "Thanks for the backup!"
+  },
+  "39995020": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL0900",
+   "en_wem_id": "950145735",
+   "jp_real": "今の、いい感じ！",
+   "jp_confidence": -0.121,
+   "en_literal": "That was a good one!",
+   "english": "That was great!"
+  },
+  "391384283": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1000",
+   "en_wem_id": "671545330",
+   "jp_real": "追撃ありがとう、パーシヴァル！",
+   "jp_confidence": -0.113,
+   "en_literal": "Thanks for the follow-up, Percival!",
+   "english": "Thanks for the assist, Percival!"
+  },
+  "217252282": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1100",
+   "en_wem_id": "582411783",
+   "jp_real": "一瞬のスキも逃さない",
+   "jp_confidence": -0.127,
+   "en_literal": "I won't miss even a moment of opportunity.",
+   "english": "Don't let up for a second!"
+  },
+  "844128824": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1200",
+   "en_wem_id": "244294874",
+   "jp_real": "シャルちゃんといっしょだと、すっごくたたかいやすいかも！",
+   "jp_confidence": -0.055,
+   "en_literal": "With Sharle-chan around, fighting might be super easy!",
+   "english": "Charlotta, you make fighting a breeze!"
+  },
+  "904116921": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1300",
+   "en_wem_id": "693120601",
+   "jp_real": "まるで突風のような俊敏さ。私にも真似できるかな？",
+   "jp_confidence": -0.101,
+   "en_literal": "Your speed is like a bullet. Can I imitate that?",
+   "english": "You move like a squall, old timer! Teach me how to do that!"
+  },
+  "86378199": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1400",
+   "en_wem_id": "127169519",
+   "jp_real": "私たちって、いいコンビだと思わない？",
+   "jp_confidence": -0.053,
+   "en_literal": "Don't you think we make a great team?",
+   "english": "Hey, we make a pretty good team, don't you think?"
+  },
+  "660283265": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1500",
+   "en_wem_id": "143165669",
+   "jp_real": "これが伝説の拳！",
+   "jp_confidence": -0.284,
+   "en_literal": "So this is... the legendary fist...",
+   "english": "The Fist of Legends!"
+  },
+  "570132250": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1600",
+   "en_wem_id": "912169695",
+   "jp_real": "私たちって結構強いよね？",
+   "jp_confidence": -0.108,
+   "en_literal": "We're pretty strong, huh?",
+   "english": "Never noticed how much ass we kick together!"
+  },
+  "488594145": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1700",
+   "en_wem_id": "207336042",
+   "jp_real": "これでわかったでしょ？私が頼れる存在だってこと",
+   "jp_confidence": -0.039,
+   "en_literal": "Now you know it, right? That I'm someone you can rely on.",
+   "english": "I make a pretty dependable partner, don't you think?"
+  },
+  "667318901": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1800",
+   "en_wem_id": "743867663",
+   "jp_real": "カリオストロちゃんなら、サイドテールも似合うかも？",
+   "jp_confidence": -0.047,
+   "en_literal": "Cagliostro-chan, you'd look good in a side tail too!",
+   "english": "You know, Cagliostro, I bet you could rock a side pony."
+  },
+  "961049208": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL1900",
+   "en_wem_id": "135544459",
+   "jp_real": "力、を、制御、する、の、って、大変、だ、よ、ね。",
+   "jp_confidence": -0.205,
+   "en_literal": "Controlling power is tough, huh?",
+   "english": "It's hard work to keep all that power contained, huh?"
+  },
+  "999808983": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2100",
+   "en_wem_id": "852137891",
+   "jp_real": "空のみんなを守る力か…",
+   "jp_confidence": -0.217,
+   "en_literal": "The power to protect everyone in the sky...?",
+   "english": "Do I have the strength to protect these skies?"
+  },
+  "372991705": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2200",
+   "en_wem_id": "600582855",
+   "jp_real": "すごい！タイミングバッチリ！",
+   "jp_confidence": -0.111,
+   "en_literal": "Wow! Perfect timing!",
+   "english": "Your timing is impeccable!"
+  },
+  "734783888": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2300",
+   "en_wem_id": "624617109",
+   "jp_real": "さすがは十天衆！言うことなし！",
+   "jp_confidence": -0.159,
+   "en_literal": "You're on fire, as expected! No complaints!",
+   "english": "You Eternals always get the job done!"
+  },
+  "669367906": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2400",
+   "en_wem_id": "647179895",
+   "jp_real": "力比べなら、私も負けないから！",
+   "jp_confidence": -0.035,
+   "en_literal": "If it's a strength contest, I won't lose either.",
+   "english": "Bet I could destroy you in a contest of strength!"
+  },
+  "800798429": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2500",
+   "en_wem_id": "103716137",
+   "jp_real": "合わせてくれて嬉しいな",
+   "jp_confidence": -0.094,
+   "en_literal": "I'm glad we're in sync!",
+   "english": "Am I glad to have your help!"
+  },
+  "748877483": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2600",
+   "en_wem_id": "149099738",
+   "jp_real": "よし、決まった！",
+   "jp_confidence": -0.121,
+   "en_literal": "Alright, it's decided!",
+   "english": "Another one bites the dust!"
+  },
+  "763323527": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2700",
+   "en_wem_id": "677001599",
+   "jp_real": "あっ、ひとつ借りができちゃったかな？",
+   "jp_confidence": -0.263,
+   "en_literal": "Looks like I've got one more to go.",
+   "english": "Huh. Guess I owe you one."
+  },
+  "740323372": {
+   "label": "PL2800_vo_SP_link_talk1_C_PL2900",
+   "en_wem_id": "991917981",
+   "jp_real": "私の力で、必ず",
+   "jp_confidence": -0.285,
+   "en_literal": "With my power, I'll definitely...",
+   "english": "Come on, Frau, you can do this!"
+  },
+  "575095408": {
+   "label": "PL2800_vo_SP_link_talk2_A",
+   "en_wem_id": "307239881",
+   "jp_real": "ありがとう",
+   "jp_confidence": -0.346,
+   "en_literal": "Thank you!",
+   "english": "Thanks!"
+  },
+  "829580839": {
+   "label": "PL2800_vo_SP_link_talk2_A_2",
+   "en_wem_id": "912034759",
+   "jp_real": "それはお互い様！",
+   "jp_confidence": -0.195,
+   "en_literal": "That's what you get!",
+   "english": "That goes for both of us!"
+  },
+  "304807624": {
+   "label": "PL2800_vo_SP_link_talk2_A_3",
+   "en_wem_id": "108993958",
+   "jp_real": "でしょ？",
+   "jp_confidence": -0.328,
+   "en_literal": "Right?",
+   "english": "Right!"
+  },
+  "1052697987": {
+   "label": "PL2800_vo_SP_link_talk2_A_NP0300",
+   "en_wem_id": "1056479095",
+   "jp_real": "うん、遠慮しないで、頼ってね。",
+   "jp_confidence": -0.163,
+   "en_literal": "Don't hold back—just rely on me!",
+   "english": "Feel free to call me anytime, Mister Fix-It!"
+  },
+  "250271585": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0000",
+   "en_wem_id": "346402212",
+   "jp_real": "えっ、どういたしまして！",
+   "jp_confidence": -0.223,
+   "en_literal": "Oh, you're welcome!",
+   "english": "Anytime, Captain!"
+  },
+  "388214497": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0200",
+   "en_wem_id": "724944522",
+   "jp_real": "じゃあ私は攻めの担当だね",
+   "jp_confidence": -0.093,
+   "en_literal": "Then I'll take the offensive!",
+   "english": "Okay, then I'll handle the rough stuff."
+  },
+  "107777361": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0300",
+   "en_wem_id": "44075331",
+   "jp_real": "あははっ、人は見かけによらないってこと、わかってもらえた？",
+   "jp_confidence": -0.182,
+   "en_literal": "So you finally get it, huh? That people aren't always what they seem.",
+   "english": "Haha! I'm more than just a pretty face!"
+  },
+  "1062002573": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0400",
+   "en_wem_id": "798768316",
+   "jp_real": "イオちゃん、今は戦いに集中しなきゃダメよ！",
+   "jp_confidence": -0.081,
+   "en_literal": "Io-chan, we gotta focus on the fight right now!",
+   "english": "Aw, thanks! Want a quick spritz after the fight?"
+  },
+  "254714133": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0500",
+   "en_wem_id": "1054290476",
+   "jp_real": "完璧な追撃だったでしょ？",
+   "jp_confidence": -0.015,
+   "en_literal": "That was a perfect pursuit, wasn't it?",
+   "english": "Me, my coordination, or both."
+  },
+  "43442319": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0600",
+   "en_wem_id": "744756071",
+   "jp_real": "あははは、本番はこれからだよ！",
+   "jp_confidence": -0.155,
+   "en_literal": "The real show's just beginning!",
+   "english": "Hah! Can't hold back now, can I?"
+  },
+  "973514904": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0700",
+   "en_wem_id": "618542652",
+   "jp_real": "そう思ってくれたなら嬉しいな",
+   "jp_confidence": -0.066,
+   "en_literal": "I'm glad you think so.",
+   "english": "Glad you think so!"
+  },
+  "731986289": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0800",
+   "en_wem_id": "852158800",
+   "jp_real": "そういう堅苦しいのは抜きにしよう",
+   "jp_confidence": -0.045,
+   "en_literal": "Let's skip all that formal stuff.",
+   "english": "You can cut the formal stuff. We're allies."
+  },
+  "763661686": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL0900",
+   "en_wem_id": "737744750",
+   "jp_real": "うん、任せて！",
+   "jp_confidence": -0.323,
+   "en_literal": "Huh? Leave it to me!",
+   "english": "Yep, I'll be there!"
+  },
+  "463516626": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1000",
+   "en_wem_id": "228720532",
+   "jp_real": "エンテイに褒められるなんて、光栄ね。",
+   "jp_confidence": -0.074,
+   "en_literal": "I'm honored to be praised by you, Emperor.",
+   "english": "A compliment from the Lord of Flames himself? I'm honored."
+  },
+  "287892186": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1100",
+   "en_wem_id": "28750119",
+   "jp_real": "トリエがこれくらいで、ね？",
+   "jp_confidence": -0.167,
+   "en_literal": "You're just about at your limit, Siegfried.",
+   "english": "If there's one thing I can do, it's kick ass!"
+  },
+  "447661010": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1200",
+   "en_wem_id": "163170794",
+   "jp_real": "私とレッスンしてみる？",
+   "jp_confidence": -0.073,
+   "en_literal": "Let's have a lesson together!",
+   "english": "Aw, do you want some pointers?"
+  },
+  "70847362": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1300",
+   "en_wem_id": "998484093",
+   "jp_real": "あはは、ありがとう",
+   "jp_confidence": -0.335,
+   "en_literal": "Thank you!",
+   "english": "Thanks, that means a lot!"
+  },
+  "615707107": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1400",
+   "en_wem_id": "960294751",
+   "jp_real": "そういうナルメアこそ、鋭くて綺麗な太刀筋だったよ",
+   "jp_confidence": -0.102,
+   "en_literal": "That's the kind of Narmaya I know—sharp and beautiful in her movements.",
+   "english": "Not too bad yourself. Your swordsmanship is next level."
+  },
+  "1018731557": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1500",
+   "en_wem_id": "941975429",
+   "jp_real": "そしてこれが最強の足！なんてね！",
+   "jp_confidence": -0.205,
+   "en_literal": "And this is... the strongest foot! You know?",
+   "english": "And thorns of steel! I'm cool, I'm cool!"
+  },
+  "156029794": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1600",
+   "en_wem_id": "688403337",
+   "jp_real": "ゼータのおかげで、合わせやすかったよ！",
+   "jp_confidence": -0.119,
+   "en_literal": "Thanks to you, Zeta, it was easy to sync up!",
+   "english": "Same! You made it easy!"
+  },
+  "312052137": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1700",
+   "en_wem_id": "470061212",
+   "jp_real": "大丈夫だよ。心配されるほど弱くはないから。",
+   "jp_confidence": -0.05,
+   "en_literal": "I'm fine. I'm not weak enough to be worried about.",
+   "english": "It's fine. I'm not the type you need to worry about."
+  },
+  "773775079": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1800",
+   "en_wem_id": "944964449",
+   "jp_real": "ちょ、超絶って自分で言うのはちょっと恥ずかしいな。",
+   "jp_confidence": -0.127,
+   "en_literal": "It's a bit embarrassing to call myself \"incomparable\" myself.",
+   "english": "Super cute? Don't know if I'd call myself that."
+  },
+  "636622913": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL1900",
+   "en_wem_id": "275771070",
+   "jp_real": "どういたしまして！",
+   "jp_confidence": -0.056,
+   "en_literal": "You're welcome!",
+   "english": "No problem."
+  },
+  "505512630": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2100",
+   "en_wem_id": "266970306",
+   "jp_real": "あはは、でしょ？",
+   "jp_confidence": -0.291,
+   "en_literal": "Right?",
+   "english": "You said it!"
+  },
+  "400170975": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2200",
+   "en_wem_id": "655282369",
+   "jp_real": "お？特別ってどういうこと？",
+   "jp_confidence": -0.161,
+   "en_literal": "Huh? What do you mean 'special'?",
+   "english": "Exceptional what? You've lost me."
+  },
+  "583317080": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2300",
+   "en_wem_id": "630147360",
+   "jp_real": "え？あはははは、ソーンってば！",
+   "jp_confidence": -0.305,
+   "en_literal": "Huh? Oh, ha ha ha! You're so funny!",
+   "english": "Huh? Oh, Tweyen, you're too much!"
+  },
+  "257149144": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2400",
+   "en_wem_id": "1072954856",
+   "jp_real": "どうだろうね",
+   "jp_confidence": -0.129,
+   "en_literal": "I wonder...",
+   "english": "Who's to say?"
+  },
+  "173820842": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2500",
+   "en_wem_id": "644067055",
+   "jp_real": "うん、戦うことは嫌いじゃないから",
+   "jp_confidence": -0.076,
+   "en_literal": "I don't mind fighting.",
+   "english": "Fighting's just kinda my thing. Doesn't matter the style."
+  },
+  "977904116": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2600",
+   "en_wem_id": "807931707",
+   "jp_real": "あなたたち、いいコンビね",
+   "jp_confidence": -0.145,
+   "en_literal": "You two make a great team!",
+   "english": "You guys are the perfect pair!"
+  },
+  "536543467": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2700",
+   "en_wem_id": "978115873",
+   "jp_real": "心配してくれてるの？ありがとう",
+   "jp_confidence": -0.097,
+   "en_literal": "You're worried about me? Thanks.",
+   "english": "Worried over little ol' me? Heh heh heh. Thanks."
+  },
+  "640098134": {
+   "label": "PL2800_vo_SP_link_talk2_A_PL2900",
+   "en_wem_id": "153469357",
+   "jp_real": "あははっ、マーニ？",
+   "jp_confidence": -0.443,
+   "en_literal": "Well, what do you know?",
+   "english": "Sure, why not."
+  },
+  "734766468": {
+   "label": "PL2800_vo_SP_link_talk2_B",
+   "en_wem_id": "240548086",
+   "jp_real": "なかなかだね",
+   "jp_confidence": -0.111,
+   "en_literal": "Not bad!",
+   "english": "Right? Not too shabby!"
+  },
+  "551068189": {
+   "label": "PL2800_vo_SP_link_talk2_B_2",
+   "en_wem_id": "856074786",
+   "jp_real": "えっ、そうね！",
+   "jp_confidence": -0.234,
+   "en_literal": "Huh? Yeah, that's right!",
+   "english": "Exactly what I was thinking!"
+  },
+  "288428569": {
+   "label": "PL2800_vo_SP_link_talk2_B_3",
+   "en_wem_id": "994099719",
+   "jp_real": "この調子で行こう！",
+   "jp_confidence": -0.125,
+   "en_literal": "Let's keep this up!",
+   "english": "Then let's keep it up!"
+  },
+  "998146852": {
+   "label": "PL2800_vo_SP_link_talk2_B_NP0300",
+   "en_wem_id": "256427303",
+   "jp_real": "でしょ？さあ、一気にいこう！",
+   "jp_confidence": -0.202,
+   "en_literal": "Right? Let's go all at once!",
+   "english": "Right? Now come on! We've got a fight to win!"
+  },
+  "553806464": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0000",
+   "en_wem_id": "58520260",
+   "jp_real": "だね！",
+   "jp_confidence": -0.501,
+   "en_literal": "Huh?",
+   "english": "You got it!"
+  },
+  "62227040": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0200",
+   "en_wem_id": "498917200",
+   "jp_real": "ん？いつでもいけるよ",
+   "jp_confidence": -0.185,
+   "en_literal": "Huh? I'm ready anytime!",
+   "english": "Cool! Just lead the way!"
+  },
+  "997724783": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0300",
+   "en_wem_id": "792881337",
+   "jp_real": "今のはラカムのおかげかな？",
+   "jp_confidence": -0.063,
+   "en_literal": "Looks like that was thanks to you, Rackam!",
+   "english": "That was all you, Rackam!"
+  },
+  "638054671": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0400",
+   "en_wem_id": "369793914",
+   "jp_real": "うん、私に任せて！",
+   "jp_confidence": -0.21,
+   "en_literal": "Huh? Leave it to me!",
+   "english": "Don't mention it!"
+  },
+  "262024196": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0500",
+   "en_wem_id": "1022209061",
+   "jp_real": "ありがとう",
+   "jp_confidence": -0.327,
+   "en_literal": "Thank you!",
+   "english": "Aw, thanks."
+  },
+  "533383714": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0600",
+   "en_wem_id": "979484680",
+   "jp_real": "綺麗という点は、ありがとう。",
+   "jp_confidence": -0.145,
+   "en_literal": "Thanks for the compliment.",
+   "english": "Hmm. I'll take beautiful."
+  },
+  "68375329": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0700",
+   "en_wem_id": "19908827",
+   "jp_real": "うん、私も力になるよ！",
+   "jp_confidence": -0.209,
+   "en_literal": "I'll help out too!",
+   "english": "No rest for the wicked... or the spiritual."
+  },
+  "296256020": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0800",
+   "en_wem_id": "937862718",
+   "jp_real": "高揚心が強いのはいいことだね",
+   "jp_confidence": -0.131,
+   "en_literal": "It's good to have a strong sense of pride.",
+   "english": "That commitment will get you far, Lancelot!"
+  },
+  "962790500": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL0900",
+   "en_wem_id": "953273211",
+   "jp_real": "その友達のことを大切にするんだよ",
+   "jp_confidence": -0.102,
+   "en_literal": "I'll take care of your friend.",
+   "english": "Hey, just make sure you take care of him."
+  },
+  "1044124406": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1000",
+   "en_wem_id": "610015476",
+   "jp_real": "ありがとう、パーシヴァル。",
+   "jp_confidence": -0.133,
+   "en_literal": "Thank you, Percival!",
+   "english": "Back at ya, Percival!"
+  },
+  "113273279": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1100",
+   "en_wem_id": "1072754540",
+   "jp_real": "ははっ、頼りがいがあるでしょ？",
+   "jp_confidence": -0.165,
+   "en_literal": "I'm indispensable, aren't I?",
+   "english": "Proved my mettle, did I?"
+  },
+  "83445885": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1200",
+   "en_wem_id": "461857219",
+   "jp_real": "うん、いっちゃお！",
+   "jp_confidence": -0.245,
+   "en_literal": "Huh? I'm going!",
+   "english": "Sure! Let's go all out!"
+  },
+  "1065089496": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1300",
+   "en_wem_id": "671569646",
+   "jp_real": "あなたがタダモノじゃないことは確かみたいね",
+   "jp_confidence": -0.132,
+   "en_literal": "You're not someone to be taken lightly, I see.",
+   "english": "Same! Feels like I learned a lot."
+  },
+  "793618952": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1400",
+   "en_wem_id": "246578036",
+   "jp_real": "あはは、ひとつ貸しにしておいてあげる！",
+   "jp_confidence": -0.219,
+   "en_literal": "I'll lend you one.",
+   "english": "I'll cash in a favor later."
+  },
+  "326199466": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1500",
+   "en_wem_id": "677879431",
+   "jp_real": "えっ！このままガンガン行っちゃおう！",
+   "jp_confidence": -0.269,
+   "en_literal": "Huh? Should we just go for it?",
+   "english": "You said it! Let's hit them hard and fast!"
+  },
+  "561603717": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1600",
+   "en_wem_id": "143259491",
+   "jp_real": "種も仕掛けもございません！",
+   "jp_confidence": -0.119,
+   "en_literal": "No tricks or traps this time!",
+   "english": "A magician never reveals her secrets."
+  },
+  "869318215": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1700",
+   "en_wem_id": "133578161",
+   "jp_real": "バザラガのお墨付きなら自慢できそうだね！",
+   "jp_confidence": -0.11,
+   "en_literal": "If you're going to brag about your skills, you'd better back them up!",
+   "english": "The Vaseraga Seal of Approval! I'm honored."
+  },
+  "320425526": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1800",
+   "en_wem_id": "831157278",
+   "jp_real": "えっと…こんな感じ？",
+   "jp_confidence": -0.112,
+   "en_literal": "Um... like this?",
+   "english": "Um... is this right?"
+  },
+  "387060148": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL1900",
+   "en_wem_id": "796460408",
+   "jp_real": "えへへへ、かっこよかった？",
+   "jp_confidence": -0.171,
+   "en_literal": "Hehehe~ Was I cool?",
+   "english": "Like what you see?"
+  },
+  "993036273": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2100",
+   "en_wem_id": "475191092",
+   "jp_real": "色々あったけど、今はこの力、気に入ってるんだ。",
+   "jp_confidence": -0.108,
+   "en_literal": "I've been through a lot, but right now I like this power.",
+   "english": "I've been through a lot to gain this strength. Though I've warmed up to it now."
+  },
+  "677886266": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2200",
+   "en_wem_id": "800335562",
+   "jp_real": "ほめてくれてるんだよね",
+   "jp_confidence": -0.316,
+   "en_literal": "You're praising me, aren't you?",
+   "english": "Should I take that as a compliment?"
+  },
+  "363002984": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2300",
+   "en_wem_id": "979701084",
+   "jp_real": "わかる。一人は寂しいもんね。",
+   "jp_confidence": -0.128,
+   "en_literal": "Got it. One person's lonely, right?",
+   "english": "Right? Thing together staves off the loneliness."
+  },
+  "896004179": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2400",
+   "en_wem_id": "772323849",
+   "jp_real": "ちょっと、誤解を招きそうな呼び方はやめて。",
+   "jp_confidence": -0.057,
+   "en_literal": "Hey, let's not use any names that might cause misunderstandings.",
+   "english": "Let's not with the silly nicknames. People will get the wrong idea."
+  },
+  "612662282": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2500",
+   "en_wem_id": "794688787",
+   "jp_real": "姫？私と一曲踊りましょ？なんてね",
+   "jp_confidence": -0.09,
+   "en_literal": "Princess, shall we dance together? That's what I thought.",
+   "english": "In that case, may I have this dance, Your Highness?"
+  },
+  "315573005": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2600",
+   "en_wem_id": "457150828",
+   "jp_real": "みんなのサポートのおかげだよ！",
+   "jp_confidence": -0.041,
+   "en_literal": "Thanks to everyone's support!",
+   "english": "Couldn't have done it without you and Ambrosk!"
+  },
+  "297684651": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2700",
+   "en_wem_id": "535269897",
+   "jp_real": "なかなか頼りになるでしょ？",
+   "jp_confidence": -0.035,
+   "en_literal": "I'm quite reliable, aren't I?",
+   "english": "I'm pretty reliable, aren't I?"
+  },
+  "533714070": {
+   "label": "PL2800_vo_SP_link_talk2_B_PL2900",
+   "en_wem_id": "699187271",
+   "jp_real": "うーん、そういう関係ではないかな？",
+   "jp_confidence": -0.119,
+   "en_literal": "Hmm, I don't think it's that kind of relationship.",
+   "english": "Um, that's not really our whole deal."
+  },
+  "472422216": {
+   "label": "PL2800_vo_SP_link_talk2_C",
+   "en_wem_id": "275685689",
+   "jp_real": "わかった！",
+   "jp_confidence": -0.126,
+   "en_literal": "Got it!",
+   "english": "Roger that!"
+  },
+  "422648031": {
+   "label": "PL2800_vo_SP_link_talk2_C_2",
+   "en_wem_id": "503369366",
+   "jp_real": "オッケー！次もがんばろ！",
+   "jp_confidence": -0.089,
+   "en_literal": "Okay! Let's do our best again!",
+   "english": "Alright, I'm game!"
+  },
+  "746591279": {
+   "label": "PL2800_vo_SP_link_talk2_C_3",
+   "en_wem_id": "1014453528",
+   "jp_real": "次も容赦はしないよ！",
+   "jp_confidence": -0.037,
+   "en_literal": "I won't let you get away with it again!",
+   "english": "Understood. No holding back."
+  },
+  "744193872": {
+   "label": "PL2800_vo_SP_link_talk2_C_NP0300",
+   "en_wem_id": "585851757",
+   "jp_real": "お役に立ててよかった",
+   "jp_confidence": -0.129,
+   "en_literal": "I'm glad I could be of help!",
+   "english": "Glad to be of service!"
+  },
+  "818066198": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0000",
+   "en_wem_id": "117760421",
+   "jp_real": "調子いいみたい！",
+   "jp_confidence": -0.113,
+   "en_literal": "Looks like you're having fun!",
+   "english": "More where that came from!"
+  },
+  "278016153": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0200",
+   "en_wem_id": "493566935",
+   "jp_real": "私？全然平気",
+   "jp_confidence": -0.163,
+   "en_literal": "Me? I'm totally fine!",
+   "english": "Me? Never better."
+  },
+  "804188222": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0300",
+   "en_wem_id": "782455347",
+   "jp_real": "だからって見とれちゃだめだよ",
+   "jp_confidence": -0.187,
+   "en_literal": "That doesn't mean you can slack off!",
+   "english": "Don't go falling in love with me now!"
+  },
+  "338249104": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0400",
+   "en_wem_id": "886347830",
+   "jp_real": "よーし！なんだか力が湧いてきた！",
+   "jp_confidence": -0.038,
+   "en_literal": "Alright! I can feel my power rising!",
+   "english": "I'll try not to let you down."
+  },
+  "258367407": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0500",
+   "en_wem_id": "597695158",
+   "jp_real": "それじゃあ、お言葉に甘えて頼らせてもらおうかな？",
+   "jp_confidence": -0.066,
+   "en_literal": "Then I guess I'll just have to rely on your words... and your strength.",
+   "english": "Fire away! I'll take your opening!"
+  },
+  "71765888": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0600",
+   "en_wem_id": "1070383176",
+   "jp_real": "誰よりも力を！",
+   "jp_confidence": -0.247,
+   "en_literal": "I'll give you more power than anyone else!",
+   "english": "With strength to match!"
+  },
+  "44223388": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0700",
+   "en_wem_id": "915440954",
+   "jp_real": "あはは、よしよし",
+   "jp_confidence": -0.233,
+   "en_literal": "Alright, alright!",
+   "english": "Who's a good boy?"
+  },
+  "179339572": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0800",
+   "en_wem_id": "280799136",
+   "jp_real": "次もこうだといいなあ",
+   "jp_confidence": -0.268,
+   "en_literal": "I hope it's like this next time too!",
+   "english": "Hope the next one's just as good."
+  },
+  "441479190": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL0900",
+   "en_wem_id": "111208182",
+   "jp_real": "なんなら、力比べでもしてみる？",
+   "jp_confidence": -0.129,
+   "en_literal": "Then shall we have a little contest of strength?",
+   "english": "You're no slouch yourself! Wanna spar sometime?"
+  },
+  "221936104": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1000",
+   "en_wem_id": "347719367",
+   "jp_real": "あくまでとぎょうぎょうしいから、こあくまくらいにしてほしいかな？",
+   "jp_confidence": -0.109,
+   "en_literal": "I'm not sure if I should call you \"Akuma\" or \"Gyougyou\", so maybe just \"Little Devil\" would be better?",
+   "english": "Fiend? I don't know. I'm only a little devilish."
+  },
+  "161422321": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1100",
+   "en_wem_id": "854862172",
+   "jp_real": "その思いがあるから、私は強くなれる。",
+   "jp_confidence": -0.082,
+   "en_literal": "Because I have that will, I can become stronger.",
+   "english": "Yeah, passion. It's what keeps me strong."
+  },
+  "125310232": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1200",
+   "en_wem_id": "310485256",
+   "jp_real": "ありがとう、シャルちゃん",
+   "jp_confidence": -0.158,
+   "en_literal": "Thank you, Char-chan!",
+   "english": "Thanks, Charlotta!"
+  },
+  "713591376": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1300",
+   "en_wem_id": "318928490",
+   "jp_real": "当然！むしろ燃えてきた！",
+   "jp_confidence": -0.035,
+   "en_literal": "Of course! I'm actually getting fired up now!",
+   "english": "You can try, but I've got more where that came from."
+  },
+  "611298497": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1400",
+   "en_wem_id": "870813293",
+   "jp_real": "やっぱりナルメア、どんどん強くなってない？",
+   "jp_confidence": -0.008,
+   "en_literal": "You're getting stronger, Narmaya.",
+   "english": "Here comes the poetry! Watch out, bad guys!"
+  },
+  "391074197": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1500",
+   "en_wem_id": "33836638",
+   "jp_real": "すさまじい気迫！私も負けてられない！",
+   "jp_confidence": -0.09,
+   "en_literal": "Such a tremendous aura... I can't afford to lose either!",
+   "english": "More like a summer inferno. I better catch up."
+  },
+  "375469055": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1600",
+   "en_wem_id": "1014723857",
+   "jp_real": "うん、わかった！",
+   "jp_confidence": -0.183,
+   "en_literal": "Understood!",
+   "english": "Sure thing! Lead on!"
+  },
+  "852256532": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1700",
+   "en_wem_id": "823029114",
+   "jp_real": "その隙に蹴り飛ばせってわけね！",
+   "jp_confidence": -0.115,
+   "en_literal": "I'll kick you right in the face!",
+   "english": "You break their line, and I'll kick their asses!"
+  },
+  "779682835": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1800",
+   "en_wem_id": "392545628",
+   "jp_real": "あはは、でしょ？",
+   "jp_confidence": -0.339,
+   "en_literal": "Hehehe, right?",
+   "english": "Catch your interest?"
+  },
+  "327330885": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL1900",
+   "en_wem_id": "13508703",
+   "jp_real": "イドの腰の入ったパンチも素敵だよ！",
+   "jp_confidence": -0.073,
+   "en_literal": "Id's punch with the hip is great too!",
+   "english": "Your form's not bad either. I saw you swing from the hip."
+  },
+  "723563563": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2100",
+   "en_wem_id": "39765845",
+   "jp_real": "遅れは取らないよ！",
+   "jp_confidence": -0.097,
+   "en_literal": "I won't let you fall behind!",
+   "english": "I won't slow us down."
+  },
+  "882262299": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2200",
+   "en_wem_id": "890629332",
+   "jp_real": "これくらい！任せて！",
+   "jp_confidence": -0.204,
+   "en_literal": "Leave it to me!",
+   "english": "Hey, no sweat!"
+  },
+  "18857350": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2300",
+   "en_wem_id": "114932194",
+   "jp_real": "いつでも任せて",
+   "jp_confidence": -0.123,
+   "en_literal": "I'll handle it anytime!",
+   "english": "Always here for ya!"
+  },
+  "769012534": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2400",
+   "en_wem_id": "673073327",
+   "jp_real": "ありがとう",
+   "jp_confidence": -0.275,
+   "en_literal": "Thank you!",
+   "english": "You mean so much kick, right?"
+  },
+  "171977261": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2500",
+   "en_wem_id": "436635317",
+   "jp_real": "あら？ニリンの間違いじゃない？",
+   "jp_confidence": -0.097,
+   "en_literal": "Oh? Did you make a mistake, Maglielle?",
+   "english": "Come on, just one? We were a pair of dahlia's!"
+  },
+  "80096849": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2600",
+   "en_wem_id": "361731191",
+   "jp_real": "なんだか私たち似た者同士なのかもね",
+   "jp_confidence": -0.089,
+   "en_literal": "Maybe we're more alike than we think.",
+   "english": "Gotta say, we are birds of a feather!"
+  },
+  "972375756": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2700",
+   "en_wem_id": "240073753",
+   "jp_real": "了解だよ！",
+   "jp_confidence": -0.104,
+   "en_literal": "Understood!",
+   "english": "Sir, yes, sir!"
+  },
+  "393617383": {
+   "label": "PL2800_vo_SP_link_talk2_C_PL2900",
+   "en_wem_id": "793714980",
+   "jp_real": "アーカルムの元祖となった日からね",
+   "jp_confidence": -0.264,
+   "en_literal": "The day I became a guardian of Arkalm, huh?",
+   "english": "Yeah. Ever since finding the Arkarium and becoming an Evoker."
+  },
+  "566178662": {
+   "label": "PL2800_vo_SP_link_time_reaction",
+   "en_wem_id": "122277537",
+   "jp_real": "うっ！",
+   "jp_confidence": -0.256,
+   "en_literal": "Hah!",
+   "english": "You got it!"
+  },
+  "797031212": {
+   "label": "PL2800_vo_SP_link_time_start",
+   "en_wem_id": "618143444",
+   "jp_real": "さあ、一気にいこう！",
+   "jp_confidence": -0.079,
+   "en_literal": "Let's go all at once!",
+   "english": "Okay team, let's do it!"
+  },
+  "908022728": {
+   "label": "WP2890_vo_ATK_ability_1_3",
+   "en_wem_id": "787743718",
+   "jp_real": "カンビなる破滅へ",
+   "jp_confidence": -0.47,
+   "en_literal": "Unstoppable destruction!",
+   "english": "Sweet destruction!"
+  },
+  "890015693": {
+   "label": "WP2890_vo_ATK_ability_2_3",
+   "en_wem_id": "1008214129",
+   "jp_real": "マクムエイザナワン！",
+   "jp_confidence": -0.35,
+   "en_literal": "I'll take you to the abyss.",
+   "english": "The nightmare beckons."
+  },
+  "274049141": {
+   "label": "WP2890_vo_ATK_ability_3_3",
+   "en_wem_id": "467068065",
+   "jp_real": "ミスする！",
+   "jp_confidence": -0.297,
+   "en_literal": "Miss.",
+   "english": "Fare thee well."
+  },
+  "322685483": {
+   "label": "WP2890_vo_ATK_ability_8_1",
+   "en_wem_id": "484694439",
+   "jp_real": "トキハナテ！",
+   "jp_confidence": -0.173,
+   "en_literal": "Unleash!",
+   "english": "A gift!"
+  },
+  "466331538": {
+   "label": "WP2890_vo_ATK_ability_8_2",
+   "en_wem_id": "1006376469",
+   "jp_real": "シッカロ！",
+   "jp_confidence": -0.832,
+   "en_literal": "Scarrow!",
+   "english": "Power!"
+  },
+  "940987528": {
+   "label": "WP2890_vo_ATK_ability_8_3",
+   "en_wem_id": "795354973",
+   "jp_real": "打ち砕かん！",
+   "jp_confidence": -0.185,
+   "en_literal": "All Fall Down",
+   "english": "Break them!"
+  }
+ }
+}

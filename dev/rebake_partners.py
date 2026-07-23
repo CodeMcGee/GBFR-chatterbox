@@ -4,7 +4,7 @@
 The first full bake ran against a subtitles-jp.csv whose partner column held
 digits ("2700") instead of names; every line with a partner got a useless
 呼びかけ相手 hint. This re-runs exactly those lines against the corrected CSV
-and updates the existing build/atlas-jp/plXXXX.json files in place.
+and updates the existing data/per-character-jp/plXXXX.json files in place.
 
 Usage: rebake_partners.py [--base URL] [--workers 6]
 """
@@ -55,7 +55,7 @@ def main():
             pass
 
     for pl, plrows in sorted(by_pl.items()):
-        out_file = ROOT / "build" / "atlas-jp" / f"{pl}.json"
+        out_file = ROOT / "data" / "per-character-jp" / f"{pl}.json"
         doc = json.loads(out_file.read_text())
 
         with tempfile.TemporaryDirectory() as workdir:
