@@ -219,6 +219,29 @@ stay unreachable by design. Complementary to the ear passes: a text sweep is
 ~0.1c/line with no audio upload — viable as a cheap atlas-wide *flagger*
 whose non-OK outputs feed the review queue, never auto-applied.
 
+### E13 — JP audio probe against the verified English (`dev/jp_probe.py`)
+
+For all 163 truth-corpus lines with a Japanese twin (label join): omni
+translates the JP audio directly to English, and separately transcribes the
+Japanese then text-translates it. The verified English anchors plausibility
+for a maintainer who cannot read Japanese.
+
+- **42% of lines (68/163) carry genuinely different meaning in the JP
+  script** (judged semantically against the verified English) - the case for
+  the `*_literal` tracks in one number. Highlights: "En garde!" is どうだ
+  ("How's that?"), "You're a goner!" is 無駄無駄 ("Useless, useless!"),
+  Yodarha's pirate line is a completely different sentence, and Fediel calls
+  a Human ally "Number 9's daughter" in JP where EN says "Human lass!".
+- Part of the divergence is JP-side mishearing, same weakness as the EN ear:
+  proper nouns without a glossary (Löwenbein heard as "level up", Seofon's JP
+  name mangled). A katakana name/skill glossary is a prerequisite for the
+  jp_real bake.
+- **Direct one-step translation beats transcribe-then-translate**: identical
+  when both work, but two-step fails on katakana wordplay the direct path
+  handles (カニゲット came out "Ganigetto"; direct said "Got the crab!").
+- 162/163 JP transcripts came back as actual Japanese text - the omni JP ear
+  works; quality gating it is the open problem.
+
 ## Findings so far
 
 1. Omni prompt-priming (persona/glossary quotes) is unsafe: literal strings
