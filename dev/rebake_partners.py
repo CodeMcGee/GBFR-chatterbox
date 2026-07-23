@@ -4,7 +4,7 @@
 The first full bake ran against a subtitles-jp.csv whose partner column held
 digits ("2700") instead of names; every line with a partner got a useless
 呼びかけ相手 hint. This re-runs exactly those lines against the corrected CSV
-and updates the existing data/per-character-jp/plXXXX.json files in place.
+and updates the jp objects in the unified atlas (data/per-character) in place.
 
 Usage: rebake_partners.py [--base URL] [--workers 6]
 """
@@ -55,7 +55,7 @@ def main():
             pass
 
     for pl, plrows in sorted(by_pl.items()):
-        out_file = ROOT / "data" / "per-character-jp" / f"{pl}.json"
+        out_file = ROOT / "data" / "per-character" / f"{pl}.json"
         doc = json.loads(out_file.read_text())
 
         with tempfile.TemporaryDirectory() as workdir:
@@ -63,7 +63,7 @@ def main():
             for row in plrows:
                 jp_wem = row["jp_wem_id"]
                 bank = bank_of.get(jp_wem)
-                if not bank or jp_wem not in doc["lines"]:
+                if not bank or row["en_wem_id"] not in doc["lines"]:
                     continue
                 wav = pathlib.Path(workdir) / f"{jp_wem}.wav"
                 try:
@@ -99,8 +99,10 @@ def main():
                         print(f"  {pl} {row['jp_wem_id']}: {type(err).__name__}: {err}",
                               flush=True)
                         continue
-                    doc["lines"][row["jp_wem_id"]].update(
-                        jp_real=jp_text, jp_confidence=jp_conf, en_literal=en_text)
+                    twin = doc["lines"][row["en_wem_id"]].get("jp")
+                    if twin is None or twin["wem_id"] != row["jp_wem_id"]:
+                        continue    # alternate takes keep the primary's bake
+                    twin.update(text=jp_text, literal=en_text, confidence=jp_conf)
                     done += 1
         out_file.write_text(json.dumps(doc, ensure_ascii=False, indent=1))
         print(f"{NAMES.get(pl, pl)}: {done} partner lines re-baked", flush=True)

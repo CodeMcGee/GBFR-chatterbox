@@ -5,8 +5,10 @@ audio -> English translation) for every JP wem in subtitles-jp.csv.
 Recipe per E13 + the glossary A/B: katakana glossary in the system prompt,
 per-line context naming speaker and addressee (the label already knows who a
 call line addresses - a structural edge over blind listening), direct one-step
-translation for the English (two-step measured worse). Writes one JSON per
-character under data/per-character-jp/, resumable, concurrent like the EN bake.
+translation for the English (two-step measured worse). Updates the unified
+atlas (data/per-character) in place, adding jp_wem_id / jp_real /
+jp_confidence / en_literal per line; a character with any jp_real is
+considered done. Resumable, concurrent like the EN bake.
 
 Usage: jp_bake.py [--base URL] [--only Seofon,...] [--workers 6] [--limit N]
 """
@@ -106,12 +108,10 @@ def main():
         except Exception:
             pass
 
-    out_dir = ROOT / "data" / "per-character-jp"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
     for pl, plrows in sorted(by_pl.items()):
-        out_file = out_dir / f"{pl}.json"
-        if out_file.exists():
+        out_file = ROOT / "data" / "per-character" / f"{pl}.json"
+        doc = json.loads(out_file.read_text())
+        if any("jp" in line for line in doc["lines"].values()):
             print(f"SKIP {NAMES.get(pl, pl)} (done)", flush=True)
             continue
         if a.limit:
@@ -147,7 +147,7 @@ def main():
                 finally:
                     wav.unlink(missing_ok=True)
 
-            lines = {}
+            done = 0
             with ThreadPoolExecutor(max_workers=a.workers) as pool:
                 futures = {pool.submit(bake_line, row, wav): row for row, wav in todo}
                 for future in as_completed(futures):
@@ -158,15 +158,26 @@ def main():
                         print(f"  {pl} {row['jp_wem_id']}: {type(err).__name__}: {err}",
                               flush=True)
                         continue
-                    lines[row["jp_wem_id"]] = {
-                        "label": row.get("label"), "en_wem_id": row.get("en_wem_id"),
-                        "jp_real": jp_text, "jp_confidence": jp_conf,
-                        "en_literal": en_text, "english": row.get("english"),
+                    line = doc["lines"].get(row["en_wem_id"])
+                    if line is None:
+                        continue
+                    if "jp" in line:
+                        # an alternate recording of the same script line: the
+                        # first bake stays primary, extras keep their own bake
+                        alts = line["jp"].setdefault("alt_takes", [])
+                        known = [line["jp"]["wem_id"]] + [t["wem_id"] for t in alts]
+                        if row["jp_wem_id"] not in known:
+                            alts.append({"wem_id": row["jp_wem_id"], "text": jp_text,
+                                         "literal": en_text, "confidence": jp_conf})
+                        continue
+                    line["jp"] = {
+                        "wem_id": row["jp_wem_id"], "text": jp_text,
+                        "literal": en_text, "confidence": jp_conf,
+                        "duration_s": float(row["jp_duration_s"]) if row.get("jp_duration_s") else None,
                     }
-        out_file.write_text(json.dumps(
-            {"pl_id": pl, "character": NAMES.get(pl, pl), "lines": lines},
-            ensure_ascii=False, indent=1))
-        print(f"{NAMES.get(pl, pl)}: {len(lines)} lines -> {out_file}", flush=True)
+                    done += 1
+        out_file.write_text(json.dumps(doc, ensure_ascii=False, indent=1))
+        print(f"{NAMES.get(pl, pl)}: {done} lines baked into {out_file}", flush=True)
 
 
 if __name__ == "__main__":
