@@ -74,3 +74,24 @@ def test_flag_states(tmp_path):
     assert store.flags()["111"] == {"wrong": True}
     store.set_flag("111", wrong=False)            # clearing the last state drops the entry
     assert "111" not in store.flags()
+
+
+def test_ally_name_decodes_duo_tail():
+    """The duo-rescue label class whose partner once leaked as raw digits."""
+    from transcribe.context import ally_name
+    assert ally_name("PL0000_vo_DUO_rescue1_A_PL2700") == "Eustace"
+    assert ally_name("PL2200_vo_ATK_default_ss_7") is None
+
+
+def test_no_engine_codes_in_subtitles_csv():
+    """Human-facing columns of the built JP table hold names, never PL codes."""
+    import csv, pathlib, re
+
+    import pytest
+    path = pathlib.Path(__file__).parent.parent / "build" / "subtitles-jp.csv"
+    if not path.exists():
+        pytest.skip("subtitles-jp.csv not built")
+    code = re.compile(r"^(pl|np)?\d{4}$", re.IGNORECASE)
+    for row in csv.DictReader(open(path)):
+        for col in ("character", "partner"):
+            assert not code.match(row[col]), f"{col}={row[col]!r} in {row['label']}"
