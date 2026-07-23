@@ -30,7 +30,8 @@ see [`data/README.md`](data/README.md).
 Columns: `character`, `pl_id`, `bank`, `wem_id`, `label`, `category`,
 `ui_source`, `group`/`variant`, `transcript`, `transcript_source`,
 `confidence`, `duration_s`, `audio_source`, `prefetch_s`, `sample_rate`,
-`channels`, `silent`.
+`channels`, `silent`, and the Japanese twin: `jp_wem_id`, `jp_text` (what the
+JP track says), `jp_literal` (its direct English translation), `jp_confidence`.
 
 About 14,500 lines are stored split: ~0.4s in the `.bnk`, the rest streamed
 from a `.pck` in the archives. Bank-only tools transcribe the fragment; these

@@ -19,7 +19,8 @@ CATEGORIES = {
 }
 FIELDS = ['character', 'pl_id', 'bank', 'wem_id', 'label', 'category', 'ui_source',
           'group', 'variant', 'transcript', 'transcript_source', 'confidence',
-          'duration_s', 'audio_source', 'prefetch_s', 'sample_rate', 'channels', 'silent']
+          'duration_s', 'audio_source', 'prefetch_s', 'sample_rate', 'channels', 'silent',
+          'jp_wem_id', 'jp_text', 'jp_literal', 'jp_confidence']
 
 
 def ui_source(cat, variant):
@@ -70,6 +71,12 @@ def rows(atlas_dir):
                 'sample_rate': r.get('sample_rate'),
                 'channels': r.get('channels'),
                 'silent': 'yes' if r.get('peak') == 0.0 else '',
+                # the Japanese twin: what's said on the JP track and its
+                # direct English translation (a separate localization)
+                'jp_wem_id': r.get('jp', {}).get('wem_id', ''),
+                'jp_text': r.get('jp', {}).get('text', ''),
+                'jp_literal': r.get('jp', {}).get('literal', ''),
+                'jp_confidence': r.get('jp', {}).get('confidence', ''),
             }
 
 
