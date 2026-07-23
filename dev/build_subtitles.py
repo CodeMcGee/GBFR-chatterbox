@@ -23,6 +23,7 @@ from build_atlas import rows  # the per-character JSONs, with derived columns
 
 import serve
 from chatterbox.banks import MediaBank, label_of, wem_meta
+from transcribe.context import ally_name
 
 FIELDS = ["jp_wem_id", "label", "pl_id", "character", "category",
           "partner", "english", "jp_duration_s", "en_wem_id"]
@@ -62,7 +63,7 @@ def main():
             records.append({
                 "jp_wem_id": wid, "label": label,
                 "pl_id": e["pl_id"], "character": e["character"], "category": e["category"],
-                "partner": e.get("group", "").partition("_PL")[2],   # "" when no partner
+                "partner": ally_name(label) or "",
                 "english": e["transcript"], "jp_duration_s": dur, "en_wem_id": e["wem_id"],
             })
 
