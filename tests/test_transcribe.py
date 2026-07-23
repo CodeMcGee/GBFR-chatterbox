@@ -80,6 +80,7 @@ def test_ally_name_decodes_duo_tail():
     """The duo-rescue label class whose partner once leaked as raw digits."""
     from transcribe.context import ally_name
     assert ally_name("PL0000_vo_DUO_rescue1_A_PL2700") == "Eustace"
+    assert ally_name("PL0400_vo_SP_link_multi_talk1_B_PL0600_3") == "Rosetta"
     assert ally_name("PL2200_vo_ATK_default_ss_7") is None
 
 

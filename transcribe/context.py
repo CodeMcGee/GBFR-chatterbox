@@ -58,9 +58,10 @@ def decode_label(label, grunt_hint=True):
 
 def ally_name(label):
     """The character a partner-directed line addresses, by name - labels end
-    in an engine tag like _PL0300 or _NP0300; nothing past this function
-    should ever see one. None when the line addresses nobody."""
-    tag = re.search(r"_((PL|NP)\d{4})$", label or "")
+    in an engine tag like _PL0300 or _NP0300, sometimes with a take number
+    after it (_PL0600_3); nothing past this function should ever see one.
+    None when the line addresses nobody."""
+    tag = re.search(r"_((PL|NP)\d{4})(?:_\d+)?$", label or "")
     if not tag:
         return None
     return NPC.get(tag.group(1)) or NAMES.get(tag.group(1).lower())
